@@ -1,0 +1,1471 @@
+employee_id,age,department,job_role,education,education_field,monthly_income,job_satisfaction,work_life_balance,env_satisfaction,performance_rating,overtime,years_at_company,years_in_role,years_since_promo,num_companies_worked,distance_from_home,training_last_year,stock_option_level,attrition,dept_enc,role_enc,edu_field_enc,attrition_risk_score,risk_tier
+1,34,Legal,Sales Executive,4,Other,40800.0,4,3,4,3,1,5,1,0,6,16,2,2,0,3,6,4,0.040533331585556526,Low Risk
+2,54,Sales,Engineer,2,Life Sciences,42100.0,1,3,4,4,1,1,1,9,2,22,5,0,0,7,2,1,0.1101735208080772,Low Risk
+3,38,R&D,Manager,3,Technical Degree,20000.0,1,3,4,3,0,9,0,5,2,1,1,1,0,6,4,5,0.2199689289496627,Low Risk
+4,47,Sales,Analyst,3,Medical,20000.0,3,3,4,3,1,0,0,0,2,4,2,0,0,7,0,3,0.4144361731368635,Medium Risk
+5,34,Sales,Research Scientist,4,Other,20000.0,2,3,4,3,0,3,3,0,2,14,2,2,0,7,5,4,0.46856100758076413,Medium Risk
+6,35,Marketing,Analyst,4,Other,22400.0,3,4,3,3,0,3,3,0,1,1,1,1,0,4,0,4,0.01200253887509651,Low Risk
+7,42,Engineering,Research Scientist,3,Other,20000.0,3,3,1,3,0,6,1,1,2,6,1,0,0,0,5,4,0.23824721253058598,Low Risk
+8,43,Engineering,Manager,3,Other,20000.0,4,4,4,3,0,0,0,0,3,10,1,1,0,0,4,4,0.3129144926986877,Medium Risk
+9,34,R&D,Sales Executive,2,Medical,20000.0,1,3,2,3,0,6,0,0,2,2,1,1,0,6,6,3,0.27464806352369064,Low Risk
+10,22,HR,Research Scientist,5,Medical,20000.0,3,3,4,3,0,0,0,6,1,1,4,1,0,2,5,3,0.2595627134563269,Low Risk
+11,34,HR,Sales Executive,4,Medical,20000.0,4,3,4,3,1,1,1,0,4,3,2,1,0,2,6,3,0.27666902745179195,Low Risk
+12,42,Engineering,HR Manager,3,Marketing,32600.0,3,4,3,3,1,4,1,8,5,12,1,1,0,0,3,2,0.024743648602475327,Low Risk
+13,36,Sales,Analyst,3,Human Resources,23400.0,2,2,1,3,0,16,9,1,6,23,3,0,0,7,0,0,0.012046702375527683,Low Risk
+14,40,Sales,Research Scientist,5,Life Sciences,20300.0,3,3,1,3,0,8,8,1,0,6,1,0,0,7,5,1,0.12081873034812984,Low Risk
+15,38,Finance,Manager,5,Medical,20000.0,4,3,3,3,1,5,1,0,2,12,5,1,0,1,4,3,0.3859875020984631,Medium Risk
+16,23,R&D,Analyst,1,Technical Degree,24300.0,3,4,3,3,1,9,4,4,6,30,4,1,0,6,0,5,0.021550947326328482,Low Risk
+17,43,Sales,Analyst,4,Marketing,23300.0,2,3,3,3,1,0,0,4,3,19,1,1,0,7,0,2,0.10977723381472783,Low Risk
+18,30,Sales,HR Manager,1,Medical,20000.0,4,1,2,3,1,1,0,0,4,12,0,2,0,7,3,3,0.3721919301306977,Medium Risk
+19,31,R&D,HR Manager,4,Life Sciences,40500.0,4,1,3,4,0,10,3,0,2,17,3,1,0,6,3,1,0.030330034666829632,Low Risk
+20,41,R&D,Manager,5,Marketing,21800.0,2,3,4,3,0,6,1,4,3,2,2,0,0,6,4,2,0.04333161568938136,Low Risk
+21,29,Operations,HR Manager,4,Technical Degree,20700.0,4,4,4,2,0,2,2,1,2,7,0,3,0,5,3,5,0.042494121094676165,Low Risk
+22,38,Engineering,Research Scientist,2,Medical,20000.0,4,2,3,3,0,5,1,6,0,1,2,0,0,0,5,3,0.24519018829072725,Low Risk
+23,28,Engineering,Research Scientist,2,Life Sciences,20000.0,1,4,4,3,0,0,0,4,3,1,1,1,0,0,5,1,0.3305651614054751,Medium Risk
+24,34,Finance,Manager,3,Human Resources,20000.0,2,3,2,3,0,2,2,5,2,26,1,2,0,1,4,0,0.5799506205516836,Medium Risk
+25,32,Sales,HR Manager,4,Other,20000.0,4,2,3,3,0,7,0,0,2,28,2,2,0,7,3,4,0.3623465903393965,Medium Risk
+26,31,R&D,HR Manager,3,Marketing,20000.0,3,2,4,4,0,2,0,0,3,1,0,0,0,6,3,2,0.31883853326093414,Medium Risk
+27,28,Sales,Sales Executive,1,Technical Degree,20000.0,3,4,3,1,0,4,0,2,0,25,5,0,1,7,6,5,0.7468468029408679,High Risk
+28,35,R&D,Research Scientist,4,Marketing,20200.0,4,4,3,3,1,5,0,1,3,6,2,2,0,6,5,2,0.18127030597226387,Low Risk
+29,37,Sales,Manager,2,Other,20000.0,4,4,2,3,0,7,4,5,0,3,3,1,0,7,4,4,0.12680419625071354,Low Risk
+30,44,HR,Analyst,3,Marketing,20000.0,3,4,3,3,0,0,0,0,3,3,3,1,0,2,0,2,0.2524866596851715,Low Risk
+31,30,Finance,HR Manager,3,Medical,20000.0,3,4,1,3,0,5,2,3,2,5,3,2,0,1,3,3,0.16510495285145613,Low Risk
+32,36,R&D,Research Scientist,4,Technical Degree,20000.0,3,4,3,3,1,14,0,0,1,30,1,1,0,6,5,5,0.2986095438732088,Low Risk
+33,55,Sales,Analyst,3,Marketing,20000.0,4,1,3,3,0,0,0,1,3,19,2,1,1,7,0,2,0.6369252691440692,High Risk
+34,39,Sales,Analyst,3,Technical Degree,20000.0,4,2,4,3,0,0,0,6,1,6,2,2,0,7,0,5,0.4272258657840738,Medium Risk
+35,40,Sales,Manager,3,Marketing,20000.0,3,3,3,3,0,30,5,4,2,1,0,2,0,7,4,2,0.05362286177345423,Low Risk
+36,39,Engineering,Research Scientist,3,Marketing,20200.0,4,1,4,3,0,2,2,1,2,3,4,2,1,0,5,2,0.5574037855493831,Medium Risk
+37,22,Marketing,Sales Executive,4,Medical,20000.0,4,3,1,3,0,4,4,0,3,10,4,0,0,4,6,3,0.22978311693938364,Low Risk
+38,33,R&D,HR Manager,4,Human Resources,20000.0,2,3,2,3,0,2,1,0,5,1,3,0,0,6,3,0,0.3546122827392363,Medium Risk
+39,22,Operations,Manager,3,Technical Degree,20000.0,2,3,4,3,1,11,0,0,2,4,2,0,0,5,4,5,0.2181826792504749,Low Risk
+40,43,HR,Research Scientist,2,Other,20000.0,4,2,4,4,0,3,3,2,2,6,0,0,0,2,5,4,0.3179665018569466,Medium Risk
+41,51,Finance,Research Scientist,2,Human Resources,24500.0,2,4,3,4,1,2,1,2,4,3,2,1,0,1,5,0,0.03384827733959753,Low Risk
+42,31,Sales,HR Manager,2,Medical,20000.0,1,3,4,3,0,9,4,0,0,18,5,1,0,7,3,3,0.3032620313596294,Medium Risk
+43,51,Sales,Research Scientist,4,Marketing,20000.0,3,2,4,3,0,2,2,0,3,6,1,1,0,7,5,2,0.3923306464980997,Medium Risk
+44,25,R&D,Engineer,4,Marketing,20000.0,2,3,2,3,0,35,2,0,2,15,2,1,0,6,2,2,0.19558246125046413,Low Risk
+45,25,Sales,Research Scientist,3,Marketing,20000.0,4,4,2,3,0,3,3,3,6,11,1,2,0,7,5,2,0.2805419449915651,Low Risk
+46,40,Sales,Director,4,Life Sciences,20000.0,2,3,1,3,1,5,0,3,0,1,3,1,0,7,1,1,0.24802502137858387,Low Risk
+47,28,Sales,Manager,4,Human Resources,20000.0,3,2,3,4,0,2,2,7,1,11,1,1,0,7,4,0,0.45809230093449504,Medium Risk
+48,31,R&D,HR Manager,4,Medical,20000.0,3,2,3,4,0,3,0,1,4,27,5,0,0,6,3,3,0.6115425284606973,High Risk
+49,45,R&D,Research Scientist,3,Human Resources,20000.0,3,3,4,3,0,4,4,2,0,1,3,1,0,6,5,0,0.15880905957636396,Low Risk
+50,27,Engineering,Sales Executive,3,Human Resources,20000.0,3,3,4,3,0,3,1,2,1,4,1,2,0,0,6,0,0.2408229974069291,Low Risk
+51,33,R&D,Analyst,4,Other,20000.0,4,3,2,3,0,3,1,2,1,6,3,2,0,6,0,4,0.23072234192027452,Low Risk
+52,34,Marketing,HR Manager,4,Other,20000.0,3,3,3,3,0,5,0,3,4,6,3,2,0,4,3,4,0.28906636555310716,Low Risk
+53,39,Operations,Analyst,3,Medical,20900.0,3,3,1,3,0,14,3,3,3,4,3,0,0,5,0,3,0.004744754834511972,Low Risk
+54,42,Sales,Sales Executive,3,Medical,20000.0,3,3,3,4,0,3,3,0,2,6,0,1,0,7,6,3,0.18545789725872822,Low Risk
+55,35,HR,HR Manager,4,Other,20000.0,4,3,1,3,0,1,1,0,1,8,2,1,0,2,3,4,0.3407433020889772,Medium Risk
+56,25,R&D,Research Scientist,2,Life Sciences,20600.0,3,3,2,3,0,0,0,0,1,6,2,3,0,6,5,1,0.04426594310476413,Low Risk
+57,45,Engineering,Engineer,1,Human Resources,20000.0,2,3,2,3,0,18,2,5,3,30,2,3,1,0,2,0,0.5926835821016241,Medium Risk
+58,60,R&D,Engineer,4,Medical,20000.0,2,3,3,3,0,1,1,2,2,11,2,1,0,6,2,3,0.5421177518736038,Medium Risk
+59,43,Engineering,Research Scientist,2,Technical Degree,20000.0,3,3,2,3,0,2,2,0,6,10,3,0,0,0,5,5,0.31121085560954453,Medium Risk
+60,41,Finance,Research Scientist,5,Human Resources,20000.0,4,3,3,3,0,2,0,1,4,1,5,0,0,1,5,0,0.22910142483345436,Low Risk
+61,32,Engineering,Analyst,3,Technical Degree,20000.0,3,3,2,3,1,2,0,3,3,1,3,3,1,0,0,5,0.2760123990861932,Low Risk
+62,33,Finance,Sales Executive,2,Medical,30200.0,3,4,1,3,1,10,3,0,1,1,1,1,0,1,6,3,0.007717013097185861,Low Risk
+63,23,HR,HR Manager,4,Medical,27300.0,2,4,3,3,0,1,0,5,0,9,2,1,0,2,3,3,0.04081948272843114,Low Risk
+64,41,Operations,Director,3,Marketing,20000.0,4,2,4,3,0,2,2,1,1,10,4,1,1,5,1,2,0.5906445219106045,Medium Risk
+65,34,Sales,Research Scientist,2,Other,20000.0,3,2,3,3,0,11,2,4,4,2,6,1,0,7,5,4,0.12768360691323177,Low Risk
+66,47,Legal,Research Scientist,4,Other,20000.0,3,3,4,3,0,0,0,4,4,4,5,1,1,3,5,4,0.5536681294371558,Medium Risk
+67,26,R&D,Director,4,Medical,22800.0,4,3,3,3,1,8,3,1,1,26,3,1,0,6,1,3,0.036001140952938875,Low Risk
+68,48,Engineering,Manager,5,Other,40900.0,2,3,4,3,0,3,2,0,2,4,1,2,0,0,4,4,0.04588172596124419,Low Risk
+69,33,Finance,Engineer,1,Medical,20000.0,2,4,3,3,0,0,0,0,3,1,4,0,0,1,2,3,0.2984389843286118,Low Risk
+70,30,R&D,Sales Executive,2,Human Resources,20000.0,3,4,4,3,0,3,2,6,5,4,4,1,0,6,6,0,0.2666583409814079,Low Risk
+71,31,Engineering,Sales Executive,4,Human Resources,20000.0,3,3,4,3,1,17,4,9,2,18,2,2,0,0,6,0,0.2024777083502314,Low Risk
+72,30,Finance,Sales Executive,4,Marketing,21300.0,4,2,4,3,1,1,1,6,2,1,2,1,0,1,6,2,0.09569401324443998,Low Risk
+73,22,Marketing,HR Manager,2,Other,20000.0,2,2,4,3,1,4,0,0,5,3,1,0,0,4,3,4,0.3919936445680787,Medium Risk
+74,41,R&D,Sales Executive,3,Medical,35600.0,3,3,4,3,1,12,0,3,2,5,5,2,0,6,6,3,0.028868244378959313,Low Risk
+75,42,Engineering,HR Manager,4,Life Sciences,20000.0,3,3,3,2,1,1,1,8,1,1,3,2,0,0,3,1,0.2614638351567978,Low Risk
+76,47,Sales,Research Scientist,2,Life Sciences,20000.0,2,4,3,3,0,11,1,0,3,29,2,1,0,7,5,1,0.30568590034004844,Medium Risk
+77,42,Sales,Sales Executive,3,Human Resources,20000.0,3,3,2,3,0,14,1,4,5,1,2,1,0,7,6,0,0.06616602718095488,Low Risk
+78,41,Engineering,HR Manager,4,Marketing,20000.0,3,4,2,3,0,5,5,0,2,1,2,0,0,0,3,2,0.1655406154506468,Low Risk
+79,22,Finance,Sales Executive,5,Human Resources,20000.0,3,3,3,3,0,3,3,5,3,17,6,1,0,1,6,0,0.3560704420423543,Medium Risk
+80,37,R&D,Manager,3,Technical Degree,20000.0,3,3,4,3,1,2,0,8,2,12,0,1,0,6,4,5,0.5226679337529974,Medium Risk
+81,25,Marketing,Manager,5,Human Resources,23100.0,4,4,4,3,0,2,0,2,4,11,3,2,0,4,4,0,0.030291621530741705,Low Risk
+82,33,R&D,Engineer,3,Medical,20000.0,2,3,3,3,0,3,0,0,1,10,3,0,0,6,2,3,0.44502392296006205,Medium Risk
+83,48,Sales,Engineer,4,Medical,23600.0,4,3,4,3,0,3,2,1,1,17,1,2,0,7,2,3,0.0530230745020621,Low Risk
+84,36,Marketing,Research Scientist,2,Technical Degree,20000.0,2,4,3,3,0,8,4,0,5,4,1,1,0,4,5,5,0.11650107485637388,Low Risk
+85,22,Sales,Manager,1,Life Sciences,20000.0,4,2,3,3,0,3,0,0,3,15,4,2,0,7,4,1,0.5312460461327483,Medium Risk
+86,26,R&D,Director,4,Human Resources,20000.0,3,4,4,3,0,8,3,1,3,4,2,2,0,6,1,0,0.10677311545026423,Low Risk
+87,30,Engineering,Director,3,Other,20000.0,3,3,4,3,0,2,2,2,3,8,1,1,0,0,1,4,0.2693913220443145,Low Risk
+88,33,Engineering,Manager,3,Life Sciences,20000.0,3,4,3,3,0,13,2,4,1,7,1,0,0,0,4,1,0.0801148950407229,Low Risk
+89,44,Sales,Sales Executive,5,Medical,28800.0,2,3,3,3,0,2,2,3,4,8,1,1,0,7,6,3,0.04549734831982284,Low Risk
+90,43,Operations,Research Scientist,4,Other,20000.0,3,2,2,3,0,3,1,2,0,4,1,1,1,5,5,4,0.5466587599456861,Medium Risk
+91,43,HR,Manager,4,Technical Degree,22900.0,3,2,3,3,0,9,1,0,0,28,2,3,0,2,4,5,0.054353718350042025,Low Risk
+92,38,Sales,Engineer,3,Marketing,20000.0,3,2,4,3,0,10,0,0,2,2,2,1,0,7,2,2,0.16987060569495516,Low Risk
+93,33,Engineering,Analyst,4,Human Resources,20000.0,3,4,2,2,0,0,0,0,1,22,3,2,0,0,0,0,0.5378321780866444,Medium Risk
+94,32,R&D,HR Manager,5,Technical Degree,20000.0,2,3,4,3,1,8,0,1,3,1,3,1,0,6,3,5,0.2562378687605618,Low Risk
+95,39,HR,Director,3,Other,20000.0,2,3,4,3,0,22,1,6,5,1,3,2,1,2,1,4,0.05799539891487251,Low Risk
+96,44,Engineering,Engineer,3,Other,31600.0,3,1,4,4,0,6,1,2,0,1,1,2,0,0,2,4,0.015997642280372572,Low Risk
+97,49,R&D,Director,4,Marketing,20000.0,3,3,3,3,0,4,1,2,3,1,4,0,0,6,1,2,0.22237939692706174,Low Risk
+98,36,R&D,Director,4,Technical Degree,20000.0,3,3,4,3,1,0,0,1,9,5,3,0,0,6,1,5,0.5136444767196714,Medium Risk
+99,38,R&D,Analyst,3,Other,27900.0,3,3,2,3,0,4,4,4,0,18,2,3,0,6,0,4,0.06692545625201016,Low Risk
+100,49,Finance,Engineer,2,Medical,23900.0,3,2,3,3,0,12,1,4,1,7,2,1,0,1,2,3,0.01891582741056562,Low Risk
+101,26,R&D,Sales Executive,3,Other,20000.0,3,3,3,3,0,0,0,0,2,12,1,2,0,6,6,4,0.43207094166638377,Medium Risk
+102,43,R&D,HR Manager,4,Human Resources,20000.0,2,2,3,3,1,16,1,6,2,1,3,0,0,6,3,0,0.15615041948093955,Low Risk
+103,28,Engineering,Manager,3,Marketing,20000.0,3,3,3,3,0,2,2,0,3,4,5,2,0,0,4,2,0.24225075798360898,Low Risk
+104,50,Sales,Research Scientist,3,Marketing,20000.0,3,2,4,3,0,4,3,0,2,9,3,3,0,7,5,2,0.2718581377612065,Low Risk
+105,48,Operations,HR Manager,4,Life Sciences,20000.0,1,4,1,3,0,2,1,2,5,8,3,2,0,5,3,1,0.4825728472369261,Medium Risk
+106,50,Engineering,Director,3,Human Resources,20000.0,2,2,3,3,0,0,0,1,8,9,3,1,0,0,1,0,0.48493720145874425,Medium Risk
+107,49,Engineering,Manager,2,Technical Degree,20000.0,3,4,2,3,0,8,0,1,3,4,4,1,0,0,4,5,0.15634686226065947,Low Risk
+108,43,R&D,HR Manager,2,Marketing,20000.0,3,2,3,3,0,0,0,9,1,13,1,1,1,6,3,2,0.8254713015233881,High Risk
+109,26,R&D,Manager,2,Other,20700.0,3,4,3,3,0,5,0,0,2,13,5,2,0,6,4,4,0.1256613026580173,Low Risk
+110,40,Finance,HR Manager,5,Medical,20000.0,3,3,4,3,1,0,0,4,4,4,5,0,1,1,3,3,0.5245548731970292,Medium Risk
+111,44,Marketing,Sales Executive,4,Life Sciences,20000.0,2,2,2,3,1,12,12,1,4,15,0,0,0,4,6,1,0.28914668035120533,Low Risk
+112,40,Sales,Research Scientist,3,Marketing,20000.0,1,1,3,4,0,6,0,5,1,13,2,0,1,7,5,2,0.8345385171084635,High Risk
+113,34,R&D,Director,2,Medical,20000.0,3,2,4,3,1,3,3,1,0,2,4,0,1,6,1,3,0.6314458643463969,High Risk
+114,37,Sales,HR Manager,2,Marketing,20000.0,2,3,4,3,1,7,0,1,5,9,2,0,0,7,3,2,0.4314233921605741,Medium Risk
+115,39,Finance,Engineer,4,Medical,20400.0,1,4,2,3,0,2,1,2,1,11,1,2,0,1,2,3,0.3276305805570128,Medium Risk
+116,26,R&D,Research Scientist,4,Marketing,20000.0,3,3,4,3,1,5,0,1,0,11,4,0,0,6,5,2,0.4328396765591891,Medium Risk
+117,42,Engineering,Sales Executive,3,Technical Degree,20000.0,3,4,2,4,1,0,0,2,1,15,4,2,1,0,6,5,0.6670656902041497,High Risk
+118,40,Sales,Manager,1,Medical,20000.0,3,3,3,3,0,0,0,4,2,9,4,3,0,7,4,3,0.4863730619928526,Medium Risk
+119,34,R&D,Engineer,4,Life Sciences,20000.0,3,3,4,4,0,1,1,0,0,1,2,2,0,6,2,1,0.1901973579944283,Low Risk
+120,42,R&D,Manager,2,Life Sciences,20000.0,3,3,2,3,0,15,1,2,4,4,3,1,0,6,4,1,0.08167672069528913,Low Risk
+121,46,Engineering,Analyst,4,Marketing,28700.0,4,4,2,3,0,0,0,0,4,1,1,0,0,0,0,2,0.013992156134258077,Low Risk
+122,26,Finance,Sales Executive,2,Marketing,20000.0,3,3,3,3,0,10,2,0,3,3,2,0,0,1,6,2,0.055425112662171275,Low Risk
+123,49,Finance,Sales Executive,2,Marketing,20000.0,1,4,3,3,0,7,3,0,2,2,2,0,0,1,6,2,0.17843961086839855,Low Risk
+124,45,Operations,HR Manager,2,Marketing,20000.0,4,3,1,3,0,1,0,1,6,6,3,1,0,5,3,2,0.30564686270145336,Medium Risk
+125,45,Engineering,Manager,5,Medical,20000.0,3,2,3,4,0,3,1,0,1,3,2,0,0,0,4,3,0.3559765782890221,Medium Risk
+126,44,R&D,Research Scientist,1,Medical,20000.0,1,2,4,3,0,6,5,2,3,16,2,0,1,6,5,3,0.8014669933153534,High Risk
+127,42,R&D,Manager,1,Marketing,35400.0,1,2,4,3,0,26,2,1,3,15,3,1,0,6,4,2,0.09157332144962255,Low Risk
+128,36,Engineering,Research Scientist,1,Life Sciences,20000.0,4,3,3,3,0,2,1,0,4,7,2,0,0,0,5,1,0.30784402599797156,Medium Risk
+129,29,HR,Manager,2,Human Resources,24200.0,3,1,2,3,0,11,0,5,2,1,3,1,0,2,4,0,0.0130288575878866,Low Risk
+130,40,Engineering,Analyst,1,Marketing,20000.0,3,2,3,3,0,1,1,3,4,1,2,0,0,0,0,2,0.37662234066363587,Medium Risk
+131,37,R&D,Engineer,3,Marketing,20000.0,3,3,1,3,0,1,0,1,0,4,3,1,0,6,2,2,0.2992374277116122,Low Risk
+132,29,Legal,Manager,2,Technical Degree,23900.0,4,3,2,4,0,14,2,1,5,11,3,0,0,3,4,5,0.014737925110964447,Low Risk
+133,51,Sales,Engineer,1,Other,20000.0,2,4,1,3,0,1,0,1,3,4,2,1,0,7,2,4,0.3319150499546263,Medium Risk
+134,43,R&D,Analyst,4,Other,20000.0,1,2,3,3,0,3,1,4,1,7,2,1,1,6,0,4,0.7867152702466806,High Risk
+135,33,R&D,Engineer,3,Technical Degree,28100.0,1,4,3,3,0,6,5,3,3,30,1,1,0,6,2,5,0.08289325541143375,Low Risk
+136,22,R&D,Analyst,2,Technical Degree,34100.0,3,3,4,3,0,14,3,1,1,5,2,2,0,6,0,5,0.00905708440402427,Low Risk
+137,28,Sales,Engineer,3,Other,35700.0,3,3,2,4,0,3,0,6,5,3,2,1,0,7,2,4,0.04133129172184476,Low Risk
+138,40,Legal,Engineer,3,Medical,20000.0,2,3,4,3,1,1,1,7,8,4,2,0,1,3,2,3,0.7394665818855224,High Risk
+139,33,R&D,Sales Executive,3,Life Sciences,20000.0,1,4,3,3,0,6,6,0,1,4,3,3,0,6,6,1,0.2230298938458262,Low Risk
+140,24,Legal,HR Manager,4,Other,50800.0,1,1,4,4,0,6,2,0,3,11,3,0,0,3,3,4,0.09129129874423575,Low Risk
+141,38,Finance,Engineer,5,Human Resources,20000.0,2,3,4,3,0,5,0,0,1,7,0,1,0,1,2,0,0.29913565837212286,Low Risk
+142,34,Operations,Manager,2,Marketing,28900.0,3,3,4,3,1,8,4,0,1,18,3,1,0,5,4,2,0.05579808309646394,Low Risk
+143,32,R&D,Analyst,1,Life Sciences,29600.0,2,4,1,3,1,4,0,6,2,16,6,1,0,6,0,1,0.07462494291899711,Low Risk
+144,24,Finance,Engineer,3,Medical,20000.0,4,4,3,3,0,13,3,0,3,10,5,2,0,1,2,3,0.04094041094793331,Low Risk
+145,39,Sales,HR Manager,3,Other,20000.0,3,4,2,3,0,8,7,2,3,17,1,0,0,7,3,4,0.21866779376451725,Low Risk
+146,26,Sales,Analyst,4,Technical Degree,20000.0,2,4,1,3,0,1,1,3,1,4,4,3,0,7,0,5,0.24007745637087322,Low Risk
+147,34,Sales,Sales Executive,2,Marketing,21900.0,3,3,3,3,0,4,0,4,5,5,1,0,0,7,6,2,0.05032786166589875,Low Risk
+148,46,Marketing,HR Manager,4,Marketing,20000.0,2,3,4,3,0,1,1,7,4,6,0,1,0,4,3,2,0.46187246740313365,Medium Risk
+149,47,R&D,Analyst,3,Human Resources,22300.0,3,2,4,3,1,16,0,1,2,16,3,1,0,6,0,0,0.03507765001993724,Low Risk
+150,34,Sales,Manager,3,Other,20000.0,1,3,2,3,0,7,5,10,2,2,5,2,1,7,4,4,0.5959605072623014,Medium Risk
+151,22,Engineering,Analyst,4,Life Sciences,20000.0,4,3,3,3,0,3,3,4,4,6,4,0,0,0,0,1,0.19217501357821212,Low Risk
+152,42,R&D,HR Manager,3,Human Resources,20000.0,2,3,2,3,0,0,0,1,2,30,1,2,1,6,3,0,0.8219809287184493,High Risk
+153,27,R&D,Analyst,3,Medical,20000.0,4,3,4,3,1,5,4,0,2,2,1,1,0,6,0,3,0.08492526002406706,Low Risk
+154,23,R&D,Analyst,3,Other,20000.0,4,2,3,3,0,5,3,4,1,13,2,1,0,6,0,4,0.517609869790538,Medium Risk
+155,42,Engineering,Research Scientist,3,Human Resources,20000.0,4,2,2,3,0,2,0,3,2,16,1,2,1,0,5,0,0.5996965988606704,Medium Risk
+156,22,R&D,Research Scientist,4,Marketing,20000.0,3,4,3,3,0,12,6,5,4,5,2,0,0,6,5,2,0.05666571091819986,Low Risk
+157,42,R&D,Sales Executive,2,Medical,20000.0,3,3,3,4,0,7,3,0,2,2,1,0,0,6,6,3,0.1377893914971765,Low Risk
+158,44,Finance,HR Manager,3,Life Sciences,20000.0,3,2,2,3,0,10,0,8,1,1,5,2,0,1,3,1,0.13342678274347594,Low Risk
+159,40,R&D,HR Manager,2,Other,20000.0,2,2,4,3,0,2,2,1,4,9,3,3,0,6,3,4,0.47447482738018837,Medium Risk
+160,37,Sales,Research Scientist,2,Life Sciences,24200.0,3,3,4,3,1,5,1,4,2,14,4,1,0,7,5,1,0.07249386488048176,Low Risk
+161,34,R&D,Director,2,Human Resources,20000.0,4,4,2,3,1,6,4,0,2,18,4,1,0,6,1,0,0.2874357848361011,Low Risk
+162,31,Operations,Research Scientist,2,Other,20000.0,3,3,3,3,0,1,1,4,4,2,1,1,0,5,5,4,0.2731852698310698,Low Risk
+163,26,R&D,Research Scientist,3,Marketing,20000.0,4,2,4,3,1,1,1,2,2,2,1,0,0,6,5,2,0.40225140361807094,Medium Risk
+164,57,R&D,Analyst,3,Life Sciences,20000.0,1,4,3,3,1,3,2,2,2,11,2,0,1,6,0,1,0.6829787745178146,High Risk
+165,31,R&D,Research Scientist,4,Technical Degree,20000.0,2,4,4,4,1,10,5,2,8,8,2,1,0,6,5,5,0.3031850310230105,Medium Risk
+166,27,Sales,Research Scientist,3,Marketing,20000.0,4,3,3,3,0,20,4,4,1,6,3,0,0,7,5,2,0.03619322011286051,Low Risk
+167,35,Sales,HR Manager,1,Marketing,20000.0,3,3,3,3,1,6,1,1,2,7,3,2,0,7,3,2,0.31352250926415526,Medium Risk
+168,41,R&D,Engineer,2,Technical Degree,20000.0,3,3,4,4,0,12,2,3,1,2,3,2,0,6,2,5,0.06827659738353815,Low Risk
+169,45,R&D,Director,1,Life Sciences,21000.0,2,3,3,4,1,4,2,1,3,10,0,0,0,6,1,1,0.0582070672981026,Low Risk
+170,33,R&D,Research Scientist,5,Marketing,20000.0,2,1,3,3,0,2,1,0,3,1,2,2,1,6,5,2,0.44950043113529026,Medium Risk
+171,34,R&D,Engineer,3,Medical,20000.0,3,3,2,3,0,12,0,3,1,5,1,2,0,6,2,3,0.0680405971097398,Low Risk
+172,28,Engineering,HR Manager,3,Marketing,20000.0,2,1,3,3,1,1,0,4,2,20,1,2,1,0,3,2,0.8793186770203227,High Risk
+173,33,Engineering,Manager,4,Other,20000.0,4,2,1,4,0,2,2,0,1,12,3,0,0,0,4,4,0.3326195803080151,Medium Risk
+174,43,Operations,HR Manager,5,Technical Degree,20000.0,2,2,2,3,1,15,0,7,3,1,3,2,0,5,3,5,0.21833662818459115,Low Risk
+175,35,R&D,Sales Executive,4,Medical,20000.0,4,3,3,3,1,10,7,0,4,5,1,2,0,6,6,3,0.14900477973934897,Low Risk
+176,32,Sales,Engineer,2,Other,20000.0,2,3,2,4,0,4,2,5,1,23,0,2,1,7,2,4,0.49408728764045706,Medium Risk
+177,37,Operations,Sales Executive,4,Other,20000.0,4,1,2,3,0,4,0,0,1,1,2,0,0,5,6,4,0.2844167466969368,Low Risk
+178,28,R&D,HR Manager,2,Other,20000.0,4,2,4,3,1,0,0,0,2,17,6,1,0,6,3,4,0.6500198233062132,High Risk
+179,22,R&D,Director,1,Human Resources,36400.0,4,3,3,3,0,7,7,1,0,2,3,2,0,6,1,0,0.017995344483283885,Low Risk
+180,31,Engineering,Sales Executive,3,Human Resources,23000.0,2,3,4,4,0,11,6,0,2,1,3,3,0,0,6,0,0.02107267865890507,Low Risk
+181,22,Finance,HR Manager,1,Human Resources,50100.0,2,3,4,3,0,7,7,6,3,3,4,2,0,1,3,0,0.030031919512982595,Low Risk
+182,33,Marketing,Manager,4,Technical Degree,20000.0,2,2,3,3,0,6,0,2,3,20,1,0,1,4,4,5,0.6631863072720873,High Risk
+183,39,Finance,Analyst,2,Human Resources,30900.0,4,4,2,3,0,9,1,2,3,1,4,1,0,1,0,0,0.008433728235970743,Low Risk
+184,44,Engineering,Analyst,3,Medical,20000.0,4,3,2,3,0,1,0,0,1,1,2,1,0,0,0,3,0.19585124366733578,Low Risk
+185,40,HR,Research Scientist,4,Marketing,20000.0,3,3,4,4,1,13,5,1,5,7,1,0,1,2,5,2,0.6368757584973279,High Risk
+186,36,Engineering,HR Manager,5,Human Resources,20000.0,2,3,4,3,0,6,0,1,2,7,4,0,0,0,3,0,0.3591684349807674,Medium Risk
+187,26,Operations,Sales Executive,4,Human Resources,20000.0,2,3,4,3,1,1,1,0,3,20,2,0,1,5,6,0,0.805369268898178,High Risk
+188,26,Engineering,Director,3,Life Sciences,20000.0,3,4,3,3,1,6,0,1,2,3,2,0,0,0,1,1,0.30833227214567144,Medium Risk
+189,34,HR,Research Scientist,4,Life Sciences,20000.0,4,3,3,3,0,6,6,5,5,11,5,0,1,2,5,1,0.5699934110437209,Medium Risk
+190,28,Engineering,Manager,5,Human Resources,23800.0,1,3,4,3,0,2,2,2,1,2,5,0,0,0,4,0,0.08828469632748995,Low Risk
+191,27,Finance,Director,4,Life Sciences,20700.0,2,3,1,3,0,10,0,0,1,11,2,1,0,1,1,1,0.045014848443737855,Low Risk
+192,36,R&D,Engineer,3,Life Sciences,20000.0,4,3,3,3,0,11,3,4,5,6,1,1,0,6,2,1,0.09141246599025864,Low Risk
+193,28,Operations,Research Scientist,1,Medical,20000.0,4,2,1,3,0,15,4,2,2,2,2,0,0,5,5,3,0.04473223309786051,Low Risk
+194,22,Finance,Engineer,5,Other,20000.0,3,3,1,3,0,3,3,0,1,5,1,0,0,1,2,4,0.17047123595005242,Low Risk
+195,34,R&D,Engineer,2,Human Resources,36700.0,3,1,3,3,0,1,1,3,3,3,1,1,0,6,2,0,0.07757408396957598,Low Risk
+196,27,HR,Manager,4,Other,20000.0,4,4,4,4,0,10,9,1,4,4,5,1,0,2,4,4,0.060510377116367156,Low Risk
+197,40,Engineering,Manager,5,Technical Degree,20000.0,3,4,4,4,0,3,3,4,3,30,6,1,0,0,4,5,0.35652680984896157,Medium Risk
+198,47,R&D,Sales Executive,4,Marketing,20000.0,3,4,2,4,1,5,1,0,5,1,2,0,0,6,6,2,0.2521292507905228,Low Risk
+199,42,Sales,Research Scientist,2,Human Resources,20000.0,2,3,3,3,1,25,2,2,4,5,1,1,0,7,5,0,0.10833785445767403,Low Risk
+200,39,Engineering,Engineer,1,Technical Degree,20000.0,4,3,4,3,0,1,0,3,2,3,1,0,0,0,2,5,0.23447713693748873,Low Risk
+201,48,Sales,Engineer,2,Medical,34500.0,1,3,3,3,1,5,5,0,5,12,3,1,0,7,2,3,0.036851570034326445,Low Risk
+202,27,R&D,Manager,1,Medical,20000.0,2,3,2,3,1,11,4,0,1,2,4,2,0,6,4,3,0.06973636434642246,Low Risk
+203,30,R&D,Research Scientist,2,Medical,20000.0,3,3,4,3,1,9,2,3,2,2,2,1,0,6,5,3,0.1250244728455778,Low Risk
+204,37,R&D,Engineer,5,Human Resources,20000.0,3,3,2,3,0,4,2,1,1,4,3,0,0,6,2,0,0.22128165292127533,Low Risk
+205,32,Engineering,Director,3,Other,20000.0,3,2,4,3,0,11,0,0,5,25,0,0,0,0,1,4,0.15540118205900444,Low Risk
+206,37,Engineering,Director,5,Other,20000.0,2,3,4,3,0,2,0,3,3,5,3,1,0,0,1,4,0.409502286554561,Medium Risk
+207,32,Engineering,Manager,4,Medical,22700.0,4,4,4,3,1,3,0,1,6,8,3,0,0,0,4,3,0.031228757868145565,Low Risk
+208,33,HR,Director,1,Technical Degree,26500.0,4,1,4,3,0,9,1,15,3,1,2,0,0,2,1,5,0.03150066586450387,Low Risk
+209,32,Marketing,Manager,4,Medical,20000.0,2,2,3,3,1,2,2,2,3,14,2,2,1,4,4,3,0.6957956509029496,High Risk
+210,42,Engineering,HR Manager,3,Marketing,20000.0,3,2,3,3,0,1,1,0,4,9,1,0,0,0,3,2,0.4247162206689702,Medium Risk
+211,34,HR,Manager,5,Life Sciences,20000.0,2,3,3,3,0,1,1,1,4,12,3,1,1,2,4,1,0.6017447460418396,High Risk
+212,24,R&D,Sales Executive,4,Marketing,37300.0,2,1,4,3,1,11,10,1,4,12,3,1,0,6,6,2,0.03288561968092592,Low Risk
+213,34,Sales,Director,4,Human Resources,20000.0,3,2,3,4,0,1,1,0,3,1,1,0,0,7,1,0,0.3463848831697508,Medium Risk
+214,30,Sales,Engineer,5,Human Resources,20000.0,1,3,2,3,0,5,2,3,3,14,4,0,1,7,2,0,0.7002475736890417,High Risk
+215,48,R&D,HR Manager,2,Technical Degree,25500.0,3,4,4,3,0,2,2,4,1,8,1,3,0,6,3,5,0.037207307322372075,Low Risk
+216,39,Sales,HR Manager,4,Marketing,20000.0,3,1,3,3,0,2,2,0,1,26,4,2,0,7,3,2,0.48228758383961157,Medium Risk
+217,47,Engineering,Analyst,1,Life Sciences,20000.0,4,3,2,3,0,10,0,0,5,9,1,1,0,0,0,1,0.13152882359968904,Low Risk
+218,36,Operations,Manager,3,Marketing,20000.0,2,3,2,4,0,18,11,2,4,30,2,3,0,5,4,2,0.2147694154309772,Low Risk
+219,44,Sales,Analyst,1,Medical,20000.0,1,4,3,3,0,7,6,1,3,25,1,1,1,7,0,3,0.7139493406755613,High Risk
+220,42,Marketing,Manager,4,Marketing,20000.0,4,1,3,3,0,16,9,0,3,4,1,1,0,4,4,2,0.0599830640361996,Low Risk
+221,41,Finance,Manager,4,Other,20000.0,4,2,2,4,0,0,0,0,1,1,2,0,0,1,4,4,0.3458726672944366,Medium Risk
+222,22,Marketing,Manager,2,Life Sciences,20000.0,4,1,4,3,1,3,3,1,3,19,2,2,1,4,4,1,0.7527802688577038,High Risk
+223,37,Engineering,Research Scientist,5,Human Resources,20000.0,3,3,4,3,0,21,2,1,2,14,1,1,0,0,5,0,0.1675568598715923,Low Risk
+224,48,R&D,Manager,3,Human Resources,28200.0,1,4,2,3,1,0,0,0,4,4,4,1,0,6,4,0,0.05681921920781575,Low Risk
+225,36,Operations,Analyst,2,Marketing,22900.0,3,4,1,2,1,6,0,3,3,14,2,1,0,5,0,2,0.056179930183983026,Low Risk
+226,46,Sales,Sales Executive,4,Other,20000.0,4,4,2,3,0,0,0,0,0,1,2,2,0,7,6,4,0.19199177182306823,Low Risk
+227,31,Sales,Analyst,3,Other,20000.0,2,1,2,3,1,4,4,0,1,12,1,1,0,7,0,4,0.3320835609578762,Medium Risk
+228,33,R&D,Sales Executive,4,Life Sciences,20000.0,3,2,3,3,0,20,2,6,4,9,1,1,0,6,6,1,0.12325661117806704,Low Risk
+229,42,Finance,Research Scientist,3,Medical,22100.0,3,3,3,4,0,1,0,6,2,1,3,0,0,1,5,3,0.03220319424596485,Low Risk
+230,23,Engineering,Director,4,Marketing,22000.0,3,3,1,3,0,5,0,7,3,21,3,0,0,0,1,2,0.06116035973497626,Low Risk
+231,51,Operations,Director,2,Technical Degree,20000.0,2,4,4,3,0,1,0,5,2,22,5,0,0,5,1,5,0.7113290962501931,High Risk
+232,33,Engineering,Analyst,3,Medical,20000.0,3,2,3,4,0,6,0,0,3,1,3,1,0,0,0,3,0.22075461542183883,Low Risk
+233,47,HR,Sales Executive,3,Medical,20000.0,1,3,3,4,0,2,2,1,1,1,4,3,0,2,6,3,0.2735781024694463,Low Risk
+234,30,R&D,Engineer,3,Technical Degree,20000.0,1,1,2,3,0,4,3,8,4,30,3,1,1,6,2,5,0.8313645178583946,High Risk
+235,42,Finance,Director,3,Technical Degree,21300.0,2,1,2,3,0,11,0,3,0,11,4,0,0,1,1,5,0.061144622995430324,Low Risk
+236,32,Sales,Director,3,Medical,20600.0,3,3,4,3,1,0,0,1,4,25,4,1,0,7,1,3,0.18993632681484063,Low Risk
+237,22,Sales,HR Manager,4,Marketing,20000.0,2,2,1,3,0,23,20,1,2,14,1,0,0,7,3,2,0.15191647370036007,Low Risk
+238,32,R&D,Director,1,Marketing,20000.0,2,1,4,3,0,0,0,1,4,3,1,1,1,6,1,2,0.6791130546415463,High Risk
+239,34,Sales,Director,5,Technical Degree,27000.0,3,2,3,3,0,14,4,1,0,12,2,1,0,7,1,5,0.024775640763561917,Low Risk
+240,40,Sales,Analyst,2,Other,20000.0,3,3,3,3,0,1,1,1,3,17,2,0,0,7,0,4,0.6237877685974912,High Risk
+241,28,Finance,Engineer,2,Marketing,20000.0,2,3,3,3,0,1,1,1,2,12,2,2,0,1,2,2,0.4548366160819956,Medium Risk
+242,40,Sales,Manager,4,Other,23700.0,3,3,4,3,1,6,4,2,2,30,4,1,0,7,4,4,0.09607868793610798,Low Risk
+243,33,Sales,Analyst,5,Medical,20000.0,3,2,4,3,0,3,0,2,3,3,1,1,0,7,0,3,0.3691505558010103,Medium Risk
+244,22,Marketing,Manager,3,Medical,20000.0,3,4,4,3,0,9,5,0,2,11,3,2,0,4,4,3,0.11707228528822018,Low Risk
+245,44,Finance,Engineer,3,Technical Degree,20000.0,4,3,3,3,1,6,0,4,4,11,2,2,0,1,2,5,0.3861735676269942,Medium Risk
+246,45,Finance,Analyst,4,Marketing,20000.0,4,2,1,3,0,6,0,0,2,1,2,1,0,1,0,2,0.18141656153153826,Low Risk
+247,32,Sales,Engineer,5,Marketing,20000.0,3,4,3,3,1,4,3,1,1,11,4,2,1,7,2,2,0.31536635069239327,Medium Risk
+248,34,Sales,Manager,3,Technical Degree,23300.0,4,4,4,3,0,2,2,3,3,20,2,2,0,7,4,5,0.06554711738580336,Low Risk
+249,31,R&D,Director,3,Technical Degree,20000.0,2,2,4,3,1,3,0,1,4,10,1,0,1,6,1,5,0.6514311292651905,High Risk
+250,39,Sales,Engineer,5,Human Resources,20000.0,2,2,3,3,1,0,0,1,2,7,1,0,0,7,2,0,0.6676962250401194,High Risk
+251,30,Sales,Manager,5,Marketing,20000.0,2,3,3,3,0,0,0,2,2,2,6,1,0,7,4,2,0.3499161614723754,Medium Risk
+252,43,Marketing,Director,1,Human Resources,21300.0,4,3,1,3,0,1,1,4,3,1,3,1,0,4,1,0,0.02682623618514881,Low Risk
+253,34,R&D,Director,3,Other,22400.0,4,1,3,3,0,25,2,0,2,1,2,0,0,6,1,4,0.012919490781515284,Low Risk
+254,24,Engineering,Director,3,Other,20000.0,4,4,3,3,0,6,2,3,2,3,2,2,0,0,1,4,0.10926446121825714,Low Risk
+255,42,Operations,Sales Executive,4,Human Resources,23900.0,4,2,3,3,1,5,4,0,3,19,3,0,0,5,6,0,0.04965707392444083,Low Risk
+256,40,Finance,Manager,4,Other,20000.0,3,4,4,3,0,2,2,0,4,28,0,0,0,1,4,4,0.373619231035683,Medium Risk
+257,22,Sales,Sales Executive,4,Other,20000.0,4,4,4,3,1,4,4,2,1,14,0,2,0,7,6,4,0.39153368334563815,Medium Risk
+258,37,Engineering,HR Manager,3,Medical,20000.0,1,2,2,4,1,6,2,2,2,4,0,2,1,0,3,3,0.7175774897548511,High Risk
+259,41,Finance,Research Scientist,4,Other,20000.0,4,3,3,3,0,0,0,0,1,12,4,0,0,1,5,4,0.455043888483728,Medium Risk
+260,35,Finance,Manager,3,Medical,26900.0,3,4,3,2,0,13,1,3,1,30,1,1,0,1,4,3,0.034544692023484015,Low Risk
+261,31,Engineering,Engineer,3,Marketing,20000.0,2,3,1,3,1,5,0,4,0,1,2,1,0,0,2,2,0.2667362275250019,Low Risk
+262,47,Legal,Director,4,Other,33600.0,2,4,4,3,0,0,0,0,0,1,2,0,0,3,1,4,0.0536448793816809,Low Risk
+263,30,Sales,Engineer,2,Life Sciences,20000.0,2,3,2,3,0,1,1,3,2,8,1,0,1,7,2,1,0.5566145963420284,Medium Risk
+264,51,HR,Research Scientist,4,Other,25600.0,2,2,2,4,1,3,3,1,2,1,2,1,0,2,5,4,0.013852357162948588,Low Risk
+265,29,R&D,Sales Executive,4,Other,20000.0,3,4,4,4,1,9,4,1,1,2,2,1,0,6,6,4,0.11493405868664398,Low Risk
+266,44,Engineering,Sales Executive,3,Technical Degree,20000.0,4,3,3,3,0,2,2,0,0,4,1,2,0,0,6,5,0.1931630197293116,Low Risk
+267,52,HR,Director,3,Marketing,20000.0,3,3,4,3,0,30,0,3,4,5,2,2,0,2,1,2,0.05485569344050721,Low Risk
+268,24,R&D,Sales Executive,3,Medical,20000.0,4,1,3,3,0,0,0,4,0,13,2,0,1,6,6,3,0.5472490396876661,Medium Risk
+269,40,Finance,HR Manager,3,Human Resources,20000.0,4,4,3,3,0,1,1,1,3,7,0,0,0,1,3,0,0.3032011783923008,Medium Risk
+270,29,Engineering,Director,3,Medical,20100.0,3,2,1,3,0,1,0,0,4,11,2,3,0,0,1,3,0.30241808982113744,Medium Risk
+271,43,Marketing,Manager,4,Other,20000.0,3,3,2,4,1,0,0,9,1,4,5,1,0,4,4,4,0.5478614772851965,Medium Risk
+272,48,Operations,HR Manager,3,Technical Degree,34900.0,1,3,4,3,0,1,1,1,3,17,0,2,0,5,3,5,0.08910844817231801,Low Risk
+273,51,Finance,Research Scientist,2,Human Resources,20000.0,1,4,3,3,0,5,5,1,3,6,1,2,0,1,5,0,0.2270322833278225,Low Risk
+274,45,Engineering,Analyst,3,Other,43000.0,3,4,1,4,0,1,1,2,4,2,2,1,0,0,0,4,0.022582713774446362,Low Risk
+275,33,HR,Director,5,Human Resources,20000.0,4,3,2,3,0,3,2,5,4,16,0,0,0,2,1,0,0.3238094613773,Medium Risk
+276,42,R&D,HR Manager,3,Life Sciences,20000.0,3,3,3,3,0,4,2,0,4,2,3,2,0,6,3,1,0.17687871166332594,Low Risk
+277,59,R&D,Sales Executive,3,Medical,24900.0,4,1,2,4,0,3,1,3,2,30,5,0,0,6,6,3,0.06873469971337619,Low Risk
+278,47,Legal,HR Manager,5,Life Sciences,20000.0,2,4,2,3,0,26,0,1,4,5,2,1,0,3,3,1,0.08514855475596139,Low Risk
+279,56,R&D,Director,3,Marketing,20000.0,1,1,4,4,0,0,0,2,2,3,3,1,1,6,1,2,0.762720158916057,High Risk
+280,46,Engineering,Director,5,Other,20000.0,3,3,2,3,0,5,0,13,4,6,3,3,1,0,1,4,0.6202475592504463,High Risk
+281,25,Sales,Analyst,4,Human Resources,20000.0,4,3,4,4,0,0,0,2,0,2,4,1,0,7,0,0,0.17752291361175576,Low Risk
+282,33,HR,Research Scientist,4,Medical,28600.0,3,3,3,3,0,1,1,1,2,21,2,1,0,2,5,3,0.08848123578635053,Low Risk
+283,42,R&D,Sales Executive,2,Marketing,20000.0,1,3,3,3,0,4,2,0,2,4,0,1,0,6,6,2,0.2323284992073151,Low Risk
+284,27,R&D,Engineer,1,Marketing,27600.0,3,3,4,3,1,0,0,0,4,4,6,0,0,6,2,2,0.09880252151616219,Low Risk
+285,42,Marketing,Engineer,1,Medical,20000.0,4,2,3,3,0,3,0,9,1,15,1,1,1,4,2,3,0.7968276879111644,High Risk
+286,22,Sales,Analyst,3,Marketing,20000.0,1,4,3,3,0,35,3,5,1,22,3,0,0,7,0,2,0.12166130812018769,Low Risk
+287,35,Operations,Analyst,2,Technical Degree,20000.0,4,4,3,3,1,2,1,0,1,1,2,1,0,5,0,5,0.19957401088899174,Low Risk
+288,41,R&D,Manager,2,Marketing,20000.0,1,4,3,3,0,1,1,3,1,9,4,1,0,6,4,2,0.5263186199314291,Medium Risk
+289,22,Sales,Sales Executive,5,Technical Degree,20000.0,4,3,4,3,0,4,0,3,2,30,2,1,0,7,6,5,0.4034077519914825,Medium Risk
+290,41,Marketing,Manager,3,Human Resources,20000.0,3,2,4,4,1,11,0,1,3,6,1,1,0,4,4,0,0.44983210931621465,Medium Risk
+291,44,Sales,HR Manager,3,Life Sciences,20000.0,3,3,3,3,1,7,0,1,3,14,2,2,0,7,3,1,0.517724657321168,Medium Risk
+292,44,R&D,Engineer,1,Life Sciences,20000.0,3,3,2,3,1,3,3,2,1,1,3,0,0,6,2,1,0.2651620542396469,Low Risk
+293,22,Sales,HR Manager,3,Other,20000.0,4,3,3,3,0,0,0,2,4,2,0,0,0,7,3,4,0.2267852026100408,Low Risk
+294,23,R&D,Sales Executive,2,Other,20000.0,3,3,1,3,1,4,3,1,3,8,2,2,1,6,6,4,0.4812334706023789,Medium Risk
+295,46,R&D,HR Manager,4,Marketing,20000.0,4,2,4,2,0,0,0,5,2,1,3,2,0,6,3,2,0.2769878114875788,Low Risk
+296,46,Engineering,Manager,4,Medical,38200.0,4,2,4,3,0,13,0,0,4,6,1,0,0,0,4,3,0.01101657736934301,Low Risk
+297,26,Engineering,Engineer,1,Other,20000.0,3,4,3,3,1,16,5,1,2,10,1,1,0,0,2,4,0.08345536838826897,Low Risk
+298,24,Engineering,Research Scientist,3,Human Resources,20000.0,1,3,3,3,0,2,1,1,0,6,2,2,0,0,5,0,0.31711999589919815,Medium Risk
+299,45,Sales,Analyst,2,Marketing,21700.0,3,3,2,3,1,18,15,3,0,4,2,0,0,7,0,2,0.008896183021845402,Low Risk
+300,22,Operations,Analyst,4,Marketing,20000.0,3,4,2,3,0,2,0,0,4,10,0,1,0,5,0,2,0.30059420533792114,Medium Risk
+301,42,HR,Director,5,Marketing,20000.0,3,4,4,3,0,8,0,0,2,21,3,1,0,2,1,2,0.32859200014970336,Medium Risk
+302,22,Engineering,Sales Executive,3,Life Sciences,20000.0,1,2,3,3,1,1,1,1,3,3,1,3,1,0,6,1,0.7056600933186223,High Risk
+303,23,Engineering,Research Scientist,4,Marketing,20000.0,4,1,2,2,1,3,1,0,4,9,2,1,0,0,5,2,0.34459373962778783,Medium Risk
+304,37,Sales,Sales Executive,3,Technical Degree,29400.0,3,4,4,3,0,2,1,3,1,1,4,2,0,7,6,5,0.02917464996636751,Low Risk
+305,42,Sales,Director,2,Marketing,20000.0,1,3,4,3,1,8,5,1,2,12,1,1,0,7,1,2,0.3405501614226427,Medium Risk
+306,42,Sales,HR Manager,5,Human Resources,20000.0,2,4,3,3,0,0,0,0,5,3,3,0,0,7,3,0,0.3383999436422922,Medium Risk
+307,37,Finance,Engineer,1,Medical,20000.0,3,2,2,3,1,7,2,0,1,18,1,1,0,1,2,3,0.4032406949805676,Medium Risk
+308,28,Engineering,Director,3,Life Sciences,20000.0,3,3,4,3,1,1,1,1,4,3,2,0,0,0,1,1,0.3721744452242051,Medium Risk
+309,29,R&D,HR Manager,4,Life Sciences,20000.0,4,4,3,3,0,6,2,0,4,8,2,0,0,6,3,1,0.16400723189952887,Low Risk
+310,38,Sales,Engineer,4,Technical Degree,23500.0,2,2,4,3,1,6,3,7,3,1,1,1,0,7,2,5,0.05816771455245648,Low Risk
+311,42,Sales,Director,1,Human Resources,20000.0,3,4,3,3,0,8,0,3,2,4,1,0,0,7,1,0,0.15441822979141265,Low Risk
+312,28,Sales,Research Scientist,4,Life Sciences,20000.0,2,4,2,3,0,3,1,3,0,30,3,1,1,7,5,1,0.7797146281060222,High Risk
+313,29,R&D,Research Scientist,2,Human Resources,20000.0,3,4,3,3,1,0,0,0,0,30,1,0,1,6,5,0,0.6444918422982744,High Risk
+314,30,R&D,Director,3,Technical Degree,20000.0,3,3,4,3,0,2,0,9,2,1,2,1,0,6,1,5,0.29565624368575255,Low Risk
+315,36,Engineering,Engineer,3,Technical Degree,20000.0,3,4,3,3,1,1,0,0,5,3,1,3,0,0,2,5,0.31771345491861325,Medium Risk
+316,27,R&D,HR Manager,1,Technical Degree,26900.0,3,3,1,3,0,15,8,5,1,13,2,3,0,6,3,5,0.016324973312095623,Low Risk
+317,35,R&D,Research Scientist,5,Other,21500.0,4,3,3,3,1,14,1,1,2,3,3,0,0,6,5,4,0.027752441087731373,Low Risk
+318,37,Sales,Director,1,Other,20000.0,4,4,3,3,0,5,5,0,6,4,3,0,0,7,1,4,0.14000706276991837,Low Risk
+319,40,R&D,Manager,1,Technical Degree,20000.0,3,3,3,3,1,9,0,3,2,26,1,3,0,6,4,5,0.4675908088362604,Medium Risk
+320,40,R&D,Manager,2,Other,20000.0,4,3,3,3,0,1,0,1,5,8,2,0,0,6,4,4,0.4141053202553973,Medium Risk
+321,24,Sales,Sales Executive,5,Marketing,20000.0,3,2,3,4,1,1,0,0,3,3,1,2,0,7,6,2,0.44224082487051547,Medium Risk
+322,36,HR,Analyst,3,Human Resources,20000.0,2,4,3,3,1,1,0,1,2,1,1,0,1,2,0,0,0.5681143971975733,Medium Risk
+323,40,Engineering,Sales Executive,1,Other,20000.0,4,2,3,3,1,0,0,0,4,8,3,1,1,0,6,4,0.6934112575327925,High Risk
+324,29,Sales,Engineer,5,Life Sciences,20000.0,2,1,3,4,1,9,0,0,2,11,1,0,1,7,2,1,0.7036272311008037,High Risk
+325,32,Finance,HR Manager,2,Technical Degree,20000.0,3,4,3,3,0,2,1,3,6,4,0,3,0,1,3,5,0.2277944273198269,Low Risk
+326,48,Operations,HR Manager,2,Medical,20000.0,3,3,1,3,1,4,1,0,2,4,3,0,0,5,3,3,0.3981567612360681,Medium Risk
+327,22,Sales,HR Manager,1,Human Resources,25400.0,4,3,3,3,1,1,0,1,3,9,2,1,0,7,3,0,0.07693747696932904,Low Risk
+328,55,Operations,Analyst,2,Marketing,20000.0,1,3,3,3,0,19,1,3,2,1,3,0,0,5,0,2,0.06382475518181145,Low Risk
+329,47,Finance,Director,1,Technical Degree,20000.0,2,4,2,2,0,2,1,3,1,13,0,2,0,1,1,5,0.44602579207198473,Medium Risk
+330,33,Marketing,HR Manager,4,Life Sciences,20000.0,3,3,3,3,0,3,3,1,2,5,2,0,0,4,3,1,0.24141326753705958,Low Risk
+331,50,R&D,HR Manager,3,Other,20000.0,3,2,4,3,0,5,5,0,3,10,5,2,0,6,3,4,0.2868284970119696,Low Risk
+332,27,Finance,Manager,3,Other,20000.0,1,3,4,3,0,2,2,6,4,1,4,1,1,1,4,4,0.573255412365874,Medium Risk
+333,40,Engineering,Director,1,Other,20000.0,4,3,2,3,1,7,0,10,1,2,1,1,1,0,1,4,0.5476896095455842,Medium Risk
+334,23,Engineering,HR Manager,2,Human Resources,20000.0,3,3,4,3,0,10,1,0,5,11,2,0,0,0,3,0,0.10912046198842631,Low Risk
+335,50,R&D,Research Scientist,1,Life Sciences,27200.0,3,2,3,3,1,0,0,0,0,1,2,1,0,6,5,1,0.06458583815882436,Low Risk
+336,30,Engineering,Research Scientist,5,Medical,20000.0,3,1,3,3,0,15,0,6,0,4,1,1,0,0,5,3,0.08443510847694863,Low Risk
+337,43,R&D,Manager,4,Life Sciences,20000.0,1,1,3,3,0,24,1,7,4,30,4,2,1,6,4,1,0.3342818076974825,Medium Risk
+338,37,Sales,HR Manager,3,Life Sciences,20600.0,3,2,3,3,0,3,3,0,5,2,4,0,0,7,3,1,0.09788610813486663,Low Risk
+339,32,Marketing,Engineer,4,Marketing,20000.0,3,3,4,3,0,1,1,5,3,3,3,0,0,4,2,2,0.3135604420890242,Medium Risk
+340,31,Finance,HR Manager,2,Life Sciences,20000.0,4,3,4,3,1,7,2,4,1,2,1,1,0,1,3,1,0.12994566923891365,Low Risk
+341,58,R&D,Sales Executive,3,Life Sciences,24100.0,3,4,3,3,0,2,2,2,3,1,1,0,0,6,6,1,0.03164144087888715,Low Risk
+342,30,R&D,HR Manager,3,Human Resources,25700.0,3,4,1,4,0,4,4,0,1,16,5,1,0,6,3,0,0.06605889905676318,Low Risk
+343,40,Engineering,Director,4,Human Resources,20000.0,4,3,4,3,0,4,4,6,1,5,4,1,0,0,1,0,0.18725865625382884,Low Risk
+344,42,R&D,Manager,1,Life Sciences,20000.0,3,3,3,3,0,10,10,3,6,2,3,3,0,6,4,1,0.08458451658156017,Low Risk
+345,46,R&D,Manager,1,Life Sciences,24000.0,3,2,2,3,0,0,0,3,5,13,4,2,0,6,4,1,0.07130550854200196,Low Risk
+346,46,Sales,Sales Executive,4,Life Sciences,35100.0,2,4,1,4,1,2,2,4,3,1,0,3,0,7,6,1,0.035626203706820035,Low Risk
+347,26,Sales,Engineer,1,Human Resources,20000.0,4,2,4,4,0,3,0,0,4,19,1,0,1,7,2,0,0.7329780522349278,High Risk
+348,36,R&D,Sales Executive,3,Technical Degree,20000.0,3,3,2,3,0,3,0,0,4,6,3,1,0,6,6,5,0.3364550643848398,Medium Risk
+349,42,Sales,Analyst,3,Marketing,38500.0,2,3,4,3,0,1,1,2,3,3,0,2,0,7,0,2,0.039926133668724065,Low Risk
+350,38,Engineering,Sales Executive,5,Medical,20000.0,3,2,1,3,0,24,0,1,2,8,1,0,0,0,6,3,0.11263636235522662,Low Risk
+351,29,R&D,Analyst,3,Other,32400.0,4,4,2,3,0,7,1,0,1,8,4,1,0,6,0,4,0.05285910879018249,Low Risk
+352,31,HR,Analyst,4,Medical,20000.0,3,4,4,3,0,13,10,1,2,5,1,1,0,2,0,3,0.046534536693659756,Low Risk
+353,35,Finance,Director,3,Marketing,20000.0,4,2,4,3,0,5,1,1,5,2,2,1,0,1,1,2,0.2561020718818311,Low Risk
+354,25,Marketing,Sales Executive,3,Other,20000.0,2,4,3,3,1,1,1,4,2,2,3,0,1,4,6,4,0.6570561739161662,High Risk
+355,35,R&D,Research Scientist,4,Marketing,20000.0,3,2,3,3,0,6,2,0,1,4,1,1,0,6,5,2,0.33784872975147384,Medium Risk
+356,41,Sales,Research Scientist,2,Other,20000.0,3,3,1,3,0,7,2,1,4,12,3,0,0,7,5,4,0.27117370983709527,Low Risk
+357,41,Sales,HR Manager,2,Life Sciences,20000.0,3,3,1,3,0,6,3,3,8,7,1,1,0,7,3,1,0.2172744479548394,Low Risk
+358,40,Marketing,Research Scientist,4,Other,20000.0,3,1,4,3,0,8,0,3,6,5,1,1,0,4,5,4,0.29029437871371927,Low Risk
+359,28,HR,HR Manager,3,Other,20000.0,3,3,4,3,0,0,0,4,4,17,1,3,0,2,3,4,0.42896996067839427,Medium Risk
+360,22,R&D,Research Scientist,5,Medical,20000.0,3,3,3,3,0,15,0,0,2,10,1,1,0,6,5,3,0.08600322094427167,Low Risk
+361,39,R&D,Sales Executive,2,Technical Degree,20000.0,4,4,3,3,0,0,0,0,1,14,1,0,0,6,6,5,0.516531782364763,Medium Risk
+362,29,R&D,HR Manager,4,Life Sciences,20000.0,2,3,3,3,0,1,1,1,2,3,2,2,0,6,3,1,0.3188284987170263,Medium Risk
+363,39,Sales,Engineer,3,Technical Degree,28200.0,3,2,3,3,0,2,0,0,6,10,0,2,0,7,2,5,0.05218044456862621,Low Risk
+364,50,Engineering,Manager,2,Human Resources,20000.0,4,4,4,3,0,6,3,2,1,20,0,1,0,0,4,0,0.3599044699161658,Medium Risk
+365,37,Marketing,Engineer,1,Human Resources,28300.0,4,3,2,4,0,2,2,0,0,1,3,0,0,4,2,0,0.027772252062340574,Low Risk
+366,34,HR,Research Scientist,4,Other,20000.0,3,3,2,3,0,3,0,1,2,24,1,1,0,2,5,4,0.5745608683807566,Medium Risk
+367,29,R&D,Analyst,2,Human Resources,20000.0,2,4,3,4,1,5,3,0,0,11,0,2,0,6,0,0,0.193162185944511,Low Risk
+368,27,Sales,Research Scientist,1,Medical,20000.0,4,3,2,3,0,13,3,0,1,4,3,2,0,7,5,3,0.03422023614236615,Low Risk
+369,47,R&D,Manager,1,Life Sciences,20000.0,4,3,3,3,0,0,0,0,5,9,2,0,0,6,4,1,0.4224943231375064,Medium Risk
+370,22,R&D,Analyst,4,Life Sciences,20000.0,3,3,3,3,0,7,0,0,9,6,3,1,0,6,0,1,0.19870916482087775,Low Risk
+371,34,R&D,Research Scientist,4,Marketing,20000.0,4,4,2,3,0,0,0,2,1,5,1,2,0,6,5,2,0.26188954736581566,Low Risk
+372,46,Engineering,HR Manager,4,Life Sciences,27700.0,2,3,3,4,0,6,5,0,4,1,2,1,0,0,3,1,0.03997802406328872,Low Risk
+373,26,Sales,Research Scientist,1,Medical,20000.0,3,1,4,3,0,1,1,1,4,13,1,1,1,7,5,3,0.7602733647890346,High Risk
+374,35,R&D,Director,2,Life Sciences,20000.0,4,2,3,3,1,3,3,2,2,24,4,1,1,6,1,1,0.819971647764953,High Risk
+375,33,Engineering,Sales Executive,5,Technical Degree,20000.0,4,3,4,3,0,0,0,5,0,8,6,0,0,0,6,5,0.3626314702970388,Medium Risk
+376,41,Engineering,Sales Executive,1,Life Sciences,20000.0,3,2,4,3,0,3,0,0,3,6,2,0,1,0,6,1,0.552777619114864,Medium Risk
+377,49,Finance,Analyst,2,Technical Degree,22900.0,3,3,3,3,0,10,1,1,3,14,0,2,0,1,0,5,0.019400047179694443,Low Risk
+378,32,R&D,Engineer,3,Other,20000.0,4,3,1,3,0,5,0,3,3,7,2,1,0,6,2,4,0.22587029854596807,Low Risk
+379,26,R&D,Engineer,4,Human Resources,25100.0,4,2,4,3,0,35,2,2,0,1,2,0,0,6,2,0,0.019235003293294323,Low Risk
+380,30,Sales,Engineer,2,Marketing,22000.0,3,3,3,3,0,0,0,6,2,1,1,0,0,7,2,2,0.043052310126477825,Low Risk
+381,53,Sales,Analyst,5,Medical,20000.0,4,3,3,3,0,2,0,1,3,14,3,0,0,7,0,3,0.3853270021860136,Medium Risk
+382,53,R&D,Engineer,3,Marketing,20000.0,4,4,4,4,1,1,1,0,3,29,3,0,1,6,2,2,0.6284793747813802,High Risk
+383,39,Finance,Analyst,1,Marketing,20000.0,2,3,3,3,1,0,0,0,0,1,2,2,0,1,0,2,0.27117728508045064,Low Risk
+384,41,Finance,HR Manager,2,Other,20000.0,3,4,3,3,0,6,0,0,2,9,1,0,0,1,3,4,0.2725915359091755,Low Risk
+385,30,Finance,Manager,4,Other,20000.0,4,2,3,3,0,21,3,7,3,8,3,1,0,1,4,4,0.07836076998875298,Low Risk
+386,45,Engineering,Analyst,3,Medical,20000.0,2,3,1,3,1,9,1,0,3,3,3,2,0,0,0,3,0.25548464201377813,Low Risk
+387,33,Engineering,Manager,3,Other,41900.0,2,2,1,3,0,11,0,0,3,2,2,0,0,0,4,4,0.018954880966754583,Low Risk
+388,28,Engineering,Engineer,3,Marketing,20000.0,4,4,4,4,1,20,6,0,5,1,2,2,0,0,2,2,0.014219806730587101,Low Risk
+389,38,Operations,Director,5,Marketing,20000.0,4,3,3,3,0,5,1,3,4,4,2,0,0,5,1,2,0.20843451988234973,Low Risk
+390,33,Finance,Manager,1,Technical Degree,35600.0,3,2,3,3,1,21,9,4,1,12,3,0,0,1,4,5,0.031427013680924175,Low Risk
+391,37,Sales,Manager,5,Marketing,20000.0,1,4,3,3,0,6,0,1,3,2,1,0,1,7,4,2,0.5095229604114815,Medium Risk
+392,35,R&D,Analyst,2,Medical,20000.0,3,1,4,3,1,1,1,1,3,14,2,2,1,6,0,3,0.8363724867935893,High Risk
+393,39,R&D,Analyst,4,Medical,20000.0,4,3,4,3,0,4,0,4,5,1,3,0,0,6,0,3,0.16189953674320695,Low Risk
+394,37,Sales,HR Manager,5,Marketing,20000.0,1,4,2,3,0,3,3,0,0,1,2,2,0,7,3,2,0.2203633963670307,Low Risk
+395,52,Engineering,HR Manager,3,Technical Degree,20000.0,4,2,1,3,0,4,4,5,3,3,2,2,0,0,3,5,0.22310891448254874,Low Risk
+396,42,Engineering,Engineer,3,Technical Degree,24100.0,3,2,4,3,1,24,5,0,2,2,2,0,0,0,2,5,0.01032979989053368,Low Risk
+397,33,Legal,HR Manager,5,Life Sciences,20000.0,4,1,3,4,0,10,2,0,2,8,4,2,0,3,3,1,0.08961038783535265,Low Risk
+398,40,Engineering,HR Manager,3,Technical Degree,20000.0,4,3,3,3,0,0,0,3,2,6,1,2,0,0,3,5,0.28958942453178244,Low Risk
+399,30,Operations,Research Scientist,4,Life Sciences,20000.0,3,4,4,3,0,0,0,4,3,4,2,0,0,5,5,1,0.40694571751278164,Medium Risk
+400,35,Engineering,Engineer,4,Life Sciences,20000.0,1,4,4,3,1,10,0,2,2,30,0,0,1,0,2,1,0.7383941266369564,High Risk
+401,26,Engineering,Research Scientist,4,Human Resources,20000.0,3,4,2,3,0,7,3,4,3,1,2,2,0,0,5,0,0.145559783904831,Low Risk
+402,26,Marketing,Engineer,1,Human Resources,20000.0,3,3,2,3,0,12,0,6,2,5,2,1,0,4,2,0,0.09346691882564144,Low Risk
+403,37,R&D,Engineer,5,Medical,20000.0,3,3,2,3,0,3,3,0,0,16,2,3,0,6,2,3,0.29171223539345176,Low Risk
+404,23,R&D,Manager,4,Medical,20000.0,4,2,3,4,0,3,2,0,4,5,3,2,0,6,4,3,0.29946361628615903,Low Risk
+405,37,Finance,Manager,4,Other,20000.0,4,1,2,3,0,0,0,0,4,1,4,1,1,1,4,4,0.5602142682353018,Medium Risk
+406,32,Finance,Engineer,2,Medical,20000.0,4,4,3,3,1,4,4,2,2,2,3,2,0,1,2,3,0.0826136941990864,Low Risk
+407,36,R&D,Manager,4,Technical Degree,20000.0,4,4,3,4,0,1,1,0,1,3,2,1,0,6,4,5,0.2155864995599068,Low Risk
+408,42,Sales,Engineer,4,Other,20000.0,4,2,4,3,0,4,4,11,1,1,2,2,0,7,2,4,0.20801731442645482,Low Risk
+409,45,Engineering,Research Scientist,4,Life Sciences,20000.0,3,2,3,3,0,4,1,3,0,9,1,1,0,0,5,1,0.43412993064253974,Medium Risk
+410,39,Marketing,Analyst,4,Other,20000.0,2,4,3,3,0,2,0,0,8,10,4,3,1,4,0,4,0.6058253875340163,High Risk
+411,28,HR,Manager,2,Other,20000.0,3,3,3,3,0,2,2,0,1,14,2,2,0,2,4,4,0.3697022422219374,Medium Risk
+412,41,R&D,Engineer,3,Other,20000.0,3,3,3,3,0,5,1,5,1,1,5,1,0,6,2,4,0.23607508328380722,Low Risk
+413,49,Engineering,Engineer,4,Marketing,20000.0,4,4,3,3,0,7,3,0,3,13,2,0,0,0,2,2,0.17352933655224245,Low Risk
+414,38,R&D,Manager,2,Marketing,20000.0,2,4,3,3,1,9,2,5,0,11,2,0,0,6,4,2,0.35094000618894744,Medium Risk
+415,22,Finance,Manager,3,Life Sciences,20000.0,3,3,3,3,0,23,0,3,2,6,3,0,0,1,4,1,0.05681569597865124,Low Risk
+416,24,Sales,Analyst,2,Marketing,20000.0,3,1,4,2,1,3,0,2,2,15,3,1,1,7,0,2,0.8027072067876122,High Risk
+417,39,Engineering,HR Manager,5,Life Sciences,20000.0,1,1,2,3,0,3,0,1,6,14,1,0,1,0,3,1,0.8154828031429686,High Risk
+418,33,Engineering,Research Scientist,2,Marketing,57300.0,3,4,2,2,0,0,0,2,8,3,3,2,0,0,5,2,0.034037470783774046,Low Risk
+419,56,Sales,Analyst,4,Technical Degree,34500.0,4,4,1,3,0,2,1,5,2,12,1,0,0,7,0,5,0.05556629933572807,Low Risk
+420,31,Engineering,HR Manager,1,Other,20000.0,2,4,4,3,1,3,3,0,0,1,3,1,0,0,3,4,0.20320875344447856,Low Risk
+421,33,HR,Engineer,2,Other,20000.0,2,4,3,3,0,10,1,6,3,4,2,0,0,2,2,4,0.13547445064699493,Low Risk
+422,41,R&D,Manager,2,Other,20000.0,4,3,4,3,1,0,0,1,3,11,2,0,0,6,4,4,0.43656183125644415,Medium Risk
+423,22,Sales,Engineer,3,Human Resources,20000.0,2,4,3,3,0,0,0,14,2,19,5,1,1,7,2,0,0.7600971586814196,High Risk
+424,43,Sales,Analyst,3,Life Sciences,20000.0,3,3,1,3,1,0,0,0,3,10,2,0,0,7,0,1,0.45876119161633583,Medium Risk
+425,33,Operations,Engineer,5,Other,20000.0,3,3,4,3,0,3,3,2,3,4,1,1,0,5,2,4,0.18948874648316122,Low Risk
+426,23,Finance,Manager,2,Life Sciences,20000.0,2,2,2,3,0,1,0,0,2,3,2,1,1,1,4,1,0.6041199563147264,High Risk
+427,32,R&D,Manager,4,Other,20000.0,3,3,2,3,0,12,6,0,2,3,1,0,0,6,4,4,0.0473080182813026,Low Risk
+428,46,Engineering,Analyst,3,Technical Degree,20000.0,3,4,4,3,0,7,0,1,1,4,3,2,0,0,0,5,0.19978696215341935,Low Risk
+429,38,Sales,Manager,4,Medical,20000.0,2,3,4,4,1,18,4,1,5,30,3,2,0,7,4,3,0.1896218237233394,Low Risk
+430,22,Sales,Engineer,2,Technical Degree,20000.0,1,2,4,3,0,9,0,8,2,22,2,2,0,7,2,5,0.34835473009293794,Medium Risk
+431,40,HR,Research Scientist,4,Marketing,20000.0,2,3,4,3,0,2,1,7,0,6,3,1,0,2,5,2,0.3833090761540414,Medium Risk
+432,33,Operations,Director,5,Human Resources,26400.0,3,3,2,3,0,0,0,1,3,3,3,1,0,5,1,0,0.03162063337509265,Low Risk
+433,37,R&D,Analyst,5,Other,20000.0,4,4,1,3,1,3,3,0,2,3,4,1,0,6,0,4,0.14407116416162802,Low Risk
+434,24,Sales,HR Manager,3,Medical,20000.0,2,4,4,3,0,2,1,1,1,1,1,2,0,7,3,3,0.24856523735704145,Low Risk
+435,44,Finance,HR Manager,1,Technical Degree,20000.0,4,4,2,3,0,4,3,9,3,1,3,3,0,1,3,5,0.11703814171442878,Low Risk
+436,44,Finance,HR Manager,1,Other,20000.0,3,3,3,3,0,3,1,2,3,15,4,1,0,1,3,4,0.5398776724884874,Medium Risk
+437,37,Engineering,Manager,4,Life Sciences,20000.0,4,4,2,3,0,3,3,1,0,11,2,1,1,0,4,1,0.4232044194720828,Medium Risk
+438,36,Finance,Manager,3,Medical,20000.0,3,4,1,3,0,2,1,1,1,4,6,1,0,1,4,3,0.29239825096958894,Low Risk
+439,46,R&D,Manager,4,Marketing,20000.0,3,3,3,3,1,8,0,0,0,7,2,2,1,6,4,2,0.631652628983607,High Risk
+440,40,HR,Director,4,Human Resources,23200.0,4,3,3,3,0,6,2,1,3,14,6,1,0,2,1,0,0.0564652559494656,Low Risk
+441,33,R&D,Analyst,2,Other,20000.0,2,3,3,3,0,3,0,1,5,12,1,1,0,6,0,4,0.39230974923562956,Medium Risk
+442,34,Sales,Engineer,2,Other,28600.0,2,2,4,3,0,1,1,0,2,3,4,1,0,7,2,4,0.05029759025398018,Low Risk
+443,40,Marketing,Director,2,Marketing,20000.0,3,2,2,3,0,11,2,0,2,2,3,0,0,4,1,2,0.11961826471613334,Low Risk
+444,52,R&D,Director,5,Life Sciences,20000.0,3,3,3,3,1,1,1,2,0,1,2,2,0,6,1,1,0.2773128323184896,Low Risk
+445,31,R&D,Research Scientist,4,Technical Degree,20000.0,3,1,3,4,0,30,16,0,5,7,1,1,0,6,5,5,0.06862038362579713,Low Risk
+446,32,Engineering,Sales Executive,1,Medical,20000.0,3,3,3,3,0,32,0,0,1,9,2,1,0,0,6,3,0.08542407295685175,Low Risk
+447,43,Engineering,Sales Executive,3,Life Sciences,20000.0,4,3,2,3,1,2,2,0,0,5,1,2,0,0,6,1,0.286151413335876,Low Risk
+448,31,Engineering,Analyst,3,Life Sciences,20000.0,3,1,3,3,0,0,0,5,2,30,4,1,1,0,0,1,0.839641813908573,High Risk
+449,27,Sales,Manager,1,Human Resources,20000.0,4,3,4,3,0,1,0,2,1,2,3,2,0,7,4,0,0.1677389840671638,Low Risk
+450,26,Operations,Sales Executive,3,Medical,20000.0,3,1,4,3,0,4,0,4,1,3,4,0,0,5,6,3,0.4533703571730377,Medium Risk
+451,49,Sales,Analyst,1,Other,20000.0,2,3,2,3,1,5,1,0,3,2,2,1,0,7,0,4,0.3023539266525119,Medium Risk
+452,28,HR,Sales Executive,4,Marketing,20500.0,1,3,4,3,0,6,2,10,1,15,2,2,0,2,6,2,0.06897303449979292,Low Risk
+453,33,R&D,Sales Executive,1,Other,20000.0,3,3,4,3,1,3,2,0,3,9,1,1,0,6,6,4,0.27820273854799027,Low Risk
+454,22,Engineering,Sales Executive,4,Medical,20000.0,3,3,4,3,1,1,1,0,1,15,6,0,1,0,6,3,0.7050206643639514,High Risk
+455,35,Marketing,Sales Executive,4,Marketing,20000.0,3,2,4,3,0,7,7,4,3,4,4,3,0,4,6,2,0.24689343250499182,Low Risk
+456,32,R&D,HR Manager,5,Technical Degree,28500.0,1,4,1,3,1,3,0,3,2,2,3,2,0,6,3,5,0.054141571296081416,Low Risk
+457,34,Sales,Manager,4,Life Sciences,20000.0,3,3,3,3,1,2,0,2,0,2,3,2,0,7,4,1,0.3372966238821155,Medium Risk
+458,32,Finance,Research Scientist,2,Other,20000.0,3,3,3,3,0,13,0,8,2,15,4,1,0,1,5,4,0.16556314428227673,Low Risk
+459,36,Engineering,HR Manager,1,Medical,20000.0,4,2,2,3,0,0,0,2,5,1,5,1,0,0,3,3,0.34045310990640437,Medium Risk
+460,34,Sales,Director,3,Technical Degree,20000.0,3,4,4,3,1,6,1,3,2,9,2,1,0,7,1,5,0.38229669997303006,Medium Risk
+461,34,Sales,Analyst,4,Other,20000.0,4,3,3,3,0,13,5,0,2,4,1,0,0,7,0,4,0.03858219664062638,Low Risk
+462,29,R&D,HR Manager,2,Life Sciences,22200.0,2,4,2,3,0,4,4,1,5,5,3,1,0,6,3,1,0.029821131054955395,Low Risk
+463,29,R&D,Analyst,4,Medical,20000.0,4,2,3,3,0,2,0,6,1,30,2,0,1,6,0,3,0.7476351405872983,High Risk
+464,43,R&D,Analyst,4,Technical Degree,28800.0,4,2,2,3,0,5,1,6,1,2,1,1,0,6,0,5,0.018694943026095895,Low Risk
+465,34,Marketing,Analyst,2,Human Resources,32500.0,3,3,2,3,0,1,1,5,2,30,3,3,0,4,0,0,0.08328247476361895,Low Risk
+466,46,Engineering,Engineer,4,Other,20000.0,3,4,4,3,0,6,1,0,0,5,2,2,0,0,2,4,0.2494607401285687,Low Risk
+467,32,R&D,Research Scientist,3,Medical,20000.0,4,2,2,3,0,1,0,2,0,18,2,0,0,6,5,3,0.6463386312020326,High Risk
+468,30,Engineering,Research Scientist,1,Life Sciences,20000.0,2,1,4,3,1,4,1,2,5,4,1,1,0,0,5,1,0.45301311764370134,Medium Risk
+469,45,Legal,Research Scientist,3,Other,22200.0,4,4,4,3,1,0,0,0,3,3,2,2,0,3,5,4,0.025697837981087095,Low Risk
+470,34,Sales,Research Scientist,5,Other,20000.0,4,4,4,3,0,15,0,2,3,4,5,0,0,7,5,4,0.050065122396916656,Low Risk
+471,33,Sales,Director,3,Marketing,20000.0,3,4,3,3,1,8,2,1,5,9,1,1,0,7,1,2,0.2218479735092856,Low Risk
+472,32,Sales,HR Manager,2,Other,20000.0,3,3,4,3,0,2,2,0,8,11,2,0,0,7,3,4,0.295222449140412,Low Risk
+473,48,HR,Sales Executive,2,Human Resources,26500.0,1,2,3,4,0,10,1,0,3,27,1,0,0,2,6,0,0.04273398792050728,Low Risk
+474,36,R&D,Engineer,4,Other,20000.0,4,4,3,3,0,1,1,2,5,3,2,0,0,6,2,4,0.3021482235052047,Medium Risk
+475,41,HR,Manager,2,Technical Degree,20000.0,3,2,3,3,0,23,5,2,3,9,3,1,0,2,4,5,0.10189385390938704,Low Risk
+476,45,Finance,Research Scientist,2,Other,20000.0,3,3,1,3,0,0,0,2,4,3,4,0,0,1,5,4,0.3414186945758928,Medium Risk
+477,39,R&D,Analyst,5,Other,20000.0,1,3,3,3,0,0,0,4,3,3,2,1,0,6,0,4,0.4224775519878174,Medium Risk
+478,26,Finance,HR Manager,5,Marketing,20000.0,4,2,3,3,1,5,3,1,2,4,2,2,1,1,3,2,0.5732499497816765,Medium Risk
+479,39,R&D,Sales Executive,3,Human Resources,45400.0,2,2,3,4,0,4,4,0,2,2,0,0,0,6,6,0,0.02576517128599354,Low Risk
+480,47,R&D,Engineer,3,Technical Degree,20000.0,4,3,3,3,0,2,1,0,5,9,3,2,1,6,2,5,0.5257740044946442,Medium Risk
+481,43,Engineering,Sales Executive,5,Marketing,20000.0,3,3,3,3,1,2,0,0,1,5,5,1,1,0,6,2,0.5736310779135954,Medium Risk
+482,38,Sales,Analyst,2,Medical,20000.0,2,3,3,3,1,19,1,1,6,4,2,2,0,7,0,3,0.09506516249662339,Low Risk
+483,31,Engineering,Analyst,2,Life Sciences,20000.0,3,3,3,3,0,0,0,0,1,30,2,1,1,0,0,1,0.6829077922210613,High Risk
+484,44,Operations,Director,5,Marketing,20000.0,1,3,2,3,0,4,3,1,0,3,3,2,0,5,1,2,0.2479115828308807,Low Risk
+485,22,R&D,HR Manager,4,Other,20000.0,3,4,1,3,0,1,1,3,2,2,2,1,0,6,3,4,0.24401703715368275,Low Risk
+486,45,Marketing,Sales Executive,4,Other,20000.0,4,2,2,3,0,4,3,1,4,1,1,2,0,4,6,4,0.2150222635664118,Low Risk
+487,47,Engineering,Research Scientist,2,Life Sciences,20000.0,3,2,2,3,0,8,4,1,4,6,5,0,0,0,5,1,0.1881805578696369,Low Risk
+488,28,Sales,Research Scientist,2,Technical Degree,25700.0,3,2,3,4,1,8,2,0,3,2,2,1,0,7,5,5,0.020856268400014498,Low Risk
+489,36,Marketing,Manager,4,Technical Degree,25700.0,3,4,4,3,0,0,0,7,2,2,2,0,0,4,4,5,0.04899862074003497,Low Risk
+490,22,R&D,Sales Executive,3,Life Sciences,24500.0,4,2,3,3,1,3,1,4,4,30,5,0,0,6,6,1,0.06771224474828177,Low Risk
+491,35,Sales,HR Manager,3,Life Sciences,20000.0,3,3,4,3,0,1,1,6,0,1,3,0,0,7,3,1,0.24587641078555453,Low Risk
+492,30,R&D,Research Scientist,1,Human Resources,20000.0,3,4,3,4,1,1,1,2,0,11,2,1,0,6,5,0,0.36762580525649313,Medium Risk
+493,24,Operations,Analyst,4,Medical,20000.0,3,3,4,3,0,0,0,2,3,11,3,1,0,5,0,3,0.3883948879026996,Medium Risk
+494,38,HR,Engineer,4,Marketing,20000.0,3,3,3,3,1,0,0,1,2,2,4,2,0,2,2,2,0.39968265418452104,Medium Risk
+495,50,Marketing,HR Manager,3,Technical Degree,20000.0,4,3,3,3,0,0,0,7,3,2,4,0,0,4,3,5,0.25955468137276955,Low Risk
+496,44,Engineering,Manager,3,Human Resources,20000.0,3,2,3,3,0,15,8,2,0,16,1,2,0,0,4,0,0.12505098486408275,Low Risk
+497,32,R&D,Manager,3,Life Sciences,20000.0,1,2,2,3,1,6,0,1,3,5,2,0,0,6,4,1,0.5520697492618942,Medium Risk
+498,49,R&D,HR Manager,5,Marketing,26200.0,1,4,3,3,0,0,0,1,2,28,3,1,0,6,3,2,0.06672570235962828,Low Risk
+499,44,Finance,Sales Executive,3,Medical,20000.0,2,3,3,3,0,12,4,2,2,4,2,0,0,1,6,3,0.08201655733285153,Low Risk
+500,54,Finance,Sales Executive,3,Technical Degree,25500.0,3,1,3,3,1,5,3,2,4,1,2,1,0,1,6,5,0.018902031933261967,Low Risk
+501,33,Sales,Sales Executive,4,Life Sciences,20000.0,4,3,4,1,0,9,0,0,3,6,4,2,0,7,6,1,0.1336141315651054,Low Risk
+502,44,HR,Manager,2,Life Sciences,20000.0,3,3,4,3,0,0,0,3,3,4,1,0,0,2,4,1,0.3396633002211184,Medium Risk
+503,53,Finance,Manager,3,Medical,31100.0,4,2,1,3,0,2,1,2,3,5,1,0,0,1,4,3,0.052536342976561776,Low Risk
+504,22,Engineering,HR Manager,2,Marketing,20000.0,1,1,3,1,0,2,0,2,3,1,3,1,1,0,3,2,0.7906059423540153,High Risk
+505,42,Operations,Director,4,Marketing,20000.0,4,4,3,3,1,1,1,4,3,29,1,1,1,5,1,2,0.8279543882254717,High Risk
+506,26,Finance,Research Scientist,2,Medical,20000.0,4,2,2,3,0,5,0,2,3,1,4,0,0,1,5,3,0.2509317458120988,Low Risk
+507,30,Marketing,Analyst,2,Life Sciences,20000.0,4,4,4,3,0,8,1,1,4,1,1,0,0,4,0,1,0.07608498252555113,Low Risk
+508,36,Finance,Sales Executive,3,Other,20000.0,3,3,2,3,1,12,12,1,1,23,2,1,1,1,6,4,0.6136940364761359,High Risk
+509,39,R&D,Sales Executive,4,Technical Degree,21500.0,2,2,4,3,0,5,3,0,2,8,2,2,0,6,6,5,0.06645907104235463,Low Risk
+510,51,Sales,Analyst,1,Medical,20000.0,3,3,4,3,0,2,2,5,2,17,3,2,1,7,0,3,0.5251718964466995,Medium Risk
+511,37,Sales,Manager,4,Human Resources,22900.0,2,3,4,3,0,6,2,3,1,3,3,3,0,7,4,0,0.03810991877851747,Low Risk
+512,36,Finance,Engineer,3,Life Sciences,23900.0,4,2,4,3,0,9,3,0,1,6,2,2,0,1,2,1,0.01358846888086538,Low Risk
+513,30,R&D,Director,3,Medical,20000.0,2,4,2,3,0,1,1,0,1,3,3,0,0,6,1,3,0.34945228387743177,Medium Risk
+514,26,R&D,Manager,4,Human Resources,20000.0,4,1,2,3,0,14,1,1,5,1,2,1,0,6,4,0,0.07026499502136584,Low Risk
+515,25,Finance,HR Manager,4,Technical Degree,20000.0,3,2,3,3,1,4,4,1,2,11,5,3,1,1,3,5,0.41671004041926857,Medium Risk
+516,43,R&D,Engineer,1,Marketing,20000.0,3,3,3,3,0,3,3,0,4,11,3,1,0,6,2,2,0.2849910614777651,Low Risk
+517,28,Sales,Analyst,5,Life Sciences,28300.0,3,2,4,3,0,6,6,1,2,14,2,0,0,7,0,1,0.056397009702336784,Low Risk
+518,50,Sales,Sales Executive,5,Human Resources,20000.0,3,3,3,3,0,9,2,0,1,2,2,0,0,7,6,0,0.08161902114484318,Low Risk
+519,41,Engineering,HR Manager,3,Marketing,27600.0,3,2,3,3,1,2,1,4,3,17,1,1,0,0,3,2,0.057209034140111685,Low Risk
+520,47,Sales,Manager,2,Marketing,20000.0,4,3,4,3,0,0,0,0,2,4,3,0,0,7,4,2,0.2661343827854662,Low Risk
+521,34,Engineering,Sales Executive,5,Medical,20000.0,1,2,1,3,0,5,5,0,2,14,4,2,0,0,6,3,0.3251999369380261,Medium Risk
+522,49,R&D,Engineer,1,Life Sciences,20000.0,3,3,3,3,0,4,3,2,1,16,2,1,0,6,2,1,0.48791562941078115,Medium Risk
+523,33,Marketing,Engineer,4,Human Resources,29100.0,1,4,3,3,0,0,0,0,1,1,2,2,0,4,2,0,0.04605260491104835,Low Risk
+524,36,Engineering,Sales Executive,5,Medical,50900.0,3,2,3,3,1,7,0,0,2,1,3,2,0,0,6,3,0.03522464109239892,Low Risk
+525,23,Finance,Analyst,1,Medical,20000.0,3,4,4,3,0,7,3,3,9,4,1,0,0,1,0,3,0.1357268455331157,Low Risk
+526,23,Sales,Manager,2,Medical,20000.0,3,3,3,3,1,1,1,3,3,1,2,0,0,7,4,3,0.3845240887701189,Medium Risk
+527,30,Sales,Director,4,Life Sciences,20000.0,3,4,4,3,0,2,2,1,2,20,2,3,0,7,1,1,0.3776948889846567,Medium Risk
+528,39,Sales,Director,2,Other,20000.0,3,3,4,3,0,9,2,1,1,24,4,1,0,7,1,4,0.3155864380388008,Medium Risk
+529,39,R&D,Manager,3,Medical,20000.0,4,2,2,3,0,6,1,0,6,5,1,0,0,6,4,3,0.3201403501611316,Medium Risk
+530,42,Finance,HR Manager,3,Human Resources,20000.0,4,3,2,3,0,11,7,2,2,21,2,1,0,1,3,0,0.2164042338023416,Low Risk
+531,38,Marketing,Sales Executive,2,Other,20500.0,3,3,4,3,0,4,2,0,3,30,3,0,0,4,6,4,0.09786522865139624,Low Risk
+532,22,HR,HR Manager,3,Life Sciences,20000.0,3,4,4,3,0,7,1,5,1,1,2,0,0,2,3,1,0.1564843965678448,Low Risk
+533,31,Engineering,Research Scientist,3,Technical Degree,20000.0,4,4,4,3,1,1,0,3,3,2,4,2,0,0,5,5,0.20631893422254324,Low Risk
+534,32,Finance,Manager,2,Human Resources,20000.0,3,2,3,3,1,6,0,2,1,3,1,2,0,1,4,0,0.38369180085529214,Medium Risk
+535,40,R&D,HR Manager,3,Other,20000.0,4,3,4,2,1,0,0,1,0,10,3,3,0,6,3,4,0.41460517408053754,Medium Risk
+536,43,R&D,Engineer,2,Marketing,20000.0,2,1,4,3,1,4,2,2,5,5,1,0,1,6,2,2,0.7226447303001231,High Risk
+537,29,Sales,Research Scientist,3,Human Resources,20000.0,4,4,1,3,0,16,1,1,1,16,1,0,0,7,5,0,0.1091474647661343,Low Risk
+538,22,Finance,Research Scientist,2,Technical Degree,23600.0,1,4,3,3,0,1,1,3,4,13,3,1,0,1,5,5,0.06866709048640697,Low Risk
+539,40,Engineering,HR Manager,3,Medical,20000.0,4,4,3,3,1,0,0,0,3,1,4,2,0,0,3,3,0.23770625713597188,Low Risk
+540,48,R&D,Analyst,4,Human Resources,20000.0,3,3,2,3,0,1,1,0,3,1,3,2,0,6,0,0,0.2555376281380006,Low Risk
+541,48,Engineering,Sales Executive,1,Technical Degree,20000.0,4,4,3,3,1,10,4,1,2,3,4,2,0,0,6,5,0.07806309888244173,Low Risk
+542,32,R&D,Sales Executive,4,Other,20000.0,4,3,3,3,1,4,1,1,2,6,3,1,0,6,6,4,0.2874755915082621,Low Risk
+543,34,Engineering,HR Manager,4,Human Resources,20000.0,3,1,1,3,1,7,0,3,2,4,4,1,1,0,3,0,0.6878549696386088,High Risk
+544,30,R&D,Analyst,3,Human Resources,20000.0,2,4,3,3,1,0,0,3,4,10,2,1,1,6,0,0,0.5767313863420884,Medium Risk
+545,47,Sales,Director,3,Technical Degree,23900.0,3,1,3,4,1,0,0,3,1,10,1,1,0,7,1,5,0.05109035529853871,Low Risk
+546,34,Engineering,Sales Executive,3,Life Sciences,20000.0,4,2,2,3,1,1,0,0,4,18,2,1,1,0,6,1,0.5759606452006256,Medium Risk
+547,42,HR,HR Manager,2,Human Resources,20000.0,2,2,1,3,1,3,1,4,4,1,5,1,0,2,3,0,0.3671169495158119,Medium Risk
+548,36,R&D,Research Scientist,2,Technical Degree,20000.0,4,4,4,3,0,8,0,2,1,1,0,0,0,6,5,5,0.06737260540847644,Low Risk
+549,44,R&D,Engineer,3,Marketing,20000.0,3,3,3,3,0,23,2,0,4,1,4,0,0,6,2,2,0.0663686706428546,Low Risk
+550,51,Sales,Director,3,Other,20000.0,2,3,2,3,0,7,0,0,1,5,5,1,0,7,1,4,0.33161854383087835,Medium Risk
+551,34,Engineering,Research Scientist,3,Marketing,20000.0,2,2,1,3,0,0,0,0,2,1,1,1,0,0,5,2,0.3892344347462614,Medium Risk
+552,38,Sales,HR Manager,3,Life Sciences,25700.0,4,4,4,3,1,14,4,4,1,1,2,0,0,7,3,1,0.01388089044988798,Low Risk
+553,35,Sales,Sales Executive,5,Other,20000.0,4,2,3,3,0,3,3,0,2,3,2,1,0,7,6,4,0.30916733573581895,Medium Risk
+554,34,R&D,HR Manager,5,Life Sciences,35200.0,3,4,3,3,0,3,3,1,1,10,4,3,0,6,3,1,0.0321575458525527,Low Risk
+555,29,Marketing,Manager,2,Marketing,20000.0,3,4,4,3,0,5,2,2,4,12,2,0,0,4,4,2,0.33622202535353646,Medium Risk
+556,24,Marketing,Manager,2,Medical,29000.0,4,2,4,3,1,5,1,1,5,4,2,2,0,4,4,3,0.05141627358966909,Low Risk
+557,22,R&D,Director,4,Life Sciences,20000.0,2,3,4,3,0,6,0,2,2,1,1,0,0,6,1,1,0.27125362772124273,Low Risk
+558,36,Finance,Director,4,Human Resources,20000.0,1,3,1,3,0,4,0,4,0,2,4,1,0,1,1,0,0.25709910541414793,Low Risk
+559,34,R&D,HR Manager,5,Human Resources,20000.0,3,2,4,3,1,0,0,7,3,3,3,0,1,6,3,0,0.7317195830228775,High Risk
+560,43,Sales,Director,2,Other,20000.0,1,3,4,3,0,4,4,0,2,18,2,1,1,7,1,4,0.729882983599115,High Risk
+561,33,Sales,Engineer,3,Human Resources,20000.0,1,3,4,3,0,13,2,1,2,1,2,0,0,7,2,0,0.14967274681981174,Low Risk
+562,22,R&D,Analyst,4,Other,30300.0,2,2,4,3,1,1,1,0,2,4,1,0,0,6,0,4,0.0661574210278107,Low Risk
+563,42,R&D,Analyst,4,Human Resources,20000.0,4,3,4,3,0,5,1,0,3,11,0,0,0,6,0,0,0.2765189508118656,Low Risk
+564,57,R&D,Analyst,3,Other,20000.0,3,4,4,3,0,5,5,0,1,4,3,1,0,6,0,4,0.16983636542255617,Low Risk
+565,32,Sales,Engineer,4,Medical,24900.0,3,4,3,3,1,2,2,1,1,24,4,1,0,7,2,3,0.05293277215849386,Low Risk
+566,43,Sales,HR Manager,3,Technical Degree,25800.0,3,3,2,3,0,0,0,1,3,2,3,0,0,7,3,5,0.05042372932165195,Low Risk
+567,45,Engineering,Manager,1,Marketing,20000.0,2,2,3,3,0,22,4,0,5,1,4,1,0,0,4,2,0.06526568391139996,Low Risk
+568,26,R&D,Director,4,Marketing,20000.0,2,3,3,1,0,0,0,4,3,14,2,1,0,6,1,2,0.547641434393289,Medium Risk
+569,27,Sales,Analyst,4,Human Resources,20000.0,2,3,4,3,0,1,1,4,3,6,2,1,0,7,0,0,0.37991145189365966,Medium Risk
+570,40,R&D,HR Manager,5,Medical,20000.0,4,3,4,3,0,0,0,0,3,8,4,3,0,6,3,3,0.3768813892011467,Medium Risk
+571,29,HR,Research Scientist,3,Marketing,29500.0,3,4,3,3,0,0,0,0,1,11,4,0,0,2,5,2,0.05404366379369556,Low Risk
+572,23,Sales,Research Scientist,4,Other,20000.0,3,4,1,3,0,4,4,1,3,10,4,1,0,7,5,4,0.20549068000091658,Low Risk
+573,38,R&D,Research Scientist,3,Other,20000.0,4,4,3,3,1,17,0,1,2,7,1,2,0,6,5,4,0.14645307681468278,Low Risk
+574,56,Sales,Manager,1,Other,20000.0,4,4,2,3,1,0,0,10,3,1,2,0,0,7,4,4,0.23357556413665814,Low Risk
+575,22,Marketing,Research Scientist,2,Human Resources,20000.0,1,4,2,3,0,12,3,2,0,1,5,2,0,4,5,0,0.05359300684655603,Low Risk
+576,27,Engineering,Manager,1,Human Resources,20000.0,1,4,3,3,0,3,0,2,3,9,1,3,0,0,4,0,0.3409861696109497,Medium Risk
+577,40,Sales,Manager,4,Marketing,20000.0,1,4,4,3,0,0,0,0,0,1,2,0,0,7,4,2,0.32843382231229434,Medium Risk
+578,30,Sales,Director,5,Other,20000.0,4,1,4,3,0,0,0,1,1,1,2,1,0,7,1,4,0.2777668166703503,Low Risk
+579,31,Finance,Engineer,4,Medical,20000.0,4,4,4,3,1,4,2,0,1,28,1,1,0,1,2,3,0.34372483976009455,Medium Risk
+580,33,Finance,Sales Executive,3,Other,20000.0,4,4,3,3,0,0,0,1,2,1,3,1,0,1,6,4,0.19506225244110081,Low Risk
+581,31,Engineering,Manager,3,Other,20000.0,1,4,4,3,1,0,0,0,2,2,0,0,0,0,4,4,0.4397243196492544,Medium Risk
+582,33,R&D,Manager,4,Other,45400.0,4,4,2,3,0,2,2,2,4,1,2,0,0,6,4,4,0.02139633191460171,Low Risk
+583,30,Sales,Director,1,Life Sciences,20000.0,2,3,2,3,1,18,0,1,1,3,0,1,0,7,1,1,0.07663307034980077,Low Risk
+584,42,R&D,Engineer,4,Other,20000.0,1,4,3,3,1,1,1,3,3,7,1,1,1,6,2,4,0.7317145696698368,High Risk
+585,32,Marketing,Manager,1,Other,20000.0,3,3,3,3,0,2,0,2,1,2,2,1,0,4,4,4,0.2730374478618712,Low Risk
+586,29,R&D,Research Scientist,4,Other,20000.0,1,3,4,3,0,3,3,0,6,30,5,1,1,6,5,4,0.7581319826229289,High Risk
+587,37,Engineering,Research Scientist,3,Other,22600.0,3,3,2,2,0,3,1,0,1,1,3,1,0,0,5,4,0.03336317963268818,Low Risk
+588,42,R&D,Director,3,Medical,20000.0,2,2,4,3,0,35,1,0,1,9,2,0,0,6,1,3,0.13204625107912185,Low Risk
+589,38,Marketing,HR Manager,2,Other,20000.0,3,3,3,3,0,5,1,0,0,30,2,2,1,4,3,4,0.7025968645399634,High Risk
+590,40,HR,Manager,2,Technical Degree,22400.0,3,3,3,3,0,4,2,0,3,16,2,0,0,2,4,5,0.04568816325217326,Low Risk
+591,47,Sales,Analyst,3,Life Sciences,20000.0,2,3,3,4,0,4,2,7,2,26,2,1,1,7,0,1,0.75264705867141,High Risk
+592,22,HR,Sales Executive,3,Life Sciences,20000.0,3,3,3,4,0,0,0,0,2,14,2,1,0,2,6,1,0.44622464457392574,Medium Risk
+593,24,Sales,Sales Executive,5,Technical Degree,20000.0,2,3,4,3,0,18,3,5,3,15,5,1,0,7,6,5,0.14618881907980652,Low Risk
+594,27,Finance,HR Manager,3,Other,20000.0,1,2,2,3,0,3,3,1,2,2,5,2,0,1,3,4,0.4536505535556094,Medium Risk
+595,24,R&D,Engineer,5,Marketing,20000.0,3,4,3,4,0,5,3,5,1,1,5,2,0,6,2,2,0.1604644667438054,Low Risk
+596,36,Sales,Sales Executive,2,Technical Degree,20000.0,4,3,1,3,0,1,0,0,0,17,4,1,0,7,6,5,0.5577386125156427,Medium Risk
+597,36,Finance,Research Scientist,4,Human Resources,24600.0,3,3,1,3,0,2,1,1,1,1,2,1,0,1,5,0,0.02924930415512028,Low Risk
+598,46,Marketing,Research Scientist,2,Human Resources,21000.0,3,4,2,2,0,18,5,1,0,1,1,2,0,4,5,0,0.0034245059442447505,Low Risk
+599,34,Engineering,Engineer,2,Marketing,20000.0,3,1,4,3,1,2,2,2,2,2,3,3,0,0,2,2,0.4253354663262438,Medium Risk
+600,25,R&D,Director,5,Technical Degree,23900.0,3,3,4,3,0,13,1,0,5,9,2,1,0,6,1,5,0.008011849627566878,Low Risk
+601,49,Sales,Director,2,Life Sciences,20000.0,3,1,3,3,0,1,1,1,4,16,4,0,1,7,1,1,0.7903544739006533,High Risk
+602,47,Finance,Director,2,Human Resources,20000.0,2,3,4,3,0,1,1,0,3,2,2,2,0,1,1,0,0.31628872760032023,Medium Risk
+603,38,Engineering,Research Scientist,4,Other,20000.0,3,1,4,3,1,7,0,0,2,1,3,2,0,0,5,4,0.42172720055410473,Medium Risk
+604,52,R&D,Manager,3,Human Resources,20000.0,4,3,3,3,0,1,0,4,2,7,3,2,0,6,4,0,0.4125644103818089,Medium Risk
+605,60,Operations,Engineer,4,Human Resources,20000.0,3,3,4,3,0,21,1,1,3,1,2,1,0,5,2,0,0.06992509656792423,Low Risk
+606,30,Sales,Manager,2,Medical,20000.0,4,4,2,3,1,12,0,1,1,30,1,0,0,7,4,3,0.22406420379865072,Low Risk
+607,30,Engineering,Director,3,Human Resources,20000.0,3,3,1,3,1,2,2,0,4,2,2,0,0,0,1,0,0.24969484752608714,Low Risk
+608,43,Engineering,Director,5,Human Resources,20000.0,2,3,4,3,1,7,0,1,2,4,2,3,1,0,1,0,0.6297708897795757,High Risk
+609,33,Finance,Analyst,3,Human Resources,20000.0,1,1,3,3,0,1,1,1,1,21,1,1,1,1,0,0,0.8781024007523746,High Risk
+610,43,Finance,Director,4,Other,20000.0,4,2,4,3,1,0,0,1,1,7,2,0,0,1,1,4,0.5073648368162974,Medium Risk
+611,43,R&D,HR Manager,4,Other,29900.0,4,3,2,3,0,0,0,0,1,7,3,0,0,6,3,4,0.053991752408288754,Low Risk
+612,31,Sales,Research Scientist,1,Medical,26700.0,3,1,2,3,0,10,1,5,4,23,2,1,0,7,5,3,0.0768115746508749,Low Risk
+613,46,Finance,Engineer,5,Life Sciences,20000.0,3,3,3,3,0,4,4,1,0,9,2,2,0,1,2,1,0.24974739889227301,Low Risk
+614,43,R&D,Director,1,Human Resources,20000.0,3,3,4,3,0,5,5,1,1,15,5,2,1,6,1,0,0.6457839001569486,High Risk
+615,33,Sales,Manager,4,Human Resources,20000.0,3,4,2,3,0,11,9,1,3,11,2,1,0,7,4,0,0.08838876394827432,Low Risk
+616,46,Sales,HR Manager,5,Medical,22400.0,3,1,4,3,1,12,3,3,4,6,2,0,0,7,3,3,0.06554421944920197,Low Risk
+617,60,Sales,Engineer,2,Life Sciences,20000.0,2,3,4,3,0,1,1,0,3,1,1,0,0,7,2,1,0.3092133206018797,Medium Risk
+618,43,Engineering,Research Scientist,4,Human Resources,20000.0,2,3,4,3,1,8,3,3,1,20,2,1,1,0,5,0,0.789996305043469,High Risk
+619,23,Finance,Sales Executive,1,Technical Degree,20000.0,3,3,3,4,0,1,1,0,4,1,1,3,0,1,6,5,0.15062783583914777,Low Risk
+620,33,R&D,Research Scientist,3,Human Resources,34100.0,1,4,3,3,1,8,1,2,6,29,1,0,0,6,5,0,0.05134811460159845,Low Risk
+621,32,Engineering,Engineer,2,Medical,20000.0,3,3,4,3,1,13,1,2,1,5,2,0,0,0,2,3,0.12809142957011396,Low Risk
+622,29,Operations,Research Scientist,2,Medical,35300.0,3,3,3,3,0,10,0,0,5,11,4,2,0,5,5,3,0.02243967461704827,Low Risk
+623,41,Engineering,HR Manager,4,Life Sciences,20000.0,3,3,3,3,0,11,1,0,3,20,1,0,0,0,3,1,0.20784273330574105,Low Risk
+624,53,Sales,Research Scientist,4,Human Resources,20000.0,4,4,3,3,0,13,2,7,1,8,2,1,0,7,5,0,0.11575500045803984,Low Risk
+625,38,R&D,Engineer,2,Medical,20000.0,3,4,4,4,1,2,0,3,4,29,1,2,1,6,2,3,0.8326622594484693,High Risk
+626,27,Sales,HR Manager,3,Marketing,20000.0,1,4,3,3,1,3,0,2,2,11,2,2,0,7,3,2,0.5050084986627857,Medium Risk
+627,41,R&D,Manager,4,Medical,20000.0,2,3,3,3,1,4,1,0,1,6,3,0,1,6,4,3,0.5679284087910647,Medium Risk
+628,25,R&D,Sales Executive,3,Technical Degree,20000.0,4,3,3,4,0,35,3,1,6,5,1,1,0,6,6,5,0.05198349190084986,Low Risk
+629,44,R&D,Engineer,1,Life Sciences,20000.0,3,3,2,3,0,6,1,0,2,1,2,1,1,6,2,1,0.3261973461540409,Medium Risk
+630,38,Engineering,Director,5,Technical Degree,20000.0,3,2,4,4,0,8,3,1,3,22,2,1,0,0,1,5,0.2231075904161842,Low Risk
+631,31,Engineering,Manager,5,Technical Degree,20000.0,2,3,3,3,0,9,4,3,2,14,3,1,1,0,4,5,0.6154766183907789,High Risk
+632,29,Sales,Sales Executive,3,Medical,20000.0,4,2,3,3,0,5,4,2,3,3,4,3,0,7,6,3,0.19786072175061625,Low Risk
+633,40,Operations,HR Manager,1,Technical Degree,20000.0,3,3,4,3,0,7,0,4,2,10,6,1,1,5,3,5,0.5623602833707064,Medium Risk
+634,46,Finance,Analyst,3,Human Resources,26800.0,3,4,2,3,0,1,1,3,0,1,2,3,0,1,0,0,0.011610205282775591,Low Risk
+635,48,Sales,Director,3,Life Sciences,20000.0,4,1,3,3,0,10,0,0,2,12,0,0,0,7,1,1,0.15144881451064465,Low Risk
+636,37,HR,Sales Executive,3,Technical Degree,20000.0,3,3,4,3,1,2,2,0,1,3,2,1,0,2,6,5,0.2851347061791119,Low Risk
+637,38,HR,Engineer,2,Other,38700.0,3,3,2,4,0,3,0,0,1,9,2,2,0,2,2,4,0.0436501842529942,Low Risk
+638,34,Operations,HR Manager,4,Technical Degree,24800.0,4,1,3,3,0,7,1,1,3,2,1,1,0,5,3,5,0.02960004767030957,Low Risk
+639,27,Finance,Manager,3,Other,20000.0,3,3,1,3,0,1,0,0,2,30,2,1,0,1,4,4,0.5524297678644988,Medium Risk
+640,28,Sales,Analyst,3,Life Sciences,20000.0,2,4,4,3,0,0,0,10,2,6,2,1,0,7,0,1,0.38567252869787166,Medium Risk
+641,48,R&D,Engineer,2,Medical,26100.0,4,2,3,3,0,5,3,1,6,14,1,2,0,6,2,3,0.0636346686857324,Low Risk
+642,29,Engineering,Director,2,Other,20000.0,2,1,4,3,0,0,0,0,4,2,2,2,0,0,1,4,0.5035777333382354,Medium Risk
+643,50,HR,Engineer,4,Marketing,20000.0,2,2,3,3,0,11,1,5,1,15,4,1,1,2,2,2,0.402424053319011,Medium Risk
+644,30,Marketing,Analyst,2,Technical Degree,20000.0,2,3,4,3,1,9,2,3,0,7,1,0,0,4,0,5,0.2966519505414352,Low Risk
+645,22,Engineering,Director,3,Life Sciences,20000.0,2,3,4,3,0,25,2,1,4,3,0,0,0,0,1,1,0.04401430008010019,Low Risk
+646,30,Sales,Director,1,Human Resources,28100.0,3,4,4,3,0,3,0,6,0,6,1,0,0,7,1,0,0.033289720719142886,Low Risk
+647,38,Finance,HR Manager,5,Life Sciences,20000.0,4,3,3,3,0,1,0,0,0,10,5,1,0,1,3,1,0.31035033074637913,Medium Risk
+648,34,R&D,Research Scientist,4,Life Sciences,20000.0,4,2,4,3,0,18,0,0,1,1,3,1,0,6,5,1,0.06202401849501296,Low Risk
+649,40,R&D,Analyst,1,Other,20000.0,3,2,3,3,0,4,2,1,2,10,1,0,0,6,0,4,0.42603726006049597,Medium Risk
+650,55,Sales,HR Manager,2,Life Sciences,20000.0,4,4,3,3,0,5,4,1,0,4,2,1,0,7,3,1,0.1369988147967579,Low Risk
+651,38,Sales,Manager,3,Human Resources,20200.0,2,3,3,3,0,10,4,0,1,28,3,0,0,7,4,0,0.22296570623106068,Low Risk
+652,35,Engineering,Engineer,4,Other,20000.0,2,2,4,3,0,1,0,0,0,10,1,3,0,0,2,4,0.3805321699239282,Medium Risk
+653,31,R&D,HR Manager,3,Life Sciences,38200.0,3,3,4,3,1,0,0,2,3,7,3,3,0,6,3,1,0.04638805535384421,Low Risk
+654,33,Sales,Engineer,1,Technical Degree,21000.0,3,1,4,3,0,5,3,3,4,4,1,0,0,7,2,5,0.1388904642900981,Low Risk
+655,50,HR,Analyst,3,Life Sciences,20000.0,4,3,4,3,1,16,0,5,1,3,6,0,0,2,0,1,0.0782646599695969,Low Risk
+656,46,R&D,Research Scientist,3,Human Resources,20600.0,3,4,3,3,1,2,2,3,2,3,4,1,0,6,5,0,0.06113629153555002,Low Risk
+657,50,Sales,Director,4,Marketing,20000.0,2,4,4,3,1,5,2,0,0,7,2,2,0,7,1,2,0.3634569403701712,Medium Risk
+658,38,Finance,Sales Executive,3,Other,22700.0,3,1,2,3,1,16,5,9,1,5,2,1,0,1,6,4,0.017900680820902376,Low Risk
+659,30,HR,HR Manager,4,Other,20000.0,3,3,2,4,0,1,1,3,2,8,4,2,0,2,3,4,0.39899964723614656,Medium Risk
+660,36,Finance,Analyst,4,Technical Degree,20000.0,3,4,2,3,0,15,6,7,0,1,2,3,0,1,0,5,0.0526928860674311,Low Risk
+661,33,Sales,Sales Executive,3,Human Resources,20000.0,3,3,4,4,0,4,0,4,4,6,1,0,0,7,6,0,0.2963821546663475,Low Risk
+662,48,R&D,Engineer,1,Life Sciences,20000.0,3,2,2,3,0,0,0,6,7,3,0,1,0,6,2,1,0.42554126775704126,Medium Risk
+663,42,Legal,Manager,2,Technical Degree,20000.0,4,3,2,2,0,2,0,0,2,5,1,1,0,3,4,5,0.25532294936472316,Low Risk
+664,22,Sales,Director,1,Technical Degree,20000.0,4,2,1,3,0,3,1,0,3,1,1,1,0,7,1,5,0.2111636042024745,Low Risk
+665,25,HR,HR Manager,3,Technical Degree,31200.0,2,3,1,3,0,2,0,0,2,30,5,1,0,2,3,5,0.06930222423460955,Low Risk
+666,33,Sales,Sales Executive,3,Medical,20000.0,4,4,3,3,0,2,1,6,5,10,1,0,0,7,6,3,0.42279804513806213,Medium Risk
+667,51,Sales,Sales Executive,1,Marketing,20000.0,4,3,3,3,0,3,1,3,3,10,1,0,0,7,6,2,0.35106200496772244,Medium Risk
+668,29,Sales,Director,4,Technical Degree,20000.0,3,3,4,3,1,9,2,0,6,1,5,2,0,7,1,5,0.1278913536529353,Low Risk
+669,37,Marketing,Sales Executive,4,Human Resources,33800.0,3,3,4,3,1,19,3,3,2,1,2,1,0,4,6,0,0.017028854351258355,Low Risk
+670,39,Finance,Director,1,Human Resources,20000.0,4,2,4,3,0,4,0,6,1,17,2,0,0,1,1,0,0.5011201732858099,Medium Risk
+671,40,Sales,Director,3,Life Sciences,20000.0,3,2,3,4,0,5,5,0,1,11,1,0,0,7,1,1,0.29071233069393004,Low Risk
+672,41,Sales,Director,3,Marketing,20000.0,2,3,2,4,1,5,0,0,0,18,2,0,1,7,1,2,0.7620124766666927,High Risk
+673,31,Sales,Engineer,2,Marketing,20000.0,3,2,4,3,0,2,1,9,1,3,2,1,1,7,2,2,0.5979217175848114,Medium Risk
+674,44,Engineering,Research Scientist,1,Life Sciences,20000.0,4,3,3,4,1,12,4,0,3,1,1,3,0,0,5,1,0.08458115470440583,Low Risk
+675,30,Sales,Director,3,Human Resources,20000.0,3,3,1,3,0,5,4,1,4,30,2,2,0,7,1,0,0.3331927368300455,Medium Risk
+676,44,Engineering,Engineer,4,Medical,20000.0,3,2,4,3,1,2,2,0,2,1,3,2,0,0,2,3,0.3335205234302498,Medium Risk
+677,32,R&D,Research Scientist,3,Life Sciences,20000.0,4,3,3,3,0,13,1,0,3,7,2,1,0,6,5,1,0.044465618627178155,Low Risk
+678,31,Sales,Research Scientist,2,Life Sciences,20000.0,3,1,3,3,0,0,0,2,2,10,2,0,0,7,5,1,0.6487262796880681,High Risk
+679,35,R&D,Director,3,Other,20000.0,1,2,3,3,0,0,0,4,0,6,0,1,0,6,1,4,0.42618686429895547,Medium Risk
+680,28,Engineering,Sales Executive,3,Marketing,20000.0,4,2,3,4,0,4,0,1,0,1,2,1,0,0,6,2,0.2106486739889366,Low Risk
+681,39,R&D,Engineer,4,Medical,21700.0,4,2,3,3,0,18,2,8,5,15,4,1,0,6,2,3,0.041342304964777706,Low Risk
+682,54,HR,Engineer,3,Medical,20000.0,3,2,4,3,0,9,0,1,4,15,3,1,0,2,2,3,0.2358838446475193,Low Risk
+683,22,Finance,Director,4,Human Resources,20000.0,1,2,3,3,1,2,2,2,5,14,1,2,0,1,1,0,0.5771026709624187,Medium Risk
+684,39,Sales,Research Scientist,2,Human Resources,20000.0,2,1,2,3,0,3,3,2,3,23,3,0,1,7,5,0,0.7987771969843179,High Risk
+685,22,Sales,Director,4,Medical,20000.0,2,3,4,3,0,8,4,1,1,13,3,0,0,7,1,3,0.2716144961043648,Low Risk
+686,39,Sales,Analyst,4,Technical Degree,20000.0,2,3,3,4,1,2,2,5,3,9,0,1,0,7,0,5,0.439169346884502,Medium Risk
+687,22,Engineering,Research Scientist,4,Other,20000.0,1,4,2,3,1,0,0,2,3,4,2,1,0,0,5,4,0.4868545443436157,Medium Risk
+688,29,Sales,Research Scientist,2,Technical Degree,20000.0,4,3,3,3,1,12,1,1,3,12,2,1,0,7,5,5,0.11922460206818836,Low Risk
+689,37,Finance,Analyst,4,Life Sciences,20000.0,3,2,1,3,0,5,2,2,2,15,6,0,0,1,0,1,0.28522101022268265,Low Risk
+690,23,Finance,Sales Executive,3,Technical Degree,20000.0,4,2,3,3,1,10,5,3,4,1,3,0,0,1,6,5,0.08544298926792475,Low Risk
+691,37,R&D,HR Manager,1,Other,26100.0,3,4,2,3,0,1,1,0,2,1,3,0,0,6,3,4,0.06312892111505283,Low Risk
+692,41,Marketing,Sales Executive,3,Medical,28600.0,4,1,3,3,1,16,0,3,3,9,2,0,0,4,6,3,0.02970448157767157,Low Risk
+693,43,Engineering,Sales Executive,2,Medical,31200.0,3,3,4,3,0,7,4,5,3,1,3,1,0,0,6,3,0.03398542843879701,Low Risk
+694,24,Sales,HR Manager,2,Marketing,20000.0,3,2,4,3,0,0,0,1,4,6,0,0,0,7,3,2,0.46834899270104136,Medium Risk
+695,42,Finance,Director,3,Medical,20000.0,4,3,4,3,0,1,0,1,3,3,2,0,0,1,1,3,0.22908869682548516,Low Risk
+696,31,Marketing,Director,1,Human Resources,20000.0,4,2,3,3,0,5,1,0,2,8,2,1,0,4,1,0,0.3125142148088743,Medium Risk
+697,40,R&D,Sales Executive,3,Marketing,20000.0,2,4,4,3,0,7,1,1,2,11,2,0,0,6,6,2,0.3147657033990736,Medium Risk
+698,45,Engineering,Engineer,3,Human Resources,20000.0,4,3,3,3,0,3,3,1,4,5,2,1,0,0,2,0,0.1916469975987343,Low Risk
+699,31,Engineering,HR Manager,4,Other,20000.0,3,3,1,4,0,2,2,5,4,11,2,1,0,0,3,4,0.3706282871285111,Medium Risk
+700,40,Marketing,HR Manager,3,Human Resources,20000.0,3,3,4,3,1,1,1,5,3,4,3,1,0,4,3,0,0.5148276180996747,Medium Risk
+701,29,Finance,Research Scientist,4,Life Sciences,20000.0,1,2,3,3,1,0,0,0,1,16,3,1,1,1,5,1,0.7883288444462241,High Risk
+702,25,Finance,Analyst,4,Medical,20000.0,3,4,3,3,1,8,2,1,1,8,1,1,0,1,0,3,0.2353607125588675,Low Risk
+703,46,Sales,Sales Executive,3,Life Sciences,20000.0,4,3,4,3,0,7,2,0,0,11,5,0,0,7,6,1,0.19238352739969336,Low Risk
+704,23,Marketing,Engineer,5,Medical,20000.0,3,3,4,3,1,18,2,1,2,2,0,2,0,4,2,3,0.07516279975111041,Low Risk
+705,46,R&D,Manager,3,Human Resources,20000.0,2,2,2,3,0,6,6,3,3,2,3,1,0,6,4,0,0.30966415513344137,Medium Risk
+706,45,Marketing,Manager,3,Marketing,20000.0,2,3,1,1,1,4,4,3,2,26,2,1,1,4,4,2,0.5699786151571512,Medium Risk
+707,24,Legal,Analyst,1,Human Resources,20000.0,2,3,1,3,0,2,2,5,0,11,2,0,0,3,0,0,0.316074310481136,Medium Risk
+708,31,Sales,HR Manager,1,Medical,20000.0,3,3,3,3,0,2,2,1,3,1,2,1,0,7,3,3,0.21811964179359478,Low Risk
+709,35,Finance,HR Manager,4,Marketing,20000.0,2,3,3,3,0,5,1,1,4,1,2,0,0,1,3,2,0.31263667505606163,Medium Risk
+710,24,HR,Manager,2,Marketing,20000.0,3,3,3,3,0,1,1,2,1,4,1,1,0,2,4,2,0.2700458536278532,Low Risk
+711,36,Engineering,HR Manager,5,Medical,20000.0,3,3,2,3,0,3,3,1,2,1,6,1,0,0,3,3,0.18624603828997952,Low Risk
+712,30,Finance,Research Scientist,3,Technical Degree,20000.0,3,3,3,3,1,6,2,3,1,15,4,0,0,1,5,5,0.4180322523379102,Medium Risk
+713,33,Sales,Research Scientist,4,Marketing,20000.0,4,3,1,3,0,0,0,0,1,20,2,0,1,7,5,2,0.702268401718496,High Risk
+714,24,Legal,Research Scientist,3,Human Resources,20000.0,4,3,4,3,0,4,2,0,7,5,4,1,0,3,5,0,0.18203802222189203,Low Risk
+715,26,R&D,Director,4,Technical Degree,20000.0,4,3,3,3,0,7,3,0,4,5,3,3,0,6,1,5,0.09857576132954643,Low Risk
+716,33,Sales,Director,1,Human Resources,20000.0,1,4,2,3,1,15,2,0,3,3,0,1,0,7,1,0,0.09142077818388408,Low Risk
+717,39,R&D,Analyst,2,Medical,20000.0,3,2,1,3,0,1,1,0,2,8,5,1,0,6,0,3,0.503572105436908,Medium Risk
+718,43,R&D,Engineer,3,Human Resources,20000.0,3,4,3,3,0,17,1,3,4,10,6,1,0,6,2,0,0.1534648384635021,Low Risk
+719,22,R&D,Research Scientist,2,Human Resources,20000.0,3,1,2,3,0,5,0,13,8,1,2,0,1,6,5,0,0.7668394808743132,High Risk
+720,32,R&D,Director,3,Medical,21500.0,1,3,3,3,0,4,0,0,2,12,2,1,0,6,1,3,0.0725181566264914,Low Risk
+721,54,Sales,Director,5,Medical,20000.0,4,3,3,3,0,22,3,1,1,1,4,1,0,7,1,3,0.040221957002569864,Low Risk
+722,38,Legal,Manager,3,Human Resources,20000.0,4,3,3,3,0,0,0,3,1,7,3,0,0,3,4,0,0.3669021073529302,Medium Risk
+723,22,Operations,Engineer,4,Other,20000.0,4,3,1,3,0,5,0,1,4,1,4,0,0,5,2,4,0.18176090812990925,Low Risk
+724,29,R&D,HR Manager,2,Life Sciences,21100.0,3,4,1,3,1,1,1,3,1,5,2,3,0,6,3,1,0.04335286422776902,Low Risk
+725,38,R&D,Engineer,3,Other,23700.0,1,4,1,3,0,1,1,4,4,7,1,0,0,6,2,4,0.059805908759690996,Low Risk
+726,44,Engineering,HR Manager,5,Medical,20000.0,3,3,2,3,0,6,1,3,3,1,1,0,0,0,3,3,0.22052453625488355,Low Risk
+727,46,Marketing,Manager,2,Other,20000.0,3,1,1,3,1,1,1,0,2,21,6,2,1,4,4,4,0.8099785987583448,High Risk
+728,52,R&D,Sales Executive,4,Human Resources,39800.0,3,2,4,3,0,11,0,5,3,13,5,0,0,6,6,0,0.049419562261071075,Low Risk
+729,39,Finance,Analyst,1,Technical Degree,20000.0,4,3,3,3,0,1,1,2,3,7,3,0,1,1,0,5,0.2806477953258392,Low Risk
+730,42,Sales,Sales Executive,1,Life Sciences,24200.0,3,4,3,3,1,0,0,1,1,1,3,3,0,7,6,1,0.05193510560244467,Low Risk
+731,51,R&D,Engineer,3,Marketing,20000.0,3,3,2,3,0,17,2,1,3,6,4,1,0,6,2,2,0.08109188439059617,Low Risk
+732,54,R&D,Manager,3,Marketing,20000.0,2,1,2,3,0,2,2,0,3,1,4,0,0,6,4,2,0.43512302843180284,Medium Risk
+733,35,Finance,Manager,5,Technical Degree,20000.0,3,2,3,3,1,0,0,1,5,23,2,3,0,1,4,5,0.4356992908276717,Medium Risk
+734,38,HR,Research Scientist,4,Marketing,20000.0,1,2,3,3,0,0,0,0,1,24,2,2,1,2,5,2,0.8474058753995556,High Risk
+735,52,Marketing,HR Manager,1,Marketing,20000.0,3,4,3,3,0,2,2,1,1,10,1,0,1,4,3,2,0.3550778660156527,Medium Risk
+736,38,Marketing,Analyst,3,Technical Degree,20000.0,4,2,3,3,0,3,3,1,4,1,1,0,0,4,0,5,0.2523916820483002,Low Risk
+737,29,R&D,Director,2,Marketing,70500.0,2,3,2,3,0,10,1,3,3,1,1,1,0,6,1,2,0.009528164496534644,Low Risk
+738,40,R&D,Sales Executive,3,Life Sciences,20000.0,2,1,4,3,1,4,1,0,2,6,1,1,1,6,6,1,0.6341151103822071,High Risk
+739,32,HR,Research Scientist,4,Human Resources,27000.0,3,4,3,3,1,0,0,1,4,28,2,1,0,2,5,0,0.09700395747812549,Low Risk
+740,45,Finance,Manager,4,Human Resources,20000.0,3,3,1,3,0,23,3,0,1,23,1,0,0,1,4,0,0.10664445717074807,Low Risk
+741,31,R&D,Director,2,Medical,20000.0,4,3,3,3,1,4,0,0,2,7,4,0,0,6,1,3,0.23451355706035773,Low Risk
+742,54,Engineering,Director,5,Other,20000.0,3,3,2,3,1,15,5,0,2,11,1,0,0,0,1,4,0.22905964507309245,Low Risk
+743,35,Sales,Research Scientist,2,Life Sciences,20000.0,4,4,4,2,0,0,0,1,1,1,3,2,0,7,5,1,0.1788932537560495,Low Risk
+744,36,R&D,Research Scientist,3,Medical,20000.0,3,3,3,4,1,1,1,2,2,28,0,1,1,6,5,3,0.8275410145304778,High Risk
+745,38,HR,Manager,2,Other,20000.0,4,4,4,3,0,11,3,6,1,6,2,0,0,2,4,4,0.05156817644017578,Low Risk
+746,23,Finance,Manager,2,Technical Degree,20000.0,3,1,2,3,0,1,0,1,0,4,2,1,0,1,4,5,0.46210882103353235,Medium Risk
+747,41,HR,Engineer,1,Life Sciences,20000.0,1,1,1,3,0,2,2,3,3,1,5,1,1,2,2,1,0.7112853240146885,High Risk
+748,45,R&D,Manager,4,Technical Degree,20000.0,2,3,1,3,0,4,0,2,2,3,5,2,0,6,4,5,0.314022979415728,Medium Risk
+749,22,Engineering,Analyst,5,Life Sciences,20000.0,4,2,3,3,1,17,4,3,3,1,2,0,0,0,0,1,0.043603559896254,Low Risk
+750,34,Engineering,HR Manager,4,Technical Degree,20000.0,4,1,4,4,0,1,1,0,1,25,3,0,1,0,3,5,0.661183244523672,High Risk
+751,37,Engineering,Analyst,2,Medical,20000.0,2,4,4,3,0,3,2,0,3,5,1,3,0,0,0,3,0.2294767674959186,Low Risk
+752,34,R&D,HR Manager,3,Life Sciences,20000.0,3,2,3,4,0,7,7,3,4,28,1,0,0,6,3,1,0.2985659949731142,Low Risk
+753,42,Finance,Analyst,2,Life Sciences,23500.0,3,1,3,3,0,1,1,2,1,2,1,0,0,1,0,1,0.04458835512504364,Low Risk
+754,32,Sales,HR Manager,3,Life Sciences,20000.0,4,4,3,3,1,20,1,2,0,13,2,2,0,7,3,1,0.07763785265190354,Low Risk
+755,34,Sales,Manager,3,Life Sciences,20000.0,3,2,3,3,1,6,0,7,0,8,1,0,1,7,4,1,0.553753124122325,Medium Risk
+756,36,HR,Director,4,Technical Degree,20000.0,3,3,2,3,0,2,0,0,1,1,1,0,0,2,1,5,0.2634266372322519,Low Risk
+757,41,Legal,Engineer,1,Life Sciences,20000.0,1,4,2,3,0,2,2,0,0,30,2,0,1,3,2,1,0.5805531994291588,Medium Risk
+758,27,R&D,Research Scientist,5,Human Resources,25200.0,3,4,4,3,0,5,4,1,2,4,3,1,0,6,5,0,0.02178872090758493,Low Risk
+759,42,Finance,Sales Executive,5,Life Sciences,20000.0,3,4,1,3,0,4,0,0,1,9,1,1,0,1,6,1,0.24056461406554713,Low Risk
+760,28,Sales,HR Manager,1,Technical Degree,20000.0,1,4,3,3,0,0,0,3,3,5,0,1,0,7,3,5,0.3588871292034008,Medium Risk
+761,43,R&D,Sales Executive,3,Human Resources,25700.0,3,2,1,3,0,0,0,3,1,1,3,2,0,6,6,0,0.06215498155377931,Low Risk
+762,33,Engineering,Sales Executive,3,Medical,20000.0,3,3,3,3,0,5,5,1,1,14,5,1,0,0,6,3,0.39508402947102744,Medium Risk
+763,22,HR,Sales Executive,2,Medical,20000.0,3,3,3,3,1,8,0,0,2,5,0,1,0,2,6,3,0.26971435587373616,Low Risk
+764,39,Sales,Research Scientist,3,Other,20000.0,2,4,3,3,0,14,2,0,2,2,2,0,0,7,5,4,0.06095931545819093,Low Risk
+765,32,Finance,Manager,4,Technical Degree,20000.0,2,3,4,3,0,8,3,2,3,5,5,2,0,1,4,5,0.19773145353047483,Low Risk
+766,43,Sales,Research Scientist,4,Other,20000.0,1,2,4,3,0,6,2,5,1,5,6,0,0,7,5,4,0.5398902961774436,Medium Risk
+767,41,Engineering,Research Scientist,4,Technical Degree,20000.0,4,4,3,3,0,6,4,2,3,6,2,1,0,0,5,5,0.16923626484068632,Low Risk
+768,45,R&D,Director,1,Human Resources,20000.0,3,3,4,4,1,2,0,1,4,9,2,2,0,6,1,0,0.4651264788698324,Medium Risk
+769,41,Marketing,Research Scientist,1,Marketing,20000.0,3,2,3,3,1,2,2,4,5,30,2,2,1,4,5,2,0.8241552917395674,High Risk
+770,44,R&D,Director,2,Technical Degree,37300.0,4,3,3,3,0,4,4,1,1,1,3,0,0,6,1,5,0.023803982992092167,Low Risk
+771,45,R&D,Engineer,3,Life Sciences,20000.0,3,4,1,3,0,11,4,3,3,4,2,2,0,6,2,1,0.061705813177233546,Low Risk
+772,46,Engineering,Engineer,4,Human Resources,20000.0,4,3,3,3,0,7,2,1,4,8,3,1,0,0,2,0,0.21467368682737553,Low Risk
+773,26,Sales,Director,2,Medical,20000.0,2,2,1,3,0,19,0,9,2,1,2,0,0,7,1,3,0.0881477622254509,Low Risk
+774,42,Sales,Research Scientist,4,Medical,25800.0,3,2,4,3,0,0,0,1,0,5,1,1,0,7,5,3,0.05993462582335091,Low Risk
+775,52,Marketing,Analyst,4,Human Resources,20000.0,3,1,3,3,1,21,1,0,0,12,0,1,0,4,0,0,0.15559551760497306,Low Risk
+776,31,Finance,Sales Executive,3,Life Sciences,20000.0,1,3,3,3,1,1,0,0,4,1,2,0,0,1,6,1,0.4131758378160044,Medium Risk
+777,41,R&D,Analyst,2,Technical Degree,20000.0,3,4,1,3,0,10,0,0,1,11,3,1,0,6,0,5,0.1384396417788714,Low Risk
+778,50,Sales,Research Scientist,4,Marketing,20000.0,4,2,3,4,1,0,0,0,1,7,1,0,1,7,5,2,0.6681043428731865,High Risk
+779,43,Engineering,HR Manager,3,Technical Degree,20000.0,3,3,3,3,0,3,0,1,3,8,2,1,0,0,3,5,0.3779181432447002,Medium Risk
+780,29,R&D,Analyst,3,Life Sciences,48900.0,2,4,1,3,1,3,2,1,2,5,3,3,0,6,0,1,0.0400081857507639,Low Risk
+781,34,Marketing,Research Scientist,3,Technical Degree,20000.0,4,1,4,3,0,3,0,2,2,1,1,0,0,4,5,5,0.2704268338313837,Low Risk
+782,48,Sales,Analyst,4,Other,20000.0,2,3,1,3,0,17,1,0,3,7,3,0,0,7,0,4,0.13189236276600644,Low Risk
+783,28,Engineering,Director,2,Other,20000.0,1,2,4,3,0,3,3,2,4,9,3,0,1,0,1,4,0.7325989852912949,High Risk
+784,44,Legal,Director,4,Human Resources,20000.0,4,2,3,3,0,16,0,2,1,8,3,1,0,3,1,0,0.1066427495789319,Low Risk
+785,45,Sales,Analyst,3,Other,20000.0,3,3,2,3,0,11,1,2,1,3,2,2,0,7,0,4,0.07954189637521301,Low Risk
+786,41,Sales,HR Manager,2,Marketing,20000.0,4,4,1,4,0,5,0,1,2,5,0,1,0,7,3,2,0.16524075782946304,Low Risk
+787,42,R&D,Research Scientist,2,Life Sciences,20000.0,3,3,4,3,0,0,0,1,5,26,2,2,1,6,5,1,0.7836458076424294,High Risk
+788,38,R&D,Analyst,3,Life Sciences,20000.0,1,4,2,4,1,0,0,8,2,12,1,1,1,6,0,1,0.6293564489641504,High Risk
+789,39,Finance,Research Scientist,1,Medical,20000.0,2,3,1,3,0,8,2,2,4,12,1,0,0,1,5,3,0.26522636902878993,Low Risk
+790,37,Finance,Sales Executive,3,Human Resources,20000.0,4,3,3,3,0,15,1,8,4,15,1,1,0,1,6,0,0.14190493592103479,Low Risk
+791,37,R&D,Sales Executive,5,Technical Degree,20000.0,3,3,2,3,0,5,5,3,3,1,4,1,0,6,6,5,0.16668591027430663,Low Risk
+792,22,Finance,Sales Executive,3,Marketing,20000.0,4,2,3,3,0,6,5,5,1,8,4,0,0,1,6,2,0.2703216791316348,Low Risk
+793,37,HR,Director,4,Technical Degree,20000.0,4,3,1,3,0,8,2,5,4,13,1,3,0,2,1,5,0.13143749744613364,Low Risk
+794,43,Engineering,Analyst,5,Other,20000.0,3,3,2,3,0,4,4,6,2,7,5,1,0,0,0,4,0.23425249622047162,Low Risk
+795,35,Engineering,Research Scientist,4,Other,20000.0,4,3,2,3,0,2,1,0,1,1,3,1,0,0,5,4,0.20256637927712906,Low Risk
+796,32,Finance,Sales Executive,4,Technical Degree,20000.0,3,4,4,3,0,6,3,0,1,15,5,1,0,1,6,5,0.2604422049130584,Low Risk
+797,41,Finance,Manager,3,Technical Degree,20300.0,4,4,4,3,1,0,0,3,1,3,5,0,0,1,4,5,0.1940966610739528,Low Risk
+798,24,Sales,Sales Executive,5,Other,20000.0,3,4,2,3,0,5,1,8,2,6,5,0,0,7,6,4,0.26661074968046417,Low Risk
+799,22,Operations,Engineer,4,Medical,20000.0,2,3,3,4,1,5,4,1,2,20,3,0,0,5,2,3,0.3945327741661788,Medium Risk
+800,37,Sales,Engineer,1,Life Sciences,20000.0,3,4,1,3,0,6,0,2,3,3,1,0,0,7,2,1,0.2394205426074358,Low Risk
+801,29,Engineering,Analyst,1,Marketing,20000.0,2,3,4,3,1,6,3,1,1,8,3,2,0,0,0,2,0.2802913776040794,Low Risk
+802,23,R&D,Research Scientist,4,Life Sciences,20000.0,4,3,3,3,0,0,0,6,4,12,5,0,1,6,5,1,0.6839234569931287,High Risk
+803,33,Sales,Manager,3,Life Sciences,20000.0,3,3,4,1,0,1,1,0,1,5,2,1,0,7,4,1,0.30906927231481435,Medium Risk
+804,33,Engineering,Engineer,5,Other,25700.0,1,3,4,4,1,5,5,4,2,2,2,1,0,0,2,4,0.061083820727361716,Low Risk
+805,46,Marketing,Director,4,Medical,20400.0,2,4,4,3,1,0,0,3,2,15,6,0,1,4,1,3,0.700159112413154,High Risk
+806,37,Sales,Analyst,3,Life Sciences,20900.0,4,3,2,3,0,2,2,0,3,22,2,0,0,7,0,1,0.06908794663265486,Low Risk
+807,43,R&D,Research Scientist,4,Life Sciences,20000.0,1,2,1,3,1,3,3,7,4,5,5,1,1,6,5,1,0.5856041755609968,Medium Risk
+808,43,R&D,Director,3,Marketing,20000.0,4,3,1,2,0,3,1,1,4,7,1,0,0,6,1,2,0.2592719951061378,Low Risk
+809,39,R&D,Analyst,4,Marketing,20000.0,3,2,3,4,1,5,1,2,2,9,3,2,0,6,0,2,0.5969930091976621,Medium Risk
+810,40,Marketing,Engineer,5,Life Sciences,20000.0,3,4,4,3,0,7,2,5,2,7,2,1,0,4,2,1,0.2478804584216465,Low Risk
+811,32,R&D,Manager,1,Marketing,24000.0,1,2,3,3,0,3,0,2,4,30,4,0,0,6,4,2,0.08202210727919085,Low Risk
+812,34,Marketing,Research Scientist,1,Medical,20000.0,4,2,2,3,1,8,2,0,4,5,3,0,1,4,5,3,0.28731229962818183,Low Risk
+813,38,HR,HR Manager,3,Marketing,20000.0,3,3,2,3,0,16,3,1,3,4,1,2,0,2,3,2,0.06645304486947214,Low Risk
+814,38,Marketing,Sales Executive,1,Marketing,22200.0,2,2,1,3,1,10,3,1,1,12,1,2,0,4,6,2,0.05879193225810034,Low Risk
+815,60,R&D,Analyst,1,Technical Degree,25900.0,3,3,3,3,1,3,2,11,3,25,1,0,0,6,0,5,0.07685726434499668,Low Risk
+816,40,Engineering,HR Manager,1,Technical Degree,20000.0,4,1,2,3,1,6,0,3,1,8,5,0,0,0,3,5,0.5047237548229562,Medium Risk
+817,30,Sales,Manager,3,Marketing,20000.0,2,2,3,3,1,10,2,1,3,9,2,0,1,7,4,2,0.3943181248237476,Medium Risk
+818,26,R&D,Research Scientist,3,Marketing,20800.0,3,2,4,2,1,13,0,1,1,8,1,1,0,6,5,2,0.0924617800867476,Low Risk
+819,23,Sales,Sales Executive,2,Other,20000.0,3,1,3,3,0,22,4,8,3,9,5,1,0,7,6,4,0.09342160873955184,Low Risk
+820,49,R&D,Sales Executive,4,Medical,20000.0,2,3,3,3,1,17,1,0,0,19,1,0,0,6,6,3,0.20877053917595922,Low Risk
+821,27,Sales,Analyst,3,Technical Degree,20000.0,4,1,4,3,1,6,6,3,5,3,1,1,0,7,0,5,0.173792790216598,Low Risk
+822,43,Engineering,Director,4,Human Resources,20000.0,4,3,4,3,1,7,2,3,2,1,5,1,0,0,1,0,0.16566639181635942,Low Risk
+823,43,Marketing,Director,2,Other,20000.0,3,4,2,3,0,0,0,1,2,30,4,2,1,4,1,4,0.8250617407080064,High Risk
+824,28,Sales,Manager,3,Life Sciences,22700.0,4,3,3,3,1,4,2,3,2,1,1,1,0,7,4,1,0.02347593449164131,Low Risk
+825,39,Engineering,Analyst,4,Medical,20000.0,3,3,4,3,0,2,2,1,1,1,4,1,0,0,0,3,0.21887601389723246,Low Risk
+826,45,Sales,Sales Executive,3,Marketing,20000.0,4,2,3,3,0,15,6,2,1,7,0,0,0,7,6,2,0.05414923129122535,Low Risk
+827,22,Finance,HR Manager,5,Marketing,20000.0,3,4,3,3,0,9,1,3,1,1,1,1,0,1,3,2,0.07855827787616448,Low Risk
+828,41,Engineering,Engineer,4,Technical Degree,20000.0,2,3,3,3,1,0,0,1,0,17,3,0,0,0,2,5,0.6284667235116275,High Risk
+829,47,R&D,Manager,1,Marketing,20000.0,3,3,2,3,0,1,1,2,1,4,5,0,1,6,4,2,0.5160194261984123,Medium Risk
+830,35,Engineering,Director,1,Other,20000.0,1,3,2,3,0,2,0,2,3,1,3,0,0,0,1,4,0.41348086898582365,Medium Risk
+831,31,Engineering,Analyst,2,Human Resources,20000.0,3,1,2,3,1,1,1,0,2,6,2,0,0,0,0,0,0.5389604182694621,Medium Risk
+832,31,R&D,HR Manager,2,Medical,20000.0,2,4,4,3,0,9,2,2,3,19,2,0,0,6,3,3,0.44398380905045703,Medium Risk
+833,22,R&D,Director,4,Human Resources,23900.0,1,3,3,3,0,4,2,1,3,3,4,0,0,6,1,0,0.06933881960516311,Low Risk
+834,28,R&D,Manager,3,Medical,20000.0,3,4,4,3,0,6,5,2,3,30,3,1,0,6,4,3,0.3872710921440391,Medium Risk
+835,39,Legal,HR Manager,4,Life Sciences,20000.0,2,3,3,3,1,0,0,1,3,10,2,1,0,3,3,1,0.6349630068607307,High Risk
+836,23,Sales,Engineer,3,Other,20000.0,3,3,4,3,1,2,1,4,6,5,2,0,0,7,2,4,0.43137309807574625,Medium Risk
+837,35,Engineering,Sales Executive,3,Human Resources,22700.0,4,3,4,3,0,5,3,1,0,13,2,2,0,0,6,0,0.039865881154622654,Low Risk
+838,44,Finance,Sales Executive,2,Other,29200.0,4,4,4,4,1,6,0,3,1,4,2,0,0,1,6,4,0.04555926306246222,Low Risk
+839,34,Operations,HR Manager,2,Human Resources,20000.0,2,2,3,3,0,0,0,0,2,14,1,1,0,5,3,0,0.6681822652309605,High Risk
+840,44,R&D,Sales Executive,4,Technical Degree,20100.0,3,4,4,3,0,17,3,4,3,10,3,0,0,6,6,5,0.06471957634595384,Low Risk
+841,25,R&D,Manager,2,Marketing,20000.0,4,3,3,3,0,5,4,6,0,1,2,0,0,6,4,2,0.13770938316468098,Low Risk
+842,33,Marketing,Director,5,Other,20000.0,3,4,4,3,0,3,3,0,3,14,3,3,0,4,1,4,0.2657046195647293,Low Risk
+843,48,Sales,Engineer,5,Marketing,20000.0,4,3,3,3,1,2,1,0,6,10,2,0,0,7,2,2,0.379817561325073,Medium Risk
+844,28,R&D,Director,4,Life Sciences,20000.0,3,3,3,3,0,7,1,2,4,1,4,1,0,6,1,1,0.14623590946207252,Low Risk
+845,34,Engineering,HR Manager,3,Other,20000.0,3,4,1,3,1,7,5,2,1,4,1,1,0,0,3,4,0.2031163751571974,Low Risk
+846,60,R&D,Engineer,2,Life Sciences,20000.0,2,3,2,3,0,0,0,2,2,1,1,0,0,6,2,1,0.321886257123057,Medium Risk
+847,41,Legal,Engineer,5,Medical,20000.0,3,3,3,3,0,11,1,7,3,1,2,0,0,3,2,3,0.09446960194579924,Low Risk
+848,37,Finance,Research Scientist,3,Medical,20000.0,3,3,1,3,0,15,5,0,0,5,0,1,0,1,5,3,0.039070063477399726,Low Risk
+849,22,R&D,Research Scientist,3,Human Resources,20000.0,4,4,3,4,0,6,5,4,2,2,3,0,0,6,5,0,0.12905068544635087,Low Risk
+850,31,Engineering,Manager,1,Human Resources,20000.0,2,1,1,3,0,3,0,3,1,8,2,0,1,0,4,0,0.7107887053581082,High Risk
+851,32,R&D,Engineer,4,Life Sciences,20000.0,4,3,2,3,0,11,0,4,4,1,5,1,0,6,2,1,0.051692824331025025,Low Risk
+852,25,Engineering,Engineer,3,Medical,20000.0,4,3,4,3,1,2,0,2,5,2,0,0,0,0,2,3,0.20918566791643653,Low Risk
+853,28,R&D,Sales Executive,3,Marketing,20000.0,2,2,4,3,0,3,0,5,3,17,2,2,0,6,6,2,0.7451254298230823,High Risk
+854,40,Marketing,Manager,4,Marketing,22800.0,4,3,4,3,0,1,1,3,1,24,1,1,0,4,4,2,0.12328175111647084,Low Risk
+855,28,R&D,Research Scientist,5,Other,20000.0,4,3,1,3,0,2,2,0,4,21,1,1,0,6,5,4,0.33194719112831395,Medium Risk
+856,38,Engineering,Engineer,4,Life Sciences,20000.0,3,2,3,3,1,8,0,9,2,30,3,2,1,0,2,1,0.776724769801297,High Risk
+857,22,R&D,Engineer,3,Marketing,20000.0,2,3,4,3,0,18,5,2,3,6,1,1,0,6,2,2,0.03330243083689156,Low Risk
+858,23,R&D,Analyst,3,Technical Degree,20000.0,3,2,3,3,0,5,3,4,1,6,2,0,1,6,0,5,0.5115480025601334,Medium Risk
+859,50,R&D,Engineer,3,Technical Degree,23300.0,4,4,3,3,1,12,3,5,2,2,2,1,0,6,2,5,0.017858085561873457,Low Risk
+860,44,Sales,Engineer,4,Marketing,33300.0,2,3,3,3,1,1,1,3,3,8,3,2,0,7,2,2,0.07940561916563445,Low Risk
+861,41,Engineering,Manager,4,Technical Degree,20000.0,4,4,3,3,1,3,1,7,3,6,3,0,0,0,4,5,0.3647603869141912,Medium Risk
+862,41,Sales,Director,2,Medical,20000.0,3,3,1,2,1,0,0,4,4,1,6,2,0,7,1,3,0.26052244811677006,Low Risk
+863,32,Engineering,Engineer,5,Human Resources,20000.0,3,3,4,1,0,1,1,0,0,1,2,2,0,0,2,0,0.17761739381363778,Low Risk
+864,44,Sales,Analyst,2,Medical,20000.0,2,4,3,3,1,2,2,1,1,1,1,1,0,7,0,3,0.2553394433352329,Low Risk
+865,29,R&D,Director,5,Marketing,20100.0,4,3,3,3,0,0,0,1,6,8,1,0,0,6,1,2,0.3177707074641986,Medium Risk
+866,43,Marketing,HR Manager,1,Human Resources,20000.0,3,2,4,3,1,1,1,0,1,13,2,3,0,4,3,0,0.49473173937071524,Medium Risk
+867,30,HR,HR Manager,1,Marketing,31900.0,4,1,3,3,0,3,0,1,1,1,5,0,0,2,3,2,0.03341627158791439,Low Risk
+868,42,Engineering,Director,1,Medical,24000.0,3,2,4,3,0,0,0,0,4,15,5,1,0,0,1,3,0.05461861763885775,Low Risk
+869,40,Operations,Manager,2,Medical,20000.0,4,2,3,3,0,0,0,3,0,4,3,1,0,5,4,3,0.4360260198596881,Medium Risk
+870,39,R&D,Research Scientist,2,Life Sciences,20000.0,3,3,1,2,0,7,0,5,2,1,2,0,0,6,5,1,0.224433232344026,Low Risk
+871,22,Sales,Manager,4,Marketing,20000.0,1,3,3,3,1,5,5,3,4,5,1,3,0,7,4,2,0.26922526450499845,Low Risk
+872,28,Engineering,HR Manager,3,Technical Degree,20000.0,2,3,1,3,0,4,1,0,2,18,3,0,1,0,3,5,0.7065624735352496,High Risk
+873,44,R&D,HR Manager,2,Other,20900.0,2,4,2,2,0,1,1,0,1,6,3,0,0,6,3,4,0.0633841784910326,Low Risk
+874,33,Operations,Research Scientist,4,Other,20000.0,4,3,2,3,0,3,3,2,3,2,2,1,0,5,5,4,0.1613881023548349,Low Risk
+875,34,R&D,Director,1,Other,20700.0,1,3,3,3,0,6,3,1,5,1,3,0,0,6,1,4,0.0551200301595214,Low Risk
+876,32,Sales,Manager,5,Life Sciences,20000.0,3,1,3,4,0,2,0,2,3,8,1,2,0,7,4,1,0.44409313578266646,Medium Risk
+877,45,Engineering,Analyst,1,Marketing,20000.0,4,4,2,3,1,6,0,7,4,6,2,0,0,0,0,2,0.2702766598863775,Low Risk
+878,37,R&D,Engineer,3,Other,20000.0,3,4,3,3,0,7,0,5,4,4,1,1,1,6,2,4,0.23378486265168585,Low Risk
+879,33,HR,Manager,4,Life Sciences,51100.0,4,3,3,4,0,1,1,1,2,22,3,2,0,2,4,1,0.08312342593138357,Low Risk
+880,30,Engineering,Sales Executive,4,Marketing,20000.0,3,3,1,3,0,12,0,0,3,3,1,0,0,0,6,2,0.07209757705241308,Low Risk
+881,34,Engineering,HR Manager,3,Human Resources,20000.0,4,4,2,3,1,5,5,2,1,7,1,1,0,0,3,0,0.2045347930158785,Low Risk
+882,33,R&D,Research Scientist,4,Medical,20000.0,3,3,4,3,0,4,2,0,2,13,3,1,0,6,5,3,0.33932176754522464,Medium Risk
+883,45,HR,HR Manager,4,Technical Degree,20000.0,3,3,4,3,0,2,2,4,0,12,2,1,1,2,3,5,0.5361980965346633,Medium Risk
+884,37,Finance,Analyst,1,Other,20000.0,4,2,1,3,0,1,1,0,3,1,1,1,0,1,0,4,0.24349485781610944,Low Risk
+885,34,R&D,Research Scientist,3,Other,20000.0,3,4,2,3,0,8,0,0,4,20,2,1,0,6,5,4,0.3495729484315001,Medium Risk
+886,22,Finance,Engineer,3,Technical Degree,20000.0,2,1,3,3,0,6,0,6,1,4,5,0,0,1,2,5,0.49982860848399563,Medium Risk
+887,35,Sales,Sales Executive,5,Life Sciences,20000.0,3,4,3,3,0,0,0,0,4,1,1,0,0,7,6,1,0.3020005138046533,Medium Risk
+888,38,R&D,Analyst,5,Life Sciences,20000.0,1,3,3,3,1,3,2,3,3,4,6,1,0,6,0,1,0.44634183457796583,Medium Risk
+889,24,Operations,HR Manager,3,Medical,20000.0,3,3,4,4,0,0,0,0,2,13,0,1,0,5,3,3,0.48161903926378036,Medium Risk
+890,46,Marketing,Sales Executive,5,Marketing,20000.0,3,4,3,4,1,0,0,2,6,7,3,1,0,4,6,2,0.5620705242267592,Medium Risk
+891,28,Sales,Manager,4,Technical Degree,20000.0,3,3,3,3,0,0,0,1,7,13,0,0,1,7,4,5,0.696901009462257,High Risk
+892,25,Engineering,Director,3,Marketing,20000.0,4,2,3,4,0,3,1,3,4,1,3,1,0,0,1,2,0.21939185914767542,Low Risk
+893,26,HR,Director,1,Marketing,20000.0,2,3,3,3,0,1,0,0,2,23,3,1,1,2,1,2,0.6975129650707417,High Risk
+894,28,HR,Analyst,4,Life Sciences,20000.0,4,2,3,3,0,18,1,2,3,3,3,0,0,2,0,1,0.04849004712314466,Low Risk
+895,33,Engineering,Manager,4,Human Resources,20000.0,2,2,4,3,0,3,3,2,2,4,1,1,0,0,4,0,0.44055139371082513,Medium Risk
+896,31,HR,Research Scientist,4,Human Resources,20000.0,4,3,3,3,0,13,10,3,2,6,0,3,0,2,5,0,0.03007146890167335,Low Risk
+897,34,Engineering,Analyst,5,Technical Degree,20000.0,4,3,2,3,1,0,0,9,0,8,3,2,0,0,0,5,0.24143890572434829,Low Risk
+898,31,R&D,Sales Executive,5,Technical Degree,20000.0,4,4,3,3,0,26,4,12,2,2,2,0,0,6,6,5,0.04218359049225148,Low Risk
+899,30,Engineering,Sales Executive,2,Life Sciences,20000.0,4,4,4,3,0,15,0,0,5,1,0,1,0,0,6,1,0.0081611833674623,Low Risk
+900,22,Finance,HR Manager,4,Medical,20000.0,2,3,2,3,0,1,1,2,3,4,3,1,0,1,3,3,0.3772590738135466,Medium Risk
+901,38,Finance,Analyst,3,Technical Degree,20000.0,3,1,3,3,1,1,0,1,7,2,2,1,1,1,0,5,0.6992764931622386,High Risk
+902,39,R&D,Analyst,5,Marketing,20000.0,4,3,1,4,0,0,0,0,3,1,1,2,0,6,0,2,0.14219354616042174,Low Risk
+903,46,HR,Analyst,2,Medical,28000.0,4,3,4,3,0,0,0,10,4,11,2,2,0,2,0,3,0.050105317277581676,Low Risk
+904,27,Sales,Engineer,3,Medical,21000.0,4,3,3,3,0,9,1,1,4,1,6,3,0,7,2,3,0.010716061524460056,Low Risk
+905,41,Sales,HR Manager,1,Life Sciences,20000.0,4,2,3,2,0,1,1,2,3,30,1,1,1,7,3,1,0.8118599668762727,High Risk
+906,36,R&D,Engineer,3,Technical Degree,23100.0,1,3,3,3,0,10,8,0,2,4,2,0,0,6,2,5,0.04306573215204432,Low Risk
+907,47,Sales,Manager,5,Medical,20000.0,4,2,2,3,0,0,0,1,3,1,0,0,0,7,4,3,0.24898219680744407,Low Risk
+908,43,R&D,Research Scientist,4,Life Sciences,23100.0,3,4,3,3,0,2,2,0,3,8,2,1,0,6,5,1,0.0401679274760123,Low Risk
+909,47,Sales,HR Manager,3,Medical,20000.0,3,2,2,3,1,9,7,0,2,8,1,1,0,7,3,3,0.3580808953011724,Medium Risk
+910,37,Sales,Sales Executive,3,Other,20000.0,4,4,4,3,1,5,2,0,2,2,4,1,0,7,6,4,0.11864128500253596,Low Risk
+911,36,R&D,HR Manager,4,Human Resources,20000.0,2,3,3,3,0,3,3,4,5,1,0,3,0,6,3,0,0.2089630123789492,Low Risk
+912,41,Operations,Sales Executive,4,Life Sciences,20000.0,2,4,3,3,1,28,1,4,5,1,2,2,0,5,6,1,0.1485483449903533,Low Risk
+913,48,Engineering,Research Scientist,3,Marketing,20000.0,3,2,2,3,0,1,1,1,2,2,1,0,0,0,5,2,0.3317794247218754,Medium Risk
+914,36,Operations,Engineer,3,Human Resources,20000.0,2,3,3,3,0,2,0,0,3,30,2,2,0,5,2,0,0.7237313537317455,High Risk
+915,30,Engineering,Manager,3,Other,20000.0,4,4,3,3,0,3,0,0,5,1,3,1,0,0,4,4,0.16722922462577164,Low Risk
+916,39,R&D,Manager,2,Human Resources,20000.0,3,3,2,3,0,1,0,0,1,10,1,2,0,6,4,0,0.45113946816600703,Medium Risk
+917,38,Engineering,HR Manager,3,Other,20000.0,2,4,1,3,1,1,1,3,4,7,0,0,1,0,3,4,0.6676462791939595,High Risk
+918,26,HR,Analyst,3,Medical,20000.0,3,3,2,3,0,3,3,1,2,20,1,0,0,2,0,3,0.41273127465327036,Medium Risk
+919,27,Finance,Director,2,Medical,20000.0,4,3,3,3,0,0,0,2,2,4,2,1,0,1,1,3,0.2683302023399052,Low Risk
+920,32,Sales,Director,4,Life Sciences,20000.0,3,1,2,3,1,4,1,0,3,11,5,0,0,7,1,1,0.511730101333942,Medium Risk
+921,32,R&D,Analyst,2,Other,20000.0,4,4,1,3,1,5,3,1,2,1,3,1,0,6,0,4,0.07374861456486127,Low Risk
+922,40,Marketing,Engineer,5,Other,28300.0,3,2,3,3,0,8,0,6,5,5,1,0,0,4,2,4,0.031988613062023205,Low Risk
+923,41,Marketing,HR Manager,2,Human Resources,20000.0,3,2,4,3,1,1,1,1,6,6,3,1,0,4,3,0,0.6581187600393053,High Risk
+924,29,HR,Manager,1,Marketing,20000.0,4,4,2,3,0,5,5,8,2,1,0,2,0,2,4,2,0.08852253347710622,Low Risk
+925,26,Finance,Sales Executive,3,Medical,20000.0,1,3,4,4,1,21,1,0,3,2,2,2,0,1,6,3,0.09209324616209033,Low Risk
+926,24,Sales,Manager,2,Life Sciences,20000.0,1,2,3,3,1,0,0,0,2,12,2,0,0,7,4,1,0.5924324569329978,Medium Risk
+927,27,R&D,Manager,3,Human Resources,20000.0,1,4,1,3,1,0,0,3,3,1,2,1,1,6,4,0,0.620739986639974,High Risk
+928,37,R&D,Director,1,Technical Degree,20000.0,2,2,3,3,1,2,2,7,3,3,1,0,1,6,1,5,0.7750201608499361,High Risk
+929,42,R&D,Director,3,Marketing,20000.0,3,2,3,3,1,0,0,1,2,2,2,2,1,6,1,2,0.6949613835936025,High Risk
+930,37,Marketing,Analyst,2,Marketing,20000.0,2,3,2,3,1,3,3,0,6,20,0,0,0,4,0,2,0.4072846718138265,Medium Risk
+931,38,Sales,Analyst,4,Marketing,21800.0,3,3,2,3,0,2,1,7,2,4,3,0,0,7,0,2,0.04965333960328918,Low Risk
+932,24,Engineering,Analyst,3,Technical Degree,38200.0,4,1,3,3,0,2,1,4,2,2,4,1,0,0,0,5,0.03487687446493049,Low Risk
+933,43,HR,Engineer,2,Medical,20000.0,4,2,4,4,0,1,1,1,1,1,3,1,0,2,2,3,0.28112617940097073,Low Risk
+934,38,R&D,Director,3,Technical Degree,20000.0,2,3,1,3,0,3,3,7,1,1,4,0,0,6,1,5,0.2453557913321141,Low Risk
+935,38,Operations,HR Manager,2,Medical,20500.0,4,4,4,3,0,2,2,0,2,14,0,0,0,5,3,3,0.05804635464882144,Low Risk
+936,35,Finance,HR Manager,3,Marketing,20000.0,4,3,4,3,1,7,5,2,3,1,3,0,0,1,3,2,0.1280450876843528,Low Risk
+937,39,R&D,Research Scientist,1,Human Resources,20000.0,3,2,3,3,1,1,1,0,2,10,5,1,1,6,5,0,0.6526476988598973,High Risk
+938,36,Engineering,Director,2,Marketing,20000.0,1,3,4,3,1,15,6,1,3,24,0,0,1,0,1,2,0.3116902160788777,Medium Risk
+939,34,Marketing,Director,3,Life Sciences,20000.0,2,3,3,3,0,12,1,0,3,3,2,1,0,4,1,1,0.0818582712719602,Low Risk
+940,47,R&D,Sales Executive,5,Other,20000.0,2,3,1,3,0,7,1,2,3,11,2,2,0,6,6,4,0.4332678429989636,Medium Risk
+941,31,Sales,Manager,2,Medical,20000.0,3,2,3,3,0,5,0,6,0,3,3,0,0,7,4,3,0.37604681376383425,Medium Risk
+942,37,R&D,Engineer,2,Medical,20000.0,3,1,1,3,1,1,1,0,2,7,2,3,1,6,2,3,0.7407003771000561,High Risk
+943,29,R&D,Engineer,3,Life Sciences,20000.0,3,1,3,3,0,5,2,1,1,3,1,1,0,6,2,1,0.34202691483558667,Medium Risk
+944,40,R&D,Director,5,Medical,20000.0,3,4,4,3,1,1,1,0,2,19,2,0,1,6,1,3,0.819145023702037,High Risk
+945,31,R&D,HR Manager,4,Human Resources,20200.0,3,1,3,3,0,1,1,0,2,12,4,3,0,6,3,0,0.45981989338765644,Medium Risk
+946,39,Finance,Sales Executive,3,Medical,20000.0,4,3,4,3,0,5,1,0,3,10,2,3,0,1,6,3,0.22259764776288876,Low Risk
+947,37,Finance,HR Manager,3,Other,20000.0,1,3,3,3,1,13,0,6,3,1,0,1,0,1,3,4,0.15742037090827998,Low Risk
+948,28,Engineering,HR Manager,4,Medical,20000.0,4,1,3,3,1,3,0,4,2,2,4,2,0,0,3,3,0.3676941344264897,Medium Risk
+949,58,Engineering,Sales Executive,3,Human Resources,20000.0,3,3,3,3,0,13,0,1,2,13,1,3,0,0,6,0,0.103835466544067,Low Risk
+950,31,Engineering,Research Scientist,5,Life Sciences,21500.0,2,2,4,3,0,1,1,2,4,5,1,1,0,0,5,1,0.04214186378984289,Low Risk
+951,40,R&D,Sales Executive,4,Other,26300.0,2,1,3,3,0,3,3,0,2,9,5,3,0,6,6,4,0.056221716238743384,Low Risk
+952,41,HR,Engineer,3,Technical Degree,20000.0,3,4,3,3,0,4,4,1,2,4,2,1,0,2,2,5,0.16703009336457922,Low Risk
+953,25,Operations,HR Manager,2,Human Resources,20000.0,4,3,3,2,1,7,5,2,5,1,2,1,0,5,3,0,0.09426337095022264,Low Risk
+954,38,Legal,Manager,5,Life Sciences,20000.0,3,3,4,3,0,3,0,6,3,17,3,0,0,3,4,1,0.5099590456448398,Medium Risk
+955,30,HR,Research Scientist,3,Human Resources,20000.0,3,3,4,3,0,5,1,0,0,4,3,1,0,2,5,0,0.22092828297969813,Low Risk
+956,28,HR,Research Scientist,2,Human Resources,24000.0,3,2,4,3,0,1,1,3,0,14,3,0,0,2,5,0,0.06366756493109062,Low Risk
+957,31,Sales,Sales Executive,5,Other,20000.0,3,2,4,3,1,5,0,4,5,12,3,2,1,7,6,4,0.5284561189298479,Medium Risk
+958,60,Sales,Research Scientist,3,Technical Degree,20000.0,3,3,4,3,0,4,0,2,5,8,1,0,0,7,5,5,0.3237683616052351,Medium Risk
+959,40,Marketing,HR Manager,5,Human Resources,20000.0,2,3,3,4,1,16,4,1,1,16,2,1,0,4,3,0,0.2661814499342428,Low Risk
+960,29,Sales,Director,5,Human Resources,20000.0,3,3,1,3,0,3,1,2,3,20,2,0,0,7,1,0,0.5217204099356659,Medium Risk
+961,35,R&D,Research Scientist,3,Human Resources,22600.0,2,4,4,4,0,3,3,1,3,4,4,2,0,6,5,0,0.03243653620483724,Low Risk
+962,43,R&D,Director,4,Technical Degree,20000.0,4,3,3,3,0,5,2,2,6,28,4,3,0,6,1,5,0.32023001272806906,Medium Risk
+963,47,Marketing,Research Scientist,3,Marketing,20000.0,3,2,3,3,0,9,1,0,5,5,4,2,0,4,5,2,0.21196230126075655,Low Risk
+964,39,Sales,HR Manager,4,Medical,20000.0,2,4,3,3,1,6,0,2,3,12,1,2,0,7,3,3,0.47560970229225163,Medium Risk
+965,31,HR,Engineer,4,Other,20000.0,3,4,3,3,0,0,0,1,4,1,6,2,0,2,2,4,0.2198173784969415,Low Risk
+966,41,R&D,Research Scientist,5,Other,20000.0,4,3,3,3,0,5,0,6,1,4,3,1,0,6,5,4,0.21224179370428886,Low Risk
+967,27,Sales,Manager,1,Medical,20000.0,1,2,4,3,1,4,3,0,1,1,1,2,0,7,4,3,0.34065179328884737,Medium Risk
+968,26,Sales,Manager,2,Life Sciences,25000.0,3,1,4,3,0,11,4,0,3,12,2,3,0,7,4,1,0.008615550628520303,Low Risk
+969,50,Engineering,Analyst,2,Human Resources,28900.0,2,2,3,1,1,0,0,0,4,14,2,0,0,0,0,0,0.07268513119728606,Low Risk
+970,26,Sales,Analyst,4,Other,20000.0,3,2,3,3,1,6,2,0,1,7,1,1,0,7,0,4,0.33478415056639277,Medium Risk
+971,39,Engineering,Manager,3,Other,25000.0,2,3,2,3,0,14,6,3,3,10,1,0,0,0,4,4,0.025465792973401177,Low Risk
+972,54,Marketing,Research Scientist,5,Other,20000.0,3,3,4,4,1,15,0,9,5,17,0,1,1,4,5,4,0.6563374426402675,High Risk
+973,44,Operations,Analyst,3,Other,20000.0,4,3,3,3,0,4,3,0,2,1,4,1,0,5,0,4,0.109760969243482,Low Risk
+974,22,Engineering,Director,5,Life Sciences,21000.0,3,3,3,3,0,1,1,2,3,8,3,0,0,0,1,1,0.034056554767019076,Low Risk
+975,43,Finance,Engineer,3,Other,20000.0,4,3,2,4,0,0,0,7,1,16,2,1,1,1,2,4,0.7187021962177143,High Risk
+976,25,R&D,Sales Executive,3,Technical Degree,20000.0,4,1,1,3,1,20,2,3,3,1,1,1,0,6,6,5,0.04050699152077671,Low Risk
+977,29,Sales,Director,3,Human Resources,20000.0,4,3,2,3,0,0,0,0,3,8,4,1,1,7,1,0,0.5313144273873786,Medium Risk
+978,44,Sales,Director,1,Life Sciences,20000.0,4,2,4,3,1,1,0,2,1,1,2,0,0,7,1,1,0.3170150358456411,Medium Risk
+979,46,Engineering,Research Scientist,2,Life Sciences,20000.0,3,1,2,3,1,0,0,0,3,6,3,3,1,0,5,1,0.7433733041931271,High Risk
+980,44,Engineering,Engineer,3,Human Resources,20000.0,3,4,2,3,0,15,0,1,4,7,5,2,0,0,2,0,0.07955918937163507,Low Risk
+981,58,R&D,Manager,4,Medical,23000.0,3,2,3,1,1,2,2,1,1,3,2,2,0,6,4,3,0.06793936073658896,Low Risk
+982,48,R&D,Research Scientist,1,Human Resources,20000.0,4,3,3,3,0,5,5,2,3,8,1,0,0,6,5,0,0.22443843885801543,Low Risk
+983,43,R&D,Engineer,2,Technical Degree,25500.0,3,4,3,3,0,1,0,0,0,1,2,0,0,6,2,5,0.044819471128809886,Low Risk
+984,36,Operations,Analyst,3,Other,20000.0,4,3,4,3,0,1,0,2,4,7,1,1,0,5,0,4,0.2841047632194109,Low Risk
+985,43,R&D,Sales Executive,2,Medical,20000.0,3,4,2,3,0,3,0,4,5,3,3,2,0,6,6,3,0.283680072014266,Low Risk
+986,55,Engineering,Sales Executive,2,Other,27600.0,3,3,4,3,1,2,2,5,2,10,3,0,0,0,6,4,0.029023611031740365,Low Risk
+987,40,R&D,Engineer,2,Marketing,20000.0,2,2,1,3,0,4,4,1,5,1,6,1,0,6,2,2,0.30174925124428864,Medium Risk
+988,34,R&D,Director,3,Marketing,20000.0,2,4,3,3,1,8,5,0,4,4,2,0,0,6,1,2,0.21675142587031118,Low Risk
+989,25,Engineering,Analyst,2,Other,20000.0,1,2,4,3,0,12,1,0,6,3,5,2,0,0,0,4,0.061418638723974475,Low Risk
+990,34,R&D,Engineer,2,Life Sciences,20000.0,3,2,3,3,0,0,0,0,5,1,2,0,1,6,2,1,0.5737398819081078,Medium Risk
+991,48,Operations,Director,4,Medical,25300.0,4,4,2,3,0,0,0,0,0,13,2,1,0,5,1,3,0.07214465433173292,Low Risk
+992,47,R&D,HR Manager,4,Human Resources,20000.0,2,4,3,3,0,0,0,0,2,11,1,1,0,6,3,0,0.49552318432748776,Medium Risk
+993,44,R&D,Engineer,3,Human Resources,20000.0,3,3,4,3,0,5,2,2,1,4,3,1,0,6,2,0,0.23121497486064954,Low Risk
+994,30,Operations,Sales Executive,1,Life Sciences,26600.0,3,2,2,3,0,1,0,0,3,3,4,1,0,5,6,1,0.05274859722755296,Low Risk
+995,39,Sales,Director,5,Other,37400.0,2,3,3,3,1,9,3,2,3,6,5,1,0,7,1,4,0.03341114509840872,Low Risk
+996,31,Sales,Research Scientist,1,Human Resources,20000.0,4,4,2,4,0,12,8,1,3,1,1,1,0,7,5,0,0.017599154145945362,Low Risk
+997,22,Engineering,Research Scientist,1,Human Resources,20000.0,3,4,4,3,0,0,0,1,1,2,1,1,0,0,5,0,0.22126280203629003,Low Risk
+998,40,Engineering,Director,4,Other,20000.0,3,3,4,4,0,3,1,0,2,3,3,1,0,0,1,4,0.2140380884547147,Low Risk
+999,22,Engineering,Research Scientist,3,Medical,20000.0,4,4,4,3,0,7,2,0,3,5,1,1,0,0,5,3,0.09528623288964931,Low Risk
+1000,34,HR,Manager,3,Medical,20000.0,3,3,4,3,1,2,2,4,2,1,1,2,0,2,4,3,0.23676064144587244,Low Risk
+1001,39,HR,HR Manager,3,Medical,20000.0,3,3,2,3,0,1,1,1,4,4,1,2,0,2,3,3,0.30008575741518123,Medium Risk
+1002,33,HR,Analyst,4,Human Resources,20000.0,1,3,4,3,1,7,1,0,1,6,3,1,1,2,0,0,0.6137338830190219,High Risk
+1003,37,Marketing,Sales Executive,1,Marketing,20000.0,4,3,4,3,0,3,0,0,0,1,1,1,0,4,6,2,0.1554289465231382,Low Risk
+1004,45,R&D,Sales Executive,5,Life Sciences,20000.0,2,4,4,3,0,4,4,3,1,4,2,0,0,6,6,1,0.2162515864352186,Low Risk
+1005,31,HR,Engineer,4,Technical Degree,20000.0,3,3,2,3,1,18,3,2,2,12,1,2,0,2,2,5,0.13656203487501226,Low Risk
+1006,28,Marketing,HR Manager,5,Human Resources,20000.0,4,3,4,3,0,3,0,5,2,1,2,1,0,4,3,0,0.16544099581492833,Low Risk
+1007,55,R&D,Manager,3,Other,20000.0,2,4,3,3,0,9,3,2,1,2,0,2,0,6,4,4,0.12336540859882308,Low Risk
+1008,25,Marketing,HR Manager,4,Technical Degree,20000.0,2,3,3,3,0,3,1,1,6,1,1,2,0,4,3,5,0.2387568055354683,Low Risk
+1009,49,Sales,Sales Executive,4,Life Sciences,22600.0,3,3,2,3,1,4,2,0,3,2,2,0,0,7,6,1,0.027588726779801297,Low Risk
+1010,22,Legal,HR Manager,2,Technical Degree,28900.0,3,3,4,3,0,1,1,0,1,13,0,1,0,3,3,5,0.06989763479595226,Low Risk
+1011,46,R&D,Research Scientist,4,Life Sciences,20000.0,2,3,3,3,0,10,0,6,2,21,2,2,0,6,5,1,0.43054102510401365,Medium Risk
+1012,32,R&D,Director,1,Human Resources,20000.0,2,2,2,3,1,19,1,3,1,6,1,0,0,6,1,0,0.1739334790590647,Low Risk
+1013,38,Sales,Analyst,3,Human Resources,20000.0,3,3,3,3,0,5,0,3,3,7,2,1,0,7,0,0,0.2809133707345897,Low Risk
+1014,31,R&D,Research Scientist,3,Human Resources,20000.0,1,4,4,3,1,2,0,1,1,30,3,2,1,6,5,0,0.753293249210397,High Risk
+1015,30,R&D,Director,5,Marketing,20000.0,2,4,2,3,0,6,6,5,6,1,0,1,0,6,1,2,0.2027821240366485,Low Risk
+1016,37,HR,Analyst,4,Medical,37300.0,1,2,3,3,0,1,1,4,1,1,0,0,0,2,0,3,0.05383039400088095,Low Risk
+1017,38,Operations,Sales Executive,3,Other,20000.0,3,3,3,3,0,2,1,0,1,1,2,1,0,5,6,4,0.24824944628940304,Low Risk
+1018,27,Sales,Director,3,Marketing,20000.0,2,4,3,3,0,3,1,2,1,1,2,2,0,7,1,2,0.24630979960768426,Low Risk
+1019,40,R&D,HR Manager,2,Medical,21500.0,3,2,1,3,1,2,0,0,0,21,1,1,0,6,3,3,0.13477769190694555,Low Risk
+1020,38,Legal,Manager,4,Life Sciences,20000.0,4,1,4,3,0,17,0,0,0,2,1,0,0,3,4,1,0.08553573795036097,Low Risk
+1021,45,R&D,Manager,2,Technical Degree,20000.0,1,3,3,3,0,11,5,8,1,2,2,1,0,6,4,5,0.08295845459174654,Low Risk
+1022,27,Finance,HR Manager,4,Human Resources,20000.0,4,3,3,3,0,3,3,0,1,30,3,1,0,1,3,0,0.4031697907453463,Medium Risk
+1023,24,R&D,Engineer,2,Medical,20000.0,2,2,4,3,0,17,6,1,5,1,3,2,0,6,2,3,0.06559831364827465,Low Risk
+1024,46,Sales,Research Scientist,1,Other,20000.0,3,4,3,3,0,3,1,5,2,1,4,0,0,7,5,4,0.27004466230223917,Low Risk
+1025,22,Sales,Engineer,1,Marketing,20000.0,3,3,3,3,0,4,0,5,1,6,3,1,0,7,2,2,0.26067208497528754,Low Risk
+1026,47,Engineering,Director,2,Marketing,25800.0,2,2,3,3,1,2,2,4,5,3,2,1,0,0,1,2,0.04134744602963341,Low Risk
+1027,39,Engineering,Manager,3,Life Sciences,20000.0,3,3,1,4,0,16,1,1,1,1,6,1,0,0,4,1,0.05378827055742606,Low Risk
+1028,33,Finance,Director,4,Technical Degree,25800.0,4,2,1,3,0,11,2,4,2,1,1,1,0,1,1,5,0.008434648952860165,Low Risk
+1029,40,Marketing,Sales Executive,4,Human Resources,20000.0,2,3,3,3,1,0,0,0,3,4,3,0,1,4,6,0,0.6178498362398607,High Risk
+1030,46,HR,Research Scientist,2,Other,20000.0,1,4,4,3,0,3,0,1,2,5,2,3,0,2,5,4,0.3388248752583805,Medium Risk
+1031,38,Sales,Analyst,3,Medical,20000.0,3,3,2,3,0,19,0,0,3,1,3,0,0,7,0,3,0.07973587109907766,Low Risk
+1032,47,Engineering,Research Scientist,3,Human Resources,20000.0,3,3,3,3,0,13,3,2,2,1,4,0,0,0,5,0,0.0616994515844367,Low Risk
+1033,45,Sales,Director,2,Marketing,20000.0,3,2,4,3,0,2,0,5,3,1,1,1,0,7,1,2,0.34877278498294473,Medium Risk
+1034,43,R&D,HR Manager,2,Human Resources,20000.0,3,4,3,3,0,3,3,0,2,7,0,1,0,6,3,0,0.1897830419116716,Low Risk
+1035,25,Sales,Analyst,1,Life Sciences,20000.0,3,3,2,2,1,5,1,6,4,1,2,0,0,7,0,1,0.22339648037637405,Low Risk
+1036,22,Engineering,Analyst,5,Technical Degree,28400.0,2,4,2,3,0,7,2,0,3,8,3,0,0,0,0,5,0.03410609455706013,Low Risk
+1037,22,R&D,Research Scientist,3,Other,20000.0,3,3,2,3,0,2,0,0,3,20,1,2,1,6,5,4,0.6726049408957857,High Risk
+1038,25,R&D,Engineer,2,Life Sciences,20000.0,4,4,4,3,0,24,3,1,1,30,1,0,0,6,2,1,0.13412462488071303,Low Risk
+1039,45,R&D,Research Scientist,3,Human Resources,25200.0,3,2,1,2,0,6,5,0,2,1,4,3,0,6,5,0,0.030391870833619147,Low Risk
+1040,47,Engineering,Sales Executive,2,Technical Degree,20000.0,4,2,2,3,0,1,1,0,1,16,2,2,0,0,6,5,0.4511331469640104,Medium Risk
+1041,35,R&D,HR Manager,3,Marketing,20000.0,4,4,3,3,0,4,3,3,2,7,1,1,0,6,3,2,0.1647277194278907,Low Risk
+1042,38,Engineering,Director,4,Marketing,32200.0,4,4,2,4,0,1,1,3,3,12,2,0,0,0,1,2,0.06669592122740317,Low Risk
+1043,22,R&D,Director,3,Life Sciences,20000.0,3,1,3,3,0,2,2,6,2,5,3,1,1,6,1,1,0.5403051740606999,Medium Risk
+1044,37,Sales,Research Scientist,2,Technical Degree,20000.0,2,2,4,3,1,16,11,3,2,6,3,0,0,7,5,5,0.15025078727713462,Low Risk
+1045,27,Finance,HR Manager,3,Human Resources,20000.0,3,3,3,3,0,0,0,7,7,2,0,1,0,1,3,0,0.3077577336693984,Medium Risk
+1046,36,Engineering,Director,1,Life Sciences,20000.0,4,1,4,3,1,1,1,0,2,8,2,2,0,0,1,1,0.445249299707878,Medium Risk
+1047,41,R&D,HR Manager,4,Medical,20000.0,2,3,4,3,0,2,2,8,4,7,2,1,0,6,3,3,0.4406278566480345,Medium Risk
+1048,22,Marketing,Sales Executive,5,Marketing,20000.0,3,4,2,3,0,7,0,2,1,9,2,0,0,4,6,2,0.23090337773883274,Low Risk
+1049,36,Engineering,Sales Executive,2,Technical Degree,20000.0,2,3,4,3,0,24,2,0,1,1,3,0,0,0,6,5,0.050940623235532154,Low Risk
+1050,47,Engineering,HR Manager,2,Marketing,20000.0,3,2,3,3,0,1,1,0,3,18,2,0,0,0,3,2,0.5309200017164105,Medium Risk
+1051,32,R&D,HR Manager,1,Marketing,20000.0,3,3,4,3,1,1,1,1,3,1,2,2,0,6,3,2,0.25857400353961824,Low Risk
+1052,24,HR,Manager,1,Medical,20000.0,4,3,1,3,0,12,1,9,2,1,1,2,0,2,4,3,0.04589487817582214,Low Risk
+1053,43,Engineering,HR Manager,4,Human Resources,20000.0,3,4,4,3,0,22,0,1,4,13,2,2,0,0,3,0,0.13735763853736016,Low Risk
+1054,41,Sales,Research Scientist,4,Marketing,20000.0,2,3,2,4,1,13,8,0,0,2,2,2,0,7,5,2,0.08217488599020584,Low Risk
+1055,31,R&D,Manager,5,Life Sciences,20000.0,3,3,2,3,0,11,4,0,2,30,1,0,0,6,4,1,0.15527151106734885,Low Risk
+1056,28,R&D,Director,3,Other,20000.0,1,3,4,3,1,22,0,1,6,6,1,2,0,6,1,4,0.10263315397417601,Low Risk
+1057,36,Sales,Engineer,2,Medical,20000.0,4,4,3,3,0,3,2,2,0,1,5,0,0,7,2,3,0.18272011053572762,Low Risk
+1058,56,Marketing,Sales Executive,5,Life Sciences,20000.0,4,3,4,3,1,6,3,1,1,13,1,1,1,4,6,1,0.6550374808510879,High Risk
+1059,32,Engineering,Engineer,1,Other,20000.0,2,3,3,3,0,19,3,0,4,1,3,0,0,0,2,4,0.06659221546940369,Low Risk
+1060,30,Sales,Manager,1,Life Sciences,20000.0,3,4,3,3,1,3,0,4,3,1,2,0,1,7,4,1,0.4773874866747827,Medium Risk
+1061,37,Sales,Analyst,4,Other,20000.0,3,3,2,3,1,0,0,1,0,8,1,0,0,7,0,4,0.5154465792873212,Medium Risk
+1062,33,HR,Engineer,2,Technical Degree,20000.0,2,3,1,3,0,6,6,1,1,2,3,1,0,2,2,5,0.14774301598536158,Low Risk
+1063,40,Sales,HR Manager,4,Life Sciences,20000.0,1,4,1,3,1,1,0,2,3,7,3,0,1,7,3,1,0.6845261229288684,High Risk
+1064,22,Engineering,Research Scientist,3,Technical Degree,20000.0,2,4,4,4,0,7,4,1,3,2,0,1,0,0,5,5,0.15935385912746836,Low Risk
+1065,46,R&D,Analyst,4,Marketing,21400.0,1,3,3,3,0,1,1,0,3,11,2,0,0,6,0,2,0.05719370440847964,Low Risk
+1066,38,R&D,Director,2,Other,20000.0,3,3,2,3,0,0,0,2,2,8,2,0,1,6,1,4,0.5617418068362824,Medium Risk
+1067,50,Sales,Research Scientist,4,Marketing,20000.0,4,2,4,4,0,7,2,2,1,12,0,3,0,7,5,2,0.2410428048272382,Low Risk
+1068,39,Engineering,Engineer,2,Life Sciences,35000.0,3,3,1,3,1,6,2,0,4,1,0,0,0,0,2,1,0.031685517268384436,Low Risk
+1069,39,Sales,Director,2,Medical,20000.0,3,3,4,3,0,1,1,3,2,17,1,0,0,7,1,3,0.671743157873186,High Risk
+1070,30,Engineering,Manager,3,Life Sciences,20000.0,3,4,3,3,0,6,1,0,2,30,2,3,0,0,4,1,0.3446660216600753,Medium Risk
+1071,26,Engineering,Analyst,1,Medical,20000.0,4,4,3,3,1,1,1,6,1,7,5,0,0,0,0,3,0.2795576415504635,Low Risk
+1072,38,R&D,HR Manager,4,Medical,20100.0,1,3,1,3,1,1,0,0,2,8,3,1,0,6,3,3,0.45759331117835317,Medium Risk
+1073,35,Finance,Analyst,2,Human Resources,20000.0,4,2,3,3,0,1,1,0,0,14,2,3,0,1,0,0,0.3175717363285041,Medium Risk
+1074,31,Engineering,Sales Executive,4,Marketing,20400.0,4,3,4,4,0,15,8,0,2,30,1,1,0,0,6,2,0.06289557511947196,Low Risk
+1075,41,Engineering,Sales Executive,3,Technical Degree,20000.0,3,2,2,3,1,11,5,0,2,1,3,0,0,0,6,5,0.14315844045476225,Low Risk
+1076,24,Sales,Sales Executive,1,Other,20000.0,3,3,4,3,0,1,1,5,0,11,2,0,0,7,6,4,0.3800530166422343,Medium Risk
+1077,29,Sales,Analyst,4,Life Sciences,20000.0,4,2,4,3,0,9,2,3,2,1,1,1,0,7,0,1,0.09924106555549875,Low Risk
+1078,30,Engineering,Sales Executive,4,Medical,30500.0,4,4,3,3,0,6,6,0,2,12,1,2,0,0,6,3,0.02739058843642815,Low Risk
+1079,24,Marketing,Sales Executive,1,Human Resources,20000.0,3,3,3,3,0,2,2,1,6,11,4,0,0,4,6,0,0.3531567759789639,Medium Risk
+1080,29,R&D,Analyst,4,Life Sciences,20000.0,3,4,3,3,0,0,0,3,0,19,2,1,1,6,0,1,0.6155553179092261,High Risk
+1081,22,R&D,HR Manager,1,Human Resources,28600.0,3,4,3,3,0,1,1,0,2,3,1,1,0,6,3,0,0.029497001427058012,Low Risk
+1082,36,Finance,HR Manager,3,Human Resources,20000.0,3,4,2,3,0,27,0,0,2,28,2,1,0,1,3,0,0.19758316334869477,Low Risk
+1083,52,Operations,Engineer,5,Other,20000.0,3,3,3,3,1,8,2,3,3,6,2,2,1,5,2,4,0.6232399910643788,High Risk
+1084,38,R&D,Director,3,Technical Degree,24900.0,3,3,3,3,0,5,1,0,2,7,3,1,0,6,1,5,0.04730175565028784,Low Risk
+1085,35,Finance,Director,5,Marketing,20000.0,4,2,3,3,1,11,5,2,3,1,2,1,0,1,1,2,0.10638783531923605,Low Risk
+1086,32,R&D,Manager,1,Life Sciences,20000.0,3,4,2,3,0,0,0,4,3,8,6,1,1,6,4,1,0.6461930683039178,High Risk
+1087,46,Marketing,Manager,4,Medical,20000.0,3,4,4,3,0,1,1,6,2,1,1,2,0,4,4,3,0.24220934475720365,Low Risk
+1088,35,Legal,Director,5,Medical,20000.0,3,3,4,3,0,12,4,0,2,1,2,1,0,3,1,3,0.04588650657902109,Low Risk
+1089,41,HR,HR Manager,4,Marketing,20000.0,1,2,3,4,0,7,4,1,2,4,3,2,1,2,3,2,0.6866046899910708,High Risk
+1090,29,Engineering,HR Manager,4,Technical Degree,33700.0,3,2,1,3,1,2,0,5,1,16,2,1,0,0,3,5,0.059563809455535396,Low Risk
+1091,55,HR,Sales Executive,5,Marketing,20000.0,1,3,3,3,0,16,0,1,3,2,2,1,0,2,6,2,0.09030641791596236,Low Risk
+1092,36,Marketing,Sales Executive,4,Human Resources,20000.0,4,2,4,4,0,1,1,0,2,1,3,1,0,4,6,0,0.24645301309921888,Low Risk
+1093,26,Finance,Manager,3,Life Sciences,20000.0,1,1,3,3,0,26,2,5,3,3,5,1,0,1,4,1,0.11166441212956156,Low Risk
+1094,45,Finance,Research Scientist,1,Marketing,20000.0,3,2,4,4,1,4,2,2,5,9,4,2,0,1,5,2,0.43632182197406555,Medium Risk
+1095,46,Finance,Manager,4,Marketing,28600.0,3,3,4,3,0,3,3,3,3,12,5,1,0,1,4,2,0.045503750972958355,Low Risk
+1096,43,Engineering,Sales Executive,4,Medical,20000.0,3,2,3,3,0,9,2,0,3,12,1,2,0,0,6,3,0.20121734001305394,Low Risk
+1097,29,Engineering,Engineer,5,Medical,20000.0,4,2,3,3,0,0,0,0,1,19,2,0,0,0,2,3,0.48175565634693973,Medium Risk
+1098,26,Marketing,Director,3,Life Sciences,20000.0,4,4,4,3,0,1,1,3,6,4,1,0,1,4,1,1,0.4680617437917151,Medium Risk
+1099,36,Engineering,Sales Executive,5,Marketing,20000.0,4,3,3,3,0,8,4,0,1,8,0,3,0,0,6,2,0.14052320577082517,Low Risk
+1100,24,R&D,Sales Executive,4,Life Sciences,20000.0,3,3,2,3,0,6,1,5,1,8,4,2,1,6,6,1,0.49207045577492947,Medium Risk
+1101,37,Operations,Engineer,3,Human Resources,20000.0,3,2,4,3,1,4,4,0,3,1,3,1,0,5,2,0,0.297110829991555,Low Risk
+1102,31,R&D,Sales Executive,2,Human Resources,20000.0,4,2,2,3,0,0,0,7,1,7,5,0,1,6,6,0,0.5196889407309611,Medium Risk
+1103,44,Engineering,Director,2,Medical,20000.0,3,4,4,3,0,1,1,0,2,3,2,1,0,0,1,3,0.25307908294283304,Low Risk
+1104,30,Engineering,HR Manager,4,Technical Degree,20000.0,3,4,3,3,0,2,0,4,1,21,1,1,0,0,3,5,0.6424542684391379,High Risk
+1105,48,Finance,Research Scientist,3,Human Resources,32400.0,3,4,2,3,0,13,0,2,2,8,3,0,0,1,5,0,0.015662591156147338,Low Risk
+1106,34,Finance,Sales Executive,5,Human Resources,20000.0,3,3,3,3,0,6,3,0,1,1,0,1,0,1,6,0,0.11756256016773899,Low Risk
+1107,22,Engineering,Director,1,Life Sciences,20000.0,3,1,2,3,0,5,1,1,0,3,4,0,0,0,1,1,0.3066645653913735,Medium Risk
+1108,28,R&D,Engineer,4,Marketing,45500.0,2,1,4,2,1,7,2,5,1,3,4,1,0,6,2,2,0.040665079438163915,Low Risk
+1109,28,Operations,Director,3,Technical Degree,20000.0,4,3,3,3,1,8,1,4,2,2,1,2,0,5,1,5,0.1583224294371865,Low Risk
+1110,36,Engineering,Analyst,1,Medical,20000.0,1,2,3,3,1,10,5,3,2,18,2,0,1,0,0,3,0.7666793290937091,High Risk
+1111,30,Finance,Sales Executive,4,Marketing,22600.0,3,3,3,3,1,1,1,1,1,19,4,0,0,1,6,2,0.07236621091587984,Low Risk
+1112,52,R&D,Research Scientist,4,Technical Degree,20000.0,4,2,4,3,0,0,0,0,5,19,0,1,1,6,5,5,0.7052603167344448,High Risk
+1113,47,Finance,Director,3,Medical,20000.0,4,3,3,3,1,13,1,1,0,7,3,1,0,1,1,3,0.1635838404219096,Low Risk
+1114,24,Sales,Engineer,3,Life Sciences,20000.0,2,1,4,3,1,2,2,1,2,4,5,0,1,7,2,1,0.7370335765204564,High Risk
+1115,28,R&D,Sales Executive,3,Life Sciences,20000.0,3,4,2,3,0,7,0,0,2,4,5,3,0,6,6,1,0.19996945809071515,Low Risk
+1116,42,R&D,Research Scientist,5,Life Sciences,20000.0,2,3,3,3,0,2,0,1,2,4,2,0,0,6,5,1,0.41926780824527354,Medium Risk
+1117,22,Engineering,Manager,2,Life Sciences,20000.0,3,3,4,3,0,0,0,5,2,2,4,1,0,0,4,1,0.306791597351603,Medium Risk
+1118,49,Sales,Director,3,Human Resources,20000.0,3,4,4,3,1,6,0,1,4,2,2,1,0,7,1,0,0.2694789475733754,Low Risk
+1119,34,Sales,HR Manager,3,Other,20000.0,2,2,4,3,1,2,1,8,4,3,2,3,0,7,3,4,0.4166582161463528,Medium Risk
+1120,43,Engineering,HR Manager,2,Medical,20000.0,3,4,2,3,1,0,0,4,1,13,1,0,1,0,3,3,0.7554959902534745,High Risk
+1121,43,R&D,Analyst,3,Life Sciences,20000.0,4,3,2,2,1,2,0,0,2,24,2,3,1,6,0,1,0.7010633773147131,High Risk
+1122,45,Sales,Analyst,3,Technical Degree,20000.0,4,4,3,3,0,5,2,2,3,16,1,0,0,7,0,5,0.3323302811658317,Medium Risk
+1123,30,Finance,Engineer,4,Other,20000.0,3,4,1,3,1,8,2,0,1,19,6,1,0,1,2,4,0.2524684746135395,Low Risk
+1124,42,R&D,Manager,4,Medical,20000.0,3,2,2,3,1,0,0,2,6,10,4,1,1,6,4,3,0.7791074974684956,High Risk
+1125,40,R&D,Director,2,Technical Degree,20000.0,4,3,4,3,0,9,1,2,2,1,0,1,0,6,1,5,0.08382770340954616,Low Risk
+1126,27,R&D,Research Scientist,2,Medical,20000.0,2,1,3,4,0,0,0,6,3,3,3,1,1,6,5,3,0.7547839833206451,High Risk
+1127,41,R&D,Sales Executive,2,Technical Degree,20000.0,2,3,2,3,0,19,1,1,2,1,0,0,0,6,6,5,0.05710248254084676,Low Risk
+1128,22,Engineering,Research Scientist,3,Human Resources,29600.0,4,4,4,3,0,2,2,0,3,1,2,1,0,0,5,0,0.012136169589440818,Low Risk
+1129,56,Engineering,Director,4,Technical Degree,20000.0,2,4,3,3,0,16,2,2,3,3,4,1,0,0,1,5,0.06745715739504639,Low Risk
+1130,38,R&D,Research Scientist,2,Human Resources,20000.0,4,2,4,3,0,6,0,0,2,3,3,1,0,6,5,0,0.27388670659836795,Low Risk
+1131,39,Engineering,Director,4,Medical,20000.0,3,2,3,3,0,0,0,3,3,1,3,0,0,0,1,3,0.4101435661110306,Medium Risk
+1132,37,Finance,Analyst,5,Other,20000.0,4,2,3,3,0,4,1,5,1,14,2,0,0,1,0,4,0.4233520647603398,Medium Risk
+1133,42,R&D,Engineer,1,Human Resources,20000.0,4,3,4,3,0,2,2,0,4,4,2,1,0,6,2,0,0.20935919434347164,Low Risk
+1134,52,Finance,Director,1,Technical Degree,20000.0,2,4,3,3,0,2,0,1,2,30,2,0,1,1,1,5,0.7715176337628836,High Risk
+1135,45,Sales,Engineer,4,Technical Degree,20000.0,4,2,2,3,0,2,1,5,6,7,2,2,0,7,2,5,0.5124076115894544,Medium Risk
+1136,46,Marketing,HR Manager,3,Marketing,20400.0,1,2,3,3,1,1,1,0,1,10,1,2,1,4,3,2,0.6492556744298068,High Risk
+1137,33,Sales,Engineer,4,Other,20000.0,1,2,3,3,0,0,0,1,4,4,3,1,0,7,2,4,0.6127778472017852,High Risk
+1138,55,Sales,Engineer,3,Human Resources,22400.0,4,2,3,3,0,2,0,9,4,1,3,0,0,7,2,0,0.04932929118290015,Low Risk
+1139,39,R&D,Manager,3,Other,20000.0,3,4,4,3,1,5,2,1,2,3,4,1,0,6,4,4,0.25064658202182455,Low Risk
+1140,30,R&D,Engineer,3,Life Sciences,20000.0,4,3,1,3,0,0,0,0,3,10,1,0,0,6,2,1,0.38492791102634416,Medium Risk
+1141,34,Sales,Engineer,5,Human Resources,20000.0,4,4,3,3,1,4,0,1,1,3,5,0,0,7,2,0,0.18613710863450014,Low Risk
+1142,22,Engineering,Director,4,Marketing,20000.0,3,1,3,3,0,15,2,0,3,6,5,2,0,0,1,2,0.08985686766567523,Low Risk
+1143,44,Sales,Analyst,3,Technical Degree,25100.0,3,3,2,3,0,0,0,0,2,15,6,0,0,7,0,5,0.07991236063707785,Low Risk
+1144,45,Finance,Sales Executive,3,Medical,20000.0,3,2,3,3,1,4,4,5,1,5,1,2,1,1,6,3,0.6049174972243647,High Risk
+1145,22,Sales,Sales Executive,2,Other,20000.0,3,3,4,3,1,6,3,1,0,1,2,0,0,7,6,4,0.2156789550934995,Low Risk
+1146,50,Marketing,Research Scientist,3,Medical,20000.0,2,4,4,3,0,2,2,4,5,2,2,1,0,4,5,3,0.3454920151813537,Medium Risk
+1147,37,R&D,Research Scientist,3,Technical Degree,20000.0,4,2,3,3,0,5,4,2,5,12,1,0,1,6,5,5,0.5676967771672196,Medium Risk
+1148,43,Sales,Director,3,Medical,20000.0,2,3,2,4,0,2,2,1,1,7,2,1,0,7,1,3,0.32470604347723403,Medium Risk
+1149,41,Operations,Sales Executive,3,Technical Degree,26700.0,3,3,3,3,0,18,4,5,1,17,5,1,0,5,6,5,0.014966333632468333,Low Risk
+1150,39,R&D,Manager,4,Human Resources,20000.0,3,2,4,3,1,0,0,1,1,8,2,0,1,6,4,0,0.785096149651567,High Risk
+1151,37,R&D,Manager,2,Human Resources,20000.0,2,4,2,3,0,0,0,0,4,6,2,0,0,6,4,0,0.4400820594049538,Medium Risk
+1152,22,Sales,Director,1,Other,20000.0,3,3,3,3,0,6,6,0,0,7,0,1,0,7,1,4,0.12314132870100206,Low Risk
+1153,31,Engineering,Manager,3,Human Resources,20000.0,4,4,2,2,0,1,1,2,1,17,0,0,1,0,4,0,0.701260086830969,High Risk
+1154,48,Engineering,Analyst,3,Human Resources,20000.0,2,3,3,3,0,5,4,11,1,13,2,1,1,0,0,0,0.7171169314322958,High Risk
+1155,22,Finance,Director,4,Life Sciences,20000.0,3,4,1,4,0,3,1,0,4,13,5,0,1,1,1,1,0.5947963607098251,Medium Risk
+1156,41,Finance,Analyst,1,Marketing,26900.0,4,3,1,3,1,5,1,11,1,12,1,0,0,1,0,2,0.048690353854213934,Low Risk
+1157,44,Sales,Sales Executive,2,Human Resources,20000.0,4,3,3,3,0,16,1,0,3,5,3,0,0,7,6,0,0.05231095744634458,Low Risk
+1158,24,Sales,Analyst,3,Medical,20000.0,4,3,3,3,0,11,1,0,0,9,1,0,0,7,0,3,0.09324472951945842,Low Risk
+1159,49,R&D,Research Scientist,4,Human Resources,20000.0,1,3,3,3,0,0,0,0,2,3,3,0,0,6,5,0,0.3800000512293753,Medium Risk
+1160,45,Sales,HR Manager,4,Technical Degree,20000.0,4,4,3,3,1,0,0,1,2,9,1,2,0,7,3,5,0.4649779216777871,Medium Risk
+1161,49,Marketing,Analyst,2,Medical,20000.0,1,3,2,3,0,0,0,0,3,12,5,0,0,4,0,3,0.38370394512540945,Medium Risk
+1162,42,Engineering,Analyst,2,Other,20000.0,3,2,3,3,0,12,1,3,0,3,2,0,0,0,0,4,0.08518051479784036,Low Risk
+1163,38,Engineering,Research Scientist,2,Technical Degree,54400.0,3,3,2,3,1,0,0,0,2,8,2,3,0,0,5,5,0.06403462657374975,Low Risk
+1164,32,HR,Director,2,Technical Degree,25600.0,3,3,4,3,1,9,2,0,2,21,1,1,0,2,1,5,0.026696435948579875,Low Risk
+1165,54,R&D,Director,3,Marketing,20000.0,3,2,4,3,0,0,0,6,3,1,5,0,0,6,1,2,0.3516718436320755,Medium Risk
+1166,44,Sales,Analyst,2,Technical Degree,20600.0,3,3,3,3,1,21,8,1,2,8,3,0,0,7,0,5,0.006238490580839302,Low Risk
+1167,43,Sales,Engineer,4,Human Resources,25000.0,4,4,1,3,0,5,0,0,4,3,2,0,0,7,2,0,0.028283612870441645,Low Risk
+1168,39,Sales,Manager,2,Marketing,20000.0,2,4,3,3,1,2,2,0,4,1,3,1,0,7,4,2,0.26361771585277594,Low Risk
+1169,31,Operations,Analyst,4,Marketing,26100.0,2,4,4,3,0,5,4,1,1,7,3,0,0,5,0,2,0.05277059876093262,Low Risk
+1170,26,HR,Manager,3,Human Resources,20000.0,3,3,4,3,0,8,6,5,2,29,1,2,1,2,4,0,0.23732187740832064,Low Risk
+1171,22,Sales,Research Scientist,3,Technical Degree,20000.0,2,3,2,3,1,7,0,2,4,8,2,2,0,7,5,5,0.3632714536434628,Medium Risk
+1172,29,Sales,Engineer,3,Other,20000.0,3,4,4,3,0,2,2,0,4,12,2,0,0,7,2,4,0.31717779407571833,Medium Risk
+1173,36,R&D,Research Scientist,5,Marketing,33800.0,4,2,3,4,0,11,1,1,1,12,1,3,0,6,5,2,0.03518464010834085,Low Risk
+1174,44,Engineering,Analyst,2,Life Sciences,20000.0,3,3,2,3,0,6,1,10,6,4,1,3,0,0,0,1,0.28236185912357775,Low Risk
+1175,33,R&D,Analyst,3,Medical,20000.0,3,3,4,3,1,17,0,0,3,1,5,0,0,6,0,3,0.105397486731405,Low Risk
+1176,32,Sales,Manager,3,Life Sciences,22300.0,4,3,3,4,0,1,1,1,4,23,4,2,0,7,4,1,0.08005174013734205,Low Risk
+1177,26,Sales,Research Scientist,3,Technical Degree,20000.0,4,3,4,3,0,7,2,0,4,9,3,0,0,7,5,5,0.14564617682084066,Low Risk
+1178,42,Engineering,Sales Executive,5,Medical,20000.0,4,4,3,3,1,1,1,0,0,5,3,0,0,0,6,3,0.2931703123115775,Low Risk
+1179,39,Engineering,HR Manager,4,Human Resources,40200.0,2,1,4,3,0,1,1,4,1,2,5,1,0,0,3,0,0.03403943837510212,Low Risk
+1180,25,Finance,Director,5,Medical,20000.0,3,4,4,3,0,17,1,0,3,1,3,2,0,1,1,3,0.023653225901576116,Low Risk
+1181,37,Engineering,Engineer,2,Medical,20000.0,4,3,1,3,0,7,0,0,3,15,2,1,0,0,2,3,0.2914100162428132,Low Risk
+1182,40,Engineering,HR Manager,3,Life Sciences,28400.0,4,3,4,3,1,1,1,5,2,7,4,1,0,0,3,1,0.039652395924752365,Low Risk
+1183,36,Finance,Manager,3,Life Sciences,20000.0,3,4,2,3,0,0,0,5,2,28,2,1,1,1,4,1,0.8065460513363415,High Risk
+1184,34,Sales,Sales Executive,2,Technical Degree,20000.0,4,4,3,3,1,1,1,5,2,22,1,1,1,7,6,5,0.7800813747154848,High Risk
+1185,29,R&D,Director,4,Other,20000.0,4,4,4,3,0,2,2,1,2,7,1,2,0,6,1,4,0.20591448126298306,Low Risk
+1186,39,R&D,HR Manager,3,Medical,20000.0,2,2,3,3,0,19,1,0,6,27,1,0,0,6,3,3,0.21446882228827505,Low Risk
+1187,29,Sales,Director,3,Human Resources,20000.0,4,3,3,3,0,9,3,1,2,11,2,0,0,7,1,0,0.14150410312497072,Low Risk
+1188,41,R&D,Analyst,2,Marketing,20000.0,3,3,1,3,1,4,4,3,2,1,2,2,0,6,0,2,0.17577526773805832,Low Risk
+1189,36,R&D,Research Scientist,4,Technical Degree,20000.0,3,3,3,3,1,0,0,9,0,2,2,1,0,6,5,5,0.3484693817353689,Medium Risk
+1190,30,Engineering,Engineer,2,Human Resources,20000.0,2,2,2,3,0,4,2,1,4,4,0,2,0,0,2,0,0.3130438404495149,Medium Risk
+1191,22,R&D,Research Scientist,3,Other,20000.0,4,1,4,3,0,3,1,2,1,3,4,0,0,6,5,4,0.3626815607797081,Medium Risk
+1192,60,R&D,Research Scientist,3,Medical,20000.0,2,3,2,3,0,3,3,14,2,4,4,1,1,6,5,3,0.6630043208659535,High Risk
+1193,33,HR,Analyst,1,Medical,26900.0,4,1,2,4,0,2,2,4,2,1,3,1,0,2,0,3,0.04588366624200338,Low Risk
+1194,25,HR,Manager,4,Medical,29700.0,3,3,4,3,0,1,0,2,2,8,3,1,0,2,4,3,0.04123161488917087,Low Risk
+1195,27,R&D,Sales Executive,5,Marketing,32500.0,3,4,1,3,0,11,7,0,4,1,3,0,0,6,6,2,0.009806193476633678,Low Risk
+1196,29,Finance,Research Scientist,3,Life Sciences,20000.0,2,2,3,3,0,10,0,1,1,5,1,0,0,1,5,1,0.19880158550181798,Low Risk
+1197,40,Marketing,Sales Executive,4,Technical Degree,20000.0,2,4,2,3,1,9,0,0,0,4,4,1,0,4,6,5,0.34593571895567704,Medium Risk
+1198,44,Finance,Manager,4,Marketing,20000.0,1,3,3,3,0,3,0,4,4,30,6,2,1,1,4,2,0.8226832072000917,High Risk
+1199,36,R&D,Engineer,5,Marketing,21200.0,3,2,1,3,0,4,1,0,2,18,2,0,0,6,2,2,0.09476541321583438,Low Risk
+1200,44,R&D,Manager,1,Technical Degree,20000.0,3,3,3,3,0,3,3,0,1,10,5,1,0,6,4,5,0.3136528224202408,Medium Risk
+1201,44,Sales,Director,3,Life Sciences,20000.0,1,3,3,3,0,3,1,3,3,13,1,0,1,7,1,1,0.7763061364263728,High Risk
+1202,37,HR,Director,4,Marketing,20000.0,3,2,2,4,0,10,0,0,2,1,2,1,0,2,1,2,0.15974605090094485,Low Risk
+1203,32,Finance,Research Scientist,4,Marketing,24300.0,2,3,4,4,0,14,2,1,2,18,5,1,0,1,5,2,0.058566338432064644,Low Risk
+1204,30,Marketing,Analyst,3,Human Resources,20000.0,4,2,3,4,0,13,4,0,2,17,4,2,0,4,0,0,0.07734580505639857,Low Risk
+1205,32,HR,Manager,5,Medical,20000.0,4,3,4,3,0,8,3,1,5,11,0,0,0,2,4,3,0.21621328235244788,Low Risk
+1206,38,Engineering,Director,4,Medical,27900.0,3,4,3,2,0,1,1,2,1,6,1,1,0,0,1,3,0.02321702863898385,Low Risk
+1207,45,R&D,Director,2,Marketing,52000.0,3,3,3,3,0,8,1,1,7,1,1,1,0,6,1,2,0.02384560645294856,Low Risk
+1208,50,Finance,HR Manager,4,Technical Degree,20000.0,4,3,2,3,0,10,6,0,6,12,1,1,0,1,3,5,0.16262818496177456,Low Risk
+1209,22,Marketing,Analyst,5,Technical Degree,20000.0,3,2,4,3,0,0,0,1,2,10,3,2,0,4,0,5,0.4232478567775637,Medium Risk
+1210,37,R&D,Manager,3,Life Sciences,22800.0,4,1,3,3,0,0,0,3,2,3,1,0,0,6,4,1,0.06368466505185733,Low Risk
+1211,29,Finance,Engineer,4,Life Sciences,20000.0,4,2,2,3,0,4,3,1,1,6,2,1,0,1,2,1,0.3471458879585111,Medium Risk
+1212,43,HR,Engineer,4,Life Sciences,20000.0,1,4,3,3,0,4,4,1,0,6,2,0,0,2,2,1,0.2761170289034691,Low Risk
+1213,26,Sales,Engineer,4,Technical Degree,20000.0,3,2,4,3,0,0,0,0,1,8,2,0,1,7,2,5,0.6404622381487615,High Risk
+1214,45,R&D,Engineer,4,Technical Degree,20000.0,1,3,4,3,0,11,2,5,1,11,2,2,0,6,2,5,0.2804439139635088,Low Risk
+1215,48,Sales,Sales Executive,1,Marketing,20000.0,3,2,1,3,0,1,1,6,0,3,1,2,0,7,6,2,0.3769775783329403,Medium Risk
+1216,22,HR,Engineer,4,Other,20000.0,3,3,3,3,0,15,0,3,2,1,3,1,0,2,2,4,0.05548215520320856,Low Risk
+1217,49,R&D,Analyst,1,Human Resources,20000.0,2,3,4,3,0,6,5,1,2,4,3,0,0,6,0,0,0.23436780194682594,Low Risk
+1218,34,R&D,Director,1,Medical,20000.0,4,3,3,3,0,0,0,1,5,6,3,1,0,6,1,3,0.3100865857906282,Medium Risk
+1219,30,R&D,Research Scientist,3,Technical Degree,20000.0,4,3,3,3,1,19,1,0,3,5,4,2,0,6,5,5,0.046257093082221326,Low Risk
+1220,33,Engineering,Research Scientist,4,Other,20000.0,2,2,4,3,0,2,2,0,1,8,0,1,1,0,5,4,0.3958270133801489,Medium Risk
+1221,35,Sales,Manager,4,Marketing,20000.0,4,4,4,3,0,8,6,1,2,1,2,1,0,7,4,2,0.06994145583098926,Low Risk
+1222,38,Sales,Research Scientist,3,Other,20000.0,3,3,4,4,0,2,2,5,0,7,4,1,0,7,5,4,0.3135203772577016,Medium Risk
+1223,43,Sales,Sales Executive,1,Medical,20000.0,4,3,3,3,0,1,0,4,1,2,0,0,0,7,6,3,0.2118002918506689,Low Risk
+1224,36,R&D,Analyst,4,Human Resources,21200.0,3,2,3,3,0,2,2,1,0,1,1,1,0,6,0,0,0.04063939270891038,Low Risk
+1225,34,HR,Analyst,2,Medical,21000.0,3,4,3,2,0,0,0,1,1,12,2,2,0,2,0,3,0.03694334901566763,Low Risk
+1226,30,Finance,Research Scientist,3,Medical,20000.0,3,3,3,3,1,2,2,0,3,10,2,0,0,1,5,3,0.32181667043668044,Medium Risk
+1227,44,Engineering,HR Manager,3,Technical Degree,20000.0,3,3,3,3,0,7,4,0,2,10,2,2,0,0,3,5,0.21350386435112273,Low Risk
+1228,31,Sales,Director,3,Medical,20000.0,3,3,4,3,1,7,2,0,0,4,2,2,0,7,1,3,0.2029695285298591,Low Risk
+1229,32,Sales,Research Scientist,4,Technical Degree,20000.0,1,3,2,3,0,20,6,0,1,5,6,0,0,7,5,5,0.08236382621674083,Low Risk
+1230,34,R&D,HR Manager,3,Marketing,20000.0,3,2,2,3,0,10,6,1,1,2,5,2,0,6,3,2,0.0971447595234907,Low Risk
+1231,22,Operations,Analyst,4,Medical,20000.0,4,3,1,3,0,1,0,2,2,1,2,3,0,5,0,3,0.16716720273259078,Low Risk
+1232,54,HR,Analyst,4,Technical Degree,20000.0,4,3,1,3,0,6,0,2,2,7,2,1,0,2,0,5,0.23756981865982818,Low Risk
+1233,33,Finance,Manager,4,Marketing,20000.0,3,3,3,3,0,2,2,8,3,21,4,0,0,1,4,2,0.4421970348562535,Medium Risk
+1234,35,Engineering,Director,5,Medical,20000.0,2,4,2,3,1,7,4,2,3,1,1,2,0,0,1,3,0.232628804274336,Low Risk
+1235,28,Finance,Engineer,3,Medical,21600.0,2,3,4,3,1,6,6,1,3,21,1,1,0,1,2,3,0.07134637736551362,Low Risk
+1236,32,Marketing,Research Scientist,1,Technical Degree,20000.0,2,3,1,3,1,5,2,1,4,1,0,0,0,4,5,5,0.19609297477704202,Low Risk
+1237,38,Marketing,Analyst,4,Human Resources,21200.0,2,3,4,3,1,0,0,1,3,1,3,0,0,4,0,0,0.0910030554829156,Low Risk
+1238,22,Engineering,Research Scientist,3,Human Resources,20000.0,3,3,4,3,0,1,0,1,3,14,3,0,0,0,5,0,0.5181440199912712,Medium Risk
+1239,32,Sales,Research Scientist,5,Technical Degree,30600.0,3,3,4,3,0,1,0,4,1,3,4,2,0,7,5,5,0.027819801465936864,Low Risk
+1240,27,R&D,HR Manager,4,Medical,20000.0,2,3,3,3,1,1,0,0,4,1,3,1,0,6,3,3,0.40079051380796715,Medium Risk
+1241,44,Sales,Analyst,2,Life Sciences,20000.0,4,3,1,3,0,0,0,0,2,1,1,1,0,7,0,1,0.1789952645763886,Low Risk
+1242,48,R&D,Engineer,2,Human Resources,20000.0,3,1,3,3,0,0,0,0,1,1,1,0,0,6,2,0,0.4535021060912797,Medium Risk
+1243,38,R&D,Director,3,Technical Degree,20000.0,3,2,3,3,0,3,3,2,3,7,1,2,0,6,1,5,0.4496439735529655,Medium Risk
+1244,33,HR,Sales Executive,5,Other,20000.0,4,4,3,3,1,6,0,0,4,2,0,1,0,2,6,4,0.15323012056120336,Low Risk
+1245,33,R&D,Sales Executive,4,Human Resources,21900.0,2,4,3,3,0,6,1,3,1,1,3,1,0,6,6,0,0.037248895605415916,Low Risk
+1246,57,R&D,Research Scientist,1,Human Resources,20000.0,2,4,1,3,1,0,0,3,0,3,2,1,0,6,5,0,0.34920492033952194,Medium Risk
+1247,46,HR,Research Scientist,5,Life Sciences,20000.0,3,2,4,3,0,1,1,1,0,3,5,1,0,2,5,1,0.41399288504376663,Medium Risk
+1248,47,HR,Analyst,1,Technical Degree,20000.0,3,2,3,3,0,15,0,2,2,2,2,0,0,2,0,5,0.09970565917668013,Low Risk
+1249,29,R&D,Analyst,4,Medical,21800.0,3,3,3,3,0,4,2,1,3,9,3,0,0,6,0,3,0.03734585838240623,Low Risk
+1250,35,Operations,HR Manager,3,Human Resources,20000.0,4,3,3,3,0,4,2,15,4,2,0,0,0,5,3,0,0.179838965785343,Low Risk
+1251,35,Engineering,HR Manager,1,Life Sciences,20000.0,1,4,3,3,0,7,1,0,4,2,1,2,0,0,3,1,0.25110228798207895,Low Risk
+1252,22,Engineering,Manager,3,Human Resources,20000.0,1,3,3,3,0,4,0,0,1,2,2,1,0,0,4,0,0.39779683379513664,Medium Risk
+1253,37,HR,Director,3,Other,20000.0,1,2,4,3,0,0,0,0,1,18,2,1,1,2,1,4,0.8372691772573324,High Risk
+1254,51,Finance,Analyst,5,Human Resources,20000.0,3,3,4,3,0,3,0,0,1,18,2,0,0,1,0,0,0.43788719349630684,Medium Risk
+1255,42,Finance,Director,2,Human Resources,20000.0,4,4,2,4,0,6,1,0,5,1,2,1,0,1,1,0,0.144817942045263,Low Risk
+1256,34,R&D,Sales Executive,2,Medical,20000.0,3,3,2,3,0,2,2,10,0,5,3,0,0,6,6,3,0.33863792785356445,Medium Risk
+1257,43,Finance,Sales Executive,3,Technical Degree,24900.0,3,3,4,4,0,2,1,4,4,3,2,0,0,1,6,5,0.030764550771383535,Low Risk
+1258,52,Engineering,Analyst,3,Life Sciences,20000.0,3,4,3,3,0,0,0,3,1,1,5,1,0,0,0,1,0.20528742367489872,Low Risk
+1259,29,Finance,Research Scientist,2,Technical Degree,20000.0,3,2,3,3,0,2,2,2,5,9,4,1,0,1,5,5,0.4735787038217075,Medium Risk
+1260,35,Sales,Sales Executive,1,Other,41300.0,3,4,2,3,1,4,1,0,3,3,2,2,0,7,6,4,0.042153908016588144,Low Risk
+1261,22,Marketing,HR Manager,5,Human Resources,23500.0,4,4,3,3,0,1,1,3,4,10,1,2,0,4,3,0,0.03762575302629087,Low Risk
+1262,30,Sales,Analyst,4,Technical Degree,20000.0,3,4,2,4,0,7,1,0,3,30,1,1,1,7,0,5,0.3737411044678792,Medium Risk
+1263,47,HR,Analyst,5,Medical,20000.0,3,4,3,3,1,2,2,1,1,17,0,0,1,2,0,3,0.7093870520567943,High Risk
+1264,46,Engineering,Engineer,2,Human Resources,20000.0,4,1,1,3,0,0,0,1,3,2,5,1,0,0,2,0,0.38603616168531835,Medium Risk
+1265,49,Sales,Analyst,2,Human Resources,24900.0,2,2,3,3,1,7,3,3,0,2,2,0,0,7,0,0,0.06025491401068143,Low Risk
+1266,47,R&D,Engineer,4,Marketing,20000.0,3,2,4,3,0,8,3,2,2,23,2,3,0,6,2,2,0.2586442112269014,Low Risk
+1267,45,Engineering,Director,2,Human Resources,20000.0,4,4,2,3,1,5,0,0,1,10,2,1,0,0,1,0,0.2976050048343744,Low Risk
+1268,30,Finance,Sales Executive,5,Marketing,20000.0,3,3,1,3,1,0,0,8,2,1,2,2,0,1,6,2,0.25241645700025567,Low Risk
+1269,22,Engineering,Manager,4,Technical Degree,20000.0,4,3,3,3,0,5,2,0,1,18,1,0,0,0,4,5,0.29171163773456793,Low Risk
+1270,39,HR,Engineer,5,Technical Degree,20000.0,3,2,1,3,0,0,0,0,1,3,2,0,0,2,2,5,0.4577598519311158,Medium Risk
+1271,34,Engineering,Director,4,Life Sciences,20000.0,4,3,4,3,0,1,1,1,2,2,5,2,0,0,1,1,0.20320875625172222,Low Risk
+1272,51,R&D,Analyst,4,Human Resources,20000.0,4,2,1,3,1,0,0,5,0,1,3,3,0,6,0,0,0.20142893506618706,Low Risk
+1273,22,R&D,Sales Executive,5,Human Resources,20000.0,1,4,4,3,0,8,3,2,2,3,1,1,0,6,6,0,0.14742569169514702,Low Risk
+1274,38,Sales,Sales Executive,4,Medical,20000.0,3,4,2,3,0,4,0,10,2,20,1,0,0,7,6,3,0.5130343142850862,Medium Risk
+1275,34,R&D,Research Scientist,4,Marketing,20000.0,3,4,2,3,1,0,0,2,4,4,1,0,0,6,5,2,0.4868612108706333,Medium Risk
+1276,31,Finance,Analyst,1,Human Resources,28500.0,3,3,4,3,0,1,1,0,0,3,1,0,0,1,0,0,0.024549997276868754,Low Risk
+1277,23,Sales,Sales Executive,1,Medical,20000.0,4,4,2,3,1,7,3,1,2,26,2,0,1,7,6,3,0.6354653464325932,High Risk
+1278,44,Marketing,Director,5,Life Sciences,20000.0,3,2,3,3,0,10,10,1,0,1,3,1,0,4,1,1,0.09691851021142066,Low Risk
+1279,31,Sales,Research Scientist,2,Human Resources,37600.0,2,2,3,3,1,2,0,0,1,15,2,1,0,7,5,0,0.08637307346839602,Low Risk
+1280,35,Legal,Research Scientist,3,Medical,20000.0,3,2,3,3,1,10,5,1,1,15,2,1,0,3,5,3,0.4047442139949354,Medium Risk
+1281,22,Engineering,Manager,2,Technical Degree,24000.0,4,3,3,3,0,7,7,2,3,9,4,1,0,0,4,5,0.025684021954268527,Low Risk
+1282,46,R&D,Research Scientist,3,Marketing,20000.0,4,1,3,4,1,8,2,7,2,1,0,1,0,6,5,2,0.2862556290465192,Low Risk
+1283,37,Sales,Engineer,2,Human Resources,20000.0,4,2,2,3,1,7,1,3,3,2,5,0,0,7,2,0,0.3004469821221846,Medium Risk
+1284,39,Sales,Engineer,1,Human Resources,20000.0,1,2,3,2,0,11,0,0,3,15,3,0,1,7,2,0,0.6606673448973381,High Risk
+1285,30,Engineering,Analyst,4,Human Resources,20000.0,3,3,3,3,0,7,2,12,6,4,4,1,0,0,0,0,0.1711768903561456,Low Risk
+1286,36,HR,Manager,3,Other,20000.0,3,3,2,2,0,0,0,0,1,26,3,0,1,2,4,4,0.7753686074788061,High Risk
+1287,34,R&D,Analyst,4,Marketing,20000.0,3,4,3,3,0,3,1,2,1,20,2,1,1,6,0,2,0.5815117978707088,Medium Risk
+1288,55,Legal,Manager,3,Life Sciences,33800.0,3,1,3,3,0,9,3,5,6,1,3,1,0,3,4,1,0.03457666112648575,Low Risk
+1289,51,R&D,Director,4,Life Sciences,27900.0,3,4,4,3,1,0,0,2,2,13,4,2,0,6,1,1,0.08820271201577545,Low Risk
+1290,49,Sales,Director,2,Marketing,20000.0,4,2,1,3,0,1,1,1,5,4,4,0,1,7,1,2,0.6245708437036654,High Risk
+1291,35,R&D,Sales Executive,2,Marketing,20000.0,4,4,1,3,1,12,0,0,1,3,2,2,0,6,6,2,0.06857908599775028,Low Risk
+1292,35,R&D,Manager,5,Other,20000.0,3,4,4,3,0,3,2,4,2,1,3,0,0,6,4,4,0.2430843944210201,Low Risk
+1293,31,Finance,HR Manager,4,Human Resources,20000.0,4,3,1,4,0,29,0,5,4,25,1,2,0,1,3,0,0.13596083785122087,Low Risk
+1294,34,HR,Sales Executive,4,Life Sciences,20000.0,3,3,1,3,0,18,7,3,2,5,2,0,0,2,6,1,0.06281990041496063,Low Risk
+1295,40,R&D,Research Scientist,2,Other,22500.0,4,3,4,3,0,0,0,5,1,8,1,0,0,6,5,4,0.06452140005386826,Low Risk
+1296,33,Sales,Analyst,3,Human Resources,25900.0,4,4,1,3,0,2,1,2,4,22,2,3,0,7,0,0,0.08361471913911918,Low Risk
+1297,35,Engineering,HR Manager,5,Medical,20000.0,2,4,4,3,0,2,2,0,2,1,2,0,1,0,3,3,0.4695577310958854,Medium Risk
+1298,50,Sales,Engineer,4,Life Sciences,20000.0,1,2,4,3,0,7,7,0,3,6,2,1,1,7,2,1,0.6672811778693329,High Risk
+1299,30,Engineering,Analyst,2,Human Resources,20000.0,1,2,4,3,0,1,1,11,1,1,2,0,1,0,0,0,0.7811379376005776,High Risk
+1300,28,Legal,Manager,4,Marketing,20000.0,3,2,3,2,0,2,2,2,3,6,4,2,1,3,4,2,0.5898578361275105,Medium Risk
+1301,22,Legal,Engineer,3,Life Sciences,20000.0,3,3,3,3,0,3,0,1,5,3,3,0,0,3,2,1,0.2886147447452019,Low Risk
+1302,43,Marketing,Research Scientist,3,Medical,28300.0,4,4,1,3,1,9,9,6,2,8,2,1,0,4,5,3,0.031799773693754814,Low Risk
+1303,50,R&D,Engineer,4,Other,33500.0,3,3,4,3,0,17,16,1,3,1,1,1,0,6,2,4,0.01341855156111635,Low Risk
+1304,50,Finance,Engineer,1,Human Resources,29400.0,3,1,3,3,0,3,2,0,1,5,4,1,0,1,2,0,0.051431966893409724,Low Risk
+1305,38,R&D,Analyst,4,Life Sciences,20000.0,3,2,2,3,0,1,0,2,5,17,3,1,0,6,0,1,0.6726162716530029,High Risk
+1306,30,Sales,Research Scientist,1,Human Resources,20000.0,3,3,2,4,0,2,2,0,3,4,1,0,0,7,5,0,0.2270912172093947,Low Risk
+1307,53,Sales,HR Manager,3,Technical Degree,20000.0,3,3,2,1,0,9,1,1,5,2,2,0,0,7,3,5,0.14541119063954414,Low Risk
+1308,34,R&D,Research Scientist,4,Other,21000.0,4,4,2,3,0,3,3,0,2,10,3,0,0,6,5,4,0.06374127387298459,Low Risk
+1309,37,R&D,Sales Executive,3,Technical Degree,20000.0,4,2,3,3,0,3,3,2,2,8,0,3,0,6,6,5,0.3456689748798392,Medium Risk
+1310,25,R&D,Director,3,Life Sciences,20000.0,4,4,2,3,0,14,7,3,3,2,5,1,0,6,1,1,0.02805547219474246,Low Risk
+1311,29,HR,Director,1,Life Sciences,20000.0,4,3,3,3,0,4,3,10,1,4,1,0,0,2,1,1,0.18447208417741592,Low Risk
+1312,36,R&D,Manager,3,Other,20000.0,1,1,2,3,0,20,1,0,1,5,4,1,0,6,4,4,0.1155989932377804,Low Risk
+1313,29,Engineering,Sales Executive,2,Human Resources,20000.0,3,3,4,3,1,11,2,1,1,2,3,1,0,0,6,0,0.06946723005920542,Low Risk
+1314,22,Marketing,Director,3,Life Sciences,20400.0,3,4,3,3,0,12,4,8,4,13,2,1,0,4,1,1,0.09147990684759616,Low Risk
+1315,24,Finance,Sales Executive,4,Medical,20500.0,2,3,2,3,0,1,0,0,4,7,3,1,0,1,6,3,0.06644005854553582,Low Risk
+1316,27,R&D,Analyst,4,Other,22900.0,3,4,2,3,0,11,0,6,3,2,3,1,0,6,0,4,0.010338087873172714,Low Risk
+1317,36,Engineering,Manager,2,Marketing,20000.0,4,3,3,3,0,7,2,1,7,8,5,1,0,0,4,2,0.1944245764610445,Low Risk
+1318,42,Sales,Manager,1,Technical Degree,20000.0,3,2,2,2,1,14,2,3,1,3,2,1,0,7,4,5,0.17909661927560086,Low Risk
+1319,37,Engineering,Analyst,4,Medical,20000.0,4,4,3,3,0,9,0,4,3,17,0,0,0,0,0,3,0.22768356795650188,Low Risk
+1320,41,Engineering,HR Manager,3,Medical,20000.0,2,3,2,3,1,1,0,2,1,3,2,0,1,0,3,3,0.6511551462604939,High Risk
+1321,39,Sales,HR Manager,3,Life Sciences,25800.0,3,3,3,3,0,0,0,5,0,14,3,2,0,7,3,1,0.08963998252851757,Low Risk
+1322,33,R&D,Engineer,4,Marketing,25400.0,2,4,4,3,0,4,4,0,3,13,1,1,0,6,2,2,0.06475744731812146,Low Risk
+1323,31,HR,Manager,3,Other,20000.0,3,3,4,3,1,4,1,2,5,5,0,1,1,2,4,4,0.46438687773038523,Medium Risk
+1324,38,R&D,Engineer,4,Other,20000.0,3,2,3,3,1,11,0,1,3,1,2,0,1,6,2,4,0.5706082704009238,Medium Risk
+1325,35,Operations,Manager,3,Marketing,20000.0,3,2,3,3,0,2,0,0,1,6,3,2,0,5,4,2,0.5080484319526954,Medium Risk
+1326,29,Finance,Sales Executive,3,Marketing,25800.0,4,2,2,2,0,0,0,0,3,13,1,1,0,1,6,2,0.07306088284901308,Low Risk
+1327,43,Sales,Research Scientist,2,Human Resources,20000.0,2,3,4,3,0,1,1,2,3,10,3,0,0,7,5,0,0.49147479625936746,Medium Risk
+1328,53,HR,Director,3,Life Sciences,20000.0,2,2,1,4,0,7,1,1,4,25,1,0,0,2,1,1,0.36320489801326955,Medium Risk
+1329,28,Sales,Manager,2,Human Resources,20000.0,3,3,4,3,1,1,1,6,1,2,2,3,0,7,4,0,0.2921627227466282,Low Risk
+1330,40,Sales,Sales Executive,3,Medical,46400.0,4,2,3,4,0,0,0,2,2,14,3,2,0,7,6,3,0.07769712007056279,Low Risk
+1331,35,Engineering,Analyst,2,Human Resources,20000.0,4,4,3,3,0,2,0,5,3,17,1,1,1,0,0,0,0.6563887341847532,High Risk
+1332,29,R&D,HR Manager,2,Marketing,20000.0,4,4,3,3,1,7,1,0,3,5,2,0,0,6,3,2,0.21279287946019784,Low Risk
+1333,24,R&D,HR Manager,4,Other,50700.0,2,3,4,3,1,18,4,0,4,3,2,0,0,6,3,4,0.004172670710054618,Low Risk
+1334,45,R&D,Analyst,1,Other,20000.0,3,2,3,3,0,6,1,0,0,30,2,0,1,6,0,4,0.7404871609786854,High Risk
+1335,36,Engineering,HR Manager,3,Other,20000.0,3,1,4,2,0,6,0,0,1,17,4,1,0,0,3,4,0.393516727048277,Medium Risk
+1336,22,Sales,Manager,5,Other,20000.0,3,3,2,3,0,0,0,3,2,27,2,1,0,7,4,4,0.5929523767129613,Medium Risk
+1337,60,Finance,Director,5,Marketing,20000.0,4,3,4,3,0,7,7,1,1,3,3,2,0,1,1,2,0.12550994977037086,Low Risk
+1338,25,Legal,Analyst,3,Technical Degree,21200.0,3,4,3,1,1,3,1,7,2,11,0,1,0,3,0,5,0.030602228638395883,Low Risk
+1339,38,Finance,Manager,4,Medical,20000.0,2,4,4,3,1,9,1,0,2,24,1,1,1,1,4,3,0.7856291943794804,High Risk
+1340,25,R&D,Research Scientist,2,Other,20000.0,4,3,1,3,0,3,3,0,1,2,3,0,0,6,5,4,0.14555584566146879,Low Risk
+1341,41,Finance,HR Manager,2,Human Resources,20000.0,1,4,3,3,1,0,0,2,4,3,2,1,0,1,3,0,0.4698216551829988,Medium Risk
+1342,38,R&D,Manager,4,Technical Degree,20000.0,3,2,3,2,0,7,7,3,1,3,3,1,0,6,4,5,0.2927170051093995,Low Risk
+1343,34,Engineering,Engineer,4,Life Sciences,20000.0,4,3,2,3,0,13,0,1,4,14,2,0,0,0,2,1,0.11584512354411171,Low Risk
+1344,41,Engineering,Analyst,4,Life Sciences,20000.0,4,3,1,3,0,2,2,1,1,1,1,0,0,0,0,1,0.14438762102865738,Low Risk
+1345,37,Sales,HR Manager,1,Human Resources,20000.0,4,2,2,3,1,0,0,2,3,12,3,2,1,7,3,0,0.7518649755580712,High Risk
+1346,37,Finance,Sales Executive,3,Other,20000.0,2,2,3,3,0,11,1,0,1,3,3,1,0,1,6,4,0.1883521448237614,Low Risk
+1347,35,R&D,Sales Executive,2,Human Resources,21400.0,4,3,4,3,0,0,0,1,3,2,1,1,0,6,6,0,0.030382649670726167,Low Risk
+1348,37,Engineering,Sales Executive,2,Marketing,20000.0,4,3,4,3,1,0,0,0,4,11,0,2,0,0,6,2,0.39780425581545226,Medium Risk
+1349,41,Sales,Research Scientist,4,Medical,20000.0,2,3,4,3,0,2,0,0,3,3,2,1,0,7,5,3,0.3587883542275609,Medium Risk
+1350,60,Sales,Research Scientist,3,Human Resources,20000.0,3,3,4,4,1,1,0,3,2,1,2,0,0,7,5,0,0.28066834964162285,Low Risk
+1351,37,R&D,Engineer,3,Technical Degree,20500.0,2,3,2,3,0,0,0,9,1,2,1,2,0,6,2,5,0.05336063395326156,Low Risk
+1352,34,R&D,Manager,5,Technical Degree,20000.0,4,3,3,3,0,3,0,1,2,8,5,1,1,6,4,5,0.35936565528648373,Medium Risk
+1353,47,R&D,Research Scientist,3,Human Resources,39900.0,2,3,4,3,0,4,1,1,3,1,3,1,0,6,5,0,0.03404271491915133,Low Risk
+1354,43,Engineering,Engineer,4,Marketing,20000.0,3,4,3,3,0,4,1,2,2,7,2,0,0,0,2,2,0.28603229089233073,Low Risk
+1355,38,Engineering,Sales Executive,3,Life Sciences,20000.0,2,1,4,4,1,4,3,1,1,17,1,0,0,0,6,1,0.4852435394491053,Medium Risk
+1356,36,Engineering,Director,3,Technical Degree,20000.0,3,3,3,3,0,5,1,2,4,5,0,2,0,0,1,5,0.20997922650427384,Low Risk
+1357,40,Finance,Analyst,1,Medical,20000.0,4,3,3,3,0,5,2,0,3,3,2,1,0,1,0,3,0.11836894629588199,Low Risk
+1358,32,R&D,Engineer,2,Marketing,20000.0,4,4,4,3,1,0,0,0,6,1,1,0,0,6,2,2,0.21153559701436941,Low Risk
+1359,28,Marketing,Research Scientist,3,Human Resources,20000.0,3,3,4,3,0,2,2,2,3,30,3,1,1,4,5,0,0.675517072003628,High Risk
+1360,32,Marketing,Engineer,1,Human Resources,24300.0,1,4,4,4,1,4,0,2,3,7,2,3,0,4,2,0,0.061692850056030535,Low Risk
+1361,30,Marketing,HR Manager,3,Marketing,20000.0,1,3,3,3,1,0,0,0,2,3,3,0,0,4,3,2,0.4767279675700084,Medium Risk
+1362,26,HR,Research Scientist,2,Human Resources,20000.0,4,1,3,4,0,8,5,0,2,11,2,1,0,2,5,0,0.14902869796689752,Low Risk
+1363,39,Engineering,Sales Executive,2,Life Sciences,20000.0,2,2,4,3,0,6,6,6,2,4,3,1,0,0,6,1,0.30021212038020817,Medium Risk
+1364,26,Finance,Analyst,4,Life Sciences,20000.0,4,3,4,3,0,3,0,0,1,13,3,3,0,1,0,1,0.27050742737644884,Low Risk
+1365,27,HR,Engineer,2,Marketing,20000.0,3,2,4,3,0,2,0,2,7,29,2,1,0,2,2,2,0.5390923280346257,Medium Risk
+1366,30,Operations,Director,3,Marketing,20000.0,2,4,4,3,0,11,0,1,3,8,2,1,0,5,1,2,0.14246474847029414,Low Risk
+1367,52,Sales,Engineer,2,Medical,20000.0,4,3,2,3,0,1,1,0,2,19,2,1,0,7,2,3,0.5423379659648517,Medium Risk
+1368,36,Engineering,Director,5,Technical Degree,20000.0,3,4,3,3,0,2,2,0,1,1,1,1,0,0,1,5,0.1829647688886122,Low Risk
+1369,27,R&D,Engineer,5,Medical,20000.0,1,3,2,3,1,1,1,0,1,22,1,2,1,6,2,3,0.7881883711433226,High Risk
+1370,34,Sales,Sales Executive,2,Life Sciences,21000.0,1,3,3,3,0,2,2,2,1,2,3,0,0,7,6,1,0.04039687698466434,Low Risk
+1371,30,Sales,Engineer,2,Marketing,20000.0,3,3,1,4,1,3,1,2,2,13,4,0,1,7,2,2,0.6619574156920813,High Risk
+1372,37,Finance,Engineer,4,Technical Degree,41600.0,2,2,3,3,0,16,5,0,5,5,5,1,0,1,2,5,0.01096802330904545,Low Risk
+1373,29,Sales,Director,3,Marketing,20000.0,2,4,3,3,1,2,2,3,1,3,2,3,0,7,1,2,0.30141646661447413,Medium Risk
+1374,36,Engineering,Director,5,Other,20000.0,3,1,4,3,0,9,2,0,1,21,3,3,0,0,1,4,0.13097746425640633,Low Risk
+1375,45,R&D,Manager,2,Marketing,20000.0,3,2,2,4,0,2,2,2,3,3,2,1,0,6,4,2,0.44885923597654226,Medium Risk
+1376,52,Marketing,Sales Executive,2,Technical Degree,20000.0,3,4,3,1,0,1,1,0,1,10,0,1,1,4,6,5,0.5583974740904207,Medium Risk
+1377,37,HR,Research Scientist,1,Medical,29900.0,4,1,3,3,0,5,3,2,3,4,3,0,0,2,5,3,0.047827054825864,Low Risk
+1378,50,R&D,Manager,4,Life Sciences,20000.0,2,3,2,3,1,11,2,1,4,10,1,3,1,6,4,1,0.6305073784921557,High Risk
+1379,22,Sales,Research Scientist,3,Medical,20000.0,1,3,4,3,0,6,3,2,6,1,2,0,1,7,5,3,0.575060207624245,Medium Risk
+1380,44,Operations,Engineer,4,Marketing,20000.0,3,3,3,3,0,0,0,1,2,2,4,1,0,5,2,2,0.30660871267758166,Medium Risk
+1381,30,Engineering,HR Manager,1,Human Resources,24700.0,3,2,4,3,0,10,0,0,0,9,4,1,0,0,3,0,0.009134156157338272,Low Risk
+1382,40,Engineering,Analyst,5,Other,20000.0,4,3,3,3,0,1,1,0,0,10,1,0,0,0,0,4,0.24484660732721966,Low Risk
+1383,43,R&D,Engineer,4,Life Sciences,23200.0,3,2,3,3,0,0,0,0,5,4,6,0,0,6,2,1,0.0852214586041427,Low Risk
+1384,28,R&D,Research Scientist,1,Life Sciences,20000.0,4,3,1,3,0,2,0,10,1,16,1,0,0,6,5,1,0.5807131558827742,Medium Risk
+1385,41,Finance,Analyst,3,Human Resources,20000.0,2,2,3,3,0,1,0,0,1,1,2,0,1,1,0,0,0.6180662699342352,High Risk
+1386,34,Marketing,Manager,2,Human Resources,26700.0,1,4,3,4,0,6,0,1,0,16,2,3,0,4,4,0,0.04597319533164984,Low Risk
+1387,22,Operations,Analyst,4,Other,20000.0,3,3,4,3,0,6,2,2,4,1,2,3,0,5,0,4,0.1493583454015297,Low Risk
+1388,31,R&D,HR Manager,3,Other,20000.0,4,4,4,3,0,7,2,1,2,3,2,1,0,6,3,4,0.10397132266776138,Low Risk
+1389,29,R&D,Analyst,3,Technical Degree,20000.0,2,4,2,4,1,4,0,10,6,4,1,3,0,6,0,5,0.3473065796443901,Medium Risk
+1390,22,R&D,Research Scientist,4,Medical,20000.0,2,3,4,3,0,8,1,4,2,1,2,0,0,6,5,3,0.1699582314744121,Low Risk
+1391,32,R&D,Director,3,Medical,22900.0,3,4,2,3,0,7,0,8,2,3,2,1,0,6,1,3,0.023313698524360202,Low Risk
+1392,32,R&D,Manager,4,Marketing,20000.0,4,3,3,3,1,7,5,3,1,15,2,1,0,6,4,2,0.32968160349438996,Medium Risk
+1393,31,R&D,Engineer,1,Life Sciences,20000.0,4,1,2,3,1,3,1,9,3,1,3,2,0,6,2,1,0.2454982538289508,Low Risk
+1394,44,R&D,Sales Executive,4,Marketing,20000.0,3,3,3,4,0,11,1,1,6,1,0,0,0,6,6,2,0.16077609227469833,Low Risk
+1395,46,Marketing,Director,4,Human Resources,23100.0,3,2,3,3,0,4,3,2,4,7,1,0,0,4,1,0,0.05849059004441761,Low Risk
+1396,34,Sales,Sales Executive,3,Other,20000.0,4,2,4,3,0,3,3,8,2,17,1,1,1,7,6,4,0.7268138819176346,High Risk
+1397,39,R&D,Sales Executive,1,Technical Degree,20000.0,4,3,3,3,0,1,1,0,2,1,3,0,0,6,6,5,0.22983394647490019,Low Risk
+1398,37,R&D,Research Scientist,1,Life Sciences,20000.0,4,3,3,2,0,0,0,1,3,1,2,1,0,6,5,1,0.24507720966983254,Low Risk
+1399,50,HR,Research Scientist,5,Human Resources,20000.0,3,4,2,3,0,5,1,6,2,1,0,0,0,2,5,0,0.18451933693700762,Low Risk
+1400,36,Finance,Manager,4,Other,20000.0,1,4,3,3,1,4,1,2,0,5,3,1,0,1,4,4,0.4300338996731214,Medium Risk
+1401,35,HR,Research Scientist,3,Technical Degree,20000.0,3,3,2,3,0,3,1,13,6,4,3,0,1,2,5,5,0.6515459330904534,High Risk
+1402,33,Operations,Sales Executive,2,Life Sciences,20000.0,4,3,2,3,1,3,0,3,2,6,0,0,0,5,6,1,0.30661414653709546,Medium Risk
+1403,46,Sales,HR Manager,2,Medical,20000.0,1,3,3,3,0,7,3,3,3,12,2,1,0,7,3,3,0.39309223447238184,Medium Risk
+1404,26,Sales,Research Scientist,4,Medical,23800.0,3,1,4,3,0,3,0,0,4,7,2,3,0,7,5,3,0.051631284238815106,Low Risk
+1405,30,HR,Sales Executive,4,Marketing,20000.0,3,3,4,4,0,5,5,0,3,1,2,1,0,2,6,2,0.12087677244368678,Low Risk
+1406,27,R&D,Research Scientist,3,Technical Degree,20100.0,3,4,2,4,0,7,7,1,2,5,2,0,0,6,5,5,0.11677762539977098,Low Risk
+1407,47,R&D,Sales Executive,4,Medical,20000.0,2,3,4,3,0,12,2,7,1,21,5,1,1,6,6,3,0.661322082629554,High Risk
+1408,52,R&D,HR Manager,1,Marketing,20000.0,4,3,4,3,0,8,0,1,3,9,3,0,0,6,3,2,0.1925004106641337,Low Risk
+1409,41,Marketing,Sales Executive,3,Human Resources,20000.0,2,1,3,4,0,4,1,15,3,2,2,2,1,4,6,0,0.7662320955332201,High Risk
+1410,31,Operations,Director,1,Other,20000.0,4,3,1,3,0,8,1,1,3,2,2,1,0,5,1,4,0.07746659504539895,Low Risk
+1411,40,R&D,Director,2,Other,20000.0,3,4,4,3,0,1,1,0,1,10,3,0,0,6,1,4,0.45315786402703234,Medium Risk
+1412,24,Sales,Analyst,1,Other,20000.0,3,3,3,3,1,4,3,1,2,7,4,1,0,7,0,4,0.22335156719292493,Low Risk
+1413,42,R&D,Director,3,Technical Degree,20000.0,2,2,4,3,1,9,1,0,0,10,1,2,1,6,1,5,0.7030181438523145,High Risk
+1414,56,Operations,HR Manager,4,Marketing,20000.0,3,3,1,3,0,2,2,1,1,14,2,1,0,5,3,2,0.38971762193458104,Medium Risk
+1415,40,Marketing,Research Scientist,1,Life Sciences,22600.0,4,2,4,4,1,0,0,0,1,7,4,0,0,4,5,1,0.05092677358380608,Low Risk
+1416,39,R&D,Manager,2,Medical,20000.0,3,3,4,3,1,9,0,0,3,20,3,0,1,6,4,3,0.7187748708488371,High Risk
+1417,24,Finance,Analyst,4,Life Sciences,20000.0,3,3,1,3,0,1,1,0,2,27,3,0,0,1,0,1,0.4731420589830513,Medium Risk
+1418,47,Marketing,Analyst,2,Marketing,20000.0,3,3,1,3,0,4,2,1,2,13,2,1,0,4,0,2,0.3614412469270296,Medium Risk
+1419,41,Sales,Research Scientist,2,Medical,20000.0,2,2,3,3,0,1,0,2,3,16,1,2,1,7,5,3,0.8353051628035375,High Risk
+1420,38,Finance,Director,3,Marketing,20000.0,3,2,4,3,1,4,2,4,4,1,3,1,0,1,1,2,0.32654532336645437,Medium Risk
+1421,28,Sales,Manager,1,Life Sciences,20000.0,3,4,4,2,0,7,3,0,2,16,4,0,0,7,4,1,0.2845306126253167,Low Risk
+1422,38,R&D,HR Manager,5,Marketing,20000.0,3,4,4,3,1,6,3,0,1,18,3,1,1,6,3,2,0.6553319653149476,High Risk
+1423,22,Engineering,Analyst,4,Other,20000.0,2,2,3,3,1,3,3,0,0,10,2,2,0,0,0,4,0.36574124364436417,Medium Risk
+1424,46,R&D,Sales Executive,3,Other,20000.0,4,3,4,3,0,11,2,2,3,3,2,0,0,6,6,4,0.042800859626953125,Low Risk
+1425,37,R&D,Director,2,Other,20000.0,3,2,4,4,0,4,2,1,2,1,2,0,0,6,1,4,0.3395838718586836,Medium Risk
+1426,34,Operations,Analyst,4,Other,20000.0,4,4,2,4,0,2,2,1,2,3,2,3,0,5,0,4,0.15733482377501465,Low Risk
+1427,33,HR,Sales Executive,3,Marketing,21800.0,3,4,4,3,0,3,3,7,2,8,2,0,0,2,6,2,0.04508872616591899,Low Risk
+1428,39,Engineering,Analyst,4,Other,20000.0,2,3,3,4,0,6,0,0,3,2,1,0,0,0,0,4,0.29244836095841764,Low Risk
+1429,22,Finance,Director,5,Life Sciences,20000.0,1,3,4,3,0,4,2,2,2,14,3,3,0,1,1,1,0.3094049207705671,Medium Risk
+1430,39,R&D,Sales Executive,2,Life Sciences,20000.0,4,4,3,4,1,0,0,1,2,5,1,0,0,6,6,1,0.3360456913057076,Medium Risk
+1431,22,Sales,HR Manager,4,Human Resources,20000.0,3,3,4,3,1,2,0,1,2,2,3,0,1,7,3,0,0.5058590347834452,Medium Risk
+1432,37,Sales,HR Manager,3,Life Sciences,20000.0,3,2,3,3,0,6,2,5,6,1,0,1,1,7,3,1,0.5450201541433881,Medium Risk
+1433,37,Engineering,Research Scientist,3,Other,20000.0,2,1,4,3,1,2,2,1,3,1,0,0,0,0,5,4,0.43541698159866615,Medium Risk
+1434,27,Finance,Analyst,2,Human Resources,33500.0,3,4,4,3,0,1,1,1,4,3,0,0,0,1,0,0,0.02616134166586245,Low Risk
+1435,35,Sales,Manager,4,Other,20000.0,3,4,3,3,0,3,1,1,3,1,1,2,0,7,4,4,0.2122709181015258,Low Risk
+1436,27,R&D,HR Manager,4,Other,20000.0,4,3,4,3,0,9,6,0,2,8,2,1,0,6,3,4,0.1000704737283637,Low Risk
+1437,43,R&D,Engineer,2,Human Resources,20000.0,3,3,3,2,0,4,4,0,1,9,2,0,0,6,2,0,0.2481179245568562,Low Risk
+1438,33,Legal,Analyst,3,Marketing,27700.0,3,1,2,4,0,0,0,0,2,7,2,2,0,3,0,2,0.04353506799365304,Low Risk
+1439,24,Engineering,Research Scientist,3,Technical Degree,20000.0,3,3,3,3,1,2,2,1,6,9,2,1,0,0,5,5,0.32431902270116253,Medium Risk
+1440,28,R&D,Director,3,Other,20000.0,3,2,4,3,1,4,2,1,3,8,3,2,1,6,1,4,0.5262957567297369,Medium Risk
+1441,33,Sales,Research Scientist,3,Other,20000.0,3,4,3,3,0,4,4,0,2,10,3,1,0,7,5,4,0.1832890511402514,Low Risk
+1442,36,HR,Sales Executive,5,Medical,20000.0,3,3,3,3,1,3,2,2,2,2,1,1,0,2,6,3,0.2829261072381446,Low Risk
+1443,36,R&D,Analyst,5,Life Sciences,20000.0,1,1,1,3,0,6,1,1,2,23,1,0,1,6,0,1,0.8261217031105076,High Risk
+1444,44,R&D,Analyst,4,Technical Degree,33700.0,4,4,1,2,1,4,2,2,3,1,2,1,0,6,0,5,0.024090734750433412,Low Risk
+1445,54,Sales,HR Manager,4,Human Resources,20000.0,2,4,4,3,0,8,1,3,2,5,1,2,0,7,3,0,0.19915504185150898,Low Risk
+1446,36,Sales,Research Scientist,3,Other,20000.0,3,4,3,3,0,20,2,3,1,13,4,1,0,7,5,4,0.09395619684834715,Low Risk
+1447,29,R&D,Engineer,5,Human Resources,20000.0,3,3,4,3,0,5,5,1,5,1,2,0,0,6,2,0,0.16816364919831683,Low Risk
+1448,51,Engineering,Sales Executive,3,Human Resources,20000.0,2,1,4,3,1,2,1,2,0,2,5,1,1,0,6,0,0.6921008341893569,High Risk
+1449,51,R&D,Analyst,3,Other,20000.0,4,2,3,3,0,1,1,0,2,1,3,0,0,6,0,4,0.31739484745878227,Medium Risk
+1450,28,Finance,Manager,3,Technical Degree,20000.0,2,3,4,3,0,8,7,1,4,4,2,0,0,1,4,5,0.15290451825224416,Low Risk
+1451,56,Marketing,HR Manager,2,Other,20000.0,3,3,4,3,0,2,2,2,1,7,4,2,0,4,3,4,0.3516597807730629,Medium Risk
+1452,33,R&D,Sales Executive,4,Marketing,44200.0,4,2,4,3,0,9,6,1,1,20,3,0,0,6,6,2,0.04761517020513283,Low Risk
+1453,43,HR,Sales Executive,5,Life Sciences,20000.0,3,4,2,3,0,3,2,2,2,6,2,2,0,2,6,1,0.2839022547215844,Low Risk
+1454,22,Sales,Analyst,4,Human Resources,20000.0,2,3,3,4,0,3,3,1,4,6,3,2,0,7,0,0,0.2216969802300069,Low Risk
+1455,33,Engineering,HR Manager,1,Medical,20000.0,3,2,4,3,0,12,0,0,0,1,1,1,0,0,3,3,0.06776617922270937,Low Risk
+1456,46,R&D,HR Manager,3,Human Resources,20000.0,3,4,3,3,0,4,4,4,0,22,2,0,0,6,3,0,0.4150754419964311,Medium Risk
+1457,22,Engineering,Director,4,Life Sciences,20000.0,3,2,2,3,0,3,2,0,1,13,3,0,0,0,1,1,0.31325012328134816,Medium Risk
+1458,29,Operations,Manager,2,Medical,20000.0,3,3,2,4,0,0,0,2,2,10,1,1,0,5,4,3,0.44103819429778895,Medium Risk
+1459,44,Sales,Manager,2,Technical Degree,20000.0,4,4,4,4,0,6,5,2,2,5,3,0,0,7,4,5,0.16061098946664917,Low Risk
+1460,37,R&D,Research Scientist,3,Life Sciences,20000.0,4,1,2,3,0,1,1,3,4,1,3,0,0,6,5,1,0.3589974018255969,Medium Risk
+1461,35,Engineering,HR Manager,3,Medical,21800.0,4,3,4,3,1,31,1,10,4,2,4,3,0,0,3,3,0.009245265552264072,Low Risk
+1462,32,R&D,Sales Executive,2,Marketing,20000.0,4,3,4,3,0,7,0,2,4,1,3,1,0,6,6,2,0.11012160741917774,Low Risk
+1463,34,Sales,Analyst,1,Marketing,20000.0,4,1,2,3,1,2,0,7,3,4,2,1,1,7,0,2,0.7223157878886443,High Risk
+1464,51,Operations,HR Manager,3,Medical,20000.0,4,2,2,3,1,15,3,0,1,2,5,1,0,5,3,3,0.09475722927196006,Low Risk
+1465,34,Marketing,Manager,2,Marketing,20000.0,4,3,3,3,1,13,1,0,4,1,3,0,0,4,4,2,0.045445169582020745,Low Risk
+1466,39,Finance,HR Manager,1,Other,20000.0,4,4,3,3,0,1,1,5,0,3,3,1,0,1,3,4,0.19367276868169156,Low Risk
+1467,42,Sales,Director,3,Technical Degree,20000.0,4,3,2,3,1,5,0,0,1,30,4,1,0,7,1,5,0.5205850000993931,Medium Risk
+1468,46,Finance,Director,3,Technical Degree,21200.0,4,4,4,2,0,25,0,0,2,2,5,1,0,1,1,5,0.018821947373448496,Low Risk
+1469,28,HR,Manager,3,Marketing,20000.0,4,3,1,3,0,5,1,10,1,8,3,1,0,2,4,2,0.34632216830334167,Medium Risk
+1470,35,Sales,Analyst,4,Human Resources,20000.0,1,3,2,3,0,5,0,6,4,4,4,0,0,7,0,0,0.36032710878777335,Medium Risk

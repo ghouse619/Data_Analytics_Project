@@ -1,0 +1,53 @@
+FOOD DELIVERY OPERATIONS & DEMAND FORECASTING — ANALYSIS REPORT
+Mohammed Ghouse | Data Analyst Portfolio
+Generated: 09 April 2026
+============================================================
+
+DATASET
+  Raw records     : 50,040
+  After cleaning  : 50,000
+  Date range      : Jun 2023 – Nov 2024
+  Cities covered  : 10
+  Restaurants     : 2,000
+
+KEY METRICS
+  Total Orders    : 50,000
+  Total Revenue   : ₹13,278,913
+  Avg Order Value : ₹265.58
+  Avg Delivery    : 34.6 min
+  Avg Rating      : 3.97/5
+  Cancellation %  : 10.2%
+
+DEMAND PATTERNS
+  Peak hour       : 20:00 (6,701 orders)
+  Peak window     : 7 PM – 10 PM (weekdays)
+  Weekend lift    : 0.56× vs weekdays (per day)
+
+FORECASTING MODEL
+  Algorithm       : Linear Regression
+  R² Score        : 0.38
+  MAE             : 94.4 orders per zone/hour
+
+RESTAURANT SCORECARD
+  Total restaurants : 2,000
+  Top Performers    : 667
+  Underperforming   : 668 (flagged for review)
+
+CANCELLATION BY CITY
+     city  cancel_rate_%
+Bangalore      10.591438
+    Delhi      10.420354
+    Surat      10.320641
+  Kolkata      10.302722
+   Jaipur      10.248902
+     Pune      10.237781
+Ahmedabad      10.031513
+  Chennai       9.961558
+Hyderabad       9.952324
+   Mumbai       9.767863
+
+RECOMMENDATIONS
+  1. Deploy 20% more drivers between 7–10 PM on weekdays (demand forecasting)
+  2. Flag 668 underperforming restaurants for SLA review and renegotiation
+  3. Investigate Bangalore cancellation spike — supply-side issue likely
+  4. Introduce peak-hour dynamic pricing to improve margin on high-demand slots

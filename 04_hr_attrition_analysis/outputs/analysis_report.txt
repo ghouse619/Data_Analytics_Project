@@ -1,0 +1,53 @@
+HR EMPLOYEE ATTRITION & PEOPLE ANALYTICS — REPORT
+Mohammed Ghouse | Data Analyst Portfolio
+Generated: 09 April 2026
+============================================================
+
+DATASET
+  Total employees     : 1,470
+  Attrition cases     : 236 (16.1%)
+  Features analysed   : 35 variables, 17 used in model
+  Departments         : 8
+
+KEY FINDING
+  Employees with overtime + low satisfaction + <2 yrs tenure
+  → 47.4% attrition rate (3.0× the overall baseline of 16.1%)
+
+DEPARTMENT ATTRITION
+ department  att_rate_%
+  Marketing   21.782178
+        R&D   17.917676
+         HR   16.513761
+Engineering   16.165414
+      Sales   15.673981
+      Legal   14.814815
+    Finance   11.242604
+ Operations    9.090909
+
+INCOME ATTRITION
+  Q1 (Low income): 20.7% | Q4 (High income): 3.3%
+
+MODEL COMPARISON
+  Logistic Regression  → AUC: 0.86
+  Decision Tree        → AUC: 0.80
+  Random Forest        → AUC: 0.85 | Accuracy: 87.1%
+
+TOP ATTRITION PREDICTORS
+           Feature  Importance
+    monthly_income    0.176659
+distance_from_home    0.166454
+  years_at_company    0.127947
+  job_satisfaction    0.067670
+ work_life_balance    0.063731
+
+RISK DISTRIBUTION
+  High Risk   : 178 employees
+  Medium Risk : 412 employees
+  Low Risk    : 880 employees
+
+RECOMMENDATIONS
+  1. Eliminate or compensate compulsory overtime — single highest attrition driver
+  2. Introduce bi-annual salary review for Q1 income band (highest churn)
+  3. Flag 178 High Risk employees for 1:1 manager check-ins
+  4. Implement stay bonuses for employees with 1–2 years tenure in Sales & HR
+  5. Monthly pulse survey to monitor satisfaction scores — intervene before score drops below 2

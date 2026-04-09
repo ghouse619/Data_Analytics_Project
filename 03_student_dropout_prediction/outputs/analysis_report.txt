@@ -1,0 +1,37 @@
+STUDENT DROPOUT RISK PREDICTION — ANALYSIS REPORT
+Mohammed Ghouse | Data Analyst Portfolio
+Generated: 09 April 2026
+============================================================
+
+DATASET
+  Total students    : 4,424
+  Dropout cases     : 43 (1.0%)
+  Features used     : 12
+  Departments       : 8
+
+FEATURE IMPORTANCE (Top 5)
+             Feature  Importance
+      attendance_pct    0.488153
+ study_hours_per_day    0.184401
+            prev_gpa    0.118788
+assignments_done_pct    0.069409
+  family_income_lakh    0.030675
+
+KEY INSIGHT: attendance_pct is the strongest predictor of dropout
+  → Students with attendance < 75% are 1.8× more likely to drop out
+
+MODEL PERFORMANCE
+  Random Forest     → Accuracy: 99.2% | AUC: 1.00
+  Logistic Regression → AUC: 0.97
+  Class balancing   : SMOTE upsampling applied
+
+RISK DISTRIBUTION
+  High Risk students : 77
+  Medium Risk        : 99
+  Low Risk           : 2,195
+
+RECOMMENDATIONS
+  1. Trigger automated alert for all students with attendance < 75%
+  2. Assign counsellor to all High Risk students (77 flagged)
+  3. Provide scholarship support to High Risk + low income students
+  4. Increase counselling sessions — each session reduces dropout risk by ~8%

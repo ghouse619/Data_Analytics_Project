@@ -1,0 +1,45 @@
+E-COMMERCE SALES & CUSTOMER SEGMENTATION — ANALYSIS REPORT
+Mohammed Ghouse | Data Analyst Portfolio
+Generated: 09 April 2026
+============================================================
+
+DATASET
+  Raw records     : 100,050
+  After cleaning  : 100,000
+  Date range      : Jan 2023 – Dec 2024
+  Unique customers: 23,640
+
+KEY METRICS
+  Total GMV       : ₹49,498,983
+  Total Orders    : 100,000
+  Avg Order Value : ₹494.99
+  Repeat Rate     : 93.4%
+  Return Rate     : 8.1%
+  Avg Review      : 3.95/5
+
+RFM SEGMENTATION
+            Segment  Customers  Customer_%  Revenue_%
+            At Risk       4628        19.6        8.7
+          Champions       4221        17.9       33.0
+            Churned       1551         6.6        1.3
+    Loyal Customers       6875        29.1       36.1
+Potential Loyalists       6365        26.9       20.9
+
+CHURN BY CHANNEL
+acq_channel  Churn_Rate_%
+   Referral      6.980803
+   Paid Ads      6.662146
+    Organic      6.543180
+    Voucher      6.421821
+      Email      6.033578
+
+KEY INSIGHTS
+  1. Top 15% of customers (Champions) contribute 33% of total revenue
+  2. Voucher-acquired customers churn at 1.0× the rate of organic users
+  3. Electronics & Fashion together = 40% of GMV
+  4. Mumbai & Delhi drive 39% of total revenue
+
+RECOMMENDATIONS
+  1. Shift voucher budget to referral/loyalty programmes (lower churn, higher LTV)
+  2. Prioritise Champions & Loyal Customers for upsell campaigns
+  3. Investigate return rate spike in Electronics (return rate analysis needed)

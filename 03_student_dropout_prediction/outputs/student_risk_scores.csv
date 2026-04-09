@@ -1,0 +1,4425 @@
+student_id,department,dropout_risk_score,risk_tier,dropout
+1,Mechanical,0.0,,0
+2,Electronics,0.0,,0
+3,Law,0.018435395710802417,Low Risk,0
+4,Medicine,0.06219879461059336,Low Risk,0
+5,Business,0.02361435152369216,Low Risk,0
+6,Civil,0.0,,0
+7,Electronics,0.0,,0
+8,Law,0.0031223628691983123,Low Risk,0
+9,Mechanical,0.02538988773258726,Low Risk,0
+10,Computer Science,0.001688311688311688,Low Risk,0
+11,Business,0.0,,0
+12,Mechanical,0.007784313725490197,Low Risk,0
+13,Medicine,0.025563194080744964,Low Risk,0
+14,Medicine,0.005921486043338865,Low Risk,0
+15,Business,0.004782964782964783,Low Risk,0
+16,Electronics,0.0,,0
+17,Electronics,0.0,,0
+18,Civil,0.0027044410413476264,Low Risk,0
+19,Computer Science,0.21967581570458974,Low Risk,0
+20,Arts,0.0,,0
+21,Business,0.006256410256410256,Low Risk,0
+22,Electronics,0.1871106847980463,Low Risk,0
+23,Computer Science,0.0,,0
+24,Arts,0.29765409658227204,Low Risk,0
+25,Business,0.3697587228078408,Medium Risk,0
+26,Arts,0.0,,0
+27,Electronics,0.0,,0
+28,Arts,0.0,,0
+29,Mechanical,0.0066011546563711,Low Risk,0
+30,Arts,0.00358830038004522,Low Risk,0
+31,Electronics,0.0063601532567049805,Low Risk,0
+32,Computer Science,0.006992857116997746,Low Risk,0
+33,Business,0.07820022669035893,Low Risk,0
+34,Computer Science,0.050984703329379204,Low Risk,0
+35,Medicine,0.0,,0
+36,Mechanical,0.0,,0
+37,Mechanical,0.016124956124956125,Low Risk,0
+38,Civil,0.019808304428514265,Low Risk,0
+39,Business,0.0,,0
+40,Computer Science,0.0027044410413476264,Low Risk,0
+41,Computer Science,0.03578543321055248,Low Risk,0
+42,Computer Science,0.0,,0
+43,Medicine,0.00583873290136789,Low Risk,0
+44,Mechanical,0.0007044410413476264,Low Risk,0
+45,Electronics,0.012161125319693095,Low Risk,0
+46,Arts,0.0,,0
+47,Arts,0.009789029535864979,Low Risk,0
+48,Business,0.0,,0
+49,Arts,0.0,,0
+50,Arts,0.1088260794479783,Low Risk,0
+51,Electronics,0.0,,0
+52,Computer Science,0.02177893131480728,Low Risk,0
+53,Law,0.02641944873620278,Low Risk,0
+54,Electronics,0.0,,0
+55,Arts,0.0,,0
+56,Computer Science,0.0,,0
+57,Civil,0.0031223628691983123,Low Risk,0
+58,Electronics,0.0,,0
+59,Mechanical,0.01003584229390681,Low Risk,0
+60,Mechanical,0.0,,0
+61,Computer Science,0.021784956124956126,Low Risk,0
+62,Arts,0.0,,0
+63,Electronics,0.05723549551437967,Low Risk,0
+64,Civil,0.0,,0
+65,Medicine,0.04524037893831729,Low Risk,0
+66,Mechanical,0.008116959064327486,Low Risk,0
+67,Business,0.0,,0
+68,Computer Science,0.0,,0
+69,Electronics,0.0,,0
+70,Medicine,0.0,,0
+71,Arts,0.006666666666666667,Low Risk,0
+72,Business,0.0,,0
+73,Computer Science,0.0,,0
+74,Computer Science,0.03885532311441042,Low Risk,0
+75,Computer Science,0.0,,0
+76,Electronics,0.0,,0
+77,Computer Science,0.0,,0
+78,Electronics,0.00598,Low Risk,0
+79,Electronics,0.0,,0
+80,Electronics,0.0,,0
+81,Medicine,0.0,,0
+82,Civil,0.28253838507204365,Low Risk,0
+83,Computer Science,0.9863035236606631,High Risk,1
+84,Electronics,0.0,,0
+85,Civil,0.04154513497155077,Low Risk,0
+86,Electronics,0.0,,0
+87,Medicine,0.03351501572910037,Low Risk,0
+88,Medicine,0.0,,0
+89,Medicine,0.0,,0
+90,Medicine,0.1167989554210107,Low Risk,0
+91,Civil,0.0065020576131687245,Low Risk,0
+92,Business,0.6438160787612532,Medium Risk,0
+93,Civil,0.010978112175102599,Low Risk,0
+94,Civil,0.025765492686682066,Low Risk,0
+95,Arts,0.02283949115866345,Low Risk,0
+96,Electronics,0.006666666666666667,Low Risk,0
+97,Electronics,0.048923694618525006,Low Risk,0
+98,Mechanical,0.0,,0
+99,Civil,0.9790920166130288,High Risk,1
+100,Civil,0.006236559139784946,Low Risk,0
+101,Medicine,0.0,,0
+102,Business,0.005291005291005291,Low Risk,0
+103,Business,0.02913355804568667,Low Risk,0
+104,Civil,0.0,,0
+105,Business,0.0,,0
+106,Computer Science,0.0,,0
+107,Medicine,0.006437799926172019,Low Risk,0
+108,Civil,0.0,,0
+109,Arts,0.0,,0
+110,Mechanical,0.0,,0
+111,Mechanical,0.1094504068900292,Low Risk,0
+112,Business,0.0,,0
+113,Computer Science,0.01969392057812587,Low Risk,0
+114,Computer Science,0.0,,0
+115,Electronics,0.0,,0
+116,Computer Science,0.0588436596124959,Low Risk,0
+117,Computer Science,0.01988888888888889,Low Risk,0
+118,Electronics,0.042350069461222516,Low Risk,0
+119,Arts,0.054031055699154264,Low Risk,0
+120,Business,0.6226005578837804,Medium Risk,0
+121,Electronics,0.3114845037204055,Low Risk,0
+122,Business,0.01190396426577331,Low Risk,0
+123,Mechanical,0.0,,0
+124,Electronics,0.00986997719375057,Low Risk,0
+125,Business,0.04560253474225405,Low Risk,0
+126,Civil,0.0,,0
+127,Arts,0.11623422350892357,Low Risk,0
+128,Computer Science,0.0,,0
+129,Medicine,0.04280468672101687,Low Risk,0
+130,Computer Science,0.0,,0
+131,Arts,0.006336805555555556,Low Risk,0
+132,Arts,0.03276922175468004,Low Risk,0
+133,Arts,0.06883256905798826,Low Risk,0
+134,Electronics,0.011562938043173536,Low Risk,0
+135,Mechanical,0.0,,0
+136,Electronics,0.0,,0
+137,Computer Science,0.011923868312757203,Low Risk,0
+138,Civil,0.0,,0
+139,Mechanical,0.01825802159284443,Low Risk,0
+140,Computer Science,0.0027044410413476264,Low Risk,0
+141,Law,0.006489675516224189,Low Risk,0
+142,Computer Science,0.0027044410413476264,Low Risk,0
+143,Medicine,0.029467483718323327,Low Risk,0
+144,Medicine,0.0,,0
+145,Medicine,0.02592967655399733,Low Risk,0
+146,Medicine,0.0,,0
+147,Law,0.02547631427779517,Low Risk,0
+148,Computer Science,0.06607159451483033,Low Risk,0
+149,Mechanical,0.0,,0
+150,Computer Science,0.029242151153069832,Low Risk,0
+151,Business,0.0,,0
+152,Computer Science,0.017080291232682777,Low Risk,0
+153,Civil,0.012817943137943138,Low Risk,0
+154,Arts,0.004675324675324675,Low Risk,0
+155,Medicine,0.0007044410413476264,Low Risk,0
+156,Business,0.0,,0
+157,Civil,0.024007641654657894,Low Risk,0
+158,Arts,0.5809955121167183,Medium Risk,0
+159,Civil,0.0016370808678500986,Low Risk,0
+160,Electronics,0.47189964902347453,Medium Risk,0
+161,Civil,0.01921425297582939,Low Risk,0
+162,Computer Science,0.036673358028224495,Low Risk,0
+163,Business,0.0,,0
+164,Law,0.0,,0
+165,Computer Science,0.3802662075616612,Medium Risk,0
+166,Law,0.00932925942092245,Low Risk,0
+167,Electronics,0.0,,0
+168,Electronics,0.0,,0
+169,Computer Science,0.04631412407359286,Low Risk,0
+170,Business,0.0,,0
+171,Business,0.032300531070013135,Low Risk,0
+172,Mechanical,0.026918072273775698,Low Risk,0
+173,Electronics,0.0,,0
+174,Computer Science,0.14696143611272924,Low Risk,0
+175,Business,0.05809461652810144,Low Risk,0
+176,Business,0.06280225950350714,Low Risk,0
+177,Electronics,0.03853227002509532,Low Risk,0
+178,Electronics,0.05603589058605889,Low Risk,0
+179,Medicine,0.0,,0
+180,Mechanical,0.03395680425895589,Low Risk,0
+181,Mechanical,0.01908777869531288,Low Risk,0
+182,Computer Science,0.012670138888888889,Low Risk,0
+183,Business,0.004341521909197725,Low Risk,0
+184,Computer Science,0.0,,0
+185,Business,0.0,,0
+186,Arts,0.0,,0
+187,Computer Science,0.0,,0
+188,Mechanical,0.0,,0
+189,Medicine,0.046231494911179546,Low Risk,0
+190,Computer Science,0.009045808474062089,Low Risk,0
+191,Mechanical,0.0,,0
+192,Mechanical,0.0,,0
+193,Computer Science,0.08481910251104464,Low Risk,0
+194,Civil,0.006276150627615063,Low Risk,0
+195,Arts,0.02184762566137566,Low Risk,0
+196,Arts,0.0,,0
+197,Medicine,0.0,,0
+198,Civil,0.034583842438681366,Low Risk,0
+199,Electronics,0.0,,0
+200,Civil,0.0,,0
+201,Mechanical,0.0,,0
+202,Civil,0.0,,0
+203,Arts,0.0,,0
+204,Computer Science,0.1876279712264828,Low Risk,0
+205,Computer Science,0.0,,0
+206,Electronics,0.0,,0
+207,Medicine,0.0,,0
+208,Electronics,0.018369398560412087,Low Risk,0
+209,Business,0.011021991341991342,Low Risk,0
+210,Medicine,0.0,,0
+211,Computer Science,0.006089850249584026,Low Risk,0
+212,Computer Science,0.4658494829590389,Medium Risk,0
+213,Computer Science,0.012366000877199088,Low Risk,0
+214,Arts,0.0,,0
+215,Computer Science,0.01971122132994741,Low Risk,0
+216,Mechanical,0.0,,0
+217,Mechanical,0.0,,0
+218,Arts,0.22464897146713,Low Risk,0
+219,Law,0.030717429613383265,Low Risk,0
+220,Medicine,0.0,,0
+221,Electronics,0.0,,0
+222,Medicine,0.006666666666666667,Low Risk,0
+223,Business,0.018056421942109012,Low Risk,0
+224,Mechanical,0.013198098111695774,Low Risk,0
+225,Civil,0.020694540361599185,Low Risk,0
+226,Arts,0.0,,0
+227,Business,0.0,,0
+228,Computer Science,0.0,,0
+229,Medicine,0.0,,0
+230,Computer Science,0.006666666666666667,Low Risk,0
+231,Mechanical,0.043960658256395405,Low Risk,0
+232,Mechanical,0.0,,0
+233,Arts,0.0,,0
+234,Computer Science,0.0,,0
+235,Business,0.0,,0
+236,Computer Science,0.012162439301361854,Low Risk,0
+237,Business,0.0278603933983709,Low Risk,0
+238,Electronics,0.016903532201717163,Low Risk,0
+239,Civil,0.0,,0
+240,Electronics,0.0,,0
+241,Electronics,0.006089850249584026,Low Risk,0
+242,Mechanical,0.016049983540536626,Low Risk,0
+243,Law,0.0031223628691983123,Low Risk,0
+244,Mechanical,0.0,,0
+245,Mechanical,0.0,,0
+246,Mechanical,0.06173378888749929,Low Risk,0
+247,Computer Science,0.0,,0
+248,Law,0.0,,0
+249,Mechanical,0.009872705555533988,Low Risk,0
+250,Business,0.0,,0
+251,Computer Science,0.0,,0
+252,Computer Science,0.0,,0
+253,Medicine,0.00986997719375057,Low Risk,0
+254,Civil,0.0,,0
+255,Mechanical,0.7459204458605304,High Risk,0
+256,Law,0.0,,0
+257,Computer Science,0.006992857116997746,Low Risk,0
+258,Mechanical,0.10887748609646647,Low Risk,0
+259,Business,0.012756516916250694,Low Risk,0
+260,Business,0.0,,0
+261,Business,0.0,,0
+262,Business,0.0,,0
+263,Law,0.0033691756272401434,Low Risk,0
+264,Business,0.0,,0
+265,Civil,0.0,,0
+266,Electronics,0.028033850594507078,Low Risk,0
+267,Business,0.06845399419687989,Low Risk,0
+268,Electronics,0.0,,0
+269,Computer Science,0.0,,0
+270,Mechanical,0.6504224919570121,Medium Risk,0
+271,Electronics,0.0,,0
+272,Mechanical,0.0,,0
+273,Electronics,0.0,,0
+274,Civil,0.019902384676560136,Low Risk,0
+275,Computer Science,0.0,,0
+276,Computer Science,0.0,,0
+277,Mechanical,0.001688311688311688,Low Risk,0
+278,Business,0.011402701636938817,Low Risk,0
+279,Computer Science,0.006573535118354676,Low Risk,0
+280,Business,0.0,,0
+281,Computer Science,0.0,,0
+282,Computer Science,0.0,,0
+283,Business,0.006571428571428572,Low Risk,0
+284,Computer Science,0.05780538449420194,Low Risk,0
+285,Business,0.0,,0
+286,Business,0.0,,0
+287,Computer Science,0.0,,0
+288,Computer Science,0.0016370808678500986,Low Risk,0
+289,Civil,0.04490284862080877,Low Risk,0
+290,Arts,0.006236559139784946,Low Risk,0
+291,Law,0.0031223628691983123,Low Risk,0
+292,Electronics,0.0,,0
+293,Mechanical,0.0,,0
+294,Medicine,0.00493208331777039,Low Risk,0
+295,Mechanical,0.017032549019607844,Low Risk,0
+296,Business,0.0,,0
+297,Electronics,0.0,,0
+298,Computer Science,0.005941738640454271,Low Risk,0
+299,Computer Science,0.0,,0
+300,Electronics,0.0,,0
+301,Computer Science,0.006666666666666667,Low Risk,0
+302,Medicine,0.39205857425699575,Medium Risk,0
+303,Civil,0.0,,0
+304,Law,0.0,,0
+305,Electronics,0.012570072503858137,Low Risk,0
+306,Business,0.006363636363636364,Low Risk,0
+307,Law,0.0,,0
+308,Law,0.0,,0
+309,Civil,0.060968402450413434,Low Risk,0
+310,Mechanical,0.0,,0
+311,Civil,0.0,,0
+312,Computer Science,0.00583873290136789,Low Risk,0
+313,Mechanical,0.032026206874405654,Low Risk,0
+314,Computer Science,0.005994296113811394,Low Risk,0
+315,Business,0.3527372711717997,Medium Risk,0
+316,Electronics,0.0,,0
+317,Business,0.005833333333333334,Low Risk,0
+318,Arts,0.0,,0
+319,Computer Science,0.0,,0
+320,Mechanical,0.0,,0
+321,Business,0.0,,0
+322,Law,0.004675324675324675,Low Risk,0
+323,Civil,0.017101407064442953,Low Risk,0
+324,Civil,0.0,,0
+325,Computer Science,0.032020211533421196,Low Risk,0
+326,Business,0.0,,0
+327,Mechanical,0.006666666666666667,Low Risk,0
+328,Computer Science,0.0,,0
+329,Business,0.00583873290136789,Low Risk,0
+330,Computer Science,0.008232896325900473,Low Risk,0
+331,Business,0.004015151515151515,Low Risk,0
+332,Law,0.0,,0
+333,Electronics,0.0059241706161137445,Low Risk,0
+334,Mechanical,0.0,,0
+335,Computer Science,0.13044182938361507,Low Risk,0
+336,Computer Science,0.014737736366127706,Low Risk,0
+337,Arts,0.0,,0
+338,Medicine,0.0,,0
+339,Computer Science,0.0063601532567049805,Low Risk,0
+340,Civil,0.04666666666666667,Low Risk,0
+341,Computer Science,0.0,,0
+342,Mechanical,0.004675324675324675,Low Risk,0
+343,Computer Science,0.038058713368306143,Low Risk,0
+344,Law,0.030434045102605035,Low Risk,0
+345,Business,0.0,,0
+346,Civil,0.011308367298567682,Low Risk,0
+347,Mechanical,0.0,,0
+348,Mechanical,0.05182697099714851,Low Risk,0
+349,Medicine,0.0,,0
+350,Electronics,0.001688311688311688,Low Risk,0
+351,Law,0.0,,0
+352,Mechanical,0.006089850249584026,Low Risk,0
+353,Electronics,0.012954452614379086,Low Risk,0
+354,Medicine,0.0526852963052517,Low Risk,0
+355,Electronics,0.44097149831901306,Medium Risk,0
+356,Computer Science,0.021170457006714313,Low Risk,0
+357,Electronics,0.10095961155692856,Low Risk,0
+358,Computer Science,0.9864639521351478,High Risk,1
+359,Medicine,0.9767296069716177,High Risk,1
+360,Mechanical,0.0,,0
+361,Mechanical,0.13262245472610812,Low Risk,0
+362,Medicine,0.013333333333333334,Low Risk,0
+363,Civil,0.0,,0
+364,Computer Science,0.0,,0
+365,Civil,0.02107966481127373,Low Risk,0
+366,Mechanical,0.0007044410413476264,Low Risk,0
+367,Business,0.5326632368055192,Medium Risk,0
+368,Electronics,0.3119663325157223,Low Risk,0
+369,Law,0.12210686254912277,Low Risk,0
+370,Mechanical,0.0,,0
+371,Business,0.01642477224381237,Low Risk,0
+372,Computer Science,0.0,,0
+373,Computer Science,0.06207637096933261,Low Risk,0
+374,Electronics,0.006363636363636364,Low Risk,0
+375,Arts,0.006666666666666667,Low Risk,0
+376,Computer Science,0.05744865668068569,Low Risk,0
+377,Electronics,0.0,,0
+378,Civil,0.0,,0
+379,Arts,0.010951475302939738,Low Risk,0
+380,Computer Science,0.1417741560998423,Low Risk,0
+381,Mechanical,0.0,,0
+382,Computer Science,0.0,,0
+383,Civil,0.0,,0
+384,Business,0.001688311688311688,Low Risk,0
+385,Computer Science,0.01112963144963145,Low Risk,0
+386,Electronics,0.019952557173661147,Low Risk,0
+387,Business,0.0,,0
+388,Mechanical,0.0,,0
+389,Civil,0.0,,0
+390,Business,0.004675324675324675,Low Risk,0
+391,Mechanical,0.0,,0
+392,Mechanical,0.0,,0
+393,Electronics,0.0,,0
+394,Electronics,0.0125,Low Risk,0
+395,Business,0.02477494734174884,Low Risk,0
+396,Civil,0.006127946127946128,Low Risk,0
+397,Mechanical,0.0,,0
+398,Mechanical,0.019433484526241815,Low Risk,0
+399,Civil,0.0,,0
+400,Arts,0.04024397909159694,Low Risk,0
+401,Business,0.0,,0
+402,Civil,0.02069288268946929,Low Risk,0
+403,Computer Science,0.0,,0
+404,Arts,0.030319582072569715,Low Risk,0
+405,Computer Science,0.08404432130071385,Low Risk,0
+406,Medicine,0.0031223628691983123,Low Risk,0
+407,Mechanical,0.0,,0
+408,Electronics,0.011561017243845676,Low Risk,0
+409,Mechanical,0.04091946057695083,Low Risk,0
+410,Computer Science,0.051818641866947505,Low Risk,0
+411,Civil,0.034242572614238666,Low Risk,0
+412,Electronics,0.0,,0
+413,Medicine,0.0,,0
+414,Mechanical,0.0,,0
+415,Arts,0.0,,0
+416,Mechanical,0.03339772588473845,Low Risk,0
+417,Computer Science,0.0,,0
+418,Computer Science,0.018638966022821446,Low Risk,0
+419,Civil,0.0038095238095238095,Low Risk,0
+420,Business,0.012686230248306996,Low Risk,0
+421,Mechanical,0.0,,0
+422,Computer Science,0.030846874375959576,Low Risk,0
+423,Civil,0.0,,0
+424,Computer Science,0.009381207028265852,Low Risk,0
+425,Electronics,0.0,,0
+426,Computer Science,0.0,,0
+427,Computer Science,0.0,,0
+428,Business,0.23315576102308636,Low Risk,0
+429,Arts,0.6526245585135825,Medium Risk,0
+430,Civil,0.0,,0
+431,Civil,0.006363636363636364,Low Risk,0
+432,Computer Science,0.0007044410413476264,Low Risk,0
+433,Mechanical,0.03272241575146724,Low Risk,0
+434,Computer Science,0.012770816219138281,Low Risk,0
+435,Arts,0.0007044410413476264,Low Risk,0
+436,Computer Science,0.0,,0
+437,Computer Science,0.0,,0
+438,Law,0.041706449714811106,Low Risk,0
+439,Mechanical,0.0,,0
+440,Computer Science,0.03214807007746484,Low Risk,0
+441,Computer Science,0.0,,0
+442,Computer Science,0.0,,0
+443,Business,0.01058869395711501,Low Risk,0
+444,Computer Science,0.006666666666666667,Low Risk,0
+445,Business,0.0,,0
+446,Civil,0.010670771007677592,Low Risk,0
+447,Civil,0.0,,0
+448,Electronics,0.0,,0
+449,Business,0.0,,0
+450,Mechanical,0.006471276471276471,Low Risk,0
+451,Electronics,0.0,,0
+452,Law,0.0,,0
+453,Mechanical,0.0212011775432483,Low Risk,0
+454,Mechanical,0.0065020576131687245,Low Risk,0
+455,Computer Science,0.0,,0
+456,Civil,0.0,,0
+457,Computer Science,0.0,,0
+458,Computer Science,0.0,,0
+459,Medicine,0.0,,0
+460,Arts,0.029695132822249958,Low Risk,0
+461,Business,0.0,,0
+462,Computer Science,0.028705031468419538,Low Risk,0
+463,Computer Science,0.0,,0
+464,Electronics,0.0,,0
+465,Electronics,0.005973826020015396,Low Risk,0
+466,Business,0.0,,0
+467,Computer Science,0.0007044410413476264,Low Risk,0
+468,Mechanical,0.0,,0
+469,Civil,0.0,,0
+470,Mechanical,0.005833333333333334,Low Risk,0
+471,Civil,0.08730551827291609,Low Risk,0
+472,Mechanical,0.0,,0
+473,Arts,0.00794173864045427,Low Risk,0
+474,Law,0.006336805555555556,Low Risk,0
+475,Business,0.034100138667164485,Low Risk,0
+476,Mechanical,0.0007044410413476264,Low Risk,0
+477,Law,0.0,,0
+478,Civil,0.016852022534850967,Low Risk,0
+479,Medicine,0.0050574873155518315,Low Risk,0
+480,Computer Science,0.006332537788385043,Low Risk,0
+481,Arts,0.0,,0
+482,Business,0.0,,0
+483,Mechanical,0.03266842423702781,Low Risk,0
+484,Arts,0.0,,0
+485,Arts,0.0,,0
+486,Business,0.012713409778627172,Low Risk,0
+487,Computer Science,0.0,,0
+488,Mechanical,0.0,,0
+489,Civil,0.0,,0
+490,Business,0.005808161875577606,Low Risk,0
+491,Computer Science,0.0236073102894465,Low Risk,0
+492,Computer Science,0.03485788062564543,Low Risk,0
+493,Computer Science,0.0,,0
+494,Mechanical,0.0046011546563711,Low Risk,0
+495,Medicine,0.019214973594283938,Low Risk,0
+496,Civil,0.0,,0
+497,Civil,0.019836307160080537,Low Risk,0
+498,Arts,0.019302894660100864,Low Risk,0
+499,Computer Science,0.0,,0
+500,Mechanical,0.0,,0
+501,Electronics,0.0,,0
+502,Law,0.037144453695174946,Low Risk,0
+503,Mechanical,0.048557368661242335,Low Risk,0
+504,Electronics,0.0,,0
+505,Civil,0.02537567073909351,Low Risk,0
+506,Arts,0.044605920461257886,Low Risk,0
+507,Law,0.0,,0
+508,Arts,0.0,,0
+509,Business,0.0,,0
+510,Computer Science,0.0,,0
+511,Civil,0.0031223628691983123,Low Risk,0
+512,Computer Science,0.0,,0
+513,Business,0.0,,0
+514,Arts,0.3748775615498265,Medium Risk,0
+515,Business,0.006666666666666667,Low Risk,0
+516,Computer Science,0.0,,0
+517,Law,0.0,,0
+518,Computer Science,0.025602756942684563,Low Risk,0
+519,Mechanical,0.01739435057717901,Low Risk,0
+520,Electronics,0.0,,0
+521,Medicine,0.008702508960573478,Low Risk,0
+522,Civil,0.0,,0
+523,Mechanical,0.01677499693863818,Low Risk,0
+524,Computer Science,0.008775510740808666,Low Risk,0
+525,Business,0.006215240157361517,Low Risk,0
+526,Mechanical,0.0,,0
+527,Computer Science,0.03776577541478684,Low Risk,0
+528,Business,0.0,,0
+529,Electronics,0.023218360493767205,Low Risk,0
+530,Law,0.0031223628691983123,Low Risk,0
+531,Arts,0.0,,0
+532,Computer Science,0.9665887408718655,High Risk,1
+533,Electronics,0.0,,0
+534,Civil,0.006116959064327485,Low Risk,0
+535,Computer Science,0.0,,0
+536,Mechanical,0.0,,0
+537,Electronics,0.0031223628691983123,Low Risk,0
+538,Arts,0.0,,0
+539,Business,0.0203356124960456,Low Risk,0
+540,Civil,0.0,,0
+541,Medicine,0.0,,0
+542,Arts,0.01638058411969738,Low Risk,0
+543,Medicine,0.00493208331777039,Low Risk,0
+544,Mechanical,0.025938338804067443,Low Risk,0
+545,Mechanical,0.0,,0
+546,Business,0.0007044410413476264,Low Risk,0
+547,Mechanical,0.0007044410413476264,Low Risk,0
+548,Electronics,0.28447192703323243,Low Risk,0
+549,Arts,0.0,,0
+550,Civil,0.0,,0
+551,Law,0.03972251498435805,Low Risk,0
+552,Computer Science,0.0,,0
+553,Computer Science,0.1527725806980327,Low Risk,0
+554,Business,0.9813151959418919,High Risk,1
+555,Electronics,0.16429580738948737,Low Risk,0
+556,Arts,0.006276150627615063,Low Risk,0
+557,Mechanical,0.0,,0
+558,Electronics,0.0,,0
+559,Mechanical,0.08033664104750252,Low Risk,0
+560,Business,0.0007044410413476264,Low Risk,0
+561,Computer Science,0.006385038503850385,Low Risk,0
+562,Medicine,0.0,,0
+563,Civil,0.07216845447708313,Low Risk,0
+564,Arts,0.0,,0
+565,Medicine,0.6811675251558285,High Risk,0
+566,Medicine,0.03002430144434791,Low Risk,0
+567,Computer Science,0.006358381502890174,Low Risk,0
+568,Arts,0.05399095058097597,Low Risk,0
+569,Electronics,0.0,,0
+570,Mechanical,0.0,,0
+571,Computer Science,0.0,,0
+572,Mechanical,0.0,,0
+573,Computer Science,0.019900392015188704,Low Risk,0
+574,Business,0.006019563581640331,Low Risk,0
+575,Medicine,0.02361066664631882,Low Risk,0
+576,Arts,0.004227642276422764,Low Risk,0
+577,Computer Science,0.09929138192069537,Low Risk,0
+578,Computer Science,0.0,,0
+579,Mechanical,0.027418926075805636,Low Risk,0
+580,Arts,0.006236559139784946,Low Risk,0
+581,Electronics,0.0,,0
+582,Mechanical,0.0,,0
+583,Electronics,0.0,,0
+584,Mechanical,0.12280083894058044,Low Risk,0
+585,Arts,0.011232421758737548,Low Risk,0
+586,Civil,0.04911204142388773,Low Risk,0
+587,Business,0.01867568346508564,Low Risk,0
+588,Electronics,0.041120105788394846,Low Risk,0
+589,Business,0.025068796068194156,Low Risk,0
+590,Mechanical,0.07567491159118067,Low Risk,0
+591,Medicine,0.0,,0
+592,Mechanical,0.02787377974930368,Low Risk,0
+593,Computer Science,0.0,,0
+594,Electronics,0.0007044410413476264,Low Risk,0
+595,Computer Science,0.35844190433060963,Medium Risk,0
+596,Business,0.05957650407780984,Low Risk,0
+597,Computer Science,0.0,,0
+598,Medicine,0.025392992478939457,Low Risk,0
+599,Electronics,0.0176293585815233,Low Risk,0
+600,Business,0.005291005291005291,Low Risk,0
+601,Computer Science,0.018000727016442484,Low Risk,0
+602,Mechanical,0.001688311688311688,Low Risk,0
+603,Electronics,0.0,,0
+604,Civil,0.12960620768560355,Low Risk,0
+605,Computer Science,0.00493208331777039,Low Risk,0
+606,Business,0.0,,0
+607,Electronics,0.006513409961685824,Low Risk,0
+608,Arts,0.022004713458677282,Low Risk,0
+609,Civil,0.0,,0
+610,Civil,0.02024866793667985,Low Risk,0
+611,Computer Science,0.012144686368048808,Low Risk,0
+612,Electronics,0.030663356798153487,Low Risk,0
+613,Mechanical,0.007371107708014293,Low Risk,0
+614,Civil,0.22676933971033417,Low Risk,0
+615,Computer Science,0.0,,0
+616,Arts,0.011021991341991342,Low Risk,0
+617,Civil,0.004675324675324675,Low Risk,0
+618,Electronics,0.0,,0
+619,Electronics,0.006243902439024391,Low Risk,0
+620,Electronics,0.0,,0
+621,Business,0.006089850249584026,Low Risk,0
+622,Civil,0.0,,0
+623,Computer Science,0.0,,0
+624,Civil,0.0,,0
+625,Computer Science,0.0710325228991824,Low Risk,0
+626,Mechanical,0.0642879548226169,Low Risk,0
+627,Arts,0.006616915422885572,Low Risk,0
+628,Mechanical,0.0,,0
+629,Mechanical,0.03457273725368077,Low Risk,0
+630,Civil,0.006236559139784946,Low Risk,0
+631,Arts,0.015939523953984465,Low Risk,0
+632,Mechanical,0.012411768333844478,Low Risk,0
+633,Electronics,0.0,,0
+634,Civil,0.04825265584313942,Low Risk,0
+635,Civil,0.21988603449792266,Low Risk,0
+636,Law,0.07821473331918026,Low Risk,0
+637,Business,0.006666666666666667,Low Risk,0
+638,Arts,0.006256410256410256,Low Risk,0
+639,Arts,0.0,,0
+640,Electronics,0.2877950248069121,Low Risk,0
+641,Mechanical,0.0,,0
+642,Computer Science,0.2462597306842855,Low Risk,0
+643,Business,0.3667553910023388,Medium Risk,0
+644,Mechanical,0.4762700557532529,Medium Risk,0
+645,Computer Science,0.0,,0
+646,Business,0.0,,0
+647,Medicine,0.08550491380398469,Low Risk,0
+648,Arts,0.0007044410413476264,Low Risk,0
+649,Computer Science,0.0,,0
+650,Electronics,0.0,,0
+651,Medicine,0.0,,0
+652,Computer Science,0.0007044410413476264,Low Risk,0
+653,Civil,0.0,,0
+654,Mechanical,0.19816021632387756,Low Risk,0
+655,Arts,0.0007044410413476264,Low Risk,0
+656,Business,0.0,,0
+657,Mechanical,0.0,,0
+658,Business,0.02597140071456648,Low Risk,0
+659,Medicine,0.006666666666666667,Low Risk,0
+660,Civil,0.013834179233720807,Low Risk,0
+661,Electronics,0.011146601146601147,Low Risk,0
+662,Arts,0.0,,0
+663,Computer Science,0.0,,0
+664,Electronics,0.28303471109138806,Low Risk,0
+665,Mechanical,0.031153076208162513,Low Risk,0
+666,Medicine,0.9645017614293888,High Risk,1
+667,Arts,0.0,,0
+668,Electronics,0.0,,0
+669,Mechanical,0.012909148464704019,Low Risk,0
+670,Computer Science,0.0,,0
+671,Computer Science,0.02276877247869181,Low Risk,0
+672,Law,0.0,,0
+673,Computer Science,0.0,,0
+674,Electronics,0.027489714967108322,Low Risk,0
+675,Mechanical,0.0,,0
+676,Computer Science,0.010655324675324675,Low Risk,0
+677,Computer Science,0.004227642276422764,Low Risk,0
+678,Medicine,0.0,,0
+679,Computer Science,0.0,,0
+680,Civil,0.0,,0
+681,Electronics,0.0,,0
+682,Mechanical,0.018527412749047744,Low Risk,0
+683,Civil,0.0,,0
+684,Electronics,0.0,,0
+685,Computer Science,0.006666666666666667,Low Risk,0
+686,Business,0.012282712189461514,Low Risk,0
+687,Civil,0.016080541218153128,Low Risk,0
+688,Electronics,0.0,,0
+689,Medicine,0.012977966250573998,Low Risk,0
+690,Electronics,0.0,,0
+691,Mechanical,0.0,,0
+692,Civil,0.0058539458186101295,Low Risk,0
+693,Electronics,0.0,,0
+694,Electronics,0.04782051773169772,Low Risk,0
+695,Computer Science,0.2203851714307778,Low Risk,0
+696,Business,0.0,,0
+697,Civil,0.010463822429120355,Low Risk,0
+698,Arts,0.0,,0
+699,Medicine,0.0,,0
+700,Business,0.01317145516049337,Low Risk,0
+701,Electronics,0.009759381387772726,Low Risk,0
+702,Medicine,0.0,,0
+703,Computer Science,0.012657324113171367,Low Risk,0
+704,Computer Science,0.03448271473543399,Low Risk,0
+705,Electronics,0.0,,0
+706,Medicine,0.0,,0
+707,Mechanical,0.0,,0
+708,Business,0.07489887835392892,Low Risk,0
+709,Medicine,0.028757463332479236,Low Risk,0
+710,Electronics,0.0,,0
+711,Civil,0.013333333333333334,Low Risk,0
+712,Law,0.0,,0
+713,Computer Science,0.0,,0
+714,Electronics,0.3536646880080734,Medium Risk,0
+715,Civil,0.0,,0
+716,Mechanical,0.0,,0
+717,Computer Science,0.0031223628691983123,Low Risk,0
+718,Computer Science,0.0,,0
+719,Computer Science,0.05820598107162167,Low Risk,0
+720,Computer Science,0.0,,0
+721,Mechanical,0.0,,0
+722,Computer Science,0.0,,0
+723,Business,0.0,,0
+724,Mechanical,0.0,,0
+725,Arts,0.978621624947253,High Risk,1
+726,Business,0.0007044410413476264,Low Risk,0
+727,Mechanical,0.0066011546563711,Low Risk,0
+728,Business,0.006336805555555556,Low Risk,0
+729,Mechanical,0.01423389158651364,Low Risk,0
+730,Medicine,0.006666666666666667,Low Risk,0
+731,Electronics,0.0,,0
+732,Law,0.01201367267935096,Low Risk,0
+733,Mechanical,0.1139620735679754,Low Risk,0
+734,Arts,0.031903112892634464,Low Risk,0
+735,Business,0.023606481596816335,Low Risk,0
+736,Civil,0.0,,0
+737,Civil,0.006363636363636364,Low Risk,0
+738,Business,0.0,,0
+739,Law,0.0061062183079797164,Low Risk,0
+740,Computer Science,0.011434140930939115,Low Risk,0
+741,Civil,0.001688311688311688,Low Risk,0
+742,Electronics,0.024888177112656833,Low Risk,0
+743,Civil,0.0,,0
+744,Arts,0.02215088649625778,Low Risk,0
+745,Electronics,0.0,,0
+746,Business,0.0,,0
+747,Computer Science,0.017350283938791476,Low Risk,0
+748,Arts,0.0,,0
+749,Arts,0.037301214701822204,Low Risk,0
+750,Arts,0.0,,0
+751,Electronics,0.02369779657974413,Low Risk,0
+752,Mechanical,0.0,,0
+753,Mechanical,0.0,,0
+754,Medicine,0.0,,0
+755,Electronics,0.004675324675324675,Low Risk,0
+756,Computer Science,0.0031223628691983123,Low Risk,0
+757,Civil,0.0,,0
+758,Business,0.0,,0
+759,Computer Science,0.02960426898157009,Low Risk,0
+760,Electronics,0.023093960484154227,Low Risk,0
+761,Computer Science,0.0,,0
+762,Electronics,0.0,,0
+763,Mechanical,0.013198098111695774,Low Risk,0
+764,Computer Science,0.004343972241854437,Low Risk,0
+765,Medicine,0.0,,0
+766,Computer Science,0.0,,0
+767,Computer Science,0.0,,0
+768,Computer Science,0.0007044410413476264,Low Risk,0
+769,Mechanical,0.01543828945828946,Low Risk,0
+770,Computer Science,0.030176639178799237,Low Risk,0
+771,Computer Science,0.0031223628691983123,Low Risk,0
+772,Civil,0.042169104285768144,Low Risk,0
+773,Business,0.0,,0
+774,Business,0.0,,0
+775,Electronics,0.006363636363636364,Low Risk,0
+776,Medicine,0.0,,0
+777,Mechanical,0.0,,0
+778,Business,0.010463822429120355,Low Risk,0
+779,Business,0.0007044410413476264,Low Risk,0
+780,Business,0.006448979591836735,Low Risk,0
+781,Computer Science,0.006492537313432836,Low Risk,0
+782,Electronics,0.030909616192842757,Low Risk,0
+783,Arts,0.0,,0
+784,Civil,0.0,,0
+785,Computer Science,0.0,,0
+786,Mechanical,0.0,,0
+787,Civil,0.014631128982593418,Low Risk,0
+788,Computer Science,0.0,,0
+789,Arts,0.0,,0
+790,Arts,0.0,,0
+791,Computer Science,0.012783404122019044,Low Risk,0
+792,Business,0.006455026455026455,Low Risk,0
+793,Civil,0.0031223628691983123,Low Risk,0
+794,Electronics,0.0,,0
+795,Business,0.0,,0
+796,Computer Science,0.0,,0
+797,Computer Science,0.0,,0
+798,Business,0.22679247836059085,Low Risk,0
+799,Business,0.05694610416594218,Low Risk,0
+800,Electronics,0.0,,0
+801,Computer Science,0.0,,0
+802,Electronics,0.006666666666666667,Low Risk,0
+803,Electronics,0.0,,0
+804,Business,0.0,,0
+805,Civil,0.0007044410413476264,Low Risk,0
+806,Business,0.0,,0
+807,Business,0.05570595025835521,Low Risk,0
+808,Civil,0.005941738640454271,Low Risk,0
+809,Law,0.014818588185768089,Low Risk,0
+810,Electronics,0.0,,0
+811,Computer Science,0.0,,0
+812,Business,0.0,,0
+813,Mechanical,0.18663603988953137,Low Risk,0
+814,Mechanical,0.012686230248306996,Low Risk,0
+815,Arts,0.006666666666666667,Low Risk,0
+816,Medicine,0.034145177744888414,Low Risk,0
+817,Mechanical,0.025413377661328448,Low Risk,0
+818,Arts,0.0,,0
+819,Business,0.0,,0
+820,Computer Science,0.008307016724282912,Low Risk,0
+821,Civil,0.01489956299256714,Low Risk,0
+822,Computer Science,0.006425012456402591,Low Risk,0
+823,Arts,0.004655660553542749,Low Risk,0
+824,Electronics,0.023126140439738103,Low Risk,0
+825,Computer Science,0.0,,0
+826,Business,0.0,,0
+827,Computer Science,0.09401899645134076,Low Risk,0
+828,Medicine,0.011513473612565616,Low Risk,0
+829,Civil,0.0,,0
+830,Computer Science,0.0,,0
+831,Civil,0.0,,0
+832,Medicine,0.0,,0
+833,Mechanical,0.023218360493767205,Low Risk,0
+834,Law,0.3808231692157526,Medium Risk,0
+835,Electronics,0.011561017243845676,Low Risk,0
+836,Civil,0.038914967546392704,Low Risk,0
+837,Arts,0.0,,0
+838,Business,0.0,,0
+839,Business,0.018790377793842725,Low Risk,0
+840,Civil,0.9854662095357666,High Risk,1
+841,Business,0.0,,0
+842,Arts,0.005291005291005291,Low Risk,0
+843,Electronics,0.01618711876518328,Low Risk,0
+844,Law,0.0,,0
+845,Arts,0.009905041195363775,Low Risk,0
+846,Arts,0.014283862408003035,Low Risk,0
+847,Civil,0.039838535291637056,Low Risk,0
+848,Computer Science,0.0,,0
+849,Civil,0.0,,0
+850,Mechanical,0.0,,0
+851,Computer Science,0.0,,0
+852,Medicine,0.0,,0
+853,Mechanical,0.033972216855870506,Low Risk,0
+854,Electronics,0.0,,0
+855,Business,0.0,,0
+856,Medicine,0.015219939929633742,Low Risk,0
+857,Civil,0.0,,0
+858,Business,0.0,,0
+859,Civil,0.00794173864045427,Low Risk,0
+860,Computer Science,0.0,,0
+861,Arts,0.006666666666666667,Low Risk,0
+862,Law,0.0,,0
+863,Arts,0.03239638083358532,Low Risk,0
+864,Arts,0.0,,0
+865,Electronics,0.05049974953363293,Low Risk,0
+866,Mechanical,0.001688311688311688,Low Risk,0
+867,Mechanical,0.013075933075933077,Low Risk,0
+868,Computer Science,0.0,,0
+869,Law,0.0,,0
+870,Medicine,0.0,,0
+871,Mechanical,0.03135129680030126,Low Risk,0
+872,Mechanical,0.005848861283643892,Low Risk,0
+873,Civil,0.0,,0
+874,Civil,0.017197461725696493,Low Risk,0
+875,Computer Science,0.009748777213783625,Low Risk,0
+876,Electronics,0.001688311688311688,Low Risk,0
+877,Medicine,0.013936570222025614,Low Risk,0
+878,Computer Science,0.0,,0
+879,Computer Science,0.0,,0
+880,Arts,0.012557878010023225,Low Risk,0
+881,Medicine,0.8671366675435723,High Risk,0
+882,Arts,0.0,,0
+883,Arts,0.006666666666666667,Low Risk,0
+884,Civil,0.02290510864517161,Low Risk,0
+885,Computer Science,0.006363636363636364,Low Risk,0
+886,Mechanical,0.0,,0
+887,Computer Science,0.7910156447190321,High Risk,0
+888,Computer Science,0.0,,0
+889,Business,0.0,,0
+890,Law,0.004227642276422764,Low Risk,0
+891,Medicine,0.0,,0
+892,Arts,0.0,,0
+893,Computer Science,0.01291243970791203,Low Risk,0
+894,Mechanical,0.0,,0
+895,Computer Science,0.0,,0
+896,Arts,0.0,,0
+897,Computer Science,0.0,,0
+898,Arts,0.1426120505283798,Low Risk,0
+899,Electronics,0.0,,0
+900,Computer Science,0.14779364364579248,Low Risk,0
+901,Computer Science,0.04609514468963462,Low Risk,0
+902,Computer Science,0.027809021660000727,Low Risk,0
+903,Civil,0.017578829293260392,Low Risk,0
+904,Business,0.029577288206399165,Low Risk,0
+905,Electronics,0.0,,0
+906,Medicine,0.008542437558153025,Low Risk,0
+907,Electronics,0.050845163022617594,Low Risk,0
+908,Business,0.02490979040500898,Low Risk,0
+909,Arts,0.004675324675324675,Low Risk,0
+910,Computer Science,0.03898884620514851,Low Risk,0
+911,Business,0.005333333333333334,Low Risk,0
+912,Mechanical,0.0,,0
+913,Mechanical,0.0,,0
+914,Mechanical,0.0,,0
+915,Mechanical,0.026659889507503573,Low Risk,0
+916,Arts,0.0,,0
+917,Arts,0.0,,0
+918,Computer Science,0.0,,0
+919,Medicine,0.0,,0
+920,Arts,0.0,,0
+921,Arts,0.0,,0
+922,Mechanical,0.0,,0
+923,Medicine,0.010599495291438419,Low Risk,0
+924,Medicine,0.0,,0
+925,Mechanical,0.012885923943464876,Low Risk,0
+926,Business,0.05733701478727377,Low Risk,0
+927,Arts,0.029342848681202145,Low Risk,0
+928,Civil,0.02356532530462869,Low Risk,0
+929,Business,0.03485788062564543,Low Risk,0
+930,Business,0.012397981034225462,Low Risk,0
+931,Mechanical,0.0,,0
+932,Computer Science,0.0,,0
+933,Computer Science,0.014545301869075246,Low Risk,0
+934,Civil,0.0,,0
+935,Mechanical,0.0,,0
+936,Arts,0.0,,0
+937,Computer Science,0.0,,0
+938,Mechanical,0.0,,0
+939,Civil,0.0,,0
+940,Civil,0.014841711345509443,Low Risk,0
+941,Business,0.0,,0
+942,Computer Science,0.017814559303599466,Low Risk,0
+943,Computer Science,0.044957086236395515,Low Risk,0
+944,Arts,0.1766492184993175,Low Risk,0
+945,Business,0.0569177701990188,Low Risk,0
+946,Medicine,0.01651377693080242,Low Risk,0
+947,Medicine,0.006425012456402591,Low Risk,0
+948,Business,0.0,,0
+949,Civil,0.0,,0
+950,Civil,0.017927997544369384,Low Risk,0
+951,Business,0.0,,0
+952,Computer Science,0.0,,0
+953,Mechanical,0.0,,0
+954,Arts,0.0,,0
+955,Computer Science,0.030531821904968042,Low Risk,0
+956,Business,0.019176225426571283,Low Risk,0
+957,Computer Science,0.0,,0
+958,Mechanical,0.008044500302564818,Low Risk,0
+959,Mechanical,0.0,,0
+960,Business,0.006363636363636364,Low Risk,0
+961,Computer Science,0.13235020076895612,Low Risk,0
+962,Electronics,0.0,,0
+963,Electronics,0.1884640376381481,Low Risk,0
+964,Electronics,0.004675324675324675,Low Risk,0
+965,Computer Science,0.0,,0
+966,Civil,0.05443814175740309,Low Risk,0
+967,Mechanical,0.006666666666666667,Low Risk,0
+968,Business,0.0,,0
+969,Civil,0.16525400868754733,Low Risk,0
+970,Medicine,0.005925925925925926,Low Risk,0
+971,Arts,0.0,,0
+972,Medicine,0.0,,0
+973,Civil,0.006236559139784946,Low Risk,0
+974,Mechanical,0.0,,0
+975,Arts,0.0,,0
+976,Law,0.0,,0
+977,Computer Science,0.0,,0
+978,Arts,0.0,,0
+979,Business,0.005821325648414985,Low Risk,0
+980,Mechanical,0.006437799926172019,Low Risk,0
+981,Business,0.0,,0
+982,Law,0.009558566911188964,Low Risk,0
+983,Electronics,0.0,,0
+984,Arts,0.02316339561912628,Low Risk,0
+985,Electronics,0.054743807116794156,Low Risk,0
+986,Electronics,0.04220276808734547,Low Risk,0
+987,Mechanical,0.0,,0
+988,Civil,0.9632292371906719,High Risk,1
+989,Arts,0.0,,0
+990,Electronics,0.023929946325107476,Low Risk,0
+991,Business,0.0,,0
+992,Business,0.027826486266063714,Low Risk,0
+993,Computer Science,0.0,,0
+994,Electronics,0.0,,0
+995,Electronics,0.009464939875529408,Low Risk,0
+996,Arts,0.04148401031658661,Low Risk,0
+997,Medicine,0.01881669915194189,Low Risk,0
+998,Business,0.0,,0
+999,Arts,0.0,,0
+1000,Medicine,0.005941738640454271,Low Risk,0
+1001,Electronics,0.0,,0
+1002,Mechanical,0.0,,0
+1003,Law,0.010655324675324675,Low Risk,0
+1004,Mechanical,0.583667680838504,Medium Risk,0
+1005,Mechanical,0.0,,0
+1006,Mechanical,0.10395729085495226,Low Risk,0
+1007,Civil,0.0,,0
+1008,Business,0.0058539458186101295,Low Risk,0
+1009,Computer Science,0.0,,0
+1010,Computer Science,0.0,,0
+1011,Mechanical,0.0,,0
+1012,Computer Science,0.060377421605797454,Low Risk,0
+1013,Business,0.02130172221208808,Low Risk,0
+1014,Business,0.01839467986249815,Low Risk,0
+1015,Mechanical,0.029134511045429724,Low Risk,0
+1016,Mechanical,0.0,,0
+1017,Arts,0.0,,0
+1018,Electronics,0.0,,0
+1019,Electronics,0.334387792684027,Medium Risk,0
+1020,Civil,0.0,,0
+1021,Business,0.7075742087307529,High Risk,0
+1022,Business,0.9725973933269836,High Risk,1
+1023,Arts,0.0007044410413476264,Low Risk,0
+1024,Arts,0.013333333333333334,Low Risk,0
+1025,Computer Science,0.09902560497012237,Low Risk,0
+1026,Business,0.0891598169012407,Low Risk,0
+1027,Computer Science,0.0,,0
+1028,Civil,0.005901639344262295,Low Risk,0
+1029,Computer Science,0.0,,0
+1030,Electronics,0.0,,0
+1031,Electronics,0.0,,0
+1032,Electronics,0.019111270117268753,Low Risk,0
+1033,Arts,0.0,,0
+1034,Mechanical,0.006666666666666667,Low Risk,0
+1035,Arts,0.02162273137882894,Low Risk,0
+1036,Mechanical,0.0,,0
+1037,Computer Science,0.08601756963772383,Low Risk,0
+1038,Computer Science,0.0,,0
+1039,Business,0.0007044410413476264,Low Risk,0
+1040,Computer Science,0.013198098111695774,Low Risk,0
+1041,Mechanical,0.0,,0
+1042,Mechanical,0.0,,0
+1043,Civil,0.2298976691324064,Low Risk,0
+1044,Computer Science,0.0063601532567049805,Low Risk,0
+1045,Mechanical,0.010655324675324675,Low Risk,0
+1046,Computer Science,0.21862357117042208,Low Risk,0
+1047,Computer Science,0.031090287910731387,Low Risk,0
+1048,Mechanical,0.0,,0
+1049,Electronics,0.0,,0
+1050,Arts,0.0031223628691983123,Low Risk,0
+1051,Electronics,0.0,,0
+1052,Arts,0.0,,0
+1053,Computer Science,0.0,,0
+1054,Mechanical,0.0,,0
+1055,Computer Science,0.0,,0
+1056,Computer Science,0.018756308122236123,Low Risk,0
+1057,Civil,0.04607120455863206,Low Risk,0
+1058,Computer Science,0.0,,0
+1059,Business,0.01436471209754943,Low Risk,0
+1060,Business,0.0031223628691983123,Low Risk,0
+1061,Electronics,0.0038095238095238095,Low Risk,0
+1062,Arts,0.0,,0
+1063,Medicine,0.00583873290136789,Low Risk,0
+1064,Computer Science,0.032184755324355815,Low Risk,0
+1065,Electronics,0.05266386755251945,Low Risk,0
+1066,Law,0.020191549700634907,Low Risk,0
+1067,Computer Science,0.06727094840208463,Low Risk,0
+1068,Electronics,0.0,,0
+1069,Computer Science,0.0,,0
+1070,Electronics,0.011146601146601147,Low Risk,0
+1071,Electronics,0.0,,0
+1072,Electronics,0.1932397674931702,Low Risk,0
+1073,Computer Science,0.0,,0
+1074,Civil,0.008228396076497342,Low Risk,0
+1075,Law,0.0,,0
+1076,Computer Science,0.009697705334951737,Low Risk,0
+1077,Computer Science,0.0,,0
+1078,Mechanical,0.0,,0
+1079,Business,0.0,,0
+1080,Mechanical,0.10500580713761651,Low Risk,0
+1081,Business,0.0,,0
+1082,Electronics,0.35732420460818104,Medium Risk,0
+1083,Electronics,0.018741845933124505,Low Risk,0
+1084,Computer Science,0.0,,0
+1085,Computer Science,0.0,,0
+1086,Business,0.0007044410413476264,Low Risk,0
+1087,Electronics,0.020191549700634907,Low Risk,0
+1088,Law,0.005921486043338865,Low Risk,0
+1089,Electronics,0.0,,0
+1090,Electronics,0.014101787615363594,Low Risk,0
+1091,Computer Science,0.001688311688311688,Low Risk,0
+1092,Business,0.0,,0
+1093,Arts,0.030580932032859276,Low Risk,0
+1094,Business,0.04,Low Risk,0
+1095,Civil,0.0,,0
+1096,Arts,0.0,,0
+1097,Electronics,0.0066011546563711,Low Risk,0
+1098,Electronics,0.001688311688311688,Low Risk,0
+1099,Mechanical,0.0,,0
+1100,Arts,0.004675324675324675,Low Risk,0
+1101,Arts,0.0,,0
+1102,Arts,0.0,,0
+1103,Mechanical,0.0176293585815233,Low Risk,0
+1104,Electronics,0.043460076776396024,Low Risk,0
+1105,Computer Science,0.0,,0
+1106,Arts,0.0,,0
+1107,Business,0.004675324675324675,Low Risk,0
+1108,Electronics,0.0,,0
+1109,Electronics,0.0,,0
+1110,Electronics,0.006666666666666667,Low Risk,0
+1111,Computer Science,0.006019563581640331,Low Risk,0
+1112,Electronics,0.0,,0
+1113,Medicine,0.8186952729982606,High Risk,0
+1114,Electronics,0.0,,0
+1115,Mechanical,0.01308702219574181,Low Risk,0
+1116,Computer Science,0.029165068723046226,Low Risk,0
+1117,Computer Science,0.06794044949862785,Low Risk,0
+1118,Law,0.0,,0
+1119,Electronics,0.05423278914800097,Low Risk,0
+1120,Business,0.0,,0
+1121,Civil,0.6635256951251277,High Risk,0
+1122,Electronics,0.0031223628691983123,Low Risk,0
+1123,Mechanical,0.0,,0
+1124,Medicine,0.0,,0
+1125,Electronics,0.0,,0
+1126,Civil,0.0,,0
+1127,Law,0.0,,0
+1128,Medicine,0.0,,0
+1129,Arts,0.025242765326507353,Low Risk,0
+1130,Civil,0.009381207028265852,Low Risk,0
+1131,Law,0.04322518444655541,Low Risk,0
+1132,Computer Science,0.0628162158944098,Low Risk,0
+1133,Arts,0.0,,0
+1134,Computer Science,0.001688311688311688,Low Risk,0
+1135,Computer Science,0.009840452098516615,Low Risk,0
+1136,Mechanical,0.0,,0
+1137,Arts,0.0,,0
+1138,Business,0.0,,0
+1139,Computer Science,0.03343667498056178,Low Risk,0
+1140,Civil,0.0,,0
+1141,Electronics,0.0,,0
+1142,Electronics,0.0,,0
+1143,Law,0.0,,0
+1144,Computer Science,0.015187908528608034,Low Risk,0
+1145,Medicine,0.0,,0
+1146,Computer Science,0.031703208978615685,Low Risk,0
+1147,Computer Science,0.0,,0
+1148,Mechanical,0.0,,0
+1149,Civil,0.034100138667164485,Low Risk,0
+1150,Business,0.0,,0
+1151,Mechanical,0.004782964782964783,Low Risk,0
+1152,Computer Science,0.0,,0
+1153,Electronics,0.0,,0
+1154,Law,0.03110997093655426,Low Risk,0
+1155,Business,0.8181490006995557,High Risk,0
+1156,Mechanical,0.01965601572202346,Low Risk,0
+1157,Computer Science,0.0,,0
+1158,Civil,0.006089850249584026,Low Risk,0
+1159,Medicine,0.0,,0
+1160,Civil,0.0,,0
+1161,Business,0.013236605851863982,Low Risk,0
+1162,Mechanical,0.03777979126816336,Low Risk,0
+1163,Arts,0.006118518518518519,Low Risk,0
+1164,Arts,0.006118518518518519,Low Risk,0
+1165,Business,0.005821325648414985,Low Risk,0
+1166,Law,0.0,,0
+1167,Electronics,0.02402384039618927,Low Risk,0
+1168,Arts,0.0,,0
+1169,Mechanical,0.0,,0
+1170,Electronics,0.0,,0
+1171,Law,0.026053097170224287,Low Risk,0
+1172,Business,0.0,,0
+1173,Arts,0.0,,0
+1174,Business,0.013158783642445509,Low Risk,0
+1175,Civil,0.0,,0
+1176,Computer Science,0.0,,0
+1177,Civil,0.0,,0
+1178,Arts,0.014738345970198819,Low Risk,0
+1179,Civil,0.0,,0
+1180,Law,0.0,,0
+1181,Mechanical,0.0,,0
+1182,Law,0.0,,0
+1183,Arts,0.03890567949857151,Low Risk,0
+1184,Electronics,0.006571428571428572,Low Risk,0
+1185,Mechanical,0.0,,0
+1186,Computer Science,0.011401551418397294,Low Risk,0
+1187,Electronics,0.02592967655399733,Low Risk,0
+1188,Electronics,0.0,,0
+1189,Business,0.1232180005830124,Low Risk,0
+1190,Computer Science,0.01866753303010613,Low Risk,0
+1191,Law,0.0,,0
+1192,Electronics,0.024769774359067593,Low Risk,0
+1193,Medicine,0.006305696559503666,Low Risk,0
+1194,Mechanical,0.0,,0
+1195,Computer Science,0.006666666666666667,Low Risk,0
+1196,Computer Science,0.022832783733792883,Low Risk,0
+1197,Civil,0.007921486043338864,Low Risk,0
+1198,Computer Science,0.04560512136773814,Low Risk,0
+1199,Mechanical,0.0007044410413476264,Low Risk,0
+1200,Mechanical,0.0,,0
+1201,Medicine,0.07397673440271496,Low Risk,0
+1202,Civil,0.0,,0
+1203,Mechanical,0.0,,0
+1204,Civil,0.02356477687631152,Low Risk,0
+1205,Electronics,0.0,,0
+1206,Business,0.0,,0
+1207,Computer Science,0.0,,0
+1208,Business,0.06822578320683265,Low Risk,0
+1209,Computer Science,0.014461979913916788,Low Risk,0
+1210,Mechanical,0.006666666666666667,Low Risk,0
+1211,Medicine,0.0,,0
+1212,Business,0.006666666666666667,Low Risk,0
+1213,Mechanical,0.006019563581640331,Low Risk,0
+1214,Business,0.006363636363636364,Low Risk,0
+1215,Medicine,0.0,,0
+1216,Arts,0.0,,0
+1217,Law,0.018743350787631882,Low Risk,0
+1218,Medicine,0.011118162341144877,Low Risk,0
+1219,Computer Science,0.0,,0
+1220,Computer Science,0.006089850249584026,Low Risk,0
+1221,Business,0.08254456657295792,Low Risk,0
+1222,Mechanical,0.005454545454545455,Low Risk,0
+1223,Civil,0.0,,0
+1224,Arts,0.18249918733586776,Low Risk,0
+1225,Business,0.06052246375341802,Low Risk,0
+1226,Medicine,0.20636507108992252,Low Risk,0
+1227,Civil,0.2929475104927623,Low Risk,0
+1228,Electronics,0.02700632794285229,Low Risk,0
+1229,Business,0.06661960784313725,Low Risk,0
+1230,Law,0.48852073104494165,Medium Risk,0
+1231,Computer Science,0.0,,0
+1232,Computer Science,0.006437799926172019,Low Risk,0
+1233,Business,0.010670771007677592,Low Risk,0
+1234,Electronics,0.0,,0
+1235,Medicine,0.00598,Low Risk,0
+1236,Mechanical,0.01271030303030303,Low Risk,0
+1237,Law,0.0,,0
+1238,Medicine,0.0,,0
+1239,Arts,0.02261479531609014,Low Risk,0
+1240,Mechanical,0.0,,0
+1241,Civil,0.0,,0
+1242,Arts,0.0,,0
+1243,Mechanical,0.1655902181443038,Low Risk,0
+1244,Electronics,0.0,,0
+1245,Electronics,0.9681269071795655,High Risk,1
+1246,Electronics,0.028556735447944983,Low Risk,0
+1247,Civil,0.11962311625113939,Low Risk,0
+1248,Electronics,0.16312983269034867,Low Risk,0
+1249,Electronics,0.008044500302564818,Low Risk,0
+1250,Electronics,0.35372815436493416,Medium Risk,0
+1251,Computer Science,0.0,,0
+1252,Computer Science,0.0,,0
+1253,Law,0.15583490393006236,Low Risk,0
+1254,Medicine,0.23712562815754926,Low Risk,0
+1255,Electronics,0.006333333333333333,Low Risk,0
+1256,Electronics,0.03842569351705043,Low Risk,0
+1257,Civil,0.011954171524353985,Low Risk,0
+1258,Computer Science,0.0,,0
+1259,Computer Science,0.0,,0
+1260,Business,0.0,,0
+1261,Arts,0.008044500302564818,Low Risk,0
+1262,Mechanical,0.0027044410413476264,Low Risk,0
+1263,Computer Science,0.0,,0
+1264,Computer Science,0.0,,0
+1265,Civil,0.5997802989424575,Medium Risk,0
+1266,Business,0.22163832033822614,Low Risk,0
+1267,Electronics,0.0,,0
+1268,Civil,0.018570661739835948,Low Risk,0
+1269,Mechanical,0.0,,0
+1270,Electronics,0.005808580858085809,Low Risk,0
+1271,Mechanical,0.012008409960957,Low Risk,0
+1272,Computer Science,0.0,,0
+1273,Electronics,0.0007044410413476264,Low Risk,0
+1274,Civil,0.011561017243845676,Low Risk,0
+1275,Mechanical,0.0,,0
+1276,Electronics,0.0,,0
+1277,Business,0.20214156194545113,Low Risk,0
+1278,Computer Science,0.0,,0
+1279,Business,0.0,,0
+1280,Computer Science,0.0,,0
+1281,Arts,0.0,,0
+1282,Civil,0.007995446332352916,Low Risk,0
+1283,Business,0.0,,0
+1284,Civil,0.7828046735068087,High Risk,0
+1285,Electronics,0.0,,0
+1286,Law,0.0,,0
+1287,Medicine,0.13079126067778898,Low Risk,0
+1288,Business,0.03177512869173944,Low Risk,0
+1289,Business,0.0,,0
+1290,Electronics,0.0,,0
+1291,Arts,0.0,,0
+1292,Medicine,0.0,,0
+1293,Civil,0.0,,0
+1294,Arts,0.0,,0
+1295,Civil,0.0,,0
+1296,Civil,0.0,,0
+1297,Civil,0.006236559139784946,Low Risk,0
+1298,Computer Science,0.0,,0
+1299,Business,0.0,,0
+1300,Business,0.005941738640454271,Low Risk,0
+1301,Computer Science,0.005821325648414985,Low Risk,0
+1302,Electronics,0.012333445478673695,Low Risk,0
+1303,Business,0.0069053566903029264,Low Risk,0
+1304,Civil,0.012756516916250694,Low Risk,0
+1305,Computer Science,0.15548437608666765,Low Risk,0
+1306,Business,0.0,,0
+1307,Computer Science,0.0,,0
+1308,Medicine,0.0,,0
+1309,Business,0.05754793098534239,Low Risk,0
+1310,Arts,0.0,,0
+1311,Computer Science,0.013215785054575987,Low Risk,0
+1312,Law,0.0,,0
+1313,Computer Science,0.0,,0
+1314,Electronics,0.02072814453075323,Low Risk,0
+1315,Arts,0.1552313669684313,Low Risk,0
+1316,Business,0.0,,0
+1317,Mechanical,0.0,,0
+1318,Business,0.03015787966696487,Low Risk,0
+1319,Mechanical,0.0678041393896815,Low Risk,0
+1320,Computer Science,0.6385854790176124,Medium Risk,0
+1321,Medicine,0.04650237121687038,Low Risk,0
+1322,Computer Science,0.006666666666666667,Low Risk,0
+1323,Mechanical,0.0,,0
+1324,Computer Science,0.006666666666666667,Low Risk,0
+1325,Electronics,0.14753698689576755,Low Risk,0
+1326,Electronics,0.009019296917179112,Low Risk,0
+1327,Medicine,0.011214025688577512,Low Risk,0
+1328,Computer Science,0.0,,0
+1329,Computer Science,0.0,,0
+1330,Electronics,0.0,,0
+1331,Computer Science,0.0,,0
+1332,Civil,0.008543173942715516,Low Risk,0
+1333,Mechanical,0.804358413457021,High Risk,0
+1334,Arts,0.0,,0
+1335,Business,0.0,,0
+1336,Arts,0.016402199904351985,Low Risk,0
+1337,Business,0.0,,0
+1338,Business,0.0,,0
+1339,Electronics,0.0,,0
+1340,Computer Science,0.029585897927749207,Low Risk,0
+1341,Computer Science,0.0,,0
+1342,Electronics,0.0,,0
+1343,Law,0.0,,0
+1344,Arts,0.4896131766800275,Medium Risk,0
+1345,Mechanical,0.006666666666666667,Low Risk,0
+1346,Computer Science,0.01479586451029561,Low Risk,0
+1347,Mechanical,0.0066011546563711,Low Risk,0
+1348,Computer Science,0.0,,0
+1349,Medicine,0.0,,0
+1350,Computer Science,0.01859891778046713,Low Risk,0
+1351,Mechanical,0.19762493468608378,Low Risk,0
+1352,Business,0.038499838391183205,Low Risk,0
+1353,Arts,0.0,,0
+1354,Mechanical,0.0,,0
+1355,Computer Science,0.013379746873496873,Low Risk,0
+1356,Business,0.03390197120742406,Low Risk,0
+1357,Electronics,0.0033691756272401434,Low Risk,0
+1358,Law,0.0,,0
+1359,Arts,0.01141615938772453,Low Risk,0
+1360,Civil,0.013990873311572817,Low Risk,0
+1361,Arts,0.011821196705945693,Low Risk,0
+1362,Business,0.025276047342401492,Low Risk,0
+1363,Computer Science,0.03461077771335506,Low Risk,0
+1364,Business,0.013374658865211954,Low Risk,0
+1365,Arts,0.03326948057734347,Low Risk,0
+1366,Civil,0.22531528729283268,Low Risk,0
+1367,Business,0.0,,0
+1368,Computer Science,0.018008113818244926,Low Risk,0
+1369,Business,0.09355176704778771,Low Risk,0
+1370,Civil,0.0,,0
+1371,Arts,0.011341991341991342,Low Risk,0
+1372,Mechanical,0.0,,0
+1373,Computer Science,0.012770816219138281,Low Risk,0
+1374,Business,0.0,,0
+1375,Electronics,0.0,,0
+1376,Mechanical,0.007323146077318849,Low Risk,0
+1377,Mechanical,0.0,,0
+1378,Computer Science,0.0,,0
+1379,Civil,0.6907710928886927,High Risk,0
+1380,Computer Science,0.0,,0
+1381,Business,0.0,,0
+1382,Mechanical,0.0,,0
+1383,Medicine,0.0,,0
+1384,Electronics,0.03458839799351726,Low Risk,0
+1385,Medicine,0.0,,0
+1386,Mechanical,0.46799990273395525,Medium Risk,0
+1387,Electronics,0.05619875243835994,Low Risk,0
+1388,Medicine,0.0,,0
+1389,Civil,0.03409934666950767,Low Risk,0
+1390,Mechanical,0.006363636363636364,Low Risk,0
+1391,Arts,0.0,,0
+1392,Business,0.0,,0
+1393,Arts,0.22364463210583152,Low Risk,0
+1394,Business,0.0,,0
+1395,Electronics,0.04599668450856051,Low Risk,0
+1396,Arts,0.0,,0
+1397,Arts,0.0,,0
+1398,Electronics,0.0,,0
+1399,Law,0.0,,0
+1400,Electronics,0.0,,0
+1401,Mechanical,0.006666666666666667,Low Risk,0
+1402,Business,0.014663094416082061,Low Risk,0
+1403,Civil,0.006336805555555556,Low Risk,0
+1404,Law,0.017205608526996763,Low Risk,0
+1405,Medicine,0.10204904608508066,Low Risk,0
+1406,Computer Science,0.006243902439024391,Low Risk,0
+1407,Computer Science,0.01457989061498216,Low Risk,0
+1408,Electronics,0.0,,0
+1409,Computer Science,0.011960164126589847,Low Risk,0
+1410,Business,0.0,,0
+1411,Mechanical,0.013989812743985516,Low Risk,0
+1412,Civil,0.0,,0
+1413,Mechanical,0.011406814136791253,Low Risk,0
+1414,Civil,0.0,,0
+1415,Mechanical,0.06347225241825837,Low Risk,0
+1416,Law,0.03182087118250331,Low Risk,0
+1417,Mechanical,0.031234554469337077,Low Risk,0
+1418,Computer Science,0.07933437559024727,Low Risk,0
+1419,Law,0.9666085730726093,High Risk,1
+1420,Mechanical,0.0,,0
+1421,Medicine,0.010655324675324675,Low Risk,0
+1422,Mechanical,0.0,,0
+1423,Business,0.0,,0
+1424,Business,0.0,,0
+1425,Electronics,0.014545301869075246,Low Risk,0
+1426,Computer Science,0.0,,0
+1427,Computer Science,0.0,,0
+1428,Computer Science,0.03898131020006018,Low Risk,0
+1429,Computer Science,0.0059241706161137445,Low Risk,0
+1430,Computer Science,0.00583873290136789,Low Risk,0
+1431,Mechanical,0.0,,0
+1432,Medicine,0.033987118767114785,Low Risk,0
+1433,Electronics,0.0,,0
+1434,Electronics,0.0,,0
+1435,Business,0.0,,0
+1436,Computer Science,0.006243902439024391,Low Risk,0
+1437,Electronics,0.0,,0
+1438,Mechanical,0.006447368421052631,Low Risk,0
+1439,Mechanical,0.0,,0
+1440,Electronics,0.0,,0
+1441,Computer Science,0.0,,0
+1442,Medicine,0.006363636363636364,Low Risk,0
+1443,Computer Science,0.4335720660577385,Medium Risk,0
+1444,Electronics,0.0,,0
+1445,Arts,0.004675324675324675,Low Risk,0
+1446,Mechanical,0.0,,0
+1447,Medicine,0.0,,0
+1448,Business,0.004782964782964783,Low Risk,0
+1449,Law,0.0,,0
+1450,Medicine,0.0,,0
+1451,Arts,0.0,,0
+1452,Computer Science,0.0,,0
+1453,Civil,0.0,,0
+1454,Mechanical,0.0,,0
+1455,Civil,0.004119850187265918,Low Risk,0
+1456,Arts,0.0,,0
+1457,Business,0.0,,0
+1458,Electronics,0.004675324675324675,Low Risk,0
+1459,Mechanical,0.0,,0
+1460,Civil,0.0,,0
+1461,Business,0.07304580657839595,Low Risk,0
+1462,Electronics,0.006089850249584026,Low Risk,0
+1463,Electronics,0.0125,Low Risk,0
+1464,Mechanical,0.02794630616024055,Low Risk,0
+1465,Business,0.00986997719375057,Low Risk,0
+1466,Electronics,0.0,,0
+1467,Computer Science,0.03343667498056178,Low Risk,0
+1468,Civil,0.001688311688311688,Low Risk,0
+1469,Computer Science,0.0,,0
+1470,Computer Science,0.0,,0
+1471,Medicine,0.03308375757276275,Low Risk,0
+1472,Arts,0.027373693065439006,Low Risk,0
+1473,Arts,0.004655660553542749,Low Risk,0
+1474,Mechanical,0.006666666666666667,Low Risk,0
+1475,Computer Science,0.028321278638987087,Low Risk,0
+1476,Electronics,0.0,,0
+1477,Computer Science,0.017988211215184128,Low Risk,0
+1478,Medicine,0.5494980837424428,Medium Risk,0
+1479,Civil,0.00597666159309995,Low Risk,0
+1480,Mechanical,0.0,,0
+1481,Computer Science,0.023517592035541216,Low Risk,0
+1482,Electronics,0.006666666666666667,Low Risk,0
+1483,Mechanical,0.7263191522154854,High Risk,0
+1484,Arts,0.04145196795253217,Low Risk,0
+1485,Mechanical,0.0,,0
+1486,Medicine,0.013333333333333334,Low Risk,0
+1487,Mechanical,0.3939453931301055,Medium Risk,0
+1488,Computer Science,0.16708980491459707,Low Risk,0
+1489,Business,0.0,,0
+1490,Computer Science,0.023431695959930724,Low Risk,0
+1491,Mechanical,0.010685882352941177,Low Risk,0
+1492,Electronics,0.02179715484868355,Low Risk,0
+1493,Civil,0.0,,0
+1494,Computer Science,0.0,,0
+1495,Electronics,0.012761381834820406,Low Risk,0
+1496,Business,0.032998169625714883,Low Risk,0
+1497,Business,0.0,,0
+1498,Business,0.038448548460009994,Low Risk,0
+1499,Business,0.0007044410413476264,Low Risk,0
+1500,Business,0.007921486043338864,Low Risk,0
+1501,Arts,0.0,,0
+1502,Arts,0.06726463666723538,Low Risk,0
+1503,Medicine,0.0,,0
+1504,Medicine,0.0,,0
+1505,Mechanical,0.0,,0
+1506,Electronics,0.0,,0
+1507,Business,0.02204430144434791,Low Risk,0
+1508,Civil,0.007379765716672302,Low Risk,0
+1509,Medicine,0.015021645021645021,Low Risk,0
+1510,Electronics,0.07408326543873299,Low Risk,0
+1511,Arts,0.03794245438317271,Low Risk,0
+1512,Mechanical,0.0,,0
+1513,Mechanical,0.0,,0
+1514,Computer Science,0.03055571669051338,Low Risk,0
+1515,Arts,0.23824265182411694,Low Risk,0
+1516,Civil,0.017943348289552824,Low Risk,0
+1517,Law,0.0,,0
+1518,Business,0.0,,0
+1519,Computer Science,0.0,,0
+1520,Business,0.0,,0
+1521,Civil,0.192549842227665,Low Risk,0
+1522,Law,0.034145177744888414,Low Risk,0
+1523,Business,0.0,,0
+1524,Mechanical,0.0,,0
+1525,Arts,0.0027044410413476264,Low Risk,0
+1526,Electronics,0.0063601532567049805,Low Risk,0
+1527,Electronics,0.0,,0
+1528,Electronics,0.030267606517985327,Low Risk,0
+1529,Civil,0.006489675516224189,Low Risk,0
+1530,Mechanical,0.0,,0
+1531,Electronics,0.0,,0
+1532,Computer Science,0.008775510740808666,Low Risk,0
+1533,Computer Science,0.0169956586132069,Low Risk,0
+1534,Arts,0.012649602618045815,Low Risk,0
+1535,Electronics,0.013333333333333334,Low Risk,0
+1536,Electronics,0.026093378131468944,Low Risk,0
+1537,Computer Science,0.0,,0
+1538,Medicine,0.01942318358291736,Low Risk,0
+1539,Civil,0.040987325500756074,Low Risk,0
+1540,Business,0.54721820837725,Medium Risk,0
+1541,Electronics,0.030586274368129884,Low Risk,0
+1542,Computer Science,0.0,,0
+1543,Law,0.0031223628691983123,Low Risk,0
+1544,Medicine,0.0,,0
+1545,Electronics,0.017825450309112176,Low Risk,0
+1546,Computer Science,0.0,,0
+1547,Electronics,0.0063601532567049805,Low Risk,0
+1548,Computer Science,0.004341521909197725,Low Risk,0
+1549,Business,0.004675324675324675,Low Risk,0
+1550,Business,0.04525305137918442,Low Risk,0
+1551,Mechanical,0.001688311688311688,Low Risk,0
+1552,Law,0.0,,0
+1553,Medicine,0.006336805555555556,Low Risk,0
+1554,Mechanical,0.016973535266825535,Low Risk,0
+1555,Arts,0.0,,0
+1556,Electronics,0.0,,0
+1557,Computer Science,0.0,,0
+1558,Law,0.0007044410413476264,Low Risk,0
+1559,Arts,0.0,,0
+1560,Business,0.01737647410061203,Low Risk,0
+1561,Mechanical,0.0,,0
+1562,Computer Science,0.09726031145225426,Low Risk,0
+1563,Medicine,0.0,,0
+1564,Medicine,0.0,,0
+1565,Electronics,0.5034336099669656,Medium Risk,0
+1566,Electronics,0.10676306318372679,Low Risk,0
+1567,Civil,0.04461319490201759,Low Risk,0
+1568,Mechanical,0.6506065761595058,Medium Risk,0
+1569,Electronics,0.032037982443841456,Low Risk,0
+1570,Law,0.0,,0
+1571,Civil,0.016973535266825535,Low Risk,0
+1572,Computer Science,0.04196079725907869,Low Risk,0
+1573,Medicine,0.0,,0
+1574,Business,0.019390135814402392,Low Risk,0
+1575,Business,0.0,,0
+1576,Business,0.24380895238055572,Low Risk,0
+1577,Mechanical,0.0,,0
+1578,Computer Science,0.0,,0
+1579,Computer Science,0.0,,0
+1580,Arts,0.0,,0
+1581,Mechanical,0.0,,0
+1582,Electronics,0.0,,0
+1583,Computer Science,0.0,,0
+1584,Computer Science,0.2525901118074777,Low Risk,0
+1585,Computer Science,0.0377647690060044,Low Risk,0
+1586,Civil,0.0,,0
+1587,Medicine,0.0,,0
+1588,Mechanical,0.0,,0
+1589,Civil,0.0,,0
+1590,Civil,0.03170219604404732,Low Risk,0
+1591,Mechanical,0.011374658865211952,Low Risk,0
+1592,Electronics,0.0,,0
+1593,Computer Science,0.08569167191944062,Low Risk,0
+1594,Electronics,0.0,,0
+1595,Mechanical,0.02342886563062704,Low Risk,0
+1596,Arts,0.006666666666666667,Low Risk,0
+1597,Computer Science,0.37883687439058994,Medium Risk,0
+1598,Computer Science,0.0,,0
+1599,Business,0.012120567418752379,Low Risk,0
+1600,Computer Science,0.002,Low Risk,0
+1601,Arts,0.004675324675324675,Low Risk,0
+1602,Business,0.0,,0
+1603,Electronics,0.0,,0
+1604,Business,0.0,,0
+1605,Business,0.007995446332352916,Low Risk,0
+1606,Law,0.016667529834161754,Low Risk,0
+1607,Computer Science,0.00583873290136789,Low Risk,0
+1608,Civil,0.025762318211702998,Low Risk,0
+1609,Computer Science,0.0,,0
+1610,Computer Science,0.0,,0
+1611,Civil,0.0,,0
+1612,Arts,0.014254144183629046,Low Risk,0
+1613,Electronics,0.0031223628691983123,Low Risk,0
+1614,Mechanical,0.006666666666666667,Low Risk,0
+1615,Mechanical,0.0224429487891039,Low Risk,0
+1616,Mechanical,0.0,,0
+1617,Mechanical,0.43452152142419115,Medium Risk,0
+1618,Medicine,0.029652529165962414,Low Risk,0
+1619,Mechanical,0.0,,0
+1620,Electronics,0.010655324675324675,Low Risk,0
+1621,Electronics,0.8886222426218123,High Risk,0
+1622,Computer Science,0.0804711891325367,Low Risk,0
+1623,Computer Science,0.0385535019794817,Low Risk,0
+1624,Electronics,0.0,,0
+1625,Civil,0.03473747029189396,Low Risk,0
+1626,Computer Science,0.011821779236389664,Low Risk,0
+1627,Computer Science,0.0,,0
+1628,Business,0.22831549971812673,Low Risk,0
+1629,Medicine,0.0066011546563711,Low Risk,0
+1630,Electronics,0.0,,0
+1631,Computer Science,0.023362766020908275,Low Risk,0
+1632,Electronics,0.050086893446856205,Low Risk,0
+1633,Business,0.006123535676251331,Low Risk,0
+1634,Mechanical,0.11796278643374684,Low Risk,0
+1635,Electronics,0.0,,0
+1636,Mechanical,0.0,,0
+1637,Electronics,0.055393669715778,Low Risk,0
+1638,Mechanical,0.10791721314734717,Low Risk,0
+1639,Business,0.014101787615363594,Low Risk,0
+1640,Computer Science,0.0,,0
+1641,Arts,0.0,,0
+1642,Computer Science,0.0,,0
+1643,Computer Science,0.02592967655399733,Low Risk,0
+1644,Medicine,0.0,,0
+1645,Computer Science,0.04322287693279749,Low Risk,0
+1646,Electronics,0.006964603642973642,Low Risk,0
+1647,Computer Science,0.01469146470554312,Low Risk,0
+1648,Computer Science,0.0,,0
+1649,Business,0.0,,0
+1650,Arts,0.0,,0
+1651,Business,0.0,,0
+1652,Computer Science,0.0,,0
+1653,Arts,0.03230402000061839,Low Risk,0
+1654,Computer Science,0.02050736002051784,Low Risk,0
+1655,Medicine,0.0,,0
+1656,Civil,0.0,,0
+1657,Computer Science,0.0,,0
+1658,Arts,0.0,,0
+1659,Electronics,0.0,,0
+1660,Electronics,0.0,,0
+1661,Electronics,0.06990492757837119,Low Risk,0
+1662,Computer Science,0.005333333333333334,Low Risk,0
+1663,Law,0.0,,0
+1664,Mechanical,0.03402450030256482,Low Risk,0
+1665,Mechanical,0.2953338058107249,Low Risk,0
+1666,Mechanical,0.0007044410413476264,Low Risk,0
+1667,Mechanical,0.006447368421052631,Low Risk,0
+1668,Electronics,0.026761612934600578,Low Risk,0
+1669,Law,0.0,,0
+1670,Electronics,0.05000527253437124,Low Risk,0
+1671,Mechanical,0.006992857116997746,Low Risk,0
+1672,Medicine,0.0007044410413476264,Low Risk,0
+1673,Arts,0.02586933030886379,Low Risk,0
+1674,Business,0.0,,0
+1675,Mechanical,0.0,,0
+1676,Law,0.0,,0
+1677,Electronics,0.0038095238095238095,Low Risk,0
+1678,Electronics,0.0061062183079797164,Low Risk,0
+1679,Computer Science,0.0,,0
+1680,Computer Science,0.0,,0
+1681,Electronics,0.0,,0
+1682,Civil,0.012568306010928962,Low Risk,0
+1683,Medicine,0.05971264262574129,Low Risk,0
+1684,Mechanical,0.0,,0
+1685,Law,0.0,,0
+1686,Arts,0.0,,0
+1687,Mechanical,0.0,,0
+1688,Computer Science,0.08317336194105719,Low Risk,0
+1689,Electronics,0.0,,0
+1690,Computer Science,0.0,,0
+1691,Business,0.0,,0
+1692,Electronics,0.7807214558615978,High Risk,0
+1693,Medicine,0.027131172438592827,Low Risk,0
+1694,Business,0.0,,0
+1695,Computer Science,0.006666666666666667,Low Risk,0
+1696,Arts,0.0,,0
+1697,Business,0.0007044410413476264,Low Risk,0
+1698,Electronics,0.03188960602754267,Low Risk,0
+1699,Mechanical,0.006332537788385043,Low Risk,0
+1700,Computer Science,0.0383857562518077,Low Risk,0
+1701,Business,0.021853740808425247,Low Risk,0
+1702,Civil,0.0038095238095238095,Low Risk,0
+1703,Civil,0.019364322652737714,Low Risk,0
+1704,Medicine,0.03436422756546882,Low Risk,0
+1705,Arts,0.0,,0
+1706,Electronics,0.02022843970284712,Low Risk,0
+1707,Civil,0.0626027632340815,Low Risk,0
+1708,Business,0.0,,0
+1709,Mechanical,0.009916888908521104,Low Risk,0
+1710,Electronics,0.0,,0
+1711,Civil,0.0,,0
+1712,Computer Science,0.007869977193750571,Low Risk,0
+1713,Business,0.0,,0
+1714,Business,0.14299215891576214,Low Risk,0
+1715,Business,0.0,,0
+1716,Mechanical,0.0,,0
+1717,Mechanical,0.0,,0
+1718,Civil,0.1421125418743173,Low Risk,0
+1719,Electronics,0.01899665591778185,Low Risk,0
+1720,Arts,0.0,,0
+1721,Business,0.014101787615363594,Low Risk,0
+1722,Computer Science,0.006651549508692366,Low Risk,0
+1723,Electronics,0.0054072553045859,Low Risk,0
+1724,Civil,0.0,,0
+1725,Electronics,0.0,,0
+1726,Civil,0.009458289458289458,Low Risk,0
+1727,Civil,0.0,,0
+1728,Electronics,0.0,,0
+1729,Electronics,0.0,,0
+1730,Mechanical,0.0,,0
+1731,Civil,0.03568103725340668,Low Risk,0
+1732,Electronics,0.0,,0
+1733,Electronics,0.0,,0
+1734,Mechanical,0.01942743164220809,Low Risk,0
+1735,Mechanical,0.012008409960957,Low Risk,0
+1736,Mechanical,0.033764391446078706,Low Risk,0
+1737,Law,0.0,,0
+1738,Civil,0.0,,0
+1739,Computer Science,0.0,,0
+1740,Computer Science,0.0,,0
+1741,Computer Science,0.0,,0
+1742,Computer Science,0.0,,0
+1743,Computer Science,0.11252153270356227,Low Risk,0
+1744,Computer Science,0.0,,0
+1745,Mechanical,0.0,,0
+1746,Electronics,0.0,,0
+1747,Business,0.006111696345933526,Low Risk,0
+1748,Civil,0.0,,0
+1749,Computer Science,0.04981933723402082,Low Risk,0
+1750,Computer Science,0.0,,0
+1751,Civil,0.05167600610370117,Low Risk,0
+1752,Computer Science,0.2519859648513054,Low Risk,0
+1753,Computer Science,0.7189981843275877,High Risk,0
+1754,Electronics,0.0,,0
+1755,Business,0.0007044410413476264,Low Risk,0
+1756,Computer Science,0.0,,0
+1757,Civil,0.0,,0
+1758,Medicine,0.0,,0
+1759,Business,0.006992857116997746,Low Risk,0
+1760,Civil,0.0,,0
+1761,Business,0.0,,0
+1762,Electronics,0.0,,0
+1763,Law,0.0,,0
+1764,Business,0.031334097444090304,Low Risk,0
+1765,Electronics,0.0,,0
+1766,Arts,0.31149095458382664,Low Risk,0
+1767,Business,0.0,,0
+1768,Civil,0.0,,0
+1769,Mechanical,0.006666666666666667,Low Risk,0
+1770,Computer Science,0.01854945214831727,Low Risk,0
+1771,Business,0.47139528914062045,Medium Risk,0
+1772,Civil,0.0,,0
+1773,Civil,0.008542437558153025,Low Risk,0
+1774,Medicine,0.0060389036251105215,Low Risk,0
+1775,Computer Science,0.0,,0
+1776,Electronics,0.019364322652737714,Low Risk,0
+1777,Computer Science,0.04569893248739275,Low Risk,0
+1778,Business,0.0,,0
+1779,Arts,0.012785185185185186,Low Risk,0
+1780,Civil,0.0,,0
+1781,Electronics,0.0,,0
+1782,Civil,0.009458289458289458,Low Risk,0
+1783,Medicine,0.0,,0
+1784,Computer Science,0.0,,0
+1785,Business,0.013312434691745038,Low Risk,0
+1786,Civil,0.006336805555555556,Low Risk,0
+1787,Business,0.01894937885612818,Low Risk,0
+1788,Medicine,0.03263682708891918,Low Risk,0
+1789,Arts,0.012262783534279283,Low Risk,0
+1790,Business,0.13775989285822418,Low Risk,0
+1791,Business,0.08169008893321877,Low Risk,0
+1792,Computer Science,0.0,,0
+1793,Computer Science,0.0,,0
+1794,Business,0.0,,0
+1795,Mechanical,0.037505703286462834,Low Risk,0
+1796,Civil,0.010951475302939738,Low Risk,0
+1797,Mechanical,0.5465151019206533,Medium Risk,0
+1798,Electronics,0.0,,0
+1799,Business,0.00794173864045427,Low Risk,0
+1800,Computer Science,0.0,,0
+1801,Electronics,0.0007044410413476264,Low Risk,0
+1802,Medicine,0.44555963829250883,Medium Risk,0
+1803,Computer Science,0.017237136126025013,Low Risk,0
+1804,Arts,0.0,,0
+1805,Computer Science,0.024629110695210617,Low Risk,0
+1806,Business,0.0,,0
+1807,Business,0.0,,0
+1808,Mechanical,0.0,,0
+1809,Civil,0.008044500302564818,Low Risk,0
+1810,Civil,0.02310313930705955,Low Risk,0
+1811,Civil,0.9727526217723048,High Risk,1
+1812,Computer Science,0.2789106980356604,Low Risk,0
+1813,Business,0.01106951871657754,Low Risk,0
+1814,Mechanical,0.0331476646984116,Low Risk,0
+1815,Medicine,0.0,,0
+1816,Civil,0.0,,0
+1817,Electronics,0.0,,0
+1818,Mechanical,0.0,,0
+1819,Electronics,0.0,,0
+1820,Medicine,0.019658119658119658,Low Risk,0
+1821,Business,0.07499054262601926,Low Risk,0
+1822,Business,0.014663094416082061,Low Risk,0
+1823,Electronics,0.006243902439024391,Low Risk,0
+1824,Electronics,0.006992857116997746,Low Risk,0
+1825,Mechanical,0.7008113413575873,High Risk,0
+1826,Medicine,0.08304112605692392,Low Risk,0
+1827,Medicine,0.0,,0
+1828,Electronics,0.00598,Low Risk,0
+1829,Civil,0.06524691031741649,Low Risk,0
+1830,Computer Science,0.0,,0
+1831,Business,0.0,,0
+1832,Electronics,0.0,,0
+1833,Arts,0.00794173864045427,Low Risk,0
+1834,Arts,0.0,,0
+1835,Civil,0.0,,0
+1836,Arts,0.0,,0
+1837,Electronics,0.0,,0
+1838,Arts,0.013333333333333334,Low Risk,0
+1839,Electronics,0.005941738640454271,Low Risk,0
+1840,Electronics,0.0,,0
+1841,Law,0.0,,0
+1842,Law,0.0,,0
+1843,Medicine,0.39561248838338625,Medium Risk,0
+1844,Business,0.3295162018768908,Low Risk,0
+1845,Electronics,0.0,,0
+1846,Civil,0.002846064530121374,Low Risk,0
+1847,Law,0.04770273584280769,Low Risk,0
+1848,Electronics,0.0,,0
+1849,Civil,0.01117145516049337,Low Risk,0
+1850,Civil,0.0,,0
+1851,Electronics,0.023083241061380683,Low Risk,0
+1852,Computer Science,0.0,,0
+1853,Computer Science,0.0,,0
+1854,Medicine,0.0,,0
+1855,Arts,0.97405756874966,High Risk,1
+1856,Electronics,0.0,,0
+1857,Mechanical,0.0,,0
+1858,Computer Science,0.3805052878852843,Medium Risk,0
+1859,Mechanical,0.0,,0
+1860,Business,0.0,,0
+1861,Computer Science,0.06235838212291205,Low Risk,0
+1862,Computer Science,0.019240338646197664,Low Risk,0
+1863,Business,0.0,,0
+1864,Medicine,0.0031223628691983123,Low Risk,0
+1865,Business,0.0,,0
+1866,Mechanical,0.0,,0
+1867,Computer Science,0.006324786324786324,Low Risk,0
+1868,Computer Science,0.5369604795396734,Medium Risk,0
+1869,Civil,0.0,,0
+1870,Electronics,0.0,,0
+1871,Electronics,0.0,,0
+1872,Computer Science,0.008232896325900473,Low Risk,0
+1873,Law,0.03396564736548831,Low Risk,0
+1874,Mechanical,0.026303753754900946,Low Risk,0
+1875,Civil,0.0,,0
+1876,Civil,0.8707847134171336,High Risk,0
+1877,Mechanical,0.009645326254855206,Low Risk,0
+1878,Mechanical,0.31205610829934327,Low Risk,0
+1879,Arts,0.0,,0
+1880,Law,0.0,,0
+1881,Medicine,0.006666666666666667,Low Risk,0
+1882,Arts,0.029256727054032528,Low Risk,0
+1883,Computer Science,0.0328180905193211,Low Risk,0
+1884,Arts,0.46552689484109855,Medium Risk,0
+1885,Civil,0.0,,0
+1886,Computer Science,0.0,,0
+1887,Civil,0.3627769479489036,Medium Risk,0
+1888,Law,0.0,,0
+1889,Arts,0.0,,0
+1890,Computer Science,0.05267207949870871,Low Risk,0
+1891,Computer Science,0.02699081816890286,Low Risk,0
+1892,Mechanical,0.0,,0
+1893,Computer Science,0.0,,0
+1894,Arts,0.0,,0
+1895,Law,0.014545301869075246,Low Risk,0
+1896,Arts,0.0,,0
+1897,Civil,0.022700905705659385,Low Risk,0
+1898,Computer Science,0.0,,0
+1899,Civil,0.3959084361893042,Medium Risk,0
+1900,Computer Science,0.01939798194283269,Low Risk,0
+1901,Computer Science,0.01584677983581805,Low Risk,0
+1902,Business,0.0,,0
+1903,Electronics,0.0,,0
+1904,Electronics,0.02429367657749341,Low Risk,0
+1905,Electronics,0.0,,0
+1906,Business,0.02765917782410419,Low Risk,0
+1907,Law,0.0,,0
+1908,Civil,0.005291005291005291,Low Risk,0
+1909,Mechanical,0.22223845386686467,Low Risk,0
+1910,Business,0.0,,0
+1911,Business,0.0,,0
+1912,Business,0.0,,0
+1913,Business,0.04292264034527739,Low Risk,0
+1914,Business,0.03417735078734879,Low Risk,0
+1915,Computer Science,0.19608597146264464,Low Risk,0
+1916,Arts,0.5302797330022226,Medium Risk,0
+1917,Medicine,0.0,,0
+1918,Computer Science,0.004705882352941177,Low Risk,0
+1919,Arts,0.0,,0
+1920,Arts,0.0,,0
+1921,Mechanical,0.03526159904345455,Low Risk,0
+1922,Mechanical,0.006666666666666667,Low Risk,0
+1923,Electronics,0.0,,0
+1924,Mechanical,0.013131483577855629,Low Risk,0
+1925,Mechanical,0.006019563581640331,Low Risk,0
+1926,Mechanical,0.0,,0
+1927,Arts,0.0156739484496587,Low Risk,0
+1928,Business,0.425907671573049,Medium Risk,0
+1929,Computer Science,0.0,,0
+1930,Business,0.01664875430506898,Low Risk,0
+1931,Mechanical,0.00598,Low Risk,0
+1932,Mechanical,0.018809153322935503,Low Risk,0
+1933,Arts,0.005291005291005291,Low Risk,0
+1934,Business,0.0,,0
+1935,Electronics,0.07161945454853759,Low Risk,0
+1936,Computer Science,0.4191267767856804,Medium Risk,0
+1937,Arts,0.012362505663013824,Low Risk,0
+1938,Mechanical,0.005868263473053892,Low Risk,0
+1939,Business,0.0,,0
+1940,Civil,0.0,,0
+1941,Computer Science,0.0,,0
+1942,Computer Science,0.0,,0
+1943,Business,0.017898260379584703,Low Risk,0
+1944,Business,0.0,,0
+1945,Arts,0.0,,0
+1946,Mechanical,0.005973826020015396,Low Risk,0
+1947,Electronics,0.009732811990876507,Low Risk,0
+1948,Computer Science,0.0,,0
+1949,Law,0.17943622613273202,Low Risk,0
+1950,Law,0.0,,0
+1951,Computer Science,0.006666666666666667,Low Risk,0
+1952,Civil,0.014029897380467723,Low Risk,0
+1953,Computer Science,0.07334602338885926,Low Risk,0
+1954,Electronics,0.18775774247131943,Low Risk,0
+1955,Civil,0.0,,0
+1956,Mechanical,0.0,,0
+1957,Civil,0.0,,0
+1958,Arts,0.0,,0
+1959,Law,0.0,,0
+1960,Civil,0.05066822265653825,Low Risk,0
+1961,Business,0.012617063315778946,Low Risk,0
+1962,Mechanical,0.0,,0
+1963,Electronics,0.0,,0
+1964,Computer Science,0.0,,0
+1965,Civil,0.19022888945991367,Low Risk,0
+1966,Electronics,0.0,,0
+1967,Arts,0.0,,0
+1968,Arts,0.009381207028265852,Low Risk,0
+1969,Arts,0.0,,0
+1970,Business,0.0522215395661383,Low Risk,0
+1971,Mechanical,0.006666666666666667,Low Risk,0
+1972,Civil,0.0,,0
+1973,Medicine,0.0,,0
+1974,Civil,0.0,,0
+1975,Computer Science,0.026126721486550167,Low Risk,0
+1976,Computer Science,0.00363953120050681,Low Risk,0
+1977,Mechanical,0.011838452255477744,Low Risk,0
+1978,Business,0.0,,0
+1979,Computer Science,0.0,,0
+1980,Mechanical,0.0,,0
+1981,Law,0.1025486499778837,Low Risk,0
+1982,Electronics,0.10784480086826444,Low Risk,0
+1983,Mechanical,0.0,,0
+1984,Medicine,0.0,,0
+1985,Arts,0.0,,0
+1986,Arts,0.0007044410413476264,Low Risk,0
+1987,Business,0.0,,0
+1988,Electronics,0.0,,0
+1989,Arts,0.0,,0
+1990,Computer Science,0.0,,0
+1991,Civil,0.0,,0
+1992,Computer Science,0.0,,0
+1993,Medicine,0.0060710696994610396,Low Risk,0
+1994,Electronics,0.02617654264280377,Low Risk,0
+1995,Business,0.06190560603103054,Low Risk,0
+1996,Electronics,0.0,,0
+1997,Computer Science,0.0,,0
+1998,Electronics,0.0,,0
+1999,Business,0.0,,0
+2000,Electronics,0.0419403337752608,Low Risk,0
+2001,Medicine,0.006385038503850385,Low Risk,0
+2002,Electronics,0.0,,0
+2003,Computer Science,0.009872705555533988,Low Risk,0
+2004,Arts,0.0,,0
+2005,Computer Science,0.0,,0
+2006,Computer Science,0.0,,0
+2007,Business,0.0,,0
+2008,Civil,0.060158013089213494,Low Risk,0
+2009,Mechanical,0.5431186348520161,Medium Risk,0
+2010,Computer Science,0.0,,0
+2011,Mechanical,0.008775510740808666,Low Risk,0
+2012,Computer Science,0.9697391112316323,High Risk,1
+2013,Medicine,0.0,,0
+2014,Mechanical,0.0,,0
+2015,Electronics,0.0,,0
+2016,Mechanical,0.011838452255477744,Low Risk,0
+2017,Electronics,0.04158864605581517,Low Risk,0
+2018,Electronics,0.0,,0
+2019,Business,0.0,,0
+2020,Arts,0.021435080215863267,Low Risk,0
+2021,Arts,0.0,,0
+2022,Electronics,0.019305755703119487,Low Risk,0
+2023,Medicine,0.0,,0
+2024,Mechanical,0.15855359050652537,Low Risk,0
+2025,Computer Science,0.0,,0
+2026,Computer Science,0.009789029535864979,Low Risk,0
+2027,Computer Science,0.09016459923995608,Low Risk,0
+2028,Arts,0.04654490662485266,Low Risk,0
+2029,Mechanical,0.0,,0
+2030,Law,0.0,,0
+2031,Electronics,0.0066011546563711,Low Risk,0
+2032,Law,0.0038095238095238095,Low Risk,0
+2033,Electronics,0.0,,0
+2034,Computer Science,0.012417907728742543,Low Risk,0
+2035,Computer Science,0.0,,0
+2036,Electronics,0.0,,0
+2037,Mechanical,0.060639464485836264,Low Risk,0
+2038,Electronics,0.21462694331113288,Low Risk,0
+2039,Business,0.02703790639953853,Low Risk,0
+2040,Arts,0.0,,0
+2041,Electronics,0.0,,0
+2042,Civil,0.006562266964951529,Low Risk,0
+2043,Arts,0.0,,0
+2044,Computer Science,0.019900392015188704,Low Risk,0
+2045,Arts,0.012770816219138281,Low Risk,0
+2046,Business,0.025243562464666434,Low Risk,0
+2047,Arts,0.027101863167896,Low Risk,0
+2048,Computer Science,0.04945440449270217,Low Risk,0
+2049,Mechanical,0.033466611769469176,Low Risk,0
+2050,Business,0.11200697564886913,Low Risk,0
+2051,Computer Science,0.0,,0
+2052,Computer Science,0.017014190065718762,Low Risk,0
+2053,Electronics,0.0,,0
+2054,Electronics,0.0,,0
+2055,Civil,0.0,,0
+2056,Civil,0.05255842122874811,Low Risk,0
+2057,Civil,0.0007044410413476264,Low Risk,0
+2058,Civil,0.0,,0
+2059,Computer Science,0.0414528555980344,Low Risk,0
+2060,Electronics,0.008775510740808666,Low Risk,0
+2061,Mechanical,0.016484758844939468,Low Risk,0
+2062,Medicine,0.006019563581640331,Low Risk,0
+2063,Medicine,0.01626316239232852,Low Risk,0
+2064,Mechanical,0.0,,0
+2065,Business,0.023929686396127275,Low Risk,0
+2066,Mechanical,0.0,,0
+2067,Computer Science,0.0,,0
+2068,Electronics,0.0,,0
+2069,Mechanical,0.010467014119145744,Low Risk,0
+2070,Arts,0.06165035359825632,Low Risk,0
+2071,Medicine,0.006363636363636364,Low Risk,0
+2072,Business,0.006153846153846154,Low Risk,0
+2073,Mechanical,0.14975605663204647,Low Risk,0
+2074,Electronics,0.012520447504302926,Low Risk,0
+2075,Business,0.9774877318757378,High Risk,1
+2076,Business,0.0,,0
+2077,Arts,0.0027044410413476264,Low Risk,0
+2078,Arts,0.03867166146180712,Low Risk,0
+2079,Mechanical,0.02997731969914299,Low Risk,0
+2080,Computer Science,0.01106951871657754,Low Risk,0
+2081,Mechanical,0.029134511045429724,Low Risk,0
+2082,Mechanical,0.06998153769171754,Low Risk,0
+2083,Business,0.013333333333333334,Low Risk,0
+2084,Computer Science,0.0,,0
+2085,Mechanical,0.0,,0
+2086,Arts,0.0,,0
+2087,Mechanical,0.027625985031613627,Low Risk,0
+2088,Electronics,0.0,,0
+2089,Mechanical,0.13612671109589308,Low Risk,0
+2090,Medicine,0.0,,0
+2091,Medicine,0.02353511624432984,Low Risk,0
+2092,Computer Science,0.0,,0
+2093,Computer Science,0.012222936189201249,Low Risk,0
+2094,Computer Science,0.0007044410413476264,Low Risk,0
+2095,Business,0.0,,0
+2096,Computer Science,0.01872655339624862,Low Risk,0
+2097,Mechanical,0.0,,0
+2098,Arts,0.0,,0
+2099,Civil,0.026097639870627513,Low Risk,0
+2100,Arts,0.0,,0
+2101,Electronics,0.0,,0
+2102,Electronics,0.0,,0
+2103,Medicine,0.0066011546563711,Low Risk,0
+2104,Mechanical,0.10683094575083722,Low Risk,0
+2105,Electronics,0.03972251498435805,Low Risk,0
+2106,Computer Science,0.0,,0
+2107,Computer Science,0.0,,0
+2108,Computer Science,0.425440301543491,Medium Risk,0
+2109,Medicine,0.006666666666666667,Low Risk,0
+2110,Mechanical,0.0,,0
+2111,Civil,0.0,,0
+2112,Business,0.006666666666666667,Low Risk,0
+2113,Electronics,0.019902384676560136,Low Risk,0
+2114,Mechanical,0.022885031487050896,Low Risk,0
+2115,Medicine,0.006376811594202899,Low Risk,0
+2116,Computer Science,0.0,,0
+2117,Arts,0.007995446332352916,Low Risk,0
+2118,Mechanical,0.0,,0
+2119,Mechanical,0.042288147950707906,Low Risk,0
+2120,Medicine,0.0,,0
+2121,Electronics,0.0,,0
+2122,Computer Science,0.0,,0
+2123,Mechanical,0.03309032206414847,Low Risk,0
+2124,Business,0.0,,0
+2125,Medicine,0.04523625272197639,Low Risk,0
+2126,Mechanical,0.006666666666666667,Low Risk,0
+2127,Electronics,0.0,,0
+2128,Electronics,0.0,,0
+2129,Mechanical,0.00598,Low Risk,0
+2130,Civil,0.0,,0
+2131,Electronics,0.0,,0
+2132,Arts,0.3347010080545924,Medium Risk,0
+2133,Electronics,0.0,,0
+2134,Computer Science,0.0,,0
+2135,Electronics,0.0,,0
+2136,Electronics,0.0,,0
+2137,Law,0.0,,0
+2138,Electronics,0.0,,0
+2139,Mechanical,0.0,,0
+2140,Computer Science,0.023132708584237282,Low Risk,0
+2141,Medicine,0.0007044410413476264,Low Risk,0
+2142,Business,0.07591357481457421,Low Risk,0
+2143,Computer Science,0.0,,0
+2144,Computer Science,0.0,,0
+2145,Arts,0.9777848111586203,High Risk,1
+2146,Computer Science,0.0,,0
+2147,Electronics,0.0,,0
+2148,Civil,0.0,,0
+2149,Arts,0.0,,0
+2150,Civil,0.0,,0
+2151,Mechanical,0.005454545454545455,Low Risk,0
+2152,Law,0.0021416234887737477,Low Risk,0
+2153,Computer Science,0.8758336165539343,High Risk,0
+2154,Computer Science,0.0,,0
+2155,Mechanical,0.0,,0
+2156,Electronics,0.08839972662588268,Low Risk,0
+2157,Mechanical,0.013333333333333334,Low Risk,0
+2158,Law,0.0,,0
+2159,Civil,0.0,,0
+2160,Business,0.9658292880410928,High Risk,1
+2161,Civil,0.006666666666666667,Low Risk,0
+2162,Medicine,0.006666666666666667,Low Risk,0
+2163,Computer Science,0.0,,0
+2164,Computer Science,0.0,,0
+2165,Computer Science,0.0,,0
+2166,Mechanical,0.0,,0
+2167,Computer Science,0.0,,0
+2168,Business,0.029039519886664516,Low Risk,0
+2169,Civil,0.0,,0
+2170,Business,0.0,,0
+2171,Civil,0.0050574873155518315,Low Risk,0
+2172,Arts,0.0,,0
+2173,Computer Science,0.0,,0
+2174,Business,0.028476832804872967,Low Risk,0
+2175,Computer Science,0.4510003865085553,Medium Risk,0
+2176,Computer Science,0.0,,0
+2177,Computer Science,0.0,,0
+2178,Computer Science,0.01845502528211462,Low Risk,0
+2179,Mechanical,0.012008409960957,Low Risk,0
+2180,Computer Science,0.013003472222222224,Low Risk,0
+2181,Business,0.06958792238275789,Low Risk,0
+2182,Electronics,0.6603389611688745,High Risk,0
+2183,Mechanical,0.0,,0
+2184,Civil,0.0,,0
+2185,Mechanical,0.0,,0
+2186,Mechanical,0.0,,0
+2187,Electronics,0.02592967655399733,Low Risk,0
+2188,Law,0.31547859173041926,Low Risk,0
+2189,Electronics,0.0,,0
+2190,Medicine,0.023551503034968013,Low Risk,0
+2191,Business,0.027937475828394506,Low Risk,0
+2192,Arts,0.01302504816955684,Low Risk,0
+2193,Civil,0.0,,0
+2194,Medicine,0.0,,0
+2195,Medicine,0.9628384280273604,High Risk,1
+2196,Mechanical,0.013333333333333334,Low Risk,0
+2197,Law,0.05592756882944994,Low Risk,0
+2198,Electronics,0.0,,0
+2199,Computer Science,0.0,,0
+2200,Computer Science,0.024876126129532602,Low Risk,0
+2201,Business,0.028523238409106953,Low Risk,0
+2202,Medicine,0.0,,0
+2203,Computer Science,0.04955563243463604,Low Risk,0
+2204,Mechanical,0.0,,0
+2205,Computer Science,0.0,,0
+2206,Computer Science,0.05371206571522578,Low Risk,0
+2207,Electronics,0.031737297599106644,Low Risk,0
+2208,Electronics,0.0031223628691983123,Low Risk,0
+2209,Law,0.006666666666666667,Low Risk,0
+2210,Mechanical,0.0038095238095238095,Low Risk,0
+2211,Computer Science,0.0007044410413476264,Low Risk,0
+2212,Business,0.0,,0
+2213,Civil,0.0,,0
+2214,Mechanical,0.0,,0
+2215,Electronics,0.01787342278702045,Low Risk,0
+2216,Civil,0.023318419091406733,Low Risk,0
+2217,Civil,0.0,,0
+2218,Arts,0.04152915794203718,Low Risk,0
+2219,Computer Science,0.015060428833451414,Low Risk,0
+2220,Mechanical,0.0,,0
+2221,Arts,0.0007044410413476264,Low Risk,0
+2222,Civil,0.016887548840906746,Low Risk,0
+2223,Computer Science,0.0,,0
+2224,Electronics,0.0069053566903029264,Low Risk,0
+2225,Mechanical,0.0,,0
+2226,Computer Science,0.0,,0
+2227,Law,0.0,,0
+2228,Electronics,0.0,,0
+2229,Business,0.0031223628691983123,Low Risk,0
+2230,Medicine,0.006089850249584026,Low Risk,0
+2231,Electronics,0.001688311688311688,Low Risk,0
+2232,Arts,0.0,,0
+2233,Business,0.0007044410413476264,Low Risk,0
+2234,Mechanical,0.0,,0
+2235,Business,0.0027044410413476264,Low Risk,0
+2236,Business,0.0,,0
+2237,Electronics,0.0,,0
+2238,Electronics,0.0,,0
+2239,Mechanical,0.0,,0
+2240,Medicine,0.0,,0
+2241,Medicine,0.0,,0
+2242,Computer Science,0.0,,0
+2243,Electronics,0.0,,0
+2244,Business,0.0,,0
+2245,Mechanical,0.0,,0
+2246,Computer Science,0.0,,0
+2247,Arts,0.0,,0
+2248,Electronics,0.30822547164576924,Low Risk,0
+2249,Mechanical,0.004675324675324675,Low Risk,0
+2250,Business,0.043487948053584725,Low Risk,0
+2251,Electronics,0.0007044410413476264,Low Risk,0
+2252,Medicine,0.006666666666666667,Low Risk,0
+2253,Computer Science,0.0,,0
+2254,Electronics,0.0,,0
+2255,Electronics,0.0,,0
+2256,Civil,0.0,,0
+2257,Mechanical,0.006666666666666667,Low Risk,0
+2258,Business,0.00627939142461964,Low Risk,0
+2259,Civil,0.0,,0
+2260,Computer Science,0.0,,0
+2261,Mechanical,0.04291720646754257,Low Risk,0
+2262,Computer Science,0.020833717944725366,Low Risk,0
+2263,Business,0.0,,0
+2264,Business,0.0,,0
+2265,Medicine,0.0,,0
+2266,Business,0.0,,0
+2267,Medicine,0.004675324675324675,Low Risk,0
+2268,Electronics,0.01872655339624862,Low Risk,0
+2269,Business,0.0,,0
+2270,Business,0.052501584443223864,Low Risk,0
+2271,Arts,0.0,,0
+2272,Arts,0.0,,0
+2273,Business,0.0,,0
+2274,Computer Science,0.0,,0
+2275,Computer Science,0.0,,0
+2276,Computer Science,0.0,,0
+2277,Medicine,0.025458847583438114,Low Risk,0
+2278,Civil,0.0,,0
+2279,Civil,0.016215085922816817,Low Risk,0
+2280,Business,0.0,,0
+2281,Computer Science,0.001688311688311688,Low Risk,0
+2282,Computer Science,0.0,,0
+2283,Business,0.9847770812276246,High Risk,1
+2284,Medicine,0.0,,0
+2285,Computer Science,0.0,,0
+2286,Computer Science,0.0007044410413476264,Low Risk,0
+2287,Business,0.0,,0
+2288,Electronics,0.0,,0
+2289,Mechanical,0.057052521303787455,Low Risk,0
+2290,Medicine,0.09991065625819481,Low Risk,0
+2291,Civil,0.0,,0
+2292,Computer Science,0.0,,0
+2293,Electronics,0.0,,0
+2294,Business,0.02955676102326306,Low Risk,0
+2295,Civil,0.0,,0
+2296,Law,0.017828352195507633,Low Risk,0
+2297,Electronics,0.0,,0
+2298,Arts,0.0,,0
+2299,Business,0.0,,0
+2300,Arts,0.0,,0
+2301,Mechanical,0.0,,0
+2302,Civil,0.005291005291005291,Low Risk,0
+2303,Mechanical,0.9795962249662344,High Risk,1
+2304,Mechanical,0.02465843952660232,Low Risk,0
+2305,Computer Science,0.03504418100367646,Low Risk,0
+2306,Civil,0.0,,0
+2307,Medicine,0.04666516186384711,Low Risk,0
+2308,Civil,0.0,,0
+2309,Computer Science,0.0,,0
+2310,Electronics,0.03236422756546883,Low Risk,0
+2311,Mechanical,0.9726359699830671,High Risk,1
+2312,Electronics,0.009207908528608033,Low Risk,0
+2313,Computer Science,0.0007044410413476264,Low Risk,0
+2314,Business,0.0,,0
+2315,Mechanical,0.8026595518453654,High Risk,0
+2316,Civil,0.006358381502890174,Low Risk,0
+2317,Business,0.0,,0
+2318,Civil,0.006666666666666667,Low Risk,0
+2319,Computer Science,0.0,,0
+2320,Electronics,0.00493208331777039,Low Risk,0
+2321,Civil,0.013883233203932708,Low Risk,0
+2322,Civil,0.0,,0
+2323,Medicine,0.0,,0
+2324,Mechanical,0.0,,0
+2325,Electronics,0.0,,0
+2326,Arts,0.0,,0
+2327,Electronics,0.00548740582431241,Low Risk,0
+2328,Mechanical,0.0,,0
+2329,Mechanical,0.203379790528255,Low Risk,0
+2330,Computer Science,0.012152731335848765,Low Risk,0
+2331,Computer Science,0.029581633930715466,Low Risk,0
+2332,Civil,0.0051412429378531075,Low Risk,0
+2333,Computer Science,0.0,,0
+2334,Business,0.36051230125952805,Medium Risk,0
+2335,Civil,0.0681404044435337,Low Risk,0
+2336,Arts,0.0,,0
+2337,Mechanical,0.0,,0
+2338,Mechanical,0.0,,0
+2339,Civil,0.0,,0
+2340,Mechanical,0.0,,0
+2341,Mechanical,0.038726677338503206,Low Risk,0
+2342,Business,0.0,,0
+2343,Mechanical,0.0,,0
+2344,Arts,0.0,,0
+2345,Mechanical,0.0,,0
+2346,Electronics,0.006385038503850385,Low Risk,0
+2347,Civil,0.008484848484848484,Low Risk,0
+2348,Mechanical,0.10570410156805982,Low Risk,0
+2349,Electronics,0.0,,0
+2350,Civil,0.4409187819385498,Medium Risk,0
+2351,Business,0.021203541920384983,Low Risk,0
+2352,Business,0.013333333333333334,Low Risk,0
+2353,Computer Science,0.0,,0
+2354,Computer Science,0.0,,0
+2355,Medicine,0.01757055391326491,Low Risk,0
+2356,Arts,0.16540863305373835,Low Risk,0
+2357,Computer Science,0.010655324675324675,Low Risk,0
+2358,Mechanical,0.005738396624472574,Low Risk,0
+2359,Civil,0.0,,0
+2360,Computer Science,0.006363636363636364,Low Risk,0
+2361,Business,0.0,,0
+2362,Mechanical,0.3518990645274335,Medium Risk,0
+2363,Business,0.005821325648414985,Low Risk,0
+2364,Computer Science,0.0,,0
+2365,Electronics,0.0,,0
+2366,Computer Science,0.0,,0
+2367,Mechanical,0.0,,0
+2368,Arts,0.0,,0
+2369,Civil,0.012640492686682063,Low Risk,0
+2370,Civil,0.0,,0
+2371,Medicine,0.5543328546243953,Medium Risk,0
+2372,Business,0.005237297599106645,Low Risk,0
+2373,Law,0.037752754371653444,Low Risk,0
+2374,Business,0.00910622713174739,Low Risk,0
+2375,Business,0.0,,0
+2376,Computer Science,0.01112963144963145,Low Risk,0
+2377,Medicine,0.09434593235319017,Low Risk,0
+2378,Electronics,0.0,,0
+2379,Business,0.03834882236304351,Low Risk,0
+2380,Mechanical,0.002846064530121374,Low Risk,0
+2381,Civil,0.006276150627615063,Low Risk,0
+2382,Business,0.0,,0
+2383,Medicine,0.001688311688311688,Low Risk,0
+2384,Business,0.008542437558153025,Low Risk,0
+2385,Mechanical,0.0,,0
+2386,Mechanical,0.006666666666666667,Low Risk,0
+2387,Civil,0.0,,0
+2388,Law,0.0,,0
+2389,Law,0.010085674437138871,Low Risk,0
+2390,Business,0.0,,0
+2391,Mechanical,0.02584564539156746,Low Risk,0
+2392,Mechanical,0.09104905513318774,Low Risk,0
+2393,Electronics,0.025990152976938862,Low Risk,0
+2394,Business,0.13302073258409913,Low Risk,0
+2395,Mechanical,0.0,,0
+2396,Mechanical,0.44726248856446926,Medium Risk,0
+2397,Medicine,0.037123025003574645,Low Risk,0
+2398,Law,0.030059434215095684,Low Risk,0
+2399,Business,0.004782964782964783,Low Risk,0
+2400,Electronics,0.006437799926172019,Low Risk,0
+2401,Law,0.017206247778752945,Low Risk,0
+2402,Electronics,0.0,,0
+2403,Business,0.01291243970791203,Low Risk,0
+2404,Computer Science,0.03728264772165384,Low Risk,0
+2405,Business,0.0,,0
+2406,Medicine,0.0,,0
+2407,Civil,0.8387004511473942,High Risk,0
+2408,Business,0.02065753997823948,Low Risk,0
+2409,Business,0.0027044410413476264,Low Risk,0
+2410,Business,0.0,,0
+2411,Mechanical,0.13954788170070648,Low Risk,0
+2412,Computer Science,0.0,,0
+2413,Business,0.026168936694637098,Low Risk,0
+2414,Computer Science,0.0,,0
+2415,Business,0.04122994700835398,Low Risk,0
+2416,Business,0.0,,0
+2417,Computer Science,0.001688311688311688,Low Risk,0
+2418,Computer Science,0.6038251098435303,Medium Risk,0
+2419,Electronics,0.011561017243845676,Low Risk,0
+2420,Electronics,0.0023927527296593145,Low Risk,0
+2421,Electronics,0.0,,0
+2422,Civil,0.005291005291005291,Low Risk,0
+2423,Computer Science,0.012622817294281729,Low Risk,0
+2424,Medicine,0.009830871176410202,Low Risk,0
+2425,Business,0.005217045001991239,Low Risk,0
+2426,Business,0.006363636363636364,Low Risk,0
+2427,Business,0.0,,0
+2428,Computer Science,0.0,,0
+2429,Business,0.0038095238095238095,Low Risk,0
+2430,Computer Science,0.012238444899817852,Low Risk,0
+2431,Computer Science,0.020453804558013374,Low Risk,0
+2432,Medicine,0.004343972241854437,Low Risk,0
+2433,Computer Science,0.04592350059382748,Low Risk,0
+2434,Computer Science,0.0,,0
+2435,Business,0.012609482236711402,Low Risk,0
+2436,Civil,0.0,,0
+2437,Electronics,0.02074769277907204,Low Risk,0
+2438,Law,0.020131441822948175,Low Risk,0
+2439,Computer Science,0.0031223628691983123,Low Risk,0
+2440,Business,0.002,Low Risk,0
+2441,Computer Science,0.06602797214616504,Low Risk,0
+2442,Business,0.001688311688311688,Low Risk,0
+2443,Arts,0.0,,0
+2444,Electronics,0.0,,0
+2445,Law,0.029805433210552477,Low Risk,0
+2446,Computer Science,0.00493208331777039,Low Risk,0
+2447,Electronics,0.02286754296633796,Low Risk,0
+2448,Mechanical,0.0,,0
+2449,Computer Science,0.0,,0
+2450,Law,0.008044500302564818,Low Risk,0
+2451,Computer Science,0.0,,0
+2452,Computer Science,0.0,,0
+2453,Computer Science,0.0,,0
+2454,Mechanical,0.0,,0
+2455,Electronics,0.0,,0
+2456,Arts,0.0,,0
+2457,Business,0.030549132705704463,Low Risk,0
+2458,Civil,0.30402855136225215,Low Risk,0
+2459,Arts,0.011095370326139558,Low Risk,0
+2460,Mechanical,0.012906677471268795,Low Risk,0
+2461,Medicine,0.0,,0
+2462,Civil,0.9499284954008671,High Risk,1
+2463,Computer Science,0.005833333333333334,Low Risk,0
+2464,Mechanical,0.0,,0
+2465,Computer Science,0.005630081300813008,Low Risk,0
+2466,Mechanical,0.0,,0
+2467,Mechanical,0.008542437558153025,Low Risk,0
+2468,Medicine,0.006666666666666667,Low Risk,0
+2469,Mechanical,0.0,,0
+2470,Business,0.011452625900666591,Low Risk,0
+2471,Medicine,0.0,,0
+2472,Medicine,0.0,,0
+2473,Electronics,0.0007044410413476264,Low Risk,0
+2474,Electronics,0.0,,0
+2475,Law,0.040384127575290356,Low Risk,0
+2476,Mechanical,0.0,,0
+2477,Computer Science,0.02640206292977404,Low Risk,0
+2478,Mechanical,0.0,,0
+2479,Mechanical,0.015060428833451414,Low Risk,0
+2480,Computer Science,0.0,,0
+2481,Electronics,0.0,,0
+2482,Electronics,0.0,,0
+2483,Mechanical,0.0,,0
+2484,Arts,0.009458289458289458,Low Risk,0
+2485,Business,0.0,,0
+2486,Civil,0.0,,0
+2487,Law,0.0,,0
+2488,Business,0.004341521909197725,Low Risk,0
+2489,Computer Science,0.05268858697234892,Low Risk,0
+2490,Business,0.9787350690091313,High Risk,1
+2491,Computer Science,0.0063601532567049805,Low Risk,0
+2492,Business,0.22054812924852102,Low Risk,0
+2493,Arts,0.0,,0
+2494,Arts,0.0,,0
+2495,Electronics,0.0,,0
+2496,Mechanical,0.041325594109933,Low Risk,0
+2497,Computer Science,0.006363636363636364,Low Risk,0
+2498,Computer Science,0.0,,0
+2499,Civil,0.019229876139363774,Low Risk,0
+2500,Mechanical,0.0,,0
+2501,Mechanical,0.009732811990876507,Low Risk,0
+2502,Business,0.0,,0
+2503,Civil,0.021708902890144148,Low Risk,0
+2504,Mechanical,0.021009654758490946,Low Risk,0
+2505,Mechanical,0.031169099032630855,Low Risk,0
+2506,Electronics,0.0,,0
+2507,Arts,0.0,,0
+2508,Electronics,0.051372684468145864,Low Risk,0
+2509,Computer Science,0.0,,0
+2510,Business,0.006666666666666667,Low Risk,0
+2511,Electronics,0.020191549700634907,Low Risk,0
+2512,Computer Science,0.0,,0
+2513,Arts,0.0,,0
+2514,Computer Science,0.0,,0
+2515,Business,0.0,,0
+2516,Business,0.0,,0
+2517,Computer Science,0.0,,0
+2518,Electronics,0.0,,0
+2519,Electronics,0.00363953120050681,Low Risk,0
+2520,Electronics,0.02172007241865994,Low Risk,0
+2521,Law,0.006666666666666667,Low Risk,0
+2522,Business,0.015543676903539166,Low Risk,0
+2523,Computer Science,0.0,,0
+2524,Electronics,0.0,,0
+2525,Arts,0.005193798449612403,Low Risk,0
+2526,Mechanical,0.0,,0
+2527,Computer Science,0.0023927527296593145,Low Risk,0
+2528,Electronics,0.05196624743493567,Low Risk,0
+2529,Electronics,0.013001358727481434,Low Risk,0
+2530,Electronics,0.0,,0
+2531,Business,0.014391166969231485,Low Risk,0
+2532,Electronics,0.006666666666666667,Low Risk,0
+2533,Computer Science,0.011045808474062089,Low Risk,0
+2534,Mechanical,0.3290506890522465,Low Risk,0
+2535,Computer Science,0.0,,0
+2536,Civil,0.0,,0
+2537,Civil,0.024552695182576467,Low Risk,0
+2538,Computer Science,0.038977180129971326,Low Risk,0
+2539,Computer Science,0.0,,0
+2540,Electronics,0.0,,0
+2541,Arts,0.0,,0
+2542,Business,0.005291005291005291,Low Risk,0
+2543,Arts,0.0,,0
+2544,Computer Science,0.0,,0
+2545,Computer Science,0.0007044410413476264,Low Risk,0
+2546,Computer Science,0.15183339568961962,Low Risk,0
+2547,Computer Science,0.03771413297318228,Low Risk,0
+2548,Mechanical,0.03270270906842415,Low Risk,0
+2549,Business,0.011374658865211952,Low Risk,0
+2550,Electronics,0.016804934616248622,Low Risk,0
+2551,Electronics,0.039081522972393784,Low Risk,0
+2552,Arts,0.0,,0
+2553,Civil,0.006666666666666667,Low Risk,0
+2554,Business,0.006666666666666667,Low Risk,0
+2555,Medicine,0.017820395139435265,Low Risk,0
+2556,Medicine,0.0,,0
+2557,Computer Science,0.0,,0
+2558,Business,0.006562266964951529,Low Risk,0
+2559,Business,0.0,,0
+2560,Mechanical,0.030993333333333335,Low Risk,0
+2561,Civil,0.0031223628691983123,Low Risk,0
+2562,Civil,0.0,,0
+2563,Civil,0.0,,0
+2564,Mechanical,0.0,,0
+2565,Medicine,0.07096387541752963,Low Risk,0
+2566,Mechanical,0.012570072503858137,Low Risk,0
+2567,Civil,0.006275430359937402,Low Risk,0
+2568,Arts,0.00358830038004522,Low Risk,0
+2569,Mechanical,0.03215654264280377,Low Risk,0
+2570,Mechanical,0.0,,0
+2571,Mechanical,0.0,,0
+2572,Mechanical,0.0,,0
+2573,Computer Science,0.011599270755176453,Low Risk,0
+2574,Electronics,0.0,,0
+2575,Civil,0.0,,0
+2576,Arts,0.0007044410413476264,Low Risk,0
+2577,Mechanical,0.002,Low Risk,0
+2578,Computer Science,0.0,,0
+2579,Mechanical,0.0,,0
+2580,Law,0.014024500302564817,Low Risk,0
+2581,Mechanical,0.00493208331777039,Low Risk,0
+2582,Civil,0.019307568716424136,Low Risk,0
+2583,Electronics,0.001688311688311688,Low Risk,0
+2584,Civil,0.00958126984096108,Low Risk,0
+2585,Electronics,0.011623668155696694,Low Risk,0
+2586,Mechanical,0.0,,0
+2587,Computer Science,0.0,,0
+2588,Medicine,0.0,,0
+2589,Electronics,0.0,,0
+2590,Computer Science,0.0,,0
+2591,Arts,0.0,,0
+2592,Computer Science,0.0,,0
+2593,Civil,0.0,,0
+2594,Computer Science,0.006363636363636364,Low Risk,0
+2595,Electronics,0.0,,0
+2596,Civil,0.0,,0
+2597,Mechanical,0.1915040957734773,Low Risk,0
+2598,Computer Science,0.0,,0
+2599,Medicine,0.7241968990236788,High Risk,0
+2600,Civil,0.0,,0
+2601,Civil,0.0,,0
+2602,Business,0.9584129075528784,High Risk,1
+2603,Electronics,0.008044500302564818,Low Risk,0
+2604,Arts,0.4372413686796326,Medium Risk,0
+2605,Mechanical,0.006206896551724138,Low Risk,0
+2606,Computer Science,0.0,,0
+2607,Electronics,0.0007044410413476264,Low Risk,0
+2608,Law,0.006489675516224189,Low Risk,0
+2609,Arts,0.006666666666666667,Low Risk,0
+2610,Medicine,0.016640889927988248,Low Risk,0
+2611,Mechanical,0.9483762961060076,High Risk,1
+2612,Mechanical,0.006666666666666667,Low Risk,0
+2613,Computer Science,0.0,,0
+2614,Arts,0.0,,0
+2615,Electronics,0.040960012033486655,Low Risk,0
+2616,Mechanical,0.013562938043173534,Low Risk,0
+2617,Computer Science,0.0,,0
+2618,Electronics,0.010129870129870131,Low Risk,0
+2619,Arts,0.0,,0
+2620,Arts,0.01682929279122554,Low Risk,0
+2621,Business,0.0,,0
+2622,Arts,0.0063868312757201645,Low Risk,0
+2623,Civil,0.06678789712070836,Low Risk,0
+2624,Business,0.002,Low Risk,0
+2625,Electronics,0.9787930147891658,High Risk,1
+2626,Arts,0.006626544187519797,Low Risk,0
+2627,Medicine,0.0,,0
+2628,Mechanical,0.2544122537958381,Low Risk,0
+2629,Civil,0.0,,0
+2630,Medicine,0.0,,0
+2631,Computer Science,0.0,,0
+2632,Medicine,0.0,,0
+2633,Computer Science,0.0,,0
+2634,Computer Science,0.017933990146605242,Low Risk,0
+2635,Computer Science,0.023792338482155638,Low Risk,0
+2636,Computer Science,0.015361207028265855,Low Risk,0
+2637,Civil,0.0,,0
+2638,Electronics,0.05063645645417504,Low Risk,0
+2639,Business,0.01891851402959608,Low Risk,0
+2640,Mechanical,0.05075486714672517,Low Risk,0
+2641,Business,0.0048242912286135435,Low Risk,0
+2642,Mechanical,0.09915967814312165,Low Risk,0
+2643,Mechanical,0.0,,0
+2644,Mechanical,0.0054072553045859,Low Risk,0
+2645,Medicine,0.03786037590288069,Low Risk,0
+2646,Mechanical,0.012546591367486891,Low Risk,0
+2647,Computer Science,0.0,,0
+2648,Arts,0.0,,0
+2649,Arts,0.043219056901639005,Low Risk,0
+2650,Civil,0.01228614094104455,Low Risk,0
+2651,Civil,0.00583873290136789,Low Risk,0
+2652,Law,0.011343515907086361,Low Risk,0
+2653,Electronics,0.008354978354978355,Low Risk,0
+2654,Business,0.0,,0
+2655,Business,0.0,,0
+2656,Civil,0.01763034391336158,Low Risk,0
+2657,Mechanical,0.10508298643991835,Low Risk,0
+2658,Business,0.0,,0
+2659,Business,0.0,,0
+2660,Computer Science,0.012977092336141522,Low Risk,0
+2661,Electronics,0.02179715484868355,Low Risk,0
+2662,Computer Science,0.055276007207066546,Low Risk,0
+2663,Medicine,0.0,,0
+2664,Mechanical,0.18447209729348585,Low Risk,0
+2665,Civil,0.01710963144963145,Low Risk,0
+2666,Business,0.006666666666666667,Low Risk,0
+2667,Business,0.0,,0
+2668,Business,0.03494569369347433,Low Risk,0
+2669,Arts,0.0,,0
+2670,Arts,0.0,,0
+2671,Business,0.5865960245835007,Medium Risk,0
+2672,Electronics,0.024674209472964018,Low Risk,0
+2673,Computer Science,0.0007044410413476264,Low Risk,0
+2674,Civil,0.0007044410413476264,Low Risk,0
+2675,Mechanical,0.018507555896721983,Low Risk,0
+2676,Civil,0.037548161978066805,Low Risk,0
+2677,Computer Science,0.0,,0
+2678,Medicine,0.006019563581640331,Low Risk,0
+2679,Law,0.030567828267881535,Low Risk,0
+2680,Civil,0.0070138567240603114,Low Risk,0
+2681,Computer Science,0.0,,0
+2682,Business,0.14292917670475286,Low Risk,0
+2683,Computer Science,0.017101407064442953,Low Risk,0
+2684,Mechanical,0.0,,0
+2685,Computer Science,0.0,,0
+2686,Computer Science,0.0,,0
+2687,Electronics,0.0223387046635496,Low Risk,0
+2688,Computer Science,0.0,,0
+2689,Business,0.0,,0
+2690,Mechanical,0.03637484370074622,Low Risk,0
+2691,Electronics,0.0,,0
+2692,Business,0.006824291228613544,Low Risk,0
+2693,Mechanical,0.001688311688311688,Low Risk,0
+2694,Mechanical,0.24660096444933174,Low Risk,0
+2695,Business,0.10307523536113865,Low Risk,0
+2696,Business,0.0,,0
+2697,Computer Science,0.0,,0
+2698,Computer Science,0.0,,0
+2699,Mechanical,0.014711166969231486,Low Risk,0
+2700,Computer Science,0.015661972250479793,Low Risk,0
+2701,Electronics,0.0,,0
+2702,Mechanical,0.0,,0
+2703,Electronics,0.0,,0
+2704,Civil,0.026336805555555558,Low Risk,0
+2705,Computer Science,0.007784313725490197,Low Risk,0
+2706,Medicine,0.0038095238095238095,Low Risk,0
+2707,Computer Science,0.045781849048029045,Low Risk,0
+2708,Mechanical,0.0,,0
+2709,Computer Science,0.00627939142461964,Low Risk,0
+2710,Electronics,0.010594686559350872,Low Risk,0
+2711,Electronics,0.0,,0
+2712,Business,0.0,,0
+2713,Civil,0.012983928389787408,Low Risk,0
+2714,Computer Science,0.0,,0
+2715,Civil,0.02662285845229584,Low Risk,0
+2716,Arts,0.0,,0
+2717,Civil,0.010856576202498048,Low Risk,0
+2718,Computer Science,0.021945245311138242,Low Risk,0
+2719,Medicine,0.0,,0
+2720,Computer Science,0.0,,0
+2721,Mechanical,0.0,,0
+2722,Medicine,0.0,,0
+2723,Mechanical,0.0,,0
+2724,Computer Science,0.012214099075315111,Low Risk,0
+2725,Civil,0.0,,0
+2726,Arts,0.0,,0
+2727,Law,0.6048378759905991,Medium Risk,0
+2728,Computer Science,0.010655324675324675,Low Risk,0
+2729,Civil,0.1343647039504375,Low Risk,0
+2730,Computer Science,0.0,,0
+2731,Computer Science,0.011341991341991342,Low Risk,0
+2732,Electronics,0.00968102734051367,Low Risk,0
+2733,Computer Science,0.0,,0
+2734,Electronics,0.0,,0
+2735,Electronics,0.0,,0
+2736,Mechanical,0.010655324675324675,Low Risk,0
+2737,Business,0.03811279353251506,Low Risk,0
+2738,Arts,0.0,,0
+2739,Electronics,0.839345578818405,High Risk,0
+2740,Computer Science,0.0,,0
+2741,Computer Science,0.012388472544419256,Low Risk,0
+2742,Business,0.0,,0
+2743,Mechanical,0.0,,0
+2744,Business,0.0,,0
+2745,Computer Science,0.0,,0
+2746,Mechanical,0.0,,0
+2747,Medicine,0.0,,0
+2748,Medicine,0.006461372096463643,Low Risk,0
+2749,Computer Science,0.03082338694114684,Low Risk,0
+2750,Law,0.0,,0
+2751,Civil,0.01269624695843285,Low Risk,0
+2752,Business,0.0,,0
+2753,Electronics,0.0007044410413476264,Low Risk,0
+2754,Mechanical,0.0,,0
+2755,Electronics,0.9722705725199243,High Risk,1
+2756,Civil,0.0,,0
+2757,Computer Science,0.006437799926172019,Low Risk,0
+2758,Computer Science,0.5766225608542686,Medium Risk,0
+2759,Business,0.016479186370105047,Low Risk,0
+2760,Computer Science,0.006666666666666667,Low Risk,0
+2761,Business,0.10686175835618206,Low Risk,0
+2762,Mechanical,0.01082246686551035,Low Risk,0
+2763,Arts,0.004675324675324675,Low Risk,0
+2764,Computer Science,0.013282051282051283,Low Risk,0
+2765,Computer Science,0.0,,0
+2766,Arts,0.025699979682420607,Low Risk,0
+2767,Computer Science,0.01600675059602432,Low Risk,0
+2768,Mechanical,0.0,,0
+2769,Medicine,0.010024659742969603,Low Risk,0
+2770,Electronics,0.0007044410413476264,Low Risk,0
+2771,Computer Science,0.0,,0
+2772,Law,0.005973826020015396,Low Risk,0
+2773,Mechanical,0.012593098699995005,Low Risk,0
+2774,Law,0.0,,0
+2775,Computer Science,0.01694658104981001,Low Risk,0
+2776,Business,0.0,,0
+2777,Computer Science,0.10114476183277969,Low Risk,0
+2778,Law,0.0,,0
+2779,Electronics,0.006644144144144144,Low Risk,0
+2780,Civil,0.0,,0
+2781,Mechanical,0.0,,0
+2782,Computer Science,0.006363636363636364,Low Risk,0
+2783,Law,0.0,,0
+2784,Business,0.006234234234234234,Low Risk,0
+2785,Arts,0.016313003803464277,Low Risk,0
+2786,Electronics,0.0191011546563711,Low Risk,0
+2787,Civil,0.0,,0
+2788,Business,0.001688311688311688,Low Risk,0
+2789,Medicine,0.006206896551724138,Low Risk,0
+2790,Computer Science,0.10704821869363092,Low Risk,0
+2791,Law,0.0,,0
+2792,Electronics,0.0,,0
+2793,Civil,0.17064138410393206,Low Risk,0
+2794,Electronics,0.7274326633559741,High Risk,0
+2795,Electronics,0.0117565773108752,Low Risk,0
+2796,Mechanical,0.0,,0
+2797,Civil,0.06027469041874975,Low Risk,0
+2798,Law,0.007165536152402944,Low Risk,0
+2799,Computer Science,0.0,,0
+2800,Law,0.0,,0
+2801,Arts,0.020306138734899355,Low Risk,0
+2802,Computer Science,0.0,,0
+2803,Business,0.0,,0
+2804,Civil,0.0,,0
+2805,Law,0.0,,0
+2806,Mechanical,0.026572769953051644,Low Risk,0
+2807,Mechanical,0.008044500302564818,Low Risk,0
+2808,Arts,0.0,,0
+2809,Mechanical,0.0,,0
+2810,Business,0.017197461725696493,Low Risk,0
+2811,Arts,0.0,,0
+2812,Computer Science,0.0007044410413476264,Low Risk,0
+2813,Business,0.018604375385251053,Low Risk,0
+2814,Mechanical,0.03619568927098659,Low Risk,0
+2815,Electronics,0.07488520620273749,Low Risk,0
+2816,Electronics,0.0,,0
+2817,Arts,0.008044500302564818,Low Risk,0
+2818,Electronics,0.0,,0
+2819,Electronics,0.0,,0
+2820,Arts,0.0027044410413476264,Low Risk,0
+2821,Electronics,0.13261744292898042,Low Risk,0
+2822,Business,0.006236559139784946,Low Risk,0
+2823,Computer Science,0.0,,0
+2824,Law,0.006111696345933526,Low Risk,0
+2825,Electronics,0.0,,0
+2826,Arts,0.006626544187519797,Low Risk,0
+2827,Electronics,0.0,,0
+2828,Computer Science,0.01237650727604885,Low Risk,0
+2829,Civil,0.0,,0
+2830,Computer Science,0.0,,0
+2831,Electronics,0.0,,0
+2832,Mechanical,0.0,,0
+2833,Business,0.0,,0
+2834,Electronics,0.0,,0
+2835,Mechanical,0.0,,0
+2836,Arts,0.02404664670949197,Low Risk,0
+2837,Medicine,0.026383455900003596,Low Risk,0
+2838,Electronics,0.05281076839677467,Low Risk,0
+2839,Business,0.006236559139784946,Low Risk,0
+2840,Electronics,0.037527654319100684,Low Risk,0
+2841,Medicine,0.0,,0
+2842,Business,0.00493208331777039,Low Risk,0
+2843,Mechanical,0.0,,0
+2844,Civil,0.00693208331777039,Low Risk,0
+2845,Law,0.0,,0
+2846,Law,0.0,,0
+2847,Civil,0.004015151515151515,Low Risk,0
+2848,Arts,0.0,,0
+2849,Computer Science,0.01077081621913828,Low Risk,0
+2850,Computer Science,0.016018908502895456,Low Risk,0
+2851,Law,0.009872705555533988,Low Risk,0
+2852,Mechanical,0.0,,0
+2853,Computer Science,0.0,,0
+2854,Arts,0.0,,0
+2855,Arts,0.0,,0
+2856,Civil,0.041514367162240134,Low Risk,0
+2857,Medicine,0.0,,0
+2858,Business,0.0,,0
+2859,Electronics,0.0,,0
+2860,Business,0.012809592847650115,Low Risk,0
+2861,Electronics,0.060924913632807644,Low Risk,0
+2862,Electronics,0.009134011214130119,Low Risk,0
+2863,Civil,0.0,,0
+2864,Electronics,0.0,,0
+2865,Business,0.0,,0
+2866,Medicine,0.0,,0
+2867,Medicine,0.006666666666666667,Low Risk,0
+2868,Computer Science,0.059113954792532994,Low Risk,0
+2869,Mechanical,0.08498535355241989,Low Risk,0
+2870,Business,0.0,,0
+2871,Computer Science,0.0,,0
+2872,Electronics,0.009089966969145765,Low Risk,0
+2873,Business,0.24566811325050067,Low Risk,0
+2874,Mechanical,0.005973826020015396,Low Risk,0
+2875,Medicine,0.013865909256568016,Low Risk,0
+2876,Arts,0.004675324675324675,Low Risk,0
+2877,Business,0.004675324675324675,Low Risk,0
+2878,Law,0.04488603491826541,Low Risk,0
+2879,Law,0.07508828610877363,Low Risk,0
+2880,Medicine,0.0007044410413476264,Low Risk,0
+2881,Computer Science,0.19146044757499409,Low Risk,0
+2882,Civil,0.001688311688311688,Low Risk,0
+2883,Arts,0.019451851851851852,Low Risk,0
+2884,Business,0.0,,0
+2885,Mechanical,0.0,,0
+2886,Arts,0.0,,0
+2887,Medicine,0.010951475302939738,Low Risk,0
+2888,Mechanical,0.0,,0
+2889,Electronics,0.051162207427612565,Low Risk,0
+2890,Computer Science,0.07177995202010286,Low Risk,0
+2891,Mechanical,0.0,,0
+2892,Medicine,0.0,,0
+2893,Civil,0.00583873290136789,Low Risk,0
+2894,Mechanical,0.0,,0
+2895,Mechanical,0.011231093187437135,Low Risk,0
+2896,Medicine,0.03884188556845089,Low Risk,0
+2897,Computer Science,0.0,,0
+2898,Business,0.03254522761279278,Low Risk,0
+2899,Mechanical,0.0,,0
+2900,Computer Science,0.049767620373774066,Low Risk,0
+2901,Arts,0.0,,0
+2902,Computer Science,0.0,,0
+2903,Electronics,0.01862648447731685,Low Risk,0
+2904,Electronics,0.008775510740808666,Low Risk,0
+2905,Medicine,0.0,,0
+2906,Computer Science,0.0007044410413476264,Low Risk,0
+2907,Arts,0.0,,0
+2908,Computer Science,0.10301118108201085,Low Risk,0
+2909,Civil,0.03248279928295905,Low Risk,0
+2910,Electronics,0.35892510031495606,Medium Risk,0
+2911,Computer Science,0.4760660557381092,Medium Risk,0
+2912,Electronics,0.036029310457048436,Low Risk,0
+2913,Law,0.0,,0
+2914,Business,0.0007044410413476264,Low Risk,0
+2915,Computer Science,0.0,,0
+2916,Computer Science,0.012977092336141522,Low Risk,0
+2917,Mechanical,0.4251101928009906,Medium Risk,0
+2918,Arts,0.015189518264372346,Low Risk,0
+2919,Arts,0.013493341575408995,Low Risk,0
+2920,Electronics,0.010655324675324675,Low Risk,0
+2921,Computer Science,0.004675324675324675,Low Risk,0
+2922,Arts,0.0,,0
+2923,Civil,0.006111696345933526,Low Risk,0
+2924,Electronics,0.0,,0
+2925,Law,0.006363636363636364,Low Risk,0
+2926,Arts,0.0,,0
+2927,Computer Science,0.0,,0
+2928,Civil,0.028637327196374265,Low Risk,0
+2929,Medicine,0.0,,0
+2930,Computer Science,0.016776227972295128,Low Risk,0
+2931,Business,0.24224939163941414,Low Risk,0
+2932,Electronics,0.1056982140854005,Low Risk,0
+2933,Arts,0.0,,0
+2934,Computer Science,0.0,,0
+2935,Arts,0.0,,0
+2936,Computer Science,0.0,,0
+2937,Arts,0.014663094416082061,Low Risk,0
+2938,Business,0.0,,0
+2939,Computer Science,0.06278996888149237,Low Risk,0
+2940,Electronics,0.0,,0
+2941,Electronics,0.005973826020015396,Low Risk,0
+2942,Civil,0.0,,0
+2943,Civil,0.46775997750314297,Medium Risk,0
+2944,Business,0.019471189185620286,Low Risk,0
+2945,Mechanical,0.011561017243845676,Low Risk,0
+2946,Mechanical,0.0,,0
+2947,Law,0.006666666666666667,Low Risk,0
+2948,Mechanical,0.08581127130554599,Low Risk,0
+2949,Mechanical,0.0,,0
+2950,Mechanical,0.43753371395809665,Medium Risk,0
+2951,Electronics,0.0,,0
+2952,Electronics,0.006666666666666667,Low Risk,0
+2953,Medicine,0.1443831157027575,Low Risk,0
+2954,Arts,0.0,,0
+2955,Electronics,0.28657571620378436,Low Risk,0
+2956,Arts,0.0,,0
+2957,Arts,0.0,,0
+2958,Arts,0.9426449225111543,High Risk,1
+2959,Law,0.09550745588076737,Low Risk,0
+2960,Medicine,0.0046011546563711,Low Risk,0
+2961,Electronics,0.1926967320697922,Low Risk,0
+2962,Civil,0.030211704821673274,Low Risk,0
+2963,Law,0.10715073605108746,Low Risk,0
+2964,Law,0.0,,0
+2965,Mechanical,0.04358115754771288,Low Risk,0
+2966,Arts,0.011954171524353985,Low Risk,0
+2967,Computer Science,0.019952557173661147,Low Risk,0
+2968,Electronics,0.0026556605535427483,Low Risk,0
+2969,Arts,0.0,,0
+2970,Medicine,0.00603448275862069,Low Risk,0
+2971,Arts,0.010853858751740946,Low Risk,0
+2972,Arts,0.009741970712335568,Low Risk,0
+2973,Medicine,0.0027044410413476264,Low Risk,0
+2974,Computer Science,0.0,,0
+2975,Computer Science,0.013305555555555555,Low Risk,0
+2976,Medicine,0.0,,0
+2977,Business,0.0,,0
+2978,Medicine,0.0,,0
+2979,Business,0.0,,0
+2980,Business,0.0,,0
+2981,Mechanical,0.00598,Low Risk,0
+2982,Electronics,0.004675324675324675,Low Risk,0
+2983,Business,0.002846064530121374,Low Risk,0
+2984,Business,0.0,,0
+2985,Mechanical,0.006666666666666667,Low Risk,0
+2986,Mechanical,0.14420904174562113,Low Risk,0
+2987,Computer Science,0.023643954631661114,Low Risk,0
+2988,Arts,0.00951273119678804,Low Risk,0
+2989,Electronics,0.05887310884139995,Low Risk,0
+2990,Civil,0.01920275965163359,Low Risk,0
+2991,Computer Science,0.012436516916250693,Low Risk,0
+2992,Business,0.0,,0
+2993,Law,0.0,,0
+2994,Electronics,0.0,,0
+2995,Civil,0.033447645016248584,Low Risk,0
+2996,Business,0.0,,0
+2997,Mechanical,0.006666666666666667,Low Risk,0
+2998,Electronics,0.0,,0
+2999,Law,0.0,,0
+3000,Electronics,0.0,,0
+3001,Arts,0.007073706806544138,Low Risk,0
+3002,Mechanical,0.0,,0
+3003,Computer Science,0.0031223628691983123,Low Risk,0
+3004,Computer Science,0.013159968479117415,Low Risk,0
+3005,Computer Science,0.01543828945828946,Low Risk,0
+3006,Mechanical,0.013333333333333334,Low Risk,0
+3007,Electronics,0.002846064530121374,Low Risk,0
+3008,Business,0.009381207028265852,Low Risk,0
+3009,Computer Science,0.04953890729400816,Low Risk,0
+3010,Electronics,0.0,,0
+3011,Law,0.024724137931034482,Low Risk,0
+3012,Computer Science,0.02258988632538026,Low Risk,0
+3013,Arts,0.02752131202852133,Low Risk,0
+3014,Electronics,0.006437799926172019,Low Risk,0
+3015,Computer Science,0.0,,0
+3016,Mechanical,0.02064309441608206,Low Risk,0
+3017,Computer Science,0.0,,0
+3018,Mechanical,0.024007641654657894,Low Risk,0
+3019,Medicine,0.0845134514165339,Low Risk,0
+3020,Mechanical,0.005941738640454271,Low Risk,0
+3021,Civil,0.410468715116771,Medium Risk,0
+3022,Business,0.0007044410413476264,Low Risk,0
+3023,Arts,0.017010666138765965,Low Risk,0
+3024,Mechanical,0.0,,0
+3025,Business,0.005921486043338865,Low Risk,0
+3026,Law,0.007237297599106644,Low Risk,0
+3027,Business,0.002846064530121374,Low Risk,0
+3028,Civil,0.005941738640454271,Low Risk,0
+3029,Electronics,0.006019563581640331,Low Risk,0
+3030,Electronics,0.019952557173661147,Low Risk,0
+3031,Business,0.0,,0
+3032,Business,0.7007750701082545,High Risk,0
+3033,Computer Science,0.0,,0
+3034,Civil,0.0,,0
+3035,Electronics,0.0,,0
+3036,Civil,0.006666666666666667,Low Risk,0
+3037,Medicine,0.0,,0
+3038,Computer Science,0.05644360449996192,Low Risk,0
+3039,Electronics,0.0,,0
+3040,Civil,0.0,,0
+3041,Arts,0.0,,0
+3042,Electronics,0.0,,0
+3043,Computer Science,0.0,,0
+3044,Computer Science,0.0,,0
+3045,Computer Science,0.0,,0
+3046,Mechanical,0.006363636363636364,Low Risk,0
+3047,Computer Science,0.0,,0
+3048,Mechanical,0.0,,0
+3049,Arts,0.0,,0
+3050,Medicine,0.0,,0
+3051,Mechanical,0.008422495983471593,Low Risk,0
+3052,Electronics,0.0,,0
+3053,Civil,0.0,,0
+3054,Electronics,0.012785185185185186,Low Risk,0
+3055,Computer Science,0.0,,0
+3056,Arts,0.0,,0
+3057,Civil,0.0,,0
+3058,Computer Science,0.0,,0
+3059,Mechanical,0.0,,0
+3060,Computer Science,0.0,,0
+3061,Mechanical,0.0,,0
+3062,Electronics,0.0,,0
+3063,Computer Science,0.0,,0
+3064,Mechanical,0.005921486043338865,Low Risk,0
+3065,Arts,0.33721644419996283,Medium Risk,0
+3066,Law,0.025221963956584506,Low Risk,0
+3067,Computer Science,0.006618705035971223,Low Risk,0
+3068,Law,0.0,,0
+3069,Computer Science,0.04967386148822307,Low Risk,0
+3070,Computer Science,0.005229716520039101,Low Risk,0
+3071,Electronics,0.0,,0
+3072,Mechanical,0.0,,0
+3073,Arts,0.0,,0
+3074,Electronics,0.0,,0
+3075,Arts,0.0,,0
+3076,Medicine,0.012120567418752379,Low Risk,0
+3077,Mechanical,0.0,,0
+3078,Arts,0.0,,0
+3079,Law,0.0,,0
+3080,Computer Science,0.026804123503059767,Low Risk,0
+3081,Civil,0.07230928028999171,Low Risk,0
+3082,Civil,0.001688311688311688,Low Risk,0
+3083,Electronics,0.08271093376106901,Low Risk,0
+3084,Electronics,0.0333020604389035,Low Risk,0
+3085,Civil,0.45006174796238024,Medium Risk,0
+3086,Mechanical,0.03178516911705276,Low Risk,0
+3087,Business,0.0,,0
+3088,Medicine,0.0,,0
+3089,Mechanical,0.052103121809032114,Low Risk,0
+3090,Business,0.040388283009436414,Low Risk,0
+3091,Arts,0.0,,0
+3092,Civil,0.0,,0
+3093,Electronics,0.024343750040754245,Low Risk,0
+3094,Computer Science,0.0,,0
+3095,Computer Science,0.0,,0
+3096,Mechanical,0.0,,0
+3097,Business,0.006577777777777778,Low Risk,0
+3098,Medicine,0.023038433904442136,Low Risk,0
+3099,Business,0.0,,0
+3100,Mechanical,0.0,,0
+3101,Electronics,0.0,,0
+3102,Arts,0.01087281503254881,Low Risk,0
+3103,Electronics,0.02022843970284712,Low Risk,0
+3104,Business,0.0,,0
+3105,Computer Science,0.025956584557499617,Low Risk,0
+3106,Computer Science,0.7351494510081885,High Risk,0
+3107,Law,0.0,,0
+3108,Electronics,0.35591472599580004,Medium Risk,0
+3109,Mechanical,0.004675324675324675,Low Risk,0
+3110,Civil,0.0,,0
+3111,Computer Science,0.004705882352941177,Low Risk,0
+3112,Electronics,0.0,,0
+3113,Electronics,0.0659248131647933,Low Risk,0
+3114,Mechanical,0.05432271810357888,Low Risk,0
+3115,Computer Science,0.18310281198947326,Low Risk,0
+3116,Civil,0.0,,0
+3117,Arts,0.0,,0
+3118,Business,0.0,,0
+3119,Electronics,0.006215240157361517,Low Risk,0
+3120,Civil,0.0,,0
+3121,Computer Science,0.0,,0
+3122,Business,0.0,,0
+3123,Computer Science,0.0007044410413476264,Low Risk,0
+3124,Medicine,0.0,,0
+3125,Electronics,0.012129609940923946,Low Risk,0
+3126,Mechanical,0.0,,0
+3127,Civil,0.3476556887780644,Medium Risk,0
+3128,Electronics,0.0,,0
+3129,Law,0.0,,0
+3130,Arts,0.08913766034357104,Low Risk,0
+3131,Civil,0.02326215115306983,Low Risk,0
+3132,Civil,0.0,,0
+3133,Civil,0.9508405966551171,High Risk,1
+3134,Mechanical,0.0,,0
+3135,Mechanical,0.08970182701654665,Low Risk,0
+3136,Computer Science,0.0,,0
+3137,Mechanical,0.05419622444205875,Low Risk,0
+3138,Medicine,0.4932755466017865,Medium Risk,0
+3139,Civil,0.0,,0
+3140,Business,0.0007044410413476264,Low Risk,0
+3141,Business,0.006666666666666667,Low Risk,0
+3142,Arts,0.3752543667981016,Medium Risk,0
+3143,Computer Science,0.9630870274259996,High Risk,1
+3144,Computer Science,0.0,,0
+3145,Computer Science,0.030969836398867,Low Risk,0
+3146,Computer Science,0.007165536152402944,Low Risk,0
+3147,Arts,0.0,,0
+3148,Computer Science,0.0031223628691983123,Low Risk,0
+3149,Civil,0.0007044410413476264,Low Risk,0
+3150,Electronics,0.0,,0
+3151,Electronics,0.0007044410413476264,Low Risk,0
+3152,Mechanical,0.0,,0
+3153,Electronics,0.03128666741971003,Low Risk,0
+3154,Civil,0.0,,0
+3155,Mechanical,0.0,,0
+3156,Arts,0.9776270531638259,High Risk,1
+3157,Civil,0.02503017720378018,Low Risk,0
+3158,Electronics,0.21931676642677814,Low Risk,0
+3159,Electronics,0.0,,0
+3160,Arts,0.0,,0
+3161,Computer Science,0.9715138925984522,High Risk,1
+3162,Civil,0.021190494842110896,Low Risk,0
+3163,Mechanical,0.006543173942715517,Low Risk,0
+3164,Electronics,0.006236559139784946,Low Risk,0
+3165,Business,0.0,,0
+3166,Business,0.0,,0
+3167,Business,0.011400521865909076,Low Risk,0
+3168,Computer Science,0.0,,0
+3169,Electronics,0.0,,0
+3170,Medicine,0.01654623517408043,Low Risk,0
+3171,Arts,0.006090534979423868,Low Risk,0
+3172,Medicine,0.0,,0
+3173,Business,0.0,,0
+3174,Arts,0.0021416234887737477,Low Risk,0
+3175,Business,0.7683486781829817,High Risk,0
+3176,Electronics,0.0,,0
+3177,Arts,0.0,,0
+3178,Civil,0.0,,0
+3179,Arts,0.040388283009436414,Low Risk,0
+3180,Computer Science,0.0,,0
+3181,Mechanical,0.0,,0
+3182,Civil,0.20193344856449125,Low Risk,0
+3183,Business,0.0,,0
+3184,Computer Science,0.0,,0
+3185,Business,0.006666666666666667,Low Risk,0
+3186,Arts,0.01929021352115657,Low Risk,0
+3187,Electronics,0.023665112230841518,Low Risk,0
+3188,Business,0.0,,0
+3189,Computer Science,0.0,,0
+3190,Law,0.0,,0
+3191,Electronics,0.018957279860505667,Low Risk,0
+3192,Mechanical,0.07210370748051251,Low Risk,0
+3193,Mechanical,0.01946321102698505,Low Risk,0
+3194,Arts,0.0,,0
+3195,Civil,0.007379765716672302,Low Risk,0
+3196,Computer Science,0.001688311688311688,Low Risk,0
+3197,Civil,0.0,,0
+3198,Business,0.009381207028265852,Low Risk,0
+3199,Computer Science,0.013698669695570287,Low Risk,0
+3200,Arts,0.8101278874239304,High Risk,0
+3201,Civil,0.0,,0
+3202,Electronics,0.006509186351706037,Low Risk,0
+3203,Business,0.0,,0
+3204,Business,0.01034460134075025,Low Risk,0
+3205,Computer Science,0.009872705555533988,Low Risk,0
+3206,Electronics,0.0,,0
+3207,Computer Science,0.0,,0
+3208,Business,0.0,,0
+3209,Mechanical,0.009830871176410202,Low Risk,0
+3210,Electronics,0.007120626012445892,Low Risk,0
+3211,Business,0.0,,0
+3212,Electronics,0.8942924656467504,High Risk,0
+3213,Electronics,0.0,,0
+3214,Computer Science,0.0966478649527003,Low Risk,0
+3215,Mechanical,0.006666666666666667,Low Risk,0
+3216,Mechanical,0.0,,0
+3217,Mechanical,0.0,,0
+3218,Civil,0.0019512195121951217,Low Risk,0
+3219,Business,0.04442239126199399,Low Risk,0
+3220,Mechanical,0.0007044410413476264,Low Risk,0
+3221,Mechanical,0.039176420778352386,Low Risk,0
+3222,Civil,0.0,,0
+3223,Mechanical,0.7359021424066158,High Risk,0
+3224,Law,0.013333333333333334,Low Risk,0
+3225,Law,0.013333333333333334,Low Risk,0
+3226,Computer Science,0.013198098111695774,Low Risk,0
+3227,Business,0.025543193330568283,Low Risk,0
+3228,Electronics,0.02221218992083452,Low Risk,0
+3229,Business,0.0,,0
+3230,Electronics,0.2908692195426285,Low Risk,0
+3231,Computer Science,0.0,,0
+3232,Computer Science,0.0176293585815233,Low Risk,0
+3233,Medicine,0.0,,0
+3234,Electronics,0.005579196217494089,Low Risk,0
+3235,Computer Science,0.0,,0
+3236,Computer Science,0.0,,0
+3237,Electronics,0.0,,0
+3238,Business,0.0,,0
+3239,Business,0.01317145516049337,Low Risk,0
+3240,Mechanical,0.0027044410413476264,Low Risk,0
+3241,Electronics,0.049810339677152426,Low Risk,0
+3242,Business,0.02751968761429224,Low Risk,0
+3243,Medicine,0.0,,0
+3244,Computer Science,0.00986997719375057,Low Risk,0
+3245,Computer Science,0.012430032851392573,Low Risk,0
+3246,Computer Science,0.0,,0
+3247,Law,0.001688311688311688,Low Risk,0
+3248,Electronics,0.0,,0
+3249,Civil,0.0,,0
+3250,Civil,0.0,,0
+3251,Civil,0.0,,0
+3252,Business,0.0,,0
+3253,Business,0.017696068582144533,Low Risk,0
+3254,Mechanical,0.0,,0
+3255,Electronics,0.0,,0
+3256,Computer Science,0.0,,0
+3257,Civil,0.0,,0
+3258,Electronics,0.0,,0
+3259,Mechanical,0.11534113929589052,Low Risk,0
+3260,Computer Science,0.0,,0
+3261,Computer Science,0.02501624830752388,Low Risk,0
+3262,Electronics,0.01894916003536693,Low Risk,0
+3263,Business,0.0,,0
+3264,Law,0.0,,0
+3265,Civil,0.0,,0
+3266,Electronics,0.0,,0
+3267,Law,0.0275300019917596,Low Risk,0
+3268,Business,0.3818769646955442,Medium Risk,0
+3269,Civil,0.02477494734174884,Low Risk,0
+3270,Law,0.006336805555555556,Low Risk,0
+3271,Mechanical,0.0007044410413476264,Low Risk,0
+3272,Arts,0.011247461245832823,Low Risk,0
+3273,Business,0.0,,0
+3274,Medicine,0.0,,0
+3275,Computer Science,0.0,,0
+3276,Computer Science,0.010463822429120355,Low Risk,0
+3277,Business,0.0,,0
+3278,Civil,0.08858920462234937,Low Risk,0
+3279,Civil,0.06557342425786286,Low Risk,0
+3280,Electronics,0.03050410831691523,Low Risk,0
+3281,Business,0.0,,0
+3282,Computer Science,0.0,,0
+3283,Business,0.0,,0
+3284,Arts,0.009892958152649393,Low Risk,0
+3285,Computer Science,0.016707724868144744,Low Risk,0
+3286,Arts,0.0,,0
+3287,Arts,0.0,,0
+3288,Law,0.004015151515151515,Low Risk,0
+3289,Electronics,0.018541801514306677,Low Risk,0
+3290,Law,0.0,,0
+3291,Mechanical,0.02485791916753096,Low Risk,0
+3292,Computer Science,0.0,,0
+3293,Medicine,0.0,,0
+3294,Computer Science,0.0,,0
+3295,Mechanical,0.0,,0
+3296,Arts,0.044773233249979894,Low Risk,0
+3297,Electronics,0.005941738640454271,Low Risk,0
+3298,Computer Science,0.0,,0
+3299,Mechanical,0.013238095238095238,Low Risk,0
+3300,Business,0.0,,0
+3301,Civil,0.6978936030137652,High Risk,0
+3302,Business,0.0027044410413476264,Low Risk,0
+3303,Computer Science,0.0,,0
+3304,Medicine,0.0,,0
+3305,Business,0.017014355970203225,Low Risk,0
+3306,Civil,0.05368159990870339,Low Risk,0
+3307,Mechanical,0.0,,0
+3308,Computer Science,0.0,,0
+3309,Computer Science,0.0,,0
+3310,Law,0.0,,0
+3311,Business,0.005941738640454271,Low Risk,0
+3312,Computer Science,0.0,,0
+3313,Medicine,0.025886259425347148,Low Risk,0
+3314,Electronics,0.0,,0
+3315,Business,0.001688311688311688,Low Risk,0
+3316,Computer Science,0.006172839506172839,Low Risk,0
+3317,Arts,0.0033691756272401434,Low Risk,0
+3318,Medicine,0.0,,0
+3319,Business,0.014101787615363594,Low Risk,0
+3320,Law,0.0031223628691983123,Low Risk,0
+3321,Computer Science,0.0,,0
+3322,Electronics,0.008775510740808666,Low Risk,0
+3323,Electronics,0.9704254741050935,High Risk,1
+3324,Mechanical,0.022750718919056955,Low Risk,0
+3325,Mechanical,0.0,,0
+3326,Mechanical,0.006666666666666667,Low Risk,0
+3327,Computer Science,0.0,,0
+3328,Business,0.0,,0
+3329,Computer Science,0.0,,0
+3330,Mechanical,0.03583918543236542,Low Risk,0
+3331,Mechanical,0.006666666666666667,Low Risk,0
+3332,Business,0.006385038503850385,Low Risk,0
+3333,Computer Science,0.0,,0
+3334,Civil,0.0,,0
+3335,Medicine,0.0,,0
+3336,Computer Science,0.02452613478109989,Low Risk,0
+3337,Computer Science,0.36727078061917723,Medium Risk,0
+3338,Mechanical,0.006019563581640331,Low Risk,0
+3339,Electronics,0.012214099075315111,Low Risk,0
+3340,Medicine,0.0,,0
+3341,Business,0.0007044410413476264,Low Risk,0
+3342,Computer Science,0.0,,0
+3343,Electronics,0.009916888908521104,Low Risk,0
+3344,Business,0.009094076655052265,Low Risk,0
+3345,Electronics,0.042198191499594105,Low Risk,0
+3346,Business,0.03246219210354834,Low Risk,0
+3347,Electronics,0.0,,0
+3348,Mechanical,0.0,,0
+3349,Civil,0.6493700350352923,Medium Risk,0
+3350,Business,0.0,,0
+3351,Business,0.01819439836082408,Low Risk,0
+3352,Electronics,0.0,,0
+3353,Medicine,0.04179510592823785,Low Risk,0
+3354,Medicine,0.11736282101790202,Low Risk,0
+3355,Computer Science,0.07320708217044715,Low Risk,0
+3356,Medicine,0.0,,0
+3357,Electronics,0.040333890648529575,Low Risk,0
+3358,Electronics,0.05679196646428706,Low Risk,0
+3359,Arts,0.0,,0
+3360,Mechanical,0.014663094416082061,Low Risk,0
+3361,Arts,0.40492126383575516,Medium Risk,0
+3362,Electronics,0.0,,0
+3363,Civil,0.006437799926172019,Low Risk,0
+3364,Computer Science,0.0031223628691983123,Low Risk,0
+3365,Computer Science,0.03578543321055248,Low Risk,0
+3366,Medicine,0.019201596806387226,Low Risk,0
+3367,Arts,0.0,,0
+3368,Business,0.0,,0
+3369,Mechanical,0.08878160857590467,Low Risk,0
+3370,Civil,0.0,,0
+3371,Computer Science,0.005833333333333334,Low Risk,0
+3372,Law,0.012154658981748319,Low Risk,0
+3373,Law,0.03266842423702781,Low Risk,0
+3374,Business,0.006276150627615063,Low Risk,0
+3375,Civil,0.0038095238095238095,Low Risk,0
+3376,Medicine,0.012873563218390803,Low Risk,0
+3377,Mechanical,0.012080044327995114,Low Risk,0
+3378,Business,0.006666666666666667,Low Risk,0
+3379,Business,0.009966329966329965,Low Risk,0
+3380,Arts,0.0,,0
+3381,Civil,0.0,,0
+3382,Electronics,0.036636880638448895,Low Risk,0
+3383,Computer Science,0.0,,0
+3384,Civil,0.0,,0
+3385,Law,0.010707135399078528,Low Risk,0
+3386,Computer Science,0.006019563581640331,Low Risk,0
+3387,Mechanical,0.005941738640454271,Low Risk,0
+3388,Computer Science,0.0,,0
+3389,Law,0.0031223628691983123,Low Risk,0
+3390,Arts,0.026923255926415614,Low Risk,0
+3391,Computer Science,0.01469146470554312,Low Risk,0
+3392,Medicine,0.011276479331695777,Low Risk,0
+3393,Electronics,0.0,,0
+3394,Law,0.001688311688311688,Low Risk,0
+3395,Mechanical,0.001688311688311688,Low Risk,0
+3396,Computer Science,0.0007044410413476264,Low Risk,0
+3397,Civil,0.012770816219138281,Low Risk,0
+3398,Arts,0.0027044410413476264,Low Risk,0
+3399,Medicine,0.0048242912286135435,Low Risk,0
+3400,Computer Science,0.0,,0
+3401,Law,0.02557919621749409,Low Risk,0
+3402,Computer Science,0.012421194441068028,Low Risk,0
+3403,Arts,0.0,,0
+3404,Computer Science,0.020191549700634907,Low Risk,0
+3405,Mechanical,0.009732811990876507,Low Risk,0
+3406,Law,0.0,,0
+3407,Electronics,0.0,,0
+3408,Business,0.006336805555555556,Low Risk,0
+3409,Electronics,0.026062344737504507,Low Risk,0
+3410,Business,0.0,,0
+3411,Arts,0.00988537707358185,Low Risk,0
+3412,Electronics,0.0,,0
+3413,Business,0.0,,0
+3414,Mechanical,0.18248019880506824,Low Risk,0
+3415,Business,0.02167205485423401,Low Risk,0
+3416,Arts,0.0,,0
+3417,Business,0.0,,0
+3418,Computer Science,0.022567917416116197,Low Risk,0
+3419,Business,0.0,,0
+3420,Electronics,0.04599126925423567,Low Risk,0
+3421,Computer Science,0.0,,0
+3422,Business,0.006666666666666667,Low Risk,0
+3423,Computer Science,0.18168609877450503,Low Risk,0
+3424,Computer Science,0.04113312492224161,Low Risk,0
+3425,Mechanical,0.01793028300904219,Low Risk,0
+3426,Computer Science,0.0,,0
+3427,Mechanical,0.005973826020015396,Low Risk,0
+3428,Medicine,0.0,,0
+3429,Medicine,0.0031223628691983123,Low Risk,0
+3430,Mechanical,0.0,,0
+3431,Arts,0.005291005291005291,Low Risk,0
+3432,Electronics,0.008044500302564818,Low Risk,0
+3433,Electronics,0.048451803747214243,Low Risk,0
+3434,Arts,0.026682705427808172,Low Risk,0
+3435,Business,0.0,,0
+3436,Electronics,0.0,,0
+3437,Business,0.0,,0
+3438,Mechanical,0.0,,0
+3439,Electronics,0.07430866008117276,Low Risk,0
+3440,Arts,0.006090534979423868,Low Risk,0
+3441,Civil,0.0,,0
+3442,Computer Science,0.0007044410413476264,Low Risk,0
+3443,Business,0.0031223628691983123,Low Risk,0
+3444,Civil,0.0,,0
+3445,Medicine,0.0,,0
+3446,Computer Science,0.012784782942169046,Low Risk,0
+3447,Electronics,0.006363636363636364,Low Risk,0
+3448,Mechanical,0.0,,0
+3449,Computer Science,0.09020215251822336,Low Risk,0
+3450,Medicine,0.0,,0
+3451,Business,0.131401077104718,Low Risk,0
+3452,Civil,0.13635772580851943,Low Risk,0
+3453,Business,0.006540447504302925,Low Risk,0
+3454,Medicine,0.16341831124058115,Low Risk,0
+3455,Business,0.0,,0
+3456,Civil,0.0,,0
+3457,Business,0.05405250580638172,Low Risk,0
+3458,Business,0.0,,0
+3459,Civil,0.0,,0
+3460,Civil,0.0,,0
+3461,Electronics,0.0,,0
+3462,Mechanical,0.0,,0
+3463,Civil,0.04572599625371799,Low Risk,0
+3464,Electronics,0.013236759556022135,Low Risk,0
+3465,Mechanical,0.0,,0
+3466,Civil,0.05589878863059858,Low Risk,0
+3467,Mechanical,0.0,,0
+3468,Business,0.0007044410413476264,Low Risk,0
+3469,Arts,0.10411125949295855,Low Risk,0
+3470,Law,0.3520639921992244,Medium Risk,0
+3471,Computer Science,0.0,,0
+3472,Computer Science,0.005237297599106645,Low Risk,0
+3473,Computer Science,0.013051705170517052,Low Risk,0
+3474,Medicine,0.06903349804446078,Low Risk,0
+3475,Electronics,0.028809133376159195,Low Risk,0
+3476,Civil,0.0,,0
+3477,Electronics,0.0,,0
+3478,Civil,0.02846725337262205,Low Risk,0
+3479,Business,0.0,,0
+3480,Computer Science,0.0,,0
+3481,Civil,0.1187659237467339,Low Risk,0
+3482,Electronics,0.05287656522694829,Low Risk,0
+3483,Civil,0.0,,0
+3484,Medicine,0.0,,0
+3485,Computer Science,0.12260770055132454,Low Risk,0
+3486,Electronics,0.033545271894767206,Low Risk,0
+3487,Computer Science,0.037056837041088864,Low Risk,0
+3488,Computer Science,0.0,,0
+3489,Electronics,0.0,,0
+3490,Electronics,0.0,,0
+3491,Computer Science,0.025164693349583826,Low Risk,0
+3492,Civil,0.0,,0
+3493,Computer Science,0.017321991341991343,Low Risk,0
+3494,Business,0.018825900465212014,Low Risk,0
+3495,Business,0.0,,0
+3496,Computer Science,0.0048460645301213745,Low Risk,0
+3497,Business,0.0,,0
+3498,Mechanical,0.9857939949337204,High Risk,1
+3499,Mechanical,0.05717660602941355,Low Risk,0
+3500,Mechanical,0.07235352515803618,Low Risk,0
+3501,Arts,0.0,,0
+3502,Business,0.00986997719375057,Low Risk,0
+3503,Civil,0.0,,0
+3504,Law,0.0007044410413476264,Low Risk,0
+3505,Mechanical,0.0,,0
+3506,Mechanical,0.0846527307608652,Low Risk,0
+3507,Computer Science,0.005973826020015396,Low Risk,0
+3508,Law,0.0,,0
+3509,Electronics,0.016973535266825535,Low Risk,0
+3510,Civil,0.08361958571608114,Low Risk,0
+3511,Arts,0.013333333333333334,Low Risk,0
+3512,Electronics,0.0,,0
+3513,Business,0.018522431091541374,Low Risk,0
+3514,Medicine,0.018698901465698206,Low Risk,0
+3515,Computer Science,0.0646230109523157,Low Risk,0
+3516,Arts,0.0,,0
+3517,Electronics,0.006111696345933526,Low Risk,0
+3518,Computer Science,0.004341521909197725,Low Risk,0
+3519,Civil,0.0,,0
+3520,Medicine,0.9632901497295828,High Risk,1
+3521,Business,0.03104174939612428,Low Risk,0
+3522,Civil,0.029501781911697406,Low Risk,0
+3523,Business,0.006111696345933526,Low Risk,0
+3524,Computer Science,0.0,,0
+3525,Computer Science,0.006644144144144144,Low Risk,0
+3526,Mechanical,0.031194998521059326,Low Risk,0
+3527,Computer Science,0.0,,0
+3528,Computer Science,0.0,,0
+3529,Arts,0.030805770072713266,Low Risk,0
+3530,Law,0.0,,0
+3531,Business,0.0027044410413476264,Low Risk,0
+3532,Mechanical,0.0,,0
+3533,Law,0.0007044410413476264,Low Risk,0
+3534,Civil,0.006111696345933526,Low Risk,0
+3535,Business,0.04454988288477915,Low Risk,0
+3536,Computer Science,0.0,,0
+3537,Mechanical,0.0,,0
+3538,Arts,0.004675324675324675,Low Risk,0
+3539,Computer Science,0.027070814549974027,Low Risk,0
+3540,Civil,0.01112963144963145,Low Risk,0
+3541,Law,0.011001358727481435,Low Risk,0
+3542,Business,0.0,,0
+3543,Business,0.0,,0
+3544,Computer Science,0.0,,0
+3545,Civil,0.0,,0
+3546,Civil,0.01842229069185007,Low Risk,0
+3547,Mechanical,0.03095188934173695,Low Risk,0
+3548,Electronics,0.0,,0
+3549,Arts,0.010998623774334023,Low Risk,0
+3550,Arts,0.012621990519872714,Low Risk,0
+3551,Arts,0.006666666666666667,Low Risk,0
+3552,Mechanical,0.0,,0
+3553,Business,0.013228933631618195,Low Risk,0
+3554,Mechanical,0.0,,0
+3555,Computer Science,0.015209817156411684,Low Risk,0
+3556,Mechanical,0.0,,0
+3557,Business,0.021937636509962576,Low Risk,0
+3558,Arts,0.0,,0
+3559,Electronics,0.006118518518518519,Low Risk,0
+3560,Business,0.0,,0
+3561,Computer Science,0.6391958656357606,Medium Risk,0
+3562,Electronics,0.06576982071962358,Low Risk,0
+3563,Civil,0.0,,0
+3564,Computer Science,0.0,,0
+3565,Medicine,0.48067917775637964,Medium Risk,0
+3566,Business,0.05024606220633831,Low Risk,0
+3567,Electronics,0.030846874375959576,Low Risk,0
+3568,Mechanical,0.0,,0
+3569,Computer Science,0.0,,0
+3570,Civil,0.00583873290136789,Low Risk,0
+3571,Business,0.13097034245609585,Low Risk,0
+3572,Computer Science,0.0,,0
+3573,Civil,0.0,,0
+3574,Civil,0.0007044410413476264,Low Risk,0
+3575,Computer Science,0.0,,0
+3576,Computer Science,0.004705882352941177,Low Risk,0
+3577,Arts,0.0,,0
+3578,Law,0.0,,0
+3579,Medicine,0.0,,0
+3580,Arts,0.014663094416082061,Low Risk,0
+3581,Electronics,0.9637059512659312,High Risk,1
+3582,Civil,0.0,,0
+3583,Mechanical,0.0,,0
+3584,Computer Science,0.023123648548677902,Low Risk,0
+3585,Civil,0.027691256944885872,Low Risk,0
+3586,Electronics,0.006666666666666667,Low Risk,0
+3587,Civil,0.0,,0
+3588,Computer Science,0.019900392015188704,Low Risk,0
+3589,Computer Science,0.0,,0
+3590,Civil,0.024206701215786424,Low Risk,0
+3591,Electronics,0.01291243970791203,Low Risk,0
+3592,Arts,0.10956219450952662,Low Risk,0
+3593,Business,0.004675324675324675,Low Risk,0
+3594,Arts,0.0063868312757201645,Low Risk,0
+3595,Arts,0.0,,0
+3596,Electronics,0.0,,0
+3597,Mechanical,0.014026752197675834,Low Risk,0
+3598,Medicine,0.0,,0
+3599,Law,0.0,,0
+3600,Law,0.0,,0
+3601,Business,0.0,,0
+3602,Arts,0.0,,0
+3603,Electronics,0.006666666666666667,Low Risk,0
+3604,Business,0.0,,0
+3605,Civil,0.0,,0
+3606,Computer Science,0.0,,0
+3607,Computer Science,0.0,,0
+3608,Civil,0.00493208331777039,Low Risk,0
+3609,Medicine,0.0,,0
+3610,Electronics,0.4414057174627897,Medium Risk,0
+3611,Electronics,0.0,,0
+3612,Law,0.0,,0
+3613,Business,0.0,,0
+3614,Computer Science,0.0007044410413476264,Low Risk,0
+3615,Arts,0.05943775100401607,Low Risk,0
+3616,Electronics,0.035705516227349146,Low Risk,0
+3617,Computer Science,0.04546149856017895,Low Risk,0
+3618,Business,0.016702508960573476,Low Risk,0
+3619,Arts,0.0,,0
+3620,Business,0.0,,0
+3621,Computer Science,0.013333333333333334,Low Risk,0
+3622,Electronics,0.0,,0
+3623,Business,0.0,,0
+3624,Computer Science,0.0,,0
+3625,Computer Science,0.0007044410413476264,Low Risk,0
+3626,Civil,0.0,,0
+3627,Computer Science,0.019842519685039372,Low Risk,0
+3628,Civil,0.011960164126589847,Low Risk,0
+3629,Mechanical,0.006054054054054054,Low Risk,0
+3630,Business,0.0,,0
+3631,Medicine,0.008668903357274377,Low Risk,0
+3632,Electronics,0.024126233117916205,Low Risk,0
+3633,Computer Science,0.0,,0
+3634,Mechanical,0.0,,0
+3635,Computer Science,0.0007044410413476264,Low Risk,0
+3636,Electronics,0.03314537085781224,Low Risk,0
+3637,Medicine,0.032229860747411625,Low Risk,0
+3638,Arts,0.0,,0
+3639,Electronics,0.052363466404782594,Low Risk,0
+3640,Computer Science,0.0027044410413476264,Low Risk,0
+3641,Law,0.0,,0
+3642,Computer Science,0.009381207028265852,Low Risk,0
+3643,Medicine,0.0,,0
+3644,Civil,0.0,,0
+3645,Civil,0.010655324675324675,Low Risk,0
+3646,Arts,0.0,,0
+3647,Business,0.013402701636938815,Low Risk,0
+3648,Mechanical,0.0048242912286135435,Low Risk,0
+3649,Mechanical,0.0,,0
+3650,Civil,0.0,,0
+3651,Civil,0.0,,0
+3652,Electronics,0.026919231261082536,Low Risk,0
+3653,Civil,0.018049983540536628,Low Risk,0
+3654,Arts,0.12283836366812245,Low Risk,0
+3655,Computer Science,0.406068424798652,Medium Risk,0
+3656,Civil,0.0,,0
+3657,Law,0.0,,0
+3658,Electronics,0.01781895285731603,Low Risk,0
+3659,Computer Science,0.0,,0
+3660,Mechanical,0.004675324675324675,Low Risk,0
+3661,Computer Science,0.010986647575155117,Low Risk,0
+3662,Computer Science,0.03149403990138756,Low Risk,0
+3663,Civil,0.0,,0
+3664,Medicine,0.0066011546563711,Low Risk,0
+3665,Electronics,0.01648163447853507,Low Risk,0
+3666,Medicine,0.0387384001975936,Low Risk,0
+3667,Mechanical,0.006492537313432836,Low Risk,0
+3668,Business,0.0,,0
+3669,Arts,0.0,,0
+3670,Arts,0.006666666666666667,Low Risk,0
+3671,Electronics,0.005821325648414985,Low Risk,0
+3672,Civil,0.00583873290136789,Low Risk,0
+3673,Electronics,0.0,,0
+3674,Arts,0.0,,0
+3675,Computer Science,0.011561017243845676,Low Risk,0
+3676,Arts,0.0,,0
+3677,Civil,0.0,,0
+3678,Computer Science,0.006543173942715517,Low Risk,0
+3679,Computer Science,0.004782964782964783,Low Risk,0
+3680,Civil,0.0,,0
+3681,Medicine,0.0,,0
+3682,Law,0.0,,0
+3683,Business,0.019156189094000905,Low Risk,0
+3684,Mechanical,0.10537722598972142,Low Risk,0
+3685,Business,0.0,,0
+3686,Civil,0.05135777836834644,Low Risk,0
+3687,Business,0.019056094083217533,Low Risk,0
+3688,Business,0.0,,0
+3689,Medicine,0.016604375385251054,Low Risk,0
+3690,Electronics,0.0,,0
+3691,Computer Science,0.0,,0
+3692,Business,0.06492263036290646,Low Risk,0
+3693,Arts,0.030981959089139012,Low Risk,0
+3694,Law,0.011276479331695777,Low Risk,0
+3695,Mechanical,0.0,,0
+3696,Mechanical,0.015361207028265855,Low Risk,0
+3697,Business,0.0,,0
+3698,Electronics,0.012008409960957,Low Risk,0
+3699,Electronics,0.0,,0
+3700,Law,0.011276479331695777,Low Risk,0
+3701,Arts,0.0,,0
+3702,Computer Science,0.0,,0
+3703,Mechanical,0.0,,0
+3704,Civil,0.0,,0
+3705,Business,0.04183683812607679,Low Risk,0
+3706,Computer Science,0.0,,0
+3707,Business,0.0,,0
+3708,Arts,0.020191549700634907,Low Risk,0
+3709,Arts,0.005579196217494089,Low Risk,0
+3710,Computer Science,0.031846513744501384,Low Risk,0
+3711,Electronics,0.007073706806544138,Low Risk,0
+3712,Mechanical,0.13832371294732046,Low Risk,0
+3713,Law,0.0,,0
+3714,Medicine,0.0,,0
+3715,Mechanical,0.015361207028265855,Low Risk,0
+3716,Mechanical,0.4106862066405572,Medium Risk,0
+3717,Business,0.0,,0
+3718,Electronics,0.0,,0
+3719,Computer Science,0.0,,0
+3720,Civil,0.006494252873563218,Low Risk,0
+3721,Business,0.0,,0
+3722,Computer Science,0.0,,0
+3723,Business,0.0,,0
+3724,Medicine,0.0,,0
+3725,Computer Science,0.006236559139784946,Low Risk,0
+3726,Computer Science,0.06416888676622487,Low Risk,0
+3727,Arts,0.049841790726778176,Low Risk,0
+3728,Computer Science,0.0,,0
+3729,Computer Science,0.0,,0
+3730,Computer Science,0.28892947236889566,Low Risk,0
+3731,Electronics,0.009732811990876507,Low Risk,0
+3732,Business,0.0,,0
+3733,Computer Science,0.013333333333333334,Low Risk,0
+3734,Arts,0.00986997719375057,Low Risk,0
+3735,Medicine,0.09702654629273903,Low Risk,0
+3736,Mechanical,0.24422052707127526,Low Risk,0
+3737,Business,0.0,,0
+3738,Mechanical,0.9696780514957207,High Risk,1
+3739,Mechanical,0.0,,0
+3740,Computer Science,0.02735129082510066,Low Risk,0
+3741,Medicine,0.0007044410413476264,Low Risk,0
+3742,Arts,0.0,,0
+3743,Mechanical,0.013333333333333334,Low Risk,0
+3744,Arts,0.0,,0
+3745,Medicine,0.0,,0
+3746,Computer Science,0.018949304651624595,Low Risk,0
+3747,Mechanical,0.011838452255477744,Low Risk,0
+3748,Electronics,0.029135447495870926,Low Risk,0
+3749,Arts,0.0,,0
+3750,Electronics,0.0,,0
+3751,Computer Science,0.0,,0
+3752,Civil,0.015608373818223144,Low Risk,0
+3753,Medicine,0.06548115370518062,Low Risk,0
+3754,Business,0.0,,0
+3755,Electronics,0.03684281777122234,Low Risk,0
+3756,Electronics,0.0,,0
+3757,Medicine,0.0,,0
+3758,Mechanical,0.010550868793578576,Low Risk,0
+3759,Arts,0.048929879786092846,Low Risk,0
+3760,Electronics,0.004675324675324675,Low Risk,0
+3761,Law,0.014005227260847767,Low Risk,0
+3762,Civil,0.01679831484295232,Low Risk,0
+3763,Civil,0.0007044410413476264,Low Risk,0
+3764,Mechanical,0.0,,0
+3765,Electronics,0.0,,0
+3766,Law,0.012200321243728806,Low Risk,0
+3767,Business,0.006172839506172839,Low Risk,0
+3768,Business,0.0,,0
+3769,Mechanical,0.03611429521939814,Low Risk,0
+3770,Computer Science,0.0,,0
+3771,Business,0.019852590589883725,Low Risk,0
+3772,Business,0.0,,0
+3773,Mechanical,0.0,,0
+3774,Medicine,0.039207330900858275,Low Risk,0
+3775,Computer Science,0.0,,0
+3776,Mechanical,0.00493208331777039,Low Risk,0
+3777,Mechanical,0.0,,0
+3778,Computer Science,0.0,,0
+3779,Electronics,0.0,,0
+3780,Electronics,0.9658672600727027,High Risk,1
+3781,Business,0.052420464733572925,Low Risk,0
+3782,Medicine,0.0,,0
+3783,Business,0.0,,0
+3784,Computer Science,0.0,,0
+3785,Mechanical,0.032488945606232195,Low Risk,0
+3786,Electronics,0.0,,0
+3787,Arts,0.04754098351363796,Low Risk,0
+3788,Law,0.006402930402930403,Low Risk,0
+3789,Mechanical,0.0,,0
+3790,Electronics,0.0,,0
+3791,Medicine,0.011737297599106643,Low Risk,0
+3792,Arts,0.0,,0
+3793,Civil,0.0,,0
+3794,Business,0.038539636641126654,Low Risk,0
+3795,Computer Science,0.0,,0
+3796,Arts,0.0,,0
+3797,Electronics,0.017933990146605242,Low Risk,0
+3798,Business,0.001688311688311688,Low Risk,0
+3799,Business,0.11941099897575395,Low Risk,0
+3800,Mechanical,0.002,Low Risk,0
+3801,Mechanical,0.006111696345933526,Low Risk,0
+3802,Computer Science,0.0,,0
+3803,Medicine,0.0,,0
+3804,Civil,0.0,,0
+3805,Electronics,0.014303966025361511,Low Risk,0
+3806,Civil,0.0,,0
+3807,Business,0.006449456975772765,Low Risk,0
+3808,Business,0.14523574885540128,Low Risk,0
+3809,Arts,0.0683108029965086,Low Risk,0
+3810,Electronics,0.00598,Low Risk,0
+3811,Business,0.0,,0
+3812,Electronics,0.029925703357694865,Low Risk,0
+3813,Computer Science,0.009458289458289458,Low Risk,0
+3814,Law,0.0,,0
+3815,Business,0.005995446332352917,Low Risk,0
+3816,Computer Science,0.005941738640454271,Low Risk,0
+3817,Business,0.0,,0
+3818,Business,0.0,,0
+3819,Mechanical,0.0,,0
+3820,Business,0.01872655339624862,Low Risk,0
+3821,Civil,0.0,,0
+3822,Mechanical,0.00583873290136789,Low Risk,0
+3823,Mechanical,0.036874446252809424,Low Risk,0
+3824,Computer Science,0.008684797431489266,Low Risk,0
+3825,Mechanical,0.0,,0
+3826,Electronics,0.00583873290136789,Low Risk,0
+3827,Computer Science,0.0,,0
+3828,Electronics,0.0,,0
+3829,Business,0.0,,0
+3830,Civil,0.0245466657517201,Low Risk,0
+3831,Medicine,0.021730540314843404,Low Risk,0
+3832,Arts,0.02553661728960493,Low Risk,0
+3833,Arts,0.0,,0
+3834,Medicine,0.01910655422440566,Low Risk,0
+3835,Civil,0.0027044410413476264,Low Risk,0
+3836,Mechanical,0.0,,0
+3837,Arts,0.0,,0
+3838,Arts,0.0061062183079797164,Low Risk,0
+3839,Computer Science,0.0,,0
+3840,Computer Science,0.0,,0
+3841,Business,0.0,,0
+3842,Civil,0.6377534938955913,Medium Risk,0
+3843,Electronics,0.0,,0
+3844,Mechanical,0.006666666666666667,Low Risk,0
+3845,Law,0.011838452255477744,Low Risk,0
+3846,Electronics,0.006666666666666667,Low Risk,0
+3847,Computer Science,0.027350882199080988,Low Risk,0
+3848,Law,0.0,,0
+3849,Business,0.0,,0
+3850,Computer Science,0.0,,0
+3851,Business,0.0,,0
+3852,Business,0.0,,0
+3853,Mechanical,0.0,,0
+3854,Business,0.4866323219545233,Medium Risk,0
+3855,Computer Science,0.006494252873563218,Low Risk,0
+3856,Civil,0.02203551376951196,Low Risk,0
+3857,Computer Science,0.0,,0
+3858,Computer Science,0.0,,0
+3859,Electronics,0.3416317245220651,Medium Risk,0
+3860,Business,0.0,,0
+3861,Computer Science,0.6572697123169516,Medium Risk,0
+3862,Electronics,0.014024500302564817,Low Risk,0
+3863,Computer Science,0.0,,0
+3864,Civil,0.02547640179251589,Low Risk,0
+3865,Civil,0.0,,0
+3866,Mechanical,0.013333333333333334,Low Risk,0
+3867,Mechanical,0.0007044410413476264,Low Risk,0
+3868,Business,0.020546861347969347,Low Risk,0
+3869,Computer Science,0.013198098111695774,Low Risk,0
+3870,Computer Science,0.025396559750381364,Low Risk,0
+3871,Arts,0.0191268569241624,Low Risk,0
+3872,Electronics,0.0,,0
+3873,Arts,0.027878061651699527,Low Risk,0
+3874,Civil,0.0,,0
+3875,Mechanical,0.010370959457892208,Low Risk,0
+3876,Electronics,0.004675324675324675,Low Risk,0
+3877,Computer Science,0.07956563478589847,Low Risk,0
+3878,Law,0.0,,0
+3879,Computer Science,0.04349708381638795,Low Risk,0
+3880,Electronics,0.0,,0
+3881,Computer Science,0.0,,0
+3882,Arts,0.33824612056304054,Medium Risk,0
+3883,Computer Science,0.0,,0
+3884,Mechanical,0.6725307046951807,High Risk,0
+3885,Mechanical,0.06116748405354708,Low Risk,0
+3886,Medicine,0.04135626772223811,Low Risk,0
+3887,Electronics,0.005454545454545455,Low Risk,0
+3888,Arts,0.0,,0
+3889,Computer Science,0.0,,0
+3890,Electronics,0.0,,0
+3891,Civil,0.0,,0
+3892,Computer Science,0.013333333333333334,Low Risk,0
+3893,Mechanical,0.006666666666666667,Low Risk,0
+3894,Computer Science,0.0,,0
+3895,Law,0.03129196861625108,Low Risk,0
+3896,Law,0.04698849255160794,Low Risk,0
+3897,Business,0.005941738640454271,Low Risk,0
+3898,Computer Science,0.05035563849848563,Low Risk,0
+3899,Medicine,0.0,,0
+3900,Arts,0.034292096954605195,Low Risk,0
+3901,Civil,0.0,,0
+3902,Arts,0.0,,0
+3903,Medicine,0.0,,0
+3904,Business,0.0,,0
+3905,Arts,0.006562266964951529,Low Risk,0
+3906,Business,0.013198098111695774,Low Risk,0
+3907,Civil,0.0,,0
+3908,Medicine,0.0,,0
+3909,Arts,0.007995446332352916,Low Risk,0
+3910,Electronics,0.03162876725663376,Low Risk,0
+3911,Business,0.024671967250031766,Low Risk,0
+3912,Civil,0.0,,0
+3913,Mechanical,0.0,,0
+3914,Business,0.0,,0
+3915,Business,0.0,,0
+3916,Civil,0.0,,0
+3917,Medicine,0.013942739793524849,Low Risk,0
+3918,Civil,0.007371107708014293,Low Risk,0
+3919,Civil,0.0007044410413476264,Low Risk,0
+3920,Medicine,0.0,,0
+3921,Arts,0.0,,0
+3922,Business,0.0,,0
+3923,Mechanical,0.0,,0
+3924,Computer Science,0.012081480566534915,Low Risk,0
+3925,Electronics,0.0,,0
+3926,Electronics,0.0,,0
+3927,Electronics,0.004675324675324675,Low Risk,0
+3928,Arts,0.0,,0
+3929,Medicine,0.0,,0
+3930,Law,0.0,,0
+3931,Computer Science,0.0,,0
+3932,Mechanical,0.04679186965634884,Low Risk,0
+3933,Law,0.010467014119145744,Low Risk,0
+3934,Electronics,0.010655324675324675,Low Risk,0
+3935,Electronics,0.004675324675324675,Low Risk,0
+3936,Arts,0.0,,0
+3937,Business,0.005579196217494089,Low Risk,0
+3938,Mechanical,0.0,,0
+3939,Mechanical,0.0007044410413476264,Low Risk,0
+3940,Business,0.0,,0
+3941,Medicine,0.1202514249171824,Low Risk,0
+3942,Medicine,0.02022453658009164,Low Risk,0
+3943,Computer Science,0.0,,0
+3944,Arts,0.024683356798153488,Low Risk,0
+3945,Mechanical,0.019274782959822333,Low Risk,0
+3946,Electronics,0.0,,0
+3947,Computer Science,0.0,,0
+3948,Electronics,0.0,,0
+3949,Civil,0.11297081249687026,Low Risk,0
+3950,Mechanical,0.28267326492233036,Low Risk,0
+3951,Computer Science,0.012761381834820406,Low Risk,0
+3952,Medicine,0.028802722413809944,Low Risk,0
+3953,Electronics,0.0,,0
+3954,Electronics,0.0,,0
+3955,Computer Science,0.0,,0
+3956,Medicine,0.023110720386127093,Low Risk,0
+3957,Civil,0.0007044410413476264,Low Risk,0
+3958,Electronics,0.0,,0
+3959,Civil,0.001688311688311688,Low Risk,0
+3960,Arts,0.3761650931222389,Medium Risk,0
+3961,Computer Science,0.0232127968648102,Low Risk,0
+3962,Medicine,0.0,,0
+3963,Medicine,0.0,,0
+3964,Business,0.03015787966696487,Low Risk,0
+3965,Computer Science,0.0,,0
+3966,Electronics,0.010655324675324675,Low Risk,0
+3967,Mechanical,0.006019563581640331,Low Risk,0
+3968,Business,0.027616830305051174,Low Risk,0
+3969,Computer Science,0.0,,0
+3970,Computer Science,0.0,,0
+3971,Computer Science,0.0,,0
+3972,Electronics,0.0,,0
+3973,Civil,0.27442404351845756,Low Risk,0
+3974,Electronics,0.06592630255561599,Low Risk,0
+3975,Electronics,0.0007044410413476264,Low Risk,0
+3976,Computer Science,0.0,,0
+3977,Arts,0.0007044410413476264,Low Risk,0
+3978,Arts,0.0,,0
+3979,Civil,0.0,,0
+3980,Arts,0.013500922654476541,Low Risk,0
+3981,Arts,0.04747987536803756,Low Risk,0
+3982,Computer Science,0.0,,0
+3983,Business,0.14121170697167879,Low Risk,0
+3984,Computer Science,0.0,,0
+3985,Law,0.0,,0
+3986,Law,0.0,,0
+3987,Medicine,0.011970382558617853,Low Risk,0
+3988,Computer Science,0.6748351721109099,High Risk,0
+3989,Business,0.001688311688311688,Low Risk,0
+3990,Electronics,0.3677882677436273,Medium Risk,0
+3991,Computer Science,0.0,,0
+3992,Computer Science,0.2923078665052224,Low Risk,0
+3993,Electronics,0.0031223628691983123,Low Risk,0
+3994,Electronics,0.013333333333333334,Low Risk,0
+3995,Computer Science,0.0054072553045859,Low Risk,0
+3996,Arts,0.0,,0
+3997,Electronics,0.0,,0
+3998,Electronics,0.0,,0
+3999,Mechanical,0.4758841871138269,Medium Risk,0
+4000,Mechanical,0.010655324675324675,Low Risk,0
+4001,Mechanical,0.0,,0
+4002,Law,0.0,,0
+4003,Business,0.0,,0
+4004,Medicine,0.06668869001504543,Low Risk,0
+4005,Civil,0.006666666666666667,Low Risk,0
+4006,Business,0.006666666666666667,Low Risk,0
+4007,Medicine,0.0,,0
+4008,Mechanical,0.0,,0
+4009,Computer Science,0.0,,0
+4010,Medicine,0.0,,0
+4011,Computer Science,0.0,,0
+4012,Computer Science,0.970000390294437,High Risk,1
+4013,Business,0.022259277839436868,Low Risk,0
+4014,Computer Science,0.0,,0
+4015,Law,0.07456767432374553,Low Risk,0
+4016,Computer Science,0.03670498629816628,Low Risk,0
+4017,Civil,0.0,,0
+4018,Mechanical,0.0,,0
+4019,Arts,0.0,,0
+4020,Electronics,0.392195048390576,Medium Risk,0
+4021,Electronics,0.028971349923514644,Low Risk,0
+4022,Business,0.22772848127661993,Low Risk,0
+4023,Electronics,0.028507074166844764,Low Risk,0
+4024,Arts,0.012075292041152836,Low Risk,0
+4025,Law,0.04196079725907869,Low Risk,0
+4026,Business,0.011517674376834947,Low Risk,0
+4027,Electronics,0.11335062369604093,Low Risk,0
+4028,Electronics,0.007165536152402944,Low Risk,0
+4029,Mechanical,0.06079887794124272,Low Risk,0
+4030,Mechanical,0.0176293585815233,Low Risk,0
+4031,Civil,0.02007561363537899,Low Risk,0
+4032,Mechanical,0.0,,0
+4033,Business,0.0,,0
+4034,Arts,0.005291005291005291,Low Risk,0
+4035,Medicine,0.02556319408074496,Low Risk,0
+4036,Mechanical,0.0,,0
+4037,Law,0.02084831531163155,Low Risk,0
+4038,Business,0.0,,0
+4039,Arts,0.027925964525464576,Low Risk,0
+4040,Mechanical,0.03284125068709955,Low Risk,0
+4041,Electronics,0.0,,0
+4042,Computer Science,0.21934882910826342,Low Risk,0
+4043,Business,0.0,,0
+4044,Business,0.0,,0
+4045,Arts,0.0,,0
+4046,Mechanical,0.02484606453012137,Low Risk,0
+4047,Mechanical,0.0,,0
+4048,Mechanical,0.0,,0
+4049,Medicine,0.013333333333333334,Low Risk,0
+4050,Electronics,0.015361207028265855,Low Risk,0
+4051,Law,0.0,,0
+4052,Business,0.0,,0
+4053,Arts,0.0,,0
+4054,Law,0.033868734146721785,Low Risk,0
+4055,Computer Science,0.0,,0
+4056,Business,0.025695899032829816,Low Risk,0
+4057,Computer Science,0.0,,0
+4058,Computer Science,0.025624340082865547,Low Risk,0
+4059,Electronics,0.0,,0
+4060,Computer Science,0.0027044410413476264,Low Risk,0
+4061,Arts,0.0,,0
+4062,Law,0.011838452255477744,Low Risk,0
+4063,Computer Science,0.0,,0
+4064,Mechanical,0.0,,0
+4065,Computer Science,0.0,,0
+4066,Mechanical,0.41252846439916585,Medium Risk,0
+4067,Arts,0.0,,0
+4068,Computer Science,0.045789582528714685,Low Risk,0
+4069,Computer Science,0.06534281440278678,Low Risk,0
+4070,Civil,0.0,,0
+4071,Mechanical,0.0,,0
+4072,Business,0.029134272281962872,Low Risk,0
+4073,Electronics,0.0007044410413476264,Low Risk,0
+4074,Computer Science,0.0,,0
+4075,Computer Science,0.0,,0
+4076,Computer Science,0.01230636380840044,Low Risk,0
+4077,Mechanical,0.023708902890144146,Low Risk,0
+4078,Civil,0.0,,0
+4079,Computer Science,0.0,,0
+4080,Business,0.0,,0
+4081,Arts,0.03324052590873936,Low Risk,0
+4082,Arts,0.0,,0
+4083,Mechanical,0.010765416651103725,Low Risk,0
+4084,Arts,0.05059710222186577,Low Risk,0
+4085,Arts,0.0038095238095238095,Low Risk,0
+4086,Business,0.0,,0
+4087,Medicine,0.006385038503850385,Low Risk,0
+4088,Arts,0.0031223628691983123,Low Risk,0
+4089,Business,0.1467922800829834,Low Risk,0
+4090,Mechanical,0.0,,0
+4091,Computer Science,0.01939798194283269,Low Risk,0
+4092,Arts,0.0,,0
+4093,Mechanical,0.0,,0
+4094,Business,0.0271676646984116,Low Risk,0
+4095,Business,0.06602911878316856,Low Risk,0
+4096,Arts,0.0,,0
+4097,Business,0.17885993235667402,Low Risk,0
+4098,Mechanical,0.0,,0
+4099,Mechanical,0.0,,0
+4100,Civil,0.0,,0
+4101,Civil,0.0023927527296593145,Low Risk,0
+4102,Civil,0.012505399568034557,Low Risk,0
+4103,Mechanical,0.006543173942715517,Low Risk,0
+4104,Computer Science,0.005994296113811394,Low Risk,0
+4105,Mechanical,0.0,,0
+4106,Mechanical,0.0,,0
+4107,Mechanical,0.0,,0
+4108,Arts,0.7595452615024122,High Risk,0
+4109,Mechanical,0.0,,0
+4110,Electronics,0.0,,0
+4111,Electronics,0.42533021672325005,Medium Risk,0
+4112,Electronics,0.012520612485276797,Low Risk,0
+4113,Computer Science,0.05371582265893753,Low Risk,0
+4114,Mechanical,0.0,,0
+4115,Mechanical,0.0,,0
+4116,Electronics,0.001688311688311688,Low Risk,0
+4117,Medicine,0.045679668255508954,Low Risk,0
+4118,Electronics,0.05294843850322373,Low Risk,0
+4119,Business,0.027322060438903506,Low Risk,0
+4120,Law,0.03483480798933916,Low Risk,0
+4121,Mechanical,0.27810019023341526,Low Risk,0
+4122,Business,0.0,,0
+4123,Civil,0.01881258914608893,Low Risk,0
+4124,Civil,0.006666666666666667,Low Risk,0
+4125,Mechanical,0.0,,0
+4126,Civil,0.0,,0
+4127,Civil,0.16680658653117683,Low Risk,0
+4128,Computer Science,0.0,,0
+4129,Computer Science,0.0,,0
+4130,Electronics,0.0031223628691983123,Low Risk,0
+4131,Law,0.0007044410413476264,Low Risk,0
+4132,Arts,0.011095370326139558,Low Risk,0
+4133,Civil,0.0,,0
+4134,Civil,0.017197461725696493,Low Risk,0
+4135,Civil,0.02724004442214388,Low Risk,0
+4136,Medicine,0.025822036446357215,Low Risk,0
+4137,Mechanical,0.0,,0
+4138,Law,0.0,,0
+4139,Computer Science,0.0,,0
+4140,Mechanical,0.0,,0
+4141,Business,0.013302272799710428,Low Risk,0
+4142,Mechanical,0.0,,0
+4143,Computer Science,0.006666666666666667,Low Risk,0
+4144,Business,0.02586244135603361,Low Risk,0
+4145,Civil,0.0,,0
+4146,Computer Science,0.0,,0
+4147,Computer Science,0.02033753997823948,Low Risk,0
+4148,Arts,0.0,,0
+4149,Computer Science,0.0,,0
+4150,Mechanical,0.08174856549354899,Low Risk,0
+4151,Arts,0.0,,0
+4152,Medicine,0.0069113375930717645,Low Risk,0
+4153,Mechanical,0.004675324675324675,Low Risk,0
+4154,Civil,0.10731965248341407,Low Risk,0
+4155,Mechanical,0.0,,0
+4156,Electronics,0.0,,0
+4157,Computer Science,0.0,,0
+4158,Arts,0.3675501465790895,Medium Risk,0
+4159,Medicine,0.0007044410413476264,Low Risk,0
+4160,Civil,0.0,,0
+4161,Electronics,0.0,,0
+4162,Electronics,0.0,,0
+4163,Business,0.005291005291005291,Low Risk,0
+4164,Business,0.0,,0
+4165,Business,0.006416184971098266,Low Risk,0
+4166,Medicine,0.010463822429120355,Low Risk,0
+4167,Computer Science,0.01306959706959707,Low Risk,0
+4168,Civil,0.0,,0
+4169,Medicine,0.23744364796248396,Low Risk,0
+4170,Mechanical,0.0,,0
+4171,Electronics,0.0,,0
+4172,Business,0.0,,0
+4173,Electronics,0.0,,0
+4174,Arts,0.03458839799351726,Low Risk,0
+4175,Business,0.09259957594206138,Low Risk,0
+4176,Electronics,0.0,,0
+4177,Computer Science,0.004675324675324675,Low Risk,0
+4178,Electronics,0.03273017875589461,Low Risk,0
+4179,Business,0.0,,0
+4180,Medicine,0.0,,0
+4181,Electronics,0.004782964782964783,Low Risk,0
+4182,Business,0.0,,0
+4183,Business,0.0,,0
+4184,Mechanical,0.0,,0
+4185,Mechanical,0.0,,0
+4186,Computer Science,0.016358546536684188,Low Risk,0
+4187,Arts,0.03561085359401365,Low Risk,0
+4188,Mechanical,0.0,,0
+4189,Civil,0.0,,0
+4190,Mechanical,0.031010746707904956,Low Risk,0
+4191,Law,0.025929946325107475,Low Risk,0
+4192,Mechanical,0.0,,0
+4193,Business,0.0,,0
+4194,Law,0.0,,0
+4195,Medicine,0.01328537170263789,Low Risk,0
+4196,Mechanical,0.15075249230827875,Low Risk,0
+4197,Electronics,0.016804934616248622,Low Risk,0
+4198,Electronics,0.03119054346213661,Low Risk,0
+4199,Civil,0.011561017243845676,Low Risk,0
+4200,Medicine,0.0,,0
+4201,Business,0.0,,0
+4202,Computer Science,0.0026556605535427483,Low Risk,0
+4203,Arts,0.0,,0
+4204,Computer Science,0.006394194041252865,Low Risk,0
+4205,Law,0.03862784147666886,Low Risk,0
+4206,Arts,0.015379134230432422,Low Risk,0
+4207,Business,0.0,,0
+4208,Mechanical,0.0,,0
+4209,Electronics,0.0,,0
+4210,Mechanical,0.0,,0
+4211,Business,0.012914191419141914,Low Risk,0
+4212,Computer Science,0.04277861497314738,Low Risk,0
+4213,Electronics,0.04340518200443332,Low Risk,0
+4214,Computer Science,0.0,,0
+4215,Mechanical,0.01308702219574181,Low Risk,0
+4216,Mechanical,0.022121165679041883,Low Risk,0
+4217,Arts,0.0,,0
+4218,Mechanical,0.0,,0
+4219,Mechanical,0.0,,0
+4220,Mechanical,0.005973826020015396,Low Risk,0
+4221,Computer Science,0.018323735628700166,Low Risk,0
+4222,Arts,0.0,,0
+4223,Medicine,0.0,,0
+4224,Business,0.0,,0
+4225,Business,0.0031223628691983123,Low Risk,0
+4226,Mechanical,0.006019563581640331,Low Risk,0
+4227,Business,0.0,,0
+4228,Arts,0.01291243970791203,Low Risk,0
+4229,Law,0.0,,0
+4230,Computer Science,0.0,,0
+4231,Computer Science,0.0,,0
+4232,Electronics,0.030607380065316103,Low Risk,0
+4233,Computer Science,0.0,,0
+4234,Civil,0.0,,0
+4235,Computer Science,0.006243902439024391,Low Risk,0
+4236,Mechanical,0.0,,0
+4237,Business,0.0,,0
+4238,Arts,0.0,,0
+4239,Computer Science,0.01787342278702045,Low Risk,0
+4240,Computer Science,0.025702668394025314,Low Risk,0
+4241,Mechanical,0.0007044410413476264,Low Risk,0
+4242,Mechanical,0.0,,0
+4243,Mechanical,0.0,,0
+4244,Civil,0.033969165338618615,Low Risk,0
+4245,Arts,0.005941738640454271,Low Risk,0
+4246,Electronics,0.0,,0
+4247,Electronics,0.02346085477578518,Low Risk,0
+4248,Electronics,0.007073706806544138,Low Risk,0
+4249,Mechanical,0.023401878071573297,Low Risk,0
+4250,Arts,0.0,,0
+4251,Mechanical,0.0,,0
+4252,Mechanical,0.0,,0
+4253,Medicine,0.0,,0
+4254,Arts,0.0,,0
+4255,Computer Science,0.0,,0
+4256,Computer Science,0.0,,0
+4257,Arts,0.0007044410413476264,Low Risk,0
+4258,Computer Science,0.0,,0
+4259,Mechanical,0.006090534979423868,Low Risk,0
+4260,Medicine,0.040568397993517254,Low Risk,0
+4261,Computer Science,0.0,,0
+4262,Arts,0.012490939619591046,Low Risk,0
+4263,Arts,0.0,,0
+4264,Civil,0.0,,0
+4265,Electronics,0.002846064530121374,Low Risk,0
+4266,Business,0.0,,0
+4267,Mechanical,0.0,,0
+4268,Arts,0.0,,0
+4269,Business,0.2633936648343236,Low Risk,0
+4270,Computer Science,0.0176293585815233,Low Risk,0
+4271,Civil,0.0,,0
+4272,Mechanical,0.0,,0
+4273,Computer Science,0.0,,0
+4274,Business,0.0,,0
+4275,Electronics,0.022182505245850404,Low Risk,0
+4276,Arts,0.0,,0
+4277,Electronics,0.4684279924214839,Medium Risk,0
+4278,Computer Science,0.005379765716672301,Low Risk,0
+4279,Law,0.013333333333333334,Low Risk,0
+4280,Civil,0.02464409084727322,Low Risk,0
+4281,Mechanical,0.0,,0
+4282,Medicine,0.0,,0
+4283,Computer Science,0.0,,0
+4284,Computer Science,0.0007044410413476264,Low Risk,0
+4285,Mechanical,0.0,,0
+4286,Computer Science,0.016399478657543175,Low Risk,0
+4287,Arts,0.018797311703722386,Low Risk,0
+4288,Computer Science,0.0,,0
+4289,Law,0.019928762304649763,Low Risk,0
+4290,Mechanical,0.0,,0
+4291,Electronics,0.00583873290136789,Low Risk,0
+4292,Medicine,0.0,,0
+4293,Law,0.006903271450704351,Low Risk,0
+4294,Business,0.6358872805159295,Medium Risk,0
+4295,Law,0.0,,0
+4296,Civil,0.0,,0
+4297,Arts,0.27404441886331404,Low Risk,0
+4298,Business,0.0,,0
+4299,Mechanical,0.004782964782964783,Low Risk,0
+4300,Mechanical,0.0,,0
+4301,Computer Science,0.031197470571015677,Low Risk,0
+4302,Mechanical,0.0,,0
+4303,Mechanical,0.0,,0
+4304,Business,0.005821325648414985,Low Risk,0
+4305,Arts,0.006116959064327485,Low Risk,0
+4306,Arts,0.0,,0
+4307,Business,0.0,,0
+4308,Mechanical,0.0,,0
+4309,Civil,0.0,,0
+4310,Computer Science,0.0,,0
+4311,Electronics,0.0,,0
+4312,Electronics,0.9629639811548115,High Risk,1
+4313,Civil,0.0,,0
+4314,Computer Science,0.001688311688311688,Low Risk,0
+4315,Computer Science,0.0,,0
+4316,Law,0.02510492913601623,Low Risk,0
+4317,Computer Science,0.0,,0
+4318,Mechanical,0.01426134273869284,Low Risk,0
+4319,Medicine,0.026537864039486363,Low Risk,0
+4320,Computer Science,0.02743537849784401,Low Risk,0
+4321,Mechanical,0.2128363405509364,Low Risk,0
+4322,Civil,0.006992857116997746,Low Risk,0
+4323,Computer Science,0.00583873290136789,Low Risk,0
+4324,Arts,0.025398585027247022,Low Risk,0
+4325,Arts,0.1386423421319284,Low Risk,0
+4326,Medicine,0.11676733193329722,Low Risk,0
+4327,Computer Science,0.0,,0
+4328,Arts,0.0,,0
+4329,Arts,0.0,,0
+4330,Business,0.001688311688311688,Low Risk,0
+4331,Computer Science,0.0,,0
+4332,Mechanical,0.0,,0
+4333,Business,0.0,,0
+4334,Mechanical,0.019388624560748826,Low Risk,0
+4335,Civil,0.005941738640454271,Low Risk,0
+4336,Computer Science,0.0,,0
+4337,Computer Science,0.004675324675324675,Low Risk,0
+4338,Computer Science,0.0,,0
+4339,Computer Science,0.0,,0
+4340,Computer Science,0.006358381502890174,Low Risk,0
+4341,Electronics,0.010463822429120355,Low Risk,0
+4342,Civil,0.02,Low Risk,0
+4343,Business,0.011023121637970269,Low Risk,0
+4344,Arts,0.011138419174232403,Low Risk,0
+4345,Arts,0.018253932708316184,Low Risk,0
+4346,Mechanical,0.006992857116997746,Low Risk,0
+4347,Mechanical,0.061142574241441504,Low Risk,0
+4348,Computer Science,0.021323590321643795,Low Risk,0
+4349,Electronics,0.03763117246547909,Low Risk,0
+4350,Computer Science,0.0059241706161137445,Low Risk,0
+4351,Electronics,0.04342692860285247,Low Risk,0
+4352,Civil,0.0,,0
+4353,Electronics,0.0,,0
+4354,Mechanical,0.0,,0
+4355,Electronics,0.0,,0
+4356,Mechanical,0.006618705035971223,Low Risk,0
+4357,Medicine,0.006147265505652307,Low Risk,0
+4358,Business,0.0,,0
+4359,Business,0.03876930202113009,Low Risk,0
+4360,Computer Science,0.0031223628691983123,Low Risk,0
+4361,Computer Science,0.0,,0
+4362,Civil,0.04723122691183525,Low Risk,0
+4363,Computer Science,0.0721063885195418,Low Risk,0
+4364,Civil,0.0,,0
+4365,Mechanical,0.0,,0
+4366,Business,0.031736680492317086,Low Risk,0
+4367,Electronics,0.04574670931248849,Low Risk,0
+4368,Business,0.0,,0
+4369,Business,0.04485833472078806,Low Risk,0
+4370,Civil,0.0,,0
+4371,Electronics,0.20097751006451497,Low Risk,0
+4372,Computer Science,0.0,,0
+4373,Arts,0.004782964782964783,Low Risk,0
+4374,Computer Science,0.061300391758240605,Low Risk,0
+4375,Civil,0.005941738640454271,Low Risk,0
+4376,Mechanical,0.0,,0
+4377,Arts,0.0,,0
+4378,Computer Science,0.03681483423212769,Low Risk,0
+4379,Arts,0.0,,0
+4380,Business,0.0,,0
+4381,Mechanical,0.0,,0
+4382,Medicine,0.01784714286232489,Low Risk,0
+4383,Arts,0.16757757871140716,Low Risk,0
+4384,Electronics,0.008044500302564818,Low Risk,0
+4385,Business,0.012977092336141522,Low Risk,0
+4386,Business,0.023141278063743595,Low Risk,0
+4387,Medicine,0.05048054913685779,Low Risk,0
+4388,Mechanical,0.0,,0
+4389,Business,0.0,,0
+4390,Arts,0.0,,0
+4391,Medicine,0.0,,0
+4392,Arts,0.0,,0
+4393,Business,0.004675324675324675,Low Risk,0
+4394,Computer Science,0.021564789894841892,Low Risk,0
+4395,Civil,0.07215763977338367,Low Risk,0
+4396,Mechanical,0.0,,0
+4397,Electronics,0.0,,0
+4398,Electronics,0.0,,0
+4399,Electronics,0.00869527953586498,Low Risk,0
+4400,Computer Science,0.001688311688311688,Low Risk,0
+4401,Mechanical,0.0,,0
+4402,Computer Science,0.0,,0
+4403,Computer Science,0.020444937033444577,Low Risk,0
+4404,Mechanical,0.0917911263305303,Low Risk,0
+4405,Arts,0.0,,0
+4406,Law,0.0,,0
+4407,Electronics,0.011561017243845676,Low Risk,0
+4408,Electronics,0.001688311688311688,Low Risk,0
+4409,Arts,0.0,,0
+4410,Mechanical,0.0,,0
+4411,Electronics,0.0,,0
+4412,Law,0.0,,0
+4413,Mechanical,0.0,,0
+4414,Business,0.0,,0
+4415,Arts,0.004655660553542749,Low Risk,0
+4416,Medicine,0.4539719148377134,Medium Risk,0
+4417,Law,0.0033691756272401434,Low Risk,0
+4418,Mechanical,0.0,,0
+4419,Civil,0.9568647136320433,High Risk,1
+4420,Medicine,0.00363953120050681,Low Risk,0
+4421,Law,0.0,,0
+4422,Business,0.006305696559503666,Low Risk,0
+4423,Law,0.0,,0
+4424,Electronics,0.0,,0
