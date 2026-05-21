@@ -1,6 +1,6 @@
 # Mohammed Ghouse — Data Analyst Portfolio Projects
 
-> 4 real-world data analysis projects built with Python, SQL, and ML.
+> 4 real-world data analysis projects built with Python, SQL.
 
 ---
 
